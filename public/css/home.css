@@ -1,0 +1,332 @@
+body{
+	overflow-x: hidden;
+}
+@media (min-width: 0) and (max-width: 1024px) {
+	body{
+		overflow-x: hidden;
+
+	}
+}
+
+
+
+ #MagicCarousel .carousel-inner{
+	height: 600px;
+	
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+  .carousel-item img{
+    height: 650px;
+  }
+}
+
+#topper{
+	top: 0px; 
+	background-color: #51be784d;
+	position: absolute;
+	width: 100%;
+	height: 300px;
+
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+  #topper{
+    height: 650px;
+  }
+}
+
+.content1{
+	padding: 30px 30px 0px 100px;
+
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+  .content1{
+    padding: 30px 0px 0px 0px;
+  }
+}
+
+.content1 h1{
+	color: white;
+}
+
+.content1 h2 {
+	margin-left:40% ; 
+	color:white;
+	
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+  .content1 h1{
+    text-align: center;
+  }
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+	.content1 h2{
+	  text-align: center;
+	  margin-left: 100px;
+	}
+  }
+
+.content1 p{
+	color: white;
+	font-size: 1.15em;
+	  width: 80%;
+	  margin: auto;
+}
+
+@media (min-width: 0) and (max-width: 1024px) {
+  .content1 p{
+    display: none;
+  }
+}
+
+.links{
+	padding-top: 50px;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .links{
+    padding-top: 80px;
+  }
+}
+
+.lin{ 
+	color: white;
+	background-color: #51be78;
+}
+
+.button {
+  background-color: #51be78;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  animation: glowing 1500ms infinite;
+  margin: 25px;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .button{
+    margin-top: 25px;
+  }
+}
+
+
+@keyframes glowing {
+  0% { background-color:#51be78; box-shadow: 0 0 3px white; }
+  50% { background-color: #51be78; box-shadow: 0 0 40px white; }
+  100% { background-color:#51be78; box-shadow: 0 0 3px white; }
+}
+
+
+  
+.notice-section {
+	position: absolute;
+	top: 150%;
+	width: 100%;
+	height: 30px;
+	background-color: white;
+}
+.notice-section marquee {
+	color: rgb(255, 13, 13);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	white-space: nowrap;
+	align-items: center;
+	justify-content: center;
+	padding-top: 4px;
+	animation: notice 55s ease infinite;
+}
+
+
+  
+@media only screen and (max-width: 600px) {
+	
+	.notice-section {
+	position: absolute;
+	top: 80%;
+	width: 100%;
+	height: 30px;
+	background-color: white;
+}
+
+
+}
+
+
+
+
+.heading {
+	margin-bottom: 5%;
+	text-align: center;
+	font-size: 30px;
+	font-family: orkney-reg;
+	text-transform: uppercase;
+	color:grey;
+}
+
+
+#box{
+	box-shadow:0px 30px 50px rgba(0,0,0,0.5);
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+	#box img{
+		height:100px ;
+		display: inline-block;
+	}
+}
+
+.item {
+	opacity:0.5;
+	transition: transform .2s,ease;
+	margin-left:5px;
+	box-shadow:0px 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23) 
+	
+   
+	
+  }
+  
+  .item:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5); 
+	opacity:1;
+	box-shadow:0px 19px 38px rgba(0,0,0,0.3),0 15px 12px rgba(0,0,0,0.22) 
+  
+  }
+
+
+
+  .img-fluid{
+	max-width: 100%;
+	height: 200px;
+	display: inline-block;
+}
+
+  
+  
+  
+  .inactive img {
+	  display: block;
+	  width: 150px;
+	  height: 150px;
+	  margin: auto;
+	  border-radius: 50%;
+  }
+ 
+  
+.carousel-inners h2{
+	text-align:center;
+	 color:#ff9800;
+	 
+
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+.carousel-inners h2{
+	font-size: 17px;
+}
+
+
+
+}
+
+
+
+
+.carousel-inners p{
+	text-align:center;
+		font-size: 1.15em;
+	  color:black;
+	  width: 80%;
+	  margin: auto;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+	.carousel-inners p{
+		font-size: 15px;
+
+
+
+	}
+
+}
+
+ .carousel-inners .carousel-item{
+	background-color: #e2d7d7; 
+	height:400px; 
+	width:100% ;
+    padding-top:50px;
+
+}
+
+
+  
+
+  .item1{
+	margin-left:50px;
+   
+  
+  }
+  .item1 img{
+	height: 120px;
+	 border-radius: 50%; 
+	 border: 3px solid silver;
+	 width: 120px !important;
+  }
+  
+@media (min-width: 0) and (max-width: 768px) {
+
+	.item1{
+		display: inline;
+
+		
+
+	}
+	.item1 img{
+		height: 200px;
+		width: 200px;
+
+		
+		
+	}
+	
+}
+
+.our-clients .item1{
+	display:none ;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+
+	.owl-carousel .item1{
+		display: none;
+	}
+
+	.owl-theme .owl-dots{
+		display: none;
+
+
+	}
+
+	
+.our-clients .item1{
+	display:inline ;
+	
+}
+	
+	}
+	
+  
+  
+

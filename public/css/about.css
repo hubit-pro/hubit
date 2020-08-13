@@ -1,0 +1,159 @@
+body{
+    overflow-x: hidden;
+}
+
+
+
+#topper{
+	top: 0px; 
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	width: 100%;
+	height: 250px;
+}
+
+#topper h3{
+	color: white; 
+	margin-top:100px;
+}
+
+
+.row .head h3{
+	border-bottom: 2px solid silver;
+	padding-bottom: 5px;
+}
+
+
+.solution img{
+	height: 140px;
+	width: 140px;
+	border-radius: 100px;
+	border: 2px dashed black;
+	transition: 2s;
+}
+
+.solution{
+	transition: 2s;
+	transition-timing-function: ease-out;
+}
+
+.solution:hover{
+	color:darkslategray;
+	background-color: lavender;
+	border-radius: 10px;
+}
+
+.solution:hover img{
+	border: 3px dotted #343a40;
+	transform: rotate(360deg);
+}
+
+
+
+.card {
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+
+.profile-pic {
+    width: 100px !important;
+    height: 100px;
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: #1E88E5 !important;
+    border: none;
+    padding: 5px 20px !important;
+    font: inherit;
+    font-size: 50px !important
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    color: #0D47A1 !important;
+    background-color: transparent !important
+}
+
+.owl-dots {
+    display: none
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+
+.next {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.prev {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.item.show {
+    display: block;
+	transition-duration: 0.4s;
+	
+}
+
+
+.item .show .row{
+	border: none;
+
+}
+
+@media screen and (max-width: 999px) {
+
+    .next,
+    .prev {
+        transform: scale(1);
+        opacity: 1
+    }
+
+    .item {
+        display: block !important
+    }
+}
+
+hr{
+    background-color: #51be78;
+    width: 30%;
+    height: 3px;
+    
+}
+
+.award-marquee
+{
+	width:200px;
+	height: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+.award-marquee .img-fluid {
+    
+	border-radius: 10%;
+	height: 100%;
+	width: 100%;
+	
+    
+}
+
+marquee{
+    animation:awards 5sec infinite ;
+    
+
+}

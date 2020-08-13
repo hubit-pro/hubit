@@ -1,0 +1,58 @@
+body{
+    overflow-x: hidden;
+}
+
+
+#topper{
+  top: 0px; 
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  width: 100%;
+  height: 250px;
+}
+
+#topper h2{
+  color: white; 
+  margin-top:100px;
+}
+.contact-form h3{
+  padding-bottom: 20px;
+
+}
+
+.contact-form .btnContact {
+    border: none;
+    border-radius: 1rem;
+    padding: 5%;
+    background: #343a40;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.contact-form{
+  text-align: center;
+  box-shadow: 0px 50px 40px silver;
+  padding: 30px 50px 10px 50px;
+  background-image: url(../img/paper.png);
+}
+
+.form-group input{
+  border:none;
+}
+
+.form-group textarea{
+  width: 100%; 
+  height: 150px; 
+  border: 1px solid gray;
+}
+
+.vac{
+  box-shadow: 0px 50px 40px silver;
+}
+.vac img{
+  height: 300px; 
+  width: 100%;
+}
+

@@ -1,0 +1,157 @@
+body{
+    overflow-x: hidden;
+}
+/* 
+#head{
+  background-color: #082941;
+  width: 100%;
+}
+
+.top-header{
+	height:25px; 
+	width:100%;
+	background-color:#19dded73;
+	color: #082941;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  .icon-social{
+		  color: #082941;
+		  padding-left: 5px;
+
+  }
+
+.nav-item:hover{
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.nav-item{
+	color: white;
+	font-size: 17.6px;
+	
+	
+}
+.navbar-nav{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .navbar-nav{
+    width: 100%;
+  }
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .navbar-collapse{
+    display: flex;
+    justify-content: flex-start;
+  }
+} */
+
+
+#image{
+  width: 200px;
+  height: 80px;
+}
+
+#image img{
+  height: 100%;
+  width: 100%;
+}
+
+
+@media (min-width: 0) and (max-width: 768px) {
+  #image{
+  width: 150px;
+  height: 80px;
+  margin-right: 50px;
+  }
+}
+
+.rib{ 
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.non img{
+  height: 250px; 
+  width: 100%;
+}
+
+#topper{
+  top: 0px; 
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  width: 100%;
+  height: 250px;
+}
+
+/*-----------veaw-pot1-------*/
+#veaw-pot{
+    height: auto;
+    width:100%;
+    padding: 0px;
+} 
+
+
+.flex1{
+  width: 90%;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 20px;
+  justify-content: center;
+    align-items: center
+}
+
+
+
+/*.cmt-cont-img{
+  width: 35%;
+  height: 200px;
+  background-color: black;
+  margin: 20px 100px;
+    background-size: 100% 100%;   
+  background-repeat: no-repeat;
+}*/
+
+
+
+
+.flex2{
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+    align-items: center
+}
+
+
+.animated.standby {
+  -webkit-animation: none !important;
+  -o-animation: none !important;
+  animation: none !important;
+  visibility: hidden;
+}
+
+button{
+  cursor: pointer;
+  background-color: #343a40;
+  color: white;
+}
+
+.gofgof{
+  height: 150px;
+  margin-top: -10px;
+}
+.fun{
+  height: 200px;
+}
