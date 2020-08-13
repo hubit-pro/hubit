@@ -13,8 +13,9 @@
   CSS Training Nepal, Object Oriented PHP Programming Training Courses Nepal, Quality Assurance, Web Institution Nepal, Computer courses in nepal,  
   Search Engine Optimization Training Nepal, SEO Courses, C &amp;amp; C++ , VB.Net , ASP.Net , C# , Oracle , MS SQL Server , PHP MYSQL ,
   Java  &amp;amp; JavaBeans , JSP , J2EE training In kathmandu nepal. BUtwal">
-  <meta name="keywords" content="Best IT Training In Butwal,best it training in nepal,
-  best it training in rupandehi,best it training lumbini,best computer institute in nepal,best computer institute in butwal,best computer institute in rupandehi,
+  <meta name="keywords" content="Best IT Training In Butwal,best it training in nepal,tech news,tech,new technology,
+  what is technology,technology definition,science and technology,latest technology,technews,latest technology news,cool tech,technological advances
+,technology review,newtech,modern technology,definition of technology,best it training in rupandehi,best it training lumbini,best computer institute in nepal,best computer institute in butwal,best computer institute in rupandehi,
   best computer institute in lumbini,No,1 it training in butwal,No,1 it training in Nepal,No,1 it training in Butal,No,1 it training in lumbini,No,1 it training in rupandehi,
   top it training in butwal,top it training in rupandehi,top it training in nepal,top it training in lumbini,best it training institute in butwal,best institute near me,
   best it training near me,best it training institute in butwal,top it training institute in butwal,no,1 it training in butwal,free it training in butwal,best it comapny in butwal,
