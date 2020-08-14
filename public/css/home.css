@@ -1,5 +1,9 @@
+
+
+
 body{
 	overflow-x: hidden;
+	
 }
 @media (min-width: 0) and (max-width: 1024px) {
 	body{
@@ -41,14 +45,22 @@ body{
 
 }
 
-@media (min-width: 0) and (max-width: 1024px) {
+@media (min-width: 728px) and (max-width: 1024px) {
   .content1{
-    padding: 30px 0px 0px 0px;
+	padding: 30px 0px 0px 0px;
+	text-align: center !important;
   }
+
+  .content1 h2 {
+	margin-left:430px !important ; 
+  }
+
+  
 }
 
 .content1 h1{
 	color: white;
+	
 }
 
 .content1 h2 {
@@ -149,7 +161,7 @@ body{
 
 
   
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 	
 	.notice-section {
 	position: absolute;
@@ -168,10 +180,11 @@ body{
 .heading {
 	margin-bottom: 5%;
 	text-align: center;
-	font-size: 30px;
+	font-size: 4vw;
 	font-family: orkney-reg;
 	text-transform: uppercase;
 	color:grey;
+	margin-top: 60px;
 }
 
 
@@ -327,6 +340,11 @@ body{
 	
 	}
 	
+
+ .heading hr{
+	 border-top: 3px solid #51be78 !important ;
+	 width:40%;
+	}
   
   
 

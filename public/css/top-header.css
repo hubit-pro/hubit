@@ -21,4 +21,17 @@
 
   }
 
+  @media only screen and (max-width: 766px) {
+	  .top-header .col-md-2{
+		  display: none;
+	  } 
+
+	  .top-header .col-md-3{
+		display: none;
+
+
+	  }
+
+  }
+
 

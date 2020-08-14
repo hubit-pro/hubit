@@ -34,7 +34,7 @@
   <ul class="navbar-nav">
 
       <li class="nav-item">
-        <a class="nav-link" href="home" id="navitems">Homes</a>
+        <a class="nav-link" href="home" id="navitems">Home</a>
       </li>
 
       <li class="nav-item">

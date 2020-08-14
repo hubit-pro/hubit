@@ -52,7 +52,7 @@
 
   <div class="row content1">
         <div class="col-xl-3">
-              <h1>HUB IT<br>GROUP PVT LTD.</h1>
+              <p>HUB IT<br>GROUP PVT LTD.</p>
         </div>
         <div class="col-xl-9 text-justify">
               <p><strong>HUB IT GROUP PVT LTD.</strong> is the best IT Company to provide best IT Training and IT Solution in town since 2017 . We put ourselves in the shoes of your target audience and try to adopt their preferences, perceptions and behaviour . By providing best IT Suport we give POWER to your business and by providing best IT Training we give WINGS to your dreams .</p>
@@ -79,7 +79,8 @@
 
 <!------------------------SMALL SLIDER START---------------->
 <div class="heading mt-5">
-<h1 >OUR TRAINING GALLERY</h1>
+<p >OUR TRAINING GALLERY</p>
+<hr>
 </div>
 <section class="container-fluid pb-4">
   <div class="owl-carousel owl-theme" id="box">
@@ -109,7 +110,8 @@
 
 <!-- Board saying start -->
 <div class="heading">
-      <h1>Message from the board.</h1>
+      <p>Message from the board.</p>
+      <hr>
   </div>
 
 
@@ -174,7 +176,7 @@
 <section class="container-fluid p-5 text-center">
 	<div class="heading">
     
-      <h1>OUR RECENT CLIENTS</h1>
+      <p>OUR RECENT CLIENTS</p>
       <hr>
 </div>
 		</div>
