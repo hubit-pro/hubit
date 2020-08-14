@@ -17,6 +17,8 @@ ul li  {
 
 }
 
+
+
 .form-group{
     text-align: center;
 }
@@ -32,7 +34,7 @@ ul li  {
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 766px) {
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
@@ -54,6 +56,20 @@ ul li  {
 {
  font-size: 12px;
 }
+
+@media only screen and (min-width: 766px) {
+.products{
+    margin-left: 40px !important;
+}
+.col-md-2{
+    margin-right: 0px !important;
+
+
+}
+
+}
+
+
 
 .icon{
 color: #51be78;

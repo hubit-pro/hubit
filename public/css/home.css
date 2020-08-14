@@ -149,7 +149,7 @@ body{
 
 
   
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 	
 	.notice-section {
 	position: absolute;
@@ -179,7 +179,7 @@ body{
 	box-shadow:0px 30px 50px rgba(0,0,0,0.5);
 }
 
-@media (min-width: 0) and (max-width: 768px) {
+@media (min-width: 0) and (max-width: 766px) {
 	#box img{
 		height:100px ;
 		display: inline-block;
@@ -232,7 +232,7 @@ body{
 
 }
 
-@media (min-width: 0) and (max-width: 768px) {
+@media (min-width: 0) and (max-width: 766px) {
 .carousel-inners h2{
 	font-size: 17px;
 }
@@ -252,7 +252,7 @@ body{
 	  margin: auto;
 }
 
-@media (min-width: 0) and (max-width: 768px) {
+@media (min-width: 0) and (max-width: 766px) {
 	.carousel-inners p{
 		font-size: 15px;
 
@@ -285,7 +285,7 @@ body{
 	 width: 120px !important;
   }
   
-@media (min-width: 0) and (max-width: 768px) {
+@media (min-width: 0) and (max-width: 766px) {
 
 	.item1{
 		display: inline;
@@ -307,7 +307,7 @@ body{
 	display:none ;
 }
 
-@media (min-width: 0) and (max-width: 768px) {
+@media (min-width: 0) and (max-width: 766px) {
 
 	.owl-carousel .item1{
 		display: none;

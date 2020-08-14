@@ -45,7 +45,7 @@
   }
   
   
-  @media (min-width: 0) and (max-width: 768px) {
+  @media (min-width: 0) and (max-width: 766px) {
 	#image{
 	width: 150px;
 	height: 80px;
@@ -99,6 +99,14 @@ color:rgb(189, 252, 118);
 @media (min-width: 0) and (max-width: 768px) {
   .navbar-nav{
     width: 100%;
+  }
+  .nav-item{
+	  font-size: 12px;
+  }
+
+
+  .dropdown{
+	  font-size: 12px !important;
   }
 }
 
