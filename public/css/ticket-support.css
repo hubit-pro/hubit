@@ -1,32 +1,27 @@
+
+/* top header css is on top-header.css */
+/* navbar css is on navhome.css */
+/* ticket support text  */
 h1{
     text-align:center;
 }
-
+/* <ticket support image */
 .container-fluid img{
     height:300px;
     width:50%; 
     margin-left:20rem;
 }
-@media (min-width: 0) and (max-width: 768px) {
-.container-fluid img{
-    margin-left: 0px;
-    width: 400px;
 
-
-}
-
-
-}
-
-
+/* ticket support form div */
 #border{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+/* ticket support heading of form */
 #border .col-md-7 h3{
     text-align:center; 
     margin:10px;
 }
+/* ticket support textarea of form */
 
 .form-group textarea{
     width: 100%; 
@@ -35,30 +30,18 @@ h1{
 }
 
 
-
-.online{
-    
-    
-    padding: 20px;
-    width: 100vw;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-image: url();
-    
-}
-
+/* <whole ticket-support form */
 .col-lg-7{
    
     text-align: center;
     
 
 }
+/* solution-side of tixket support */
 .col-md-5{
     background-color: #51be7db8;
 }
-
+/* your problems and its options */
 .no-border {
     display: block;
     width: 100%;
@@ -75,7 +58,7 @@ h1{
     
     outline: none;
 }
-
+/* Sumbit button */
 .btnContact{
     width: 500px;
     height: 50px;
@@ -107,6 +90,12 @@ h1{
 
 .g-recaptcha{
     margin-left: 20px;
+}
+.container-fluid img{
+    margin-left: 0px;
+    width: 400px;
+
+
 }
 
 }

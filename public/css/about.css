@@ -3,7 +3,9 @@ body{
 }
 
 
-
+/* top header css is on top-header.css */
+/* navbar css is on navhome.css */
+/* photo banner whole div */
 #topper{
 	top: 0px; 
 	background-color: rgba(0,0,0,0.5);
@@ -12,18 +14,20 @@ body{
 	height: 250px;
 }
 
+/* about us name */
+
 #topper h3{
 	color: white; 
 	margin-top:100px;
 }
 
-
+/* About hubit text */
 .row .head h3{
 	border-bottom: 2px solid silver;
 	padding-bottom: 5px;
 }
 
-
+/* rotating image of about us */
 .solution img{
 	height: 140px;
 	width: 140px;
@@ -31,35 +35,36 @@ body{
 	border: 2px dashed black;
 	transition: 2s;
 }
-
+/* animation of image */
 .solution{
 	transition: 2s;
 	transition-timing-function: ease-out;
 }
-
+/* solution div effectes on hover */
 .solution:hover{
 	color:darkslategray;
 	background-color: lavender;
 	border-radius: 10px;
 }
-
+/* Image on hover of solution div  */
 .solution:hover img{
 	border: 3px dotted #343a40;
 	transform: rotate(360deg);
 }
 
 
-
+/* what our client says carousel card */
 .card {
     box-shadow: 0px 4px 8px 0px #BDBDBD
 }
+/* what our client says carousel card profile photo */
 
 .profile-pic {
     width: 100px !important;
     height: 100px;
     box-shadow: 0px 4px 8px 0px #BDBDBD
 }
-
+/* next and previous button of what our client says */
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
     background: 0 0;
@@ -70,12 +75,15 @@ body{
     font-size: 50px !important
 }
 
+/* next and previous button of what our client says on hover */
+
+
 .owl-carousel .owl-nav button.owl-next:hover,
 .owl-carousel .owl-nav button.owl-prev:hover {
     color: #0D47A1 !important;
     background-color: transparent !important
 }
-
+/* what our clients say carousel dots */
 .owl-dots {
     display: none
 }
@@ -87,7 +95,7 @@ button:focus {
     outline-width: 0
 }
 
-
+/* next of whatour client says icon */
 .next {
     display: block !important;
     position: relative;
@@ -95,6 +103,7 @@ button:focus {
     transition-duration: 0.3s;
     opacity: 0.6
 }
+/* previous button of whatour client says icon */
 
 .prev {
     display: block !important;
@@ -103,7 +112,7 @@ button:focus {
     transition-duration: 0.3s;
     opacity: 0.6
 }
-
+ /* what our clients says items */
 .item.show {
     display: block;
 	transition-duration: 0.4s;

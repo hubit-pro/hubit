@@ -1,10 +1,14 @@
-
-
-  
-  .container-fluid h1{
+body{
+	overflow-x: hidden;
+}
+/* top header css is on top-header.css */
+/* navbar css is on navhome.css */
+/* whole container of the page */
+   .container-fluid h1{
     font-weight: bold;
     margin-top: 50px;
   }
+  /* <Onclick image on te gallery  */
   
   .embed-responsive img{
     height:100%;
@@ -17,15 +21,8 @@
   
   
   
-  
-  @media only screen and (max-width: 600px) {
-    .col-md-6{
-      text-align:center;
-  
-    }
-  
-  }
-  
+ 
+  /* outside image of the gallery */
   .img-fluid{
    border-radius:5%;
    opacity: 1;
@@ -43,7 +40,7 @@
     width:100%;
   }
   
-  
+  /* on hove text on image div */
   .middle {
    transition: .5s ease;
    opacity: 0;
@@ -67,11 +64,19 @@
   
   
   
-  
+  /* text written on hover */
   .text{
    position:absolute;
    
    font-weight:bolder;
    
+  
+  }
+ 
+  @media only screen and (max-width: 600px) {
+    .col-md-6{
+      text-align:center;
+  
+    }
   
   }

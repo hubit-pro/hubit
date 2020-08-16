@@ -1,13 +1,67 @@
 
+/* top header css is on top-header.css */
+/* navbar css is on navhome.css */
+/* <green heading of online -admission' */
 .dark-bg{
     background-color: #51be78 !important;
 
 
 }
 
+/* Section div of online-admission  */
+.heads{
+    background-color: #51be78 !important;
+
+}
+
+/* radio buttons of gender */
+.radio{
+    display: block;
+}
+/* sub-course div of course section */
+.no-border{
+    width: 200px;
+    border: none;
+    height: 30px;
+    margin: 20px;
+}
+/* whole course div */
+.Course{
+    width: 500px;
+    border: none;
+    height: 30px;
+    margin: 20px;
+}
 
 
+/* <forms div/ */
+.form-groups{
+    display: inline-flex;
+}
+/* <sub course of hardware options */
+#otherFieldDiv{
+margin-left: 20px;
 
+}
+/* <sub course of software options */
+
+#otherFieldDiv1{
+    margin-left: 20px;
+    
+}
+/* <sub course of networking options */
+
+#otherFieldDiv2{
+    margin-left: 20px;
+     
+    
+}
+/* <labels of form-groups */
+
+.form-groups label{
+    margin-top: 25px;
+}
+/* rules and regulation section */
 .rules{
 
     border-radius: 5px;
@@ -19,60 +73,14 @@
 
 }
 
-.heads{
-    background-color: #51be78 !important;
-
-}
-
-
 .form-check{
     margin-left: 100px;
     font-size: 15px;
     padding: 10px;
     
 }
-.radio{
-    display: block;
-}
-
-.no-border{
-    width: 200px;
-    border: none;
-    height: 30px;
-    margin: 20px;
-}
-
-.Course{
-    width: 500px;
-    border: none;
-    height: 30px;
-    margin: 20px;
-}
 @media only screen and (max-width: 768px) {
     .Course{
         width: 100%;
     }
 }
-
-
-.form-groups{
-    display: inline-flex;
-}
-#otherFieldDiv{
-margin-left: 20px;
-
-}
-#otherFieldDiv1{
-    margin-left: 20px;
-    
-}
-#otherFieldDiv2{
-    margin-left: 20px;
-     
-    
-}
-
-.form-groups label{
-    margin-top: 25px;
-}
-
