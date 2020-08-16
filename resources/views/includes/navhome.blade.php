@@ -5,7 +5,7 @@
         <div class="col-md-4">
           <div>&nbsp;<i class="fas fa-phone"> &nbsp;</i> 071-549281/9857045414/9867245414</div>
         </div>
-        <div class="col-md-3 text-center"><i class="fas fa-envelope mr-2" ></i>email:-info@hubit.com.np</div>
+        <div class="col-md-3 text-center"><i class="fas fa-envelope mr-2" ></i>&nbsp;info@hubit.com.np</div>
         <div class="col-md-2 text-center " id="miss"></div>
         
         <div class="col-md-3 text-center ">
@@ -92,7 +92,7 @@
 </nav>
 
 <script>
-        var example = ['For Enquiry Misscall Us On', '98237418'];
+        var example = ['For Enquiry Call Us On', '9857045414'];
 
         textSequence(0);
         function textSequence(i) {
