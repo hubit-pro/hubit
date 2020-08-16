@@ -52,7 +52,7 @@
 
   <div class="row content1">
         <div class="col-xl-3">
-              <p>HUB IT<br>GROUP PVT LTD.</p>
+              <h1>HUB IT<br>GROUP PVT LTD.</h1>
         </div>
         <div class="col-xl-9 text-justify">
               <p><strong>HUB IT GROUP PVT LTD.</strong> is the best IT Company to provide best IT Training and IT Solution in town since 2017 . We put ourselves in the shoes of your target audience and try to adopt their preferences, perceptions and behaviour . By providing best IT Suport we give POWER to your business and by providing best IT Training we give WINGS to your dreams .</p>
@@ -173,7 +173,7 @@
 
 
 <!--------------------------CLIENTSTOPIC START------------------------>
-<section class="container-fluid p-5 text-center">
+<section class="container-fluid  text-center">
 	<div class="heading">
     
       <p>OUR RECENT CLIENTS</p>

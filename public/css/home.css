@@ -1,114 +1,70 @@
-
-
-
 body{
 	overflow-x: hidden;
-	
 }
-@media (min-width: 0) and (max-width: 1024px) {
-	body{
-		overflow-x: hidden;
-
-	}
-}
-
-
-
- #MagicCarousel .carousel-inner{
+/* top header css is on top-header.css */
+/* navbar css is on navhome.css */
+#MagicCarousel .carousel-inner{
 	height: 600px;
-	
 }
-
-@media (min-width: 0) and (max-width: 1024px) {
-  .carousel-item img{
-    height: 650px;
-  }
-}
-
+/* green color background opacity */
 #topper{
 	top: 0px; 
 	background-color: #51be784d;
 	position: absolute;
 	width: 100%;
-	height: 300px;
-
+	height: 250px;
 }
+/* green color background opacity */
 
-@media (min-width: 0) and (max-width: 1024px) {
-  #topper{
-    height: 650px;
-  }
-}
-
+/* company name , discription and go to page */
 .content1{
 	padding: 30px 30px 0px 100px;
-
 }
 
-@media (min-width: 728px) and (max-width: 1024px) {
-  .content1{
-	padding: 30px 0px 0px 0px;
-	text-align: center !important;
-  }
-
-  .content1 h2 {
-	margin-left:430px !important ; 
-  }
-
-  
-}
-
+/* company name */
 .content1 h1{
 	color: white;
 	
 }
 
-.content1 h2 {
-	margin-left:40% ; 
-	color:white;
-	
-}
-
-@media (min-width: 0) and (max-width: 1024px) {
-  .content1 h1{
-    text-align: center;
-  }
-}
-
-@media (min-width: 0) and (max-width: 1024px) {
-	.content1 h2{
-	  text-align: center;
-	  margin-left: 100px;
-	}
-  }
-
+/* company discription */
 .content1 p{
 	color: white;
 	font-size: 1.15em;
 	  width: 80%;
 	  margin: auto;
 }
-
-@media (min-width: 0) and (max-width: 1024px) {
-  .content1 p{
-    display: none;
-  }
+/* go to page */
+.content1 h2 {
+	margin-left:40% ; 
+	color:white;
+	
 }
-
-.links{
-	padding-top: 50px;
+  /* marquee div */
+.notice-section {
+	position: absolute;
+	top: 150%;
+	width: 100%;
+	height: 30px;
+	background-color: white;
 }
-
-@media (min-width: 0) and (max-width: 768px) {
-  .links{
-    padding-top: 80px;
-  }
+/* marquee content */
+.notice-section marquee {
+	color: rgb(255, 13, 13);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	white-space: nowrap;
+	align-items: center;
+	justify-content: center;
+	padding-top: 4px;
+	animation: notice 55s ease infinite;
 }
-
+/* It solution and training button */
 .lin{ 
 	color: white;
 	background-color: #51be78;
 }
+/* It solution and training button */
 
 .button {
   background-color: #51be78;
@@ -125,80 +81,33 @@ body{
   animation: glowing 1500ms infinite;
   margin: 25px;
 }
-
-@media (min-width: 0) and (max-width: 768px) {
-  .button{
-    margin-top: 25px;
-  }
-}
-
+/* It solution and training button glowing */
 
 @keyframes glowing {
-  0% { background-color:#51be78; box-shadow: 0 0 3px white; }
-  50% { background-color: #51be78; box-shadow: 0 0 40px white; }
-  100% { background-color:#51be78; box-shadow: 0 0 3px white; }
+	0% { background-color:#51be78; box-shadow: 0 0 3px white; }
+	50% { background-color: #51be78; box-shadow: 0 0 40px white; }
+	100% { background-color:#51be78; box-shadow: 0 0 3px white; }
+  }
+/* buttons main div */
+
+.links{
+	padding-top: 50px;
 }
-
-
-  
-.notice-section {
-	position: absolute;
-	top: 150%;
-	width: 100%;
-	height: 30px;
-	background-color: white;
-}
-.notice-section marquee {
-	color: rgb(255, 13, 13);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	white-space: nowrap;
-	align-items: center;
-	justify-content: center;
-	padding-top: 4px;
-	animation: notice 55s ease infinite;
-}
-
-
-  
-@media only screen and (max-width: 1024px) {
-	
-	.notice-section {
-	position: absolute;
-	top: 80%;
-	width: 100%;
-	height: 30px;
-	background-color: white;
-}
-
-
-}
-
-
-
-
+/* title of carousel */
 .heading {
 	margin-bottom: 5%;
 	text-align: center;
-	font-size: 4vw;
+	font-size: 2vw;
 	font-family: orkney-reg;
 	text-transform: uppercase;
 	color:grey;
 	margin-top: 60px;
 }
-
-
+/* images div of our training gallery */
 #box{
 	box-shadow:0px 30px 50px rgba(0,0,0,0.5);
 }
-
-@media (min-width: 0) and (max-width: 766px) {
-	#box img{
-		height:100px ;
-		display: inline-block;
-	}
-}
-
+/* carousel items of training gallery */
 .item {
 	opacity:0.5;
 	transition: transform .2s,ease;
@@ -219,7 +128,7 @@ body{
   }
 
 
-
+/* <our training gallery images */
   .img-fluid{
 	max-width: 100%;
 	height: 200px;
@@ -244,19 +153,6 @@ body{
 	 
 
 }
-
-@media (min-width: 0) and (max-width: 766px) {
-.carousel-inners h2{
-	font-size: 17px;
-}
-
-
-
-}
-
-
-
-
 .carousel-inners p{
 	text-align:center;
 		font-size: 1.15em;
@@ -265,19 +161,9 @@ body{
 	  margin: auto;
 }
 
-@media (min-width: 0) and (max-width: 766px) {
-	.carousel-inners p{
-		font-size: 15px;
-
-
-
-	}
-
-}
-
- .carousel-inners .carousel-item{
+.carousel-inners .carousel-item{
 	background-color: #e2d7d7; 
-	height:400px; 
+	height:380px; 
 	width:100% ;
     padding-top:50px;
 
@@ -297,9 +183,45 @@ body{
 	 border: 3px solid silver;
 	 width: 120px !important;
   }
-  
-@media (min-width: 0) and (max-width: 766px) {
+  .our-clients .item1{
+	display:none ;
+}
+.heading hr{
+	border-top: 3px solid #51be78 !important ;
+	width:25%;
+   }
+@media (min-width: 0) and (max-width: 1024px) {
+	body{
+		overflow-x: hidden;
 
+	}
+	.content1 h1{
+		text-align: center;
+	  }
+	
+	.notice-section {
+		position: absolute;
+		top: 80%;
+		width: 100%;
+		height: 30px;
+		background-color: white;
+	}
+	
+}
+@media (min-width: 0) and (max-width: 767px) {
+  .carousel-item img{
+    height: 100%;
+  }
+  
+	.owl-carousel .item1{
+		display: none;
+	}
+
+	.owl-theme .owl-dots{
+		display: none;
+
+
+	}
 	.item1{
 		display: inline;
 
@@ -313,23 +235,19 @@ body{
 		
 		
 	}
-	
-}
+	.carousel-inners p{
+		font-size: 15px;
 
-.our-clients .item1{
-	display:none ;
-}
 
-@media (min-width: 0) and (max-width: 766px) {
 
-	.owl-carousel .item1{
-		display: none;
+	}
+	#box img{
+		height:100px ;
+		display: inline-block;
 	}
 
-	.owl-theme .owl-dots{
-		display: none;
-
-
+	.heading{
+		font-size: 3vw !important;
 	}
 
 	
@@ -337,14 +255,54 @@ body{
 	display:inline ;
 	
 }
+.button{
+    margin-top: 25px;
+  }
+  .links{
+    padding-top: 80px;
+  }
 	
+  #topper{
+	height: 380px;
+}
+.content1 h2{
+	text-align: center;
+	margin-left: 17%;
+  }
+  .content1 p{
+	  display: none;
 	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #topper{
+    height: 650px;
+  }
+  .carousel-inners h2{
+	font-size: 17px;
+}
+  .content1{
+	padding: 30px 0px 0px 0px;
+	text-align: center !important;
+  }
+
+  .content1 h2 {
+	margin-left:42% !important ; 
+  }
+}
+
+
+
+
+
+
+
+
 	
 
- .heading hr{
-	 border-top: 3px solid #51be78 !important ;
-	 width:40%;
-	}
+
   
   
 
