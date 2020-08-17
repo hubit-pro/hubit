@@ -9,6 +9,9 @@ input{
 br{
 	height: 60px;
 }
+.img-responsive{
+    max-width: 70% !important;
+}
 
 
 /* top header css is on top-header.css */
@@ -126,7 +129,7 @@ margin-left: 20px;
 }
 
     
-}
+
 
 
 

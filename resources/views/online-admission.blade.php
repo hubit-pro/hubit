@@ -34,7 +34,11 @@
 
 	<section class="personal-details light-bg">
 		<br>
+
 		<form class="form-horizontal"  method="post" enctype="multipart/form-data">
+
+		<form class="form-horizontal" route="" method="post" enctype="multipart/form-data">
+
 			<input type="hidden" name="_token" value="bS0IzKMqVwwwtmxIQvKndeHYxtxj5j8naZiiCjnS">
 			
 
