@@ -36,7 +36,7 @@ body{
 }
 /* go to page */
 .content1 h2 {
-	margin-left:40% ; 
+	margin-left:43% ; 
 	color:white;
 	
 }
@@ -113,9 +113,6 @@ body{
 	transition: transform .2s,ease;
 	margin-left:5px;
 	box-shadow:0px 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23) 
-	
-   
-	
   }
   
   .item:hover {
@@ -126,25 +123,28 @@ body{
 	box-shadow:0px 19px 38px rgba(0,0,0,0.3),0 15px 12px rgba(0,0,0,0.22) 
   
   }
-
-
-/* <our training gallery images */
+/* <message from board images */
   .img-fluid{
 	max-width: 100%;
 	height: 200px;
 	display: inline-block;
 }
-
-  
-  
-  
-  .inactive img {
+.inactive .board-img {
 	  display: block;
 	  width: 150px;
-	  height: 150px;
+	  height: 150px ;
 	  margin: auto;
-	  border-radius: 50%;
-  }
+}
+
+.inactive .board-img img {
+	height: 100%;
+	width: 100%;
+	border-radius: 100%;
+
+}
+
+  
+
  
   /* <message from the board  Person name */
 .carousel-inners h2{
@@ -171,28 +171,19 @@ body{
     padding-top:50px;
 
 }
-
-
-  /* <message from the board  carousel-item image div */
-  
-
-  .item1{
+	/* <our clients  carousel-item image div */
+.item1{
 	margin-left:50px;
-   
-  
   }
-  /* <message from the board  carousel-item image */
-
-  .item1 img{
+	/* <ourclients  carousel-item image */
+.item1 img{
 	height: 120px;
 	 border-radius: 50%; 
 	 border: 3px solid silver;
 	 width: 120px !important;
   }
-  /* Our clients carousel item div*/
-
-
-  .our-clients .item1{
+	/* Our clients carousel item div*/
+.our-clients .item1{
 	display:none ;
 }
 /* title heading border */
@@ -200,11 +191,20 @@ body{
 	border-top: 3px solid #51be78 !important ;
 	width:25%;
    }
-   @media (min-width: 0) and (max-width: 360px) {
-	body{
+
+
+
+
+
+   @media (min-width: 0px) and (max-width: 1024px) {
+	#topper{
+		height: 600px;
+	  }
+	  body{
 		overflow-x: hidden;
 
 	}
+
 	.content1 h1{
 		text-align: center;
 	  }
@@ -216,114 +216,150 @@ body{
 		height: 30px;
 		background-color: white;
 	}
-	 .carousel-item img{
-    height: 100%;
-  }
-  
-	.owl-carousel .item1{
-		display: none;
+	.heading {
+		font-size: 30px !important;
+		}
+	
+}
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 800px) {
+	
+
+}
+
+
+
+
+
+@media (min-width:0px) and (max-width: 360px)
+{
+	body{
+		overflow-x: hidden;
+
+	}
+	.notice-section {
+		position: absolute;
+		top: 80%;
+		width: 100%;
+		height: 30px;
+		background-color: white;
+	}
+	
+	.content1 h1{
+		font-size: 25px;
+		text-align: center;
+	}		
+	.content1{
+		padding: 0px ;
 	}
 
-	.owl-theme .owl-dots{
-		display: none;
-
-
+	.content1 h2 {
+		margin-left:40%; 
+		font-size: 20px;
+		
+	}
+	.links{
+		padding-top:20px;
+	}
+	.button{
+		margin-top: -11px;
+	}
+	.carousel-inner {
+		height: 290px !important;
+	}
+	#topper {
+		height: 290px;
+	}
+	
+	.carousel {
+		height: 400px;
+	}
+	#MagicCarousel{
+		height:270px !important;
 	}
 	.item1{
-		display: inline;
-
-		
-
+		height: 200px;
 	}
 	.item1 img{
-		height: 200px;
-		width: 200px;
-
-		
-		
-	}
-	.carousel-inners p{
-		font-size: 15px;
-
-
-
-	}
-	
-	#box img{
-		height:100px ;
-		display: inline-block;
-	}
-
-	.heading{
-		font-size: 3vw !important;
-		margin-top: 0px !important;
-	}
-
-	
-.our-clients .item1{
-	display:inline ;
-	
-}
-.button{
-    margin-top: 25px;
-  }
-  .links{
-    padding-top: 80px;
-  }
-	
-  #topper{
-	height: 400px;
-}
-.content1 h2{
-	text-align: center;
-	margin-left: 17%;
-  }
-  .content1 p{
-	  display: none;
-	}
-
-}
-
-
-	
-
-   }
-
-
-
-/*    
-@media (min-width: 0) and (max-width: 1024px) {
-	body{
-		overflow-x: hidden;
-
-	}
-	.content1 h1{
-		text-align: center;
-	  }
-	
-	.notice-section {
-		position: absolute;
-		top: 80%;
+		height: 100%;
 		width: 100%;
-		height: 30px;
-		background-color: white;
+	}
+    .heading {
+	font-size: 20px !important;
+    }
+    .heading hr{
+	width:70% ;
+    }
+    .inactive .h2{
+	font-size: 20px !important;
+    }
+    .carousel-inners p{
+			font-size: 15px;
+	}
+    .item1{
+			display: inline;
+	}
+	#box img{
+			height:100px ;
+			width: 100px;
+			display: inline-block;
+	}
+	.content1 p{
+		  display: none;
 	}
 	
+	
+	
+	
 }
-@media (min-width: 0) and (max-width: 767px) {
+
+@media (min-width: 0) and (max-width: 320px){
+	.content1 h1{
+		margin-top: 10px;
+	}
+	.inactive h2{
+     font-size: 20px !important;
+
+	}
+	.inactive p{
+		font-size: 10px !important;
+	}
+	.carousel-inners .carousel-item{
+		height: 250px !important;
+	}
+	.board-img {
+		height: 100px !important;
+		width: 100px !important;
+	}
+	.carousel{
+		height: 270px;
+	}
+	
+
+}
+
+@media (min-width: 0) and (max-width: 411px){
+	
+}
+
+
+   
+
+
+
+   
+
+	
+@media (min-width: 370px) and (max-width: 767px) {
   .carousel-item img{
-    height: 100%;
+	height: 90%;
   }
   
-	.owl-carousel .item1{
-		display: none;
-	}
-
-	.owl-theme .owl-dots{
-		display: none;
-
-
-	}
 	.item1{
 		display: inline;
 
@@ -345,6 +381,7 @@ body{
 	}
 	#box img{
 		height:100px ;
+		width: 100px;
 		display: inline-block;
 	}
 
@@ -378,22 +415,16 @@ body{
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  #topper{
-    height: 650px;
-  }
-  .carousel-inners h2{
-	font-size: 17px;
-}
-  .content1{
-	padding: 30px 0px 0px 0px;
-	text-align: center !important;
-  }
 
-  .content1 h2 {
-	margin-left:42% !important ; 
-  }
-} */
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,13 +1,53 @@
 
+body{
+	background: #ccc !important;
+}
+input{
+	margin-bottom: 15px !important;
+}
+
+br{
+	height: 60px;
+}
+
+
 /* top header css is on top-header.css */
 /* navbar css is on navhome.css */
 /* <green heading of online -admission' */
+.light-bg{
+	background: #e8eaf3;
+}
+
 .dark-bg{
     background-color: #51be78 !important;
 
 
 }
+/*head*/
 
+
+.head > h1{
+	text-align: center;
+}
+
+.heading{
+	display: inline;
+	padding: 0px 15px 0px 15px !important;
+}
+.heading > h1{
+	display: inline;
+}
+.heads > h2 {
+    color: #fff;
+    font-size: 25px;
+    padding: 15px;
+}
+fieldset{
+	padding: 0 15px 0 15px !important;
+}
+span{
+	color:#e00615!important;
+}
 /* Section div of online-admission  */
 .heads{
     background-color: #51be78 !important;
@@ -84,3 +124,14 @@ margin-left: 20px;
         width: 100%;
     }
 }
+@media (min-width: 0px) and (max-width: 800px) {
+    .form-horizontal .form-group {
+        
+    }
+}
+
+
+
+
+
+

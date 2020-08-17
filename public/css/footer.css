@@ -89,3 +89,9 @@ ul li  {
 .icon{
 color: #51be78;
 }
+
+@media (min-width: 0px) and (max-width: 800px) {
+    body{
+        zoom: 90%;
+    }
+}

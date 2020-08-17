@@ -10,8 +10,6 @@
   <link rel="stylesheet" type="text/css" href="css/online-admission.css">
   <link rel="stylesheet" type="text/css" href="https://timescollege.edu.np/public/form/assets/bootstrap/css/bootstrap.min.css">
   
-  <link rel="stylesheet" type="text/css" href="https://timescollege.edu.np/public/form/assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="https://timescollege.edu.np/public/form/assets/css/custom.css">
 
 
 

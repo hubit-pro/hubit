@@ -15,6 +15,7 @@
   
 
 </head>
+	
 <body>
 
 <!-----------------------NAVBAR------------------------------->
@@ -127,7 +128,9 @@
   <div class="carousel-inners ">
     <div class="carousel-item active">
     <div class="inactive">
-    <img src="img/s.jpg">
+    <div class="board-img">
+        <img src="img/s.jpg">
+    </div>
     <h2 >Er. Hari Banjade</h2>
      <p>We are always trying to better the expereince the student get from our institution by providing them better consultation and facilities. HUB IT primarily focuses on sharpening students skills with internship and job oppurtunities.</p>                    
                       
@@ -136,7 +139,10 @@
     </div>
     <div class="carousel-item">
     <div class="inactive">
+      <div class="board-img">
     <img src="img/my_pic.jpg">
+
+      </div>
     <h2 >Er. Niraj</h2>
        <p>We are always trying to better the expereince the student get from our institution by providing them better consultation and facilities. HUB IT primarily focuses on sharpening students skills with internship and job oppurtunities.</p>                    
                       
@@ -144,8 +150,9 @@
     </div>
     <div class="carousel-item">
     <div class="inactive">
-    
+    <div class="board-img">
     <img src="img/per.jpg">
+</div>
     <h2 >Er. Hari Banjade</h2>
        <p>We are always trying to better the expereince the student get from our institution by providing them better consultation and facilities. HUB IT primarily focuses on sharpening students skills with internship and job oppurtunities.</p>                    
                       
@@ -187,7 +194,7 @@
 
 <!-----------------------CLIENTS START-------------------------------->
 
-<div class="owl-carousel owl-theme">
+<div class="owl-carousel ">
     <div class="item1">
        <img src="img/we.jpg" class="img-fluid" alt="12">
 </div>
@@ -226,50 +233,6 @@
 
 
 
-
-
-
-<div class="our-clients">
-
-<div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-       </div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-       </div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-
-
-
-
-
-</div>
 
 </section>
 
