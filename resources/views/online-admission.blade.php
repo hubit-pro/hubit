@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/online-admission.css">
-  <link rel="stylesheet" type="text/css" href="https://timescollege.edu.np/public/form/assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
   
 
 
