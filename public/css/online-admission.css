@@ -124,10 +124,8 @@ margin-left: 20px;
         width: 100%;
     }
 }
-@media (min-width: 0px) and (max-width: 800px) {
-    .form-horizontal .form-group {
-        
-    }
+
+    
 }
 
 
