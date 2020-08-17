@@ -9,8 +9,25 @@ input{
 br{
 	height: 60px;
 }
-.img-responsive{
-    max-width: 70% !important;
+.faq
+{
+    padding:25px !important;
+}
+.faq h4
+{
+    text-align: center;
+    font-weight: bold;
+}
+.faq p{
+    font-size: 15px;
+    text-align: center;
+}
+.admission-text p
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 17px;
 }
 
 

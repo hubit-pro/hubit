@@ -24,10 +24,16 @@
 
         
 	<section class="row m-0">
-		<div class="col-md-12 p-0 dark-bg">
+		<div class="col-md-8 p-0 dark-bg">
 		    <img src="img/addminsion-open.jpg" class="img-responsive">
-			
+     			
 		</div>
+    <div class="col-md-4 p-0 light-bg faq"><h4 >What Happens After I Apply?</h4><p>
+Our admissions team will be in touch to schedule a call. During the call, they'll work with you to determine whether this is the right program at the right time for you.
+</p>
+
+<h4>Can I Change My Course?</h4>
+<p>Of course! Our admissions team will help select the right Course if you have any questions.</p></div>
 	</section>	
 	
 
