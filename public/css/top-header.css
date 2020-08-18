@@ -22,7 +22,7 @@
   }
 
   @media only screen and (max-width: 766px) {
-	  .top-header .col-md-2{
+	  .top-header .col-md-4{
 		  display: none;
 	  } 
 
@@ -30,6 +30,13 @@
 		display: none;
 
 
+	  }
+	  .top-social-icon{
+		 display: inline !important;
+		 width: 50% !important;
+	  }
+	  #miss{
+		  width: 50% !important;
 	  }
 
   }

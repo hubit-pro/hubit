@@ -8,7 +8,7 @@
         <div class="col-md-3 text-center"><i class="fas fa-envelope mr-2" ></i>&nbsp;info@hubit.com.np</div>
         <div class="col-md-2 text-center " id="miss"></div>
         
-        <div class="col-md-3 text-center ">
+        <div class="col-md-3 text-center top-social-icon">
         <a href="facebook.com" class="icon-social" ><i class="fab fa-facebook-square" ></i></a>
         <a href="facebook.com" class="icon-social" ><i class="fab fa-twitter-square" ></i></a>
         <a href="facebook.com" class="icon-social" ><i class="fab fa-linkedin" ></i></a>
@@ -29,6 +29,11 @@
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 <i class="fas fa-bars"></i>
 </button>
+<button class="online-admission-button shortcut " type="button"  ><a href="online-admission">Online-ADM</a>
+</button>
+<button class="ticket-support-button shortcut" type="button"  > <a href="ticket-support">Ticket-support</a>
+</button>
+
 
 <div class="collapse navbar-collapse" id="collapsibleNavbar">
   <ul class="navbar-nav">

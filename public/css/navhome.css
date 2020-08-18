@@ -21,16 +21,9 @@
 	border-radius: .25rem;
 	margin-left: 20px;
 }
-@media (min-width: 0) and (max-width: 768px) {
 
 
 
-.navbar-toggler {
-    font-size: 1.75rem;
-
-
-}
-}
 
 
 
@@ -45,14 +38,7 @@
   }
   
   
-  @media (min-width: 0) and (max-width: 766px) {
-	#image{
-	width: 150px;
-	height: 80px;
-	margin-bottom: 20px;
-	margin-left: 145px;
-	}
-  }
+
   
   .rib{ 
 	color: white;
@@ -89,44 +75,11 @@ color:rgb(189, 252, 118);
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;	
-	
-
-	
-
 }
-
-
-@media (min-width: 0) and (max-width: 768px) {
-  .navbar-nav{
-    width: 100%;
-  }
-  .nav-item{
-	  font-size: 12px;
-  }
-
-
-  .dropdown{
-	  font-size: 12px !important;
-  }
-}
-
-@media (min-width: 0) and (max-width: 768px) {
-  .navbar-collapse{
-    display: flex;
-	justify-content: flex-start;
-  }
-}
-
 .dropdown:hover>.dropdown-menu {
 	display: block;
 	background-color: #51be78 ;
-	
-
-	
-	
-
-
-  }
+}
 
   .dropdown-item {
 	  color: white !important;
@@ -139,5 +92,72 @@ color:rgb(189, 252, 118);
   
 
   }
+  .shortcut{
+	  display: none;
+  }
+
+
+@media (min-width: 0) and (max-width: 767px) {
+  .navbar-nav{
+    width: 100%;
+  }
+  .nav-item{
+	  font-size: 12px;
+  }
+  .navbar-collapse{
+    display: flex;
+	justify-content: flex-start;
+  }
+   .dropdown{
+	  font-size: 12px !important;
+  }
+  #image{
+	width: 150px;
+	height: 80px;
+	margin-bottom: 20px;
+	margin-left: 36%;
+	}
+	
+.navbar-toggler {
+    font-size: 1.75rem;
+}
+
+.shortcut{
+	position: absolute;
+    border: none;
+	background-color: #ff760075;
+	height: 30px;
+	width: 120px;
+	font-size: 14px;
+	color: white !important;
+	font-weight: bold;
+}
+.online-admission-button{
+	top:20px;
+	padding: auto;
+}
+.ticket-support-button{
+	top: 60px;
+}
+.shortcut a{
+	text-decoration:none;
+	color:white;
+}
+.shortcut{
+	display: inline-block;
+}
+  
+}
+
+@media (min-width: 0) and (max-width: 375px) {
+	#image{
+		margin-left: 35%;
+	}
+}
+
+
+ 
+
+
 
   

@@ -8,6 +8,10 @@ footer {
     background-color: white;
     color:black;
 }
+
+.icon{
+    color: #51be78;
+    }
 .icon{
     font-size: 30px;
     padding-left: 5px;
@@ -15,40 +19,6 @@ footer {
 ul li  {
     list-style: none;
 }
-
-@media (min-width: 0) and (max-width: 768px) {
-    ul li  {
-
-    text-align: center;
-
-}
-
-
-
-.form-group{
-    text-align: center;
-}
-}
-
-@media only screen and (max-width: 768px) {
-
-    .footer-contact{
-        text-align: center;
-        margin-right: 10px !important;
-    }
-}
-
-
-
-@media only screen and (max-width: 766px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-  }
-
-
-
 
 #footer-list li a{
     color: black;
@@ -63,14 +33,24 @@ ul li  {
  font-size: 12px;
 }
 
-@media only screen and (min-width: 766px) {
-.products{
-    margin-left: 40px !important;
-}
+@media only screen and (max-width: 766px) {
+
 .col-md-2{
     margin-right: 0px !important;
 
 
+}
+.footer-contact{
+    text-align: center;
+    margin-right: 10px !important;
+}
+ul li  {
+
+    text-align: center;
+
+}
+.form-group{
+    text-align: center;
 }
 
 }
@@ -83,18 +63,63 @@ ul li  {
 }
 
 }
-
-
-
-.icon{
-color: #51be78;
-}
-
 @media (min-width: 0px) and (max-width: 800px) {
     body{
         zoom: 90%;
     }
 }
+@media (min-width: 768px){
+    .col-md-1{
+        
+            flex: 20 0 8.333333%;
+            max-width: 12.333333%;
+        }
 
+    }
+
+    @media (min-width:600px) and (max-width: 768px) {
+        .link {
+            margin-left: 50px;
+        }
+        .ittraining {
+            margin-left: 50px;
+            flex: 25 0 8.333333%;
+            max-width: 30.333333%;
+        }
+        .services {
+            margin-left: 50px;
+        }
+        .products {
+            margin-left: 50px;
+        }
+        .contact{
+            text-align: center !important;
+            margin-top: 20px;
+           
+        }
+        .contact ul{
+            margin-right: 35px !important;
+
+        }
+
+
+    }
+    @media (min-width:0px) and (max-width: 500px) {
+        .products{
+            width: 50%;
+            
+        }
+        .services{
+            width: 50%;
+        }
+        .ittraining{
+            width: 100%;
+            flex: auto;
+        }
+        .ittraining .row .col-md-4{
+            width: 30%;
+            margin-left: 25px;
+        }
+    }
 
 

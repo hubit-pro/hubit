@@ -20,13 +20,13 @@
 <div class="row mt-3">
 
   <!-- Grid column -->
-  <div class="col-md-1.5 products ">
+  <div class="col-md-1 products ">
 
     <!-- Content -->
     <h6 class="text-uppercase font-weight-bold p-0 ml-0 text-center ">Products</h6>
     <hr class="  mt-0 d-inline-block mx-auto" style="width: 100%; background-color:white;">
     
-    <ul  style="list-style: none; margin-left: -15px; font-size:12px;" id="footer-list">
+    <ul  style="list-style: none; margin-left: -40px; font-size:12px;" id="footer-list">
     <li><a href="products"> CCTV camera</a></li>
     <li><a href="products"> Printers</a></li>
     <li><a href="products"> Intercom</a></li>
@@ -43,7 +43,7 @@
 
     </div>
 
-    <div class="col-md-2">
+    <div class="col-md-2 services">
     <h6 class="text-uppercase font-weight-bold p-0 ml-0 text-center ">Services</h6>
     <hr class="  mt-0 d-inline-block mx-auto" style="width: 100%; background-color:white;">
     
@@ -70,7 +70,7 @@
   <!-- Grid column -->
 
   <!-- Grid column -->
-  <div class="col-md-4  ">
+  <div class="col-md-4 ittraining ">
 
     <!-- Links -->
     <h6 class="text-uppercase font-weight-bold text-center">IT Training</h6>
@@ -121,7 +121,7 @@
   <!-- Grid column -->
 
   <!-- Grid column -->
-  <div class="col-md-1.9   text-center" >
+  <div class="col-md-1   text-center link" >
 
     <!-- Links -->
     <h6 class="text-uppercase font-weight-bold">Links</h6>
@@ -147,7 +147,7 @@
   <!-- Grid column -->
 
   <!-- Grid column -->
-  <div class="col-lg-3 p-0 ">
+  <div class="col-lg-3 p-0 contact ">
 
     <!-- Links -->
 <h6 class="text-uppercase font-weight-bold text-center">Contact</h6>
