@@ -311,7 +311,10 @@ body{
 	.content1 p{
 		  display: none;
 	}
-	
+	.owl-carousel.owl-loaded {
+		display: block;
+		height: 100px;
+	}
 	
 	
 	
