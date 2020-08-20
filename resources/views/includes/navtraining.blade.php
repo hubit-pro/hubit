@@ -12,7 +12,7 @@
         <a href="facebook.com" class="icon-social" ><i class="fab fa-twitter-square" ></i></a>
         <a href="facebook.com" class="icon-social" ><i class="fab fa-linkedin" ></i></a>
         <a href="facebook.com" class="icon-social" ><i class="fab fa-instagram" ></i></a>
-        <a href="facebook.com" class="icon-social" ><i class="fab fa-youtube-square" ></i></a>
+        <a href="facebook.com" class="icon-social" ><i class="fab fa-youtube" ></i></a>
         <a href="facebook.com" class="icon-social" ><i class="fab fa-google" ></i></a>
         </div>
 

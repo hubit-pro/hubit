@@ -1,0 +1,36 @@
+.banner{
+    height: 400px;
+    background-color: rgba(143, 240, 164, 0.795);
+}
+.banner h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.search-container{
+    text-align: center;
+    margin-top: 50px;
+}
+.search-container input{
+    border: none;
+    width: 50%;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 40px;
+    outline:none;
+}
+.search-container button{
+    height: 60px;
+    width: 100px;
+    border: none;
+    background-color:#ffca07;
+    border-radius: 10px;
+    outline: none;
+    
+}
+.search-container button:hover{
+    opacity: 0.6;
+}
+
+
+
+

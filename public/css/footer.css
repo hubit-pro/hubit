@@ -8,7 +8,9 @@ footer {
     background-color: white;
     color:black;
 }
-
+.header{
+    text-align: right;
+}
 .icon{
     color: #51be78;
     }
@@ -32,6 +34,21 @@ ul li  {
 {
  font-size: 12px;
 }
+
+
+.bottom-footer li{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+
+
+
+}
+.bottom-footer li a{
+    color: black;
+}
+
 
 @media only screen and (max-width: 766px) {
 
@@ -119,6 +136,16 @@ ul li  {
         .ittraining .row .col-md-4{
             width: 30%;
             margin-left: 25px;
+        }
+        .bottom-footer li{
+            text-align: center;
+            margin:15px;
+
+
+        }
+        .header{
+            text-align: center;
+            width: 100% !important;
         }
     }
 

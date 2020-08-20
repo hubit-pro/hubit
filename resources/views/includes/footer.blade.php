@@ -180,22 +180,6 @@
 </ul>
 
   </div>
-
-  
-  <div class="container-fluid mt-5 ">
-  <div class="header " style="text-align:center;">
-      
-      
-        <a href="facebook.com" class="icon " ><i class="fab fa-facebook-square" ></i></a>
-        <a href="facebook.com" class="icon" ><i class="fab fa-twitter-square" ></i></a>
-        <a href="facebook.com" class="icon" ><i class="fab fa-linkedin" ></i></a>
-        <a href="facebook.com" class="icon" ><i class="fab fa-instagram" ></i></a>
-        <a href="facebook.com" class="icon" ><i class="fab fa-youtube" ></i></a>
-
-        <a href="facebook.com" class="icon" ><i class="fab fa-google" ></i></a>
-        </div>
-
-      </div>
   </div>
 </div>
   </div>
@@ -207,6 +191,36 @@
 </div>
 <!-- Footer Links -->
 
+
+  
+  <div class="container-fluid mt-5 row ">
+  
+      <div class="header col-md-7">
+      
+      
+        <a href="facebook.com" class="icon " ><i class="fab fa-facebook-square" ></i></a>
+        <a href="facebook.com" class="icon" ><i class="fab fa-twitter-square" ></i></a>
+        <a href="facebook.com" class="icon" ><i class="fab fa-linkedin" ></i></a>
+        <a href="facebook.com" class="icon" ><i class="fab fa-instagram" ></i></a>
+        <a href="facebook.com" class="icon" ><i class="fab fa-youtube" ></i></a>
+
+        <a href="facebook.com" class="icon" ><i class="fab fa-google" ></i></a>
+      </div>
+
+      <div class=" col-md-5 bottom-footer">
+      <ul>
+        <li><a href="privacy-policy">Privacy policy</a></li>
+        <li><a href="FAQ">FAQ</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Support</a></li>
+
+
+      </ul>
+</div>
+
+
+     </div>
+ 
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3" style="background-color:#51be78;height:50px;">© 2018 Copyright: <strong style="color: #a0047d;">HUB IT GROUP PVT LTD.</strong></div>
 <!-- Copyright -->

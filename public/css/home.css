@@ -282,7 +282,7 @@ body{
 		height:270px !important;
 	}
 	.item1{
-		height: 200px;
+		height: 50px;
 	}
 	.item1 img{
 		height: 100%;
@@ -301,7 +301,7 @@ body{
 			font-size: 15px;
 	}
     .item1{
-			display: inline;
+			display: block;
 	}
 	#box img{
 			height:100px ;

@@ -15,7 +15,7 @@
 </head>
 <body >
 @include('includes/navhome')  
-<h1>TICKET-SUPPORT</h1>
+<h1 class="head-ticket-support">TICKET-SUPPORT</h1>
 
 
 <div class="container-fluid">
@@ -131,7 +131,6 @@
 
               
               <div class="row"> 
-        <div class="g-recaptcha" data-sitekey="6LdL05sUAAAAAB88a6SNpUGFczJMY7iS8Xr_Y32g" style="margin-left: 25%;"></div>
         <div class="col-xl-12 text-center">
           <div class="form-group">
               <input type="submit" name="submit" class="btnContact mt-3" value="SUBMIT FORM" />

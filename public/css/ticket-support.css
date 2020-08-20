@@ -2,8 +2,11 @@
 /* top header css is on top-header.css */
 /* navbar css is on navhome.css */
 /* ticket support text  */
-h1{
+.head-ticket-support{
     text-align:center;
+    border-bottom: 5px solid #51be7db8;
+    margin:0px 600px 0px 600px;
+   
 }
 /* <ticket support image */
 .container-fluid img{
@@ -87,10 +90,11 @@ h1{
     
     width: 300px;
 }
-
-.g-recaptcha{
-    margin-left: 20px;
+.head-ticket-support{
+    margin-right: 40px;
+    margin-left: 40px;
 }
+
 .container-fluid img{
     margin-left: 0px;
     width: 400px;

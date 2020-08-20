@@ -116,3 +116,11 @@ Route::get('ticket-support', function () {
     return view('ticket-support');
 });
 
+Route::get('privacy-policy', function () {
+    return view('privacy-policy');
+});
+
+Route::get('FAQ', function () {
+    return view('FAQ');
+});
+

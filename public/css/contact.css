@@ -12,6 +12,7 @@ body{
   
 }
 
+
 /* Enquiery text  */
 .col-md-7 h4{
   font-family: 'Lemonada', cursive;
@@ -76,6 +77,11 @@ hr{
   margin-top:20px;
 }
 
+@media (min-width: 0) and (max-width: 768px) {
+  hr{
+    width: 70%;
+  }
+}
 
 
 

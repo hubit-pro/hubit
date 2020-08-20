@@ -58,12 +58,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <link rel="stylesheet" type="text/css" href="css/home-training.css">
-  <link rel="stylesheet" type="text/css" href="css/blogs.css">
-  <link rel="stylesheet" type="text/css" href="css/career-training.css">
-  <link rel="stylesheet" type="text/css" href="css/gallery-training.css">
-  <link rel="stylesheet" type="text/css" href="css/home-training.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css" href="css/navtraining.css">
+
 
   
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
@@ -78,6 +75,8 @@
   <link rel="stylesheet" href="o/css/jquery.fancybox.min.css">
 
   <link rel="stylesheet" href="o/css/bootstrap-datepicker.css">
+  <script src="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+  <script src="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
 
   <link rel="stylesheet" href="o/fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" type="text/css" href="css/top-header.css">
