@@ -5,6 +5,8 @@
 .banner h1{
     text-align: center;
     padding-top: 50px;
+    color:#ffca07;
+    
 }
 .search-container{
     text-align: center;
@@ -30,7 +32,28 @@
 .search-container button:hover{
     opacity: 0.6;
 }
+.body{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.body h3{
+    color:#ffca07 ;
+    text-align: center;
+    
+}
+.faq-training .col-md-4 {
+}
 
+    
+}
+ .faq-training .col-md-4 ul{
+     padding-left: 230px;
+
+}
+.faq-training .col-md-4 h4 {
+    text-align: center;
+}
 
 
 

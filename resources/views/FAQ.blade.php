@@ -20,6 +20,49 @@
   </div>
 
 </div>
+<div class="conatiner-fluid body">
+<h3>FREQUENTLY ASKED QUESTION(FAQ)</h3>
+
+
+</div>
+
+<div class="row faq-training">
+    <div class="col-md-4">
+        <h4>It Training</h4>
+<ul>
+    <li>which course tostudy?</li>
+    <li>Which course to take to learn web design?</li>
+    <li>Adobe photoshop course</li>
+    <li> Which course includes Video editing</li>
+
+</ul>
+        
+    </div>
+    <div class="col-md-4">
+        <h4>It Solution</h4>
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+
+</ul>
+        
+    </div>
+    <div class="col-md-4">
+        <h4>It Training</h4>
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+
+</ul>
+        
+    </div>
+</div>
+
+
 
 
 @include('includes/footer')
