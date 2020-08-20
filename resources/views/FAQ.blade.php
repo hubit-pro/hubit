@@ -27,41 +27,132 @@
 </div>
 
 <div class="row faq-training">
-    <div class="col-md-4">
-        <h4>It Training</h4>
+    <div class="col-md-3">
+        <h5>It Training</h5>
 <ul>
-    <li>which course tostudy?</li>
-    <li>Which course to take to learn web design?</li>
-    <li>Adobe photoshop course</li>
-    <li> Which course includes Video editing</li>
+    <li><a href="#">which course tostudy?</a></li>
+    <li><a href="#">Which course to take to learn web design?</a></li>
+    <li><a href="#">Adobe photoshop course</a></li>
+    <li><a href="#"> Which course includes Video editing</a></li>
 
 </ul>
         
     </div>
-    <div class="col-md-4">
-        <h4>It Solution</h4>
+    <div class="col-md-3">
+        <h5>It Solution</h5>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+<li><a href="#">which course tostudy?</a></li>
+    <li><a href="#">Which course to take to learn web design?</a></li>
+    <li><a href="#">Adobe photoshop course</a></li>
+    <li><a href="#"> Which course includes Video editing</a></li>
+
 
 </ul>
         
     </div>
-    <div class="col-md-4">
-        <h4>It Training</h4>
+    <div class="col-md-3">
+        <h5>Courses</h5>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+<li><a href="#">which course tostudy?</a></li>
+    <li><a href="#">Which course to take to learn web design?</a></li>
+    <li><a href="#">Adobe photoshop course</a></li>
+    <li><a href="#"> Which course includes Video editing</a></li>
+
+
+</ul>
+        
+    </div>
+    <div class="col-md-3">
+        <h5>Marg software</h5>
+<ul>
+<li><a href="#">which course tostudy?</a></li>
+    <li><a href="#">Which course to take to learn web design?</a></li>
+    <li><a href="#">Adobe photoshop course</a></li>
+    <li><a href="#"> Which course includes Video editing</a></li>
+
+
+</ul>
+        
+    </div>
+</div>
+<hr>
+<div class="container-fluid body">
+    <h3>General Enquiry</h3>
+    <div class="row faq-general">
+    <div class="col-md-2">
+        <h5>Account & Management</h5>
+<ul>
+    <li><a href="#">which course tostudy?</a></li>
+    <li><a href="#">Which course to take to learn web design?</a></li>
+    <li><a href="#">Adobe photoshop course</a></li>
+    <li><a href="#"> Which course includes Video editing</a></li>
+
+</ul>
+        
+    </div>
+    <div class="col-md-2">
+        <h5>Privacy-policy</h5>
+<ul>
+<li><a href="#">which course tostudy?</a></li>
+    <li><a href="#">Which course to take to learn web design?</a></li>
+    <li><a href="#">Adobe photoshop course</a></li>
+    <li><a href="#"> Which course includes Video editing</a></li>
+
+
+</ul>
+        
+    </div>
+    <div class="col-md-2">
+        <h5>It Training</h5>
+<ul>
+<li><a href="#">which course tostudy?</a></li>
+    <li><a href="#">Which course to take to learn web design?</a></li>
+    <li><a href="#">Adobe photoshop course</a></li>
+    <li><a href="#"> Which course includes Video editing</a></li>
+
+
+</ul>
+        
+    </div>
+    <div class="col-md-2">
+        <h5>community and social</h5>
+<ul>
+<li><a href="#">which course tostudy?</a></li>
+    <li><a href="#">Which course to take to learn web design?</a></li>
+    <li><a href="#">Adobe photoshop course</a></li>
+    <li><a href="#"> Which course includes Video editing</a></li>
+
+
+</ul>
+        
+    </div>
+    <div class="col-md-2">
+        <h5>Reporting a problem</h5>
+<ul>
+<li><a href="#">which course tostudy?</a></li>
+    <li><a href="#">Which course to take to learn web design?</a></li>
+    <li><a href="#">Adobe photoshop course</a></li>
+    <li><a href="#"> Which course includes Video editing</a></li>
+
+
+</ul>
+        
+    </div>
+    <div class="col-md-2">
+        <h5>Payments Method</h5>
+<ul>
+<li><a href="#">which course tostudy?</a></li>
+    <li><a href="#">Which course to take to learn web design?</a></li>
+    <li><a href="#">Adobe photoshop course</a></li>
+    <li><a href="#"> Which course includes Video editing</a></li>
+
 
 </ul>
         
     </div>
 </div>
 
+</div>
 
 
 
