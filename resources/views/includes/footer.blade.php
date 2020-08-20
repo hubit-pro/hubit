@@ -212,7 +212,7 @@
         <li><a href="privacy-policy">Privacy policy</a></li>
         <li><a href="FAQ">FAQ</a></li>
         <li><a href="#">Terms & Conditions</a></li>
-        <li><a href="#">Support</a></li>
+        <li><a href="#">Hire talent</a></li>
 
 
       </ul>
