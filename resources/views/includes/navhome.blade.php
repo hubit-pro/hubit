@@ -2,13 +2,13 @@
 <div class="container-fluid p-0">
   <div class="top-header">
       <div class="row pl-5">
-        <div class="col-md-2">
+        <div class="col-md-3">
           <div>&nbsp;<i class="fas fa-phone">&nbsp;</i>071-549281/9857045414/9867245414</div>
         </div>
         <div class="col-md-2 text-center"><i class="fas fa-envelope mr-2" ></i>&nbsp;info@hubit.com.np</div>
         <div class="col-md-2 text-center " id="miss"></div>
         
-        <div class="col-md-3 text-center top-social-icon">
+        <div class="col-md-2 text-center top-social-icon">
         <a href="facebook.com" class="icon-social" ><i class="fab fa-facebook-square" ></i></a>
         <a href="facebook.com" class="icon-social" ><i class="fab fa-twitter-square" ></i></a>
         <a href="facebook.com" class="icon-social" ><i class="fab fa-linkedin" ></i></a>
