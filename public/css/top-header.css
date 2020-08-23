@@ -56,21 +56,26 @@
   }
 
   @media only screen and (max-width: 766px) {
-	  .top-header .col-md-4{
+	  .top-header .col-md-3{
 		  display: none;
 	  } 
 
-	  .top-header .col-md-3{
+	  .top-header .col-md-2{
 		display: none;
 
 
 	  }
 	  .top-social-icon{
 		 display: inline !important;
-		 width: 50% !important;
+		 width: 50%;
 	  }
 	  #miss{
-		  width: 50% !important;
+		  width: 35% !important;
+		  display: inline;
+	  }
+	  .sign-in{
+		  display: inline;
+		  width: 10%;
 	  }
 
   }

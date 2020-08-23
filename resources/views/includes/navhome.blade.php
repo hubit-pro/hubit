@@ -19,7 +19,7 @@
         </div>
         <div class="col-md-2 hire-talent"><button>Hire Talent</button></div>
 
-        <div class="col-md-1 sign-in"><i class="fas fa-user"></i><i class="fas fa-arrow-right"></i></div>
+        <div class="col-md-1 sign-in"><i class="fas fa-user"></i></div>
 
       </div>
   </div>
