@@ -13,8 +13,25 @@
 
 
   }
+  .icon-social .fa-instagram:hover{
+	  background: linear-gradient(45deg,#F58529,#FEDA77,#DD2A7B,#8134AF,#515BD4) !important;
+
+  }
+  .icon-social .fa-youtube:hover{
+	  color: red !important;
+  }
+  .icon-social .fa-twitter-square:hover{
+	  color: #1DA1F2;
+  }
+  .icon-social .fa-linkedin:hover{
+	  color: #0e76a8;
+  }
+  .icon-social .fa-google:hover{
+	  color: #f4c20d;
+  }
+  
   .hire-talent{
-	  padding: 2px;
+	  padding-top: 3px;
 
   }
   .hire-talent button{
@@ -24,8 +41,9 @@
 	  color: white;
 	  width: 120px;
 	  font-size: 16px;
-	  height: 21px;
+	  height: 20px;
 	  border-radius: 5px;
+	  padding-bottom: 5px;
 
 	  
   }
@@ -33,16 +51,13 @@
 	  background-color: #ff9800;
   }
 
-  .sign-in{
-	padding-left: 10px;
-
-  }
-  .sign-in i{
+  
+  .sign-up i{
 	  font-size: 20px;
 	  color: #ff9800 !important;
 
   }
-  .sign-in :hover {
+  .hire-talent :hover {
 	  color: greenyellow !important;
   }
 
@@ -51,12 +66,16 @@
 	  .top-header{
 		  font-size: 10px;
 	  }
+	  .hire-talent{
+		max-width: 13.666667% !important;
+	  }
+	  
 
 
   }
 
   @media only screen and (max-width: 766px) {
-	  .top-header .col-md-3{
+	  .top-header .phone-numbers{
 		  display: none;
 	  } 
 
@@ -65,18 +84,27 @@
 
 
 	  }
+	  .top-header .col-md-3{
+		display: none;
+
+	  }
+
 	  .top-social-icon{
 		 display: inline !important;
-		 width: 50%;
+		 width: 40%;
 	  }
 	  #miss{
-		  width: 35% !important;
+		  width: 40% !important;
 		  display: inline;
 	  }
-	  .sign-in{
+	  .sign-up {
 		  display: inline;
-		  width: 10%;
+		  width: 20%;
 	  }
+
+	  
+  
+
 
   }
 
