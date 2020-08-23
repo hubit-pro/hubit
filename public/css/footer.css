@@ -151,5 +151,12 @@ ul li  {
             width: 100% !important;
         }
     }
+    @media (max-width: 320px){
+        .ittraining .row .col-md-4{
+            width: 30%;
+            margin-left: 7px;
+        }
+
+    }
 
 
