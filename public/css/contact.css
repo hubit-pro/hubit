@@ -20,13 +20,13 @@ body{
 
 }
 /* contact-information */
-.col-md-5{
+.contact-div{
   background-color: rgb(0 0 0 / 21%);
   
 }
 /* hub it group pvt ltd boder bottom */
 hr{
-  background-color: #51be78;
+  background-color: #ffca07;
   height: 2px;
   width: 20%;
 }
@@ -66,7 +66,7 @@ hr{
   width: 40%;
   margin-left: 30%;
   font-size: 25px;
-  background-color: #51be78;
+  background-color: #ff9800;
   border: none;
 }
 .btn:hover{

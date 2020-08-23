@@ -97,18 +97,18 @@
 </nav>
 
 <script>
-        var example = ['For Enquiry Call Us On', '9857045414'];
+        var a = ['For Enquiry Call Us On', '9857045414'];
 
         textSequence(0);
         function textSequence(i) {
 
-            if (example.length > i) {
+            if (a.length > i) {
                 setTimeout(function() {
-                    document.getElementById("miss").innerHTML = example[i];
+                    document.getElementById("miss").innerHTML = a[i];
                     textSequence(++i);
                 }, 2000); // 1 second (in milliseconds)
 
-            } else if (example.length == i) { // Loop
+            } else if (a.length == i) { // Loop
                 textSequence(0);
             }
 

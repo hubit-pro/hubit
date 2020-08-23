@@ -57,7 +57,8 @@
 
 #navitems:hover {
 
-color:rgb(189, 252, 118);
+	color: #ff9800;
+
 	
 	
 }
@@ -88,7 +89,7 @@ color:rgb(189, 252, 118);
 .dropdown-item:hover {
 	
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: rgba(81, 214, 81, 0.856) !important;
+  background-color: #ff99009d !important;
   
 
   }

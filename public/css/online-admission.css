@@ -39,12 +39,14 @@ br{
 }
 
 .dark-bg{
-    background-color: #51be78 !important;
+    background-color: #ff9800 !important;
 
 
 }
 /*head*/
-
+legend{
+    color: #ff9800 !important;
+}
 
 .head > h1{
 	text-align: center;
@@ -72,6 +74,9 @@ span{
 .heads{
     background-color: #51be78 !important;
 
+}
+b{
+    color: #ff9800;
 }
 
 /* radio buttons of gender */
@@ -127,10 +132,11 @@ margin-left: 20px;
     border-radius: 5px;
     padding:10px;
     background-color:white ;
-
-    
-    
-
+}
+#singlebutton{
+    width: 50%;
+    background-color: #ff9800;
+    border-color: #ff9800;
 }
 
 .form-check{

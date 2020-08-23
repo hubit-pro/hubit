@@ -4,7 +4,7 @@
 /* ticket support text  */
 .head-ticket-support{
     text-align:center;
-    border-bottom: 5px solid #51be7db8;
+    border-bottom: 5px solid #ff9800;
     margin:0px 600px 0px 600px;
    
 }
@@ -41,7 +41,7 @@
 
 }
 /* solution-side of tixket support */
-.col-md-5{
+.solution-div{
     background-color: #51be7db8;
 }
 /* your problems and its options */
@@ -65,7 +65,7 @@
 .btnContact{
     width: 500px;
     height: 50px;
-    background-color: #51be7db8;
+    background-color: #ff9800;
     border: none;
     border-radius: 5px;
     font: 1em sans-serif;

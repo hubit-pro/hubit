@@ -139,7 +139,7 @@
         </div>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-md-5 solution-div">
         <h1 style="text-align:center;">solution</h1>
 
       </div>

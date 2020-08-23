@@ -229,7 +229,7 @@
        <img src="img/we.jpg" class="img-fluid" alt="12">
 </div>
   
-</div> 
+</div>  
 
 
 

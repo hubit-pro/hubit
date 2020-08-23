@@ -37,7 +37,7 @@ body{
 /* go to page */
 .content1 h2 {
 	margin-left:43% ; 
-	color:white;
+	color:#ff9800;
 	
 }
   /* marquee div */
@@ -62,12 +62,12 @@ body{
 /* It solution and training button */
 .lin{ 
 	color: white;
-	background-color: #51be78;
+	background-color: #ff9800;
 }
 /* It solution and training button */
 
 .button {
-  background-color: #51be78;
+  background-color: #ff9800;
   border-radius: 5px;
   border: none;
   color: #FFFFFF;
@@ -84,9 +84,9 @@ body{
 /* It solution and training button glowing */
 
 @keyframes glowing {
-	0% { background-color:#51be78; box-shadow: 0 0 3px white; }
-	50% { background-color: #51be78; box-shadow: 0 0 40px white; }
-	100% { background-color:#51be78; box-shadow: 0 0 3px white; }
+	0% { background-color:#ff9800; box-shadow: 0 0 3px white; }
+	50% { background-color: #ff9800; box-shadow: 0 0 40px white; }
+	100% { background-color:#ff9800; box-shadow: 0 0 3px white; }
   }
 /* buttons main div */
 
@@ -188,7 +188,7 @@ body{
 }
 /* title heading border */
 .heading hr{
-	border-top: 3px solid #51be78 !important ;
+	border-top: 3px solid #ff9800 !important ;
 	width:25%;
    }
 

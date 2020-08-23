@@ -51,7 +51,7 @@
   </div>
   <div class="form-row">
 
-  <div class="form-group col-md-6">  
+  <div class="form-group col-md-6">   
     <label for="inputAddress">Mobile Number</label>
     <input type="text" class="form-control" id="input number" placeholder="Number">
   </div>
@@ -81,7 +81,7 @@
 
 
 </div>
-<div class="col-md-5 ">
+<div class="col-md-5 contact-div">
   <h2 class="contact-information">Contact Information</h2>
 <div>
 <h4 class="c-name">HUB IT GROUP PVT.LTD</h4>
@@ -95,7 +95,7 @@
       <li class="information">
       <i class="fa fa-envelope ml-1 mt-2" style="position:absolute;"></i>
       <a style="padding-left:30px;" >info@hubit.com.np</a>
-      <a href='#' >| hardware@hubit.com.np| </a>
+      <a>| hardware@hubit.com.np| </a>
       <a style="padding-left:30px;">margsoft@hubit.com.np </a> 
       <a  >| website@hubit.com.np</a>
     

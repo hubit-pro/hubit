@@ -11,8 +11,11 @@ footer {
 .header{
     text-align: right;
 }
+h6{
+    color: #ff9800;
+}
 .icon{
-    color: #51be78;
+    color: #ff9800;
     }
 .icon{
     font-size: 30px;
@@ -28,7 +31,7 @@ ul li  {
     
 }
 #footer-list li a:hover{
-    color:#ffca07;
+    color:#ff9800;
 }
 .link-footer
 {

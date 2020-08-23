@@ -1,5 +1,5 @@
 .privacy h2{
-    color:#ffca07 ;
+    color:#ff9800 ;
     text-align: center;
 }
 .privacy ul li{
@@ -11,7 +11,7 @@
 }
 .privacy ul li::before {
     content: "\2022";
-    color:#ffca07;
+    color:#ff9800;
     font-weight: bold;
     display: inline-block; 
     width: 2em;
