@@ -14,7 +14,7 @@
 
   
 <!-- Footer Links -->
-<div class="container-fluid text-md-left mt-5" style="border-top:2px solid #51be78;">
+<div class="container-fluid  mt-5 pl-5" style="border-top:2px solid #51be78;">
 
 <!-- Grid row -->
 <div class="row mt-3">
@@ -23,10 +23,10 @@
   <div class="col-md-1 products ">
 
     <!-- Content -->
-    <h6 class="text-uppercase font-weight-bold p-0 ml-0 text-center ">Products</h6>
+    <h6 class="text-uppercase font-weight-bold mt-3 text-center ">Products</h6>
     <hr class="  mt-0 d-inline-block mx-auto" style="width: 100%; background-color:white;">
     
-    <ul  style="list-style: none; margin-left: -40px; font-size:12px;" id="footer-list">
+    <ul  style="list-style: none; font-size:12px;" id="footer-list">
     <li><a href="products"> CCTV camera</a></li>
     <li><a href="products"> Printers</a></li>
     <li><a href="products"> Intercom</a></li>
@@ -44,12 +44,12 @@
     </div>
 
     <div class="col-md-2 services">
-    <h6 class="text-uppercase font-weight-bold p-0 ml-0 text-center ">Services</h6>
+    <h6 class="text-uppercase font-weight-bold mt-3 text-center  ">Services</h6>
     <hr class="  mt-0 d-inline-block mx-auto" style="width: 100%; background-color:white;">
     
     
     </ul>
-    <ul style="list-style: none; margin-left:-40px ; font-size:12px;" id="footer-list">
+    <ul style="list-style: none;  font-size:12px;" id="footer-list">
     <li><a href="products"> Biometric software</a></li>
     <li><a href="products"> Software</a></li>
     <li><a href="products"> Website Development</a></li>
@@ -70,13 +70,13 @@
   <!-- Grid column -->
 
   <!-- Grid column -->
-  <div class="col-md-4 ittraining ">
+  <div class="col-md-4 ittraining  text-center ">
 
     <!-- Links -->
-    <h6 class="text-uppercase font-weight-bold text-center">IT Training</h6>
+    <h6 class="text-uppercase font-weight-bold mt-3 text-center"> IT Training</h6>
     <hr class="mt-0 d-inline-block mx-auto" style="width: 100%; background-color:white;">
     <div class="row">
-    <ul  class="col-md-4"style="list-style: none; margin-left: -1px; font-size:12px;" id="footer-list">
+    <ul  class="col-md-4 "style="list-style: none;  font-size:12px;" id="footer-list">
     <li><a  href="course">Office Package</a></li>
     <li><a href="course">Accounting Package</a></li>
     <li><a href="course">Auditing Training</a></li>
@@ -89,7 +89,7 @@
     <li><a href="course">multimedia & Anamition</a></li>
     <li><a href="course">Video Editing</a></li>
       </ul>
-      <ul  class="col-md-4"style="list-style: none; margin-left: ; font-size:12px;" id="footer-list">
+      <ul  class="col-md-4"style="list-style: none;  font-size:12px;" id="footer-list">
     <li><a  href="course">Basic webpage</a></li>
     <li><a href="course">Advance Designing</a></li>
     <li><a href="course">Laravel</a></li>
@@ -124,9 +124,9 @@
   <div class="col-md-1   text-center link" >
 
     <!-- Links -->
-    <h6 class="text-uppercase font-weight-bold">Links</h6>
+    <h6 class="text-uppercase font-weight-bold mt-3 text-ce nter">Links</h6>
     <hr class=" mt-0 d-inline-block mx-auto" style="width: 80%; background-color:white;">
-    <ul  class="link-footer" style="list-style: none; margin-left: -30px;" id="footer-list">
+    <ul  class="link-footer" style="list-style: none; " id="footer-list">
       <li><a href="home">Home Page</a></li>
       <li><a  href="home-solution">IT Solution</a></li>
       <li><a href="home-training">IT Training</a></li>  
@@ -150,31 +150,31 @@
   <div class="col-lg-3 p-0 contact ">
 
     <!-- Links -->
-<h6 class="text-uppercase font-weight-bold text-center">Contact</h6>
+<h6 class="text-uppercase font-weight-bold mt-3 text-center">Contact</h6>
     <hr class="mt-0 d-inline-block mx-auto" style="width: 100%; background-color:white;">
-<ul  style="list-style: none; margin-right:-30px ; font-weight:bolder" class="footer-contact" >
-<li style="font-size:13px;margin:2px;" >
+<ul  style="list-style: none;  font-weight:bolder" class="footer-contact" >
+<li style="font-size:13px;" >
       <i class="fa fa-home m-1" ></i> Tinkune-Milanchowk , Butwal</li>
       
-      <li style="font-size:13px;margin:2px;">
+      <li style="font-size:13px;">
       <i class="fa fa-envelope m-1"></i>info@hubit.com.np | hardware@hubit.com.np | margsoft@hubit.com.np | website@hubit.com.np</li>
 
-<li style="font-size:13px;margin:2px;">
+<li style="font-size:13px;">
       <i class="fa fa-phone m-1"></i> office:- 071-549281</li>
 
-<li style="font-size:13px;margin:2px;">
+<li style="font-size:13px;">
       <i class="fa fa-phone m-1"></i> sales:- 9857045414 , 9867245414 | <i class="fa fa-whatsapp  m-1"></i><i class="fa fa-skype  m-1"></i> 9857045414</lli>
       
 <li style="font-size:13px;margin:5px;">
   <i class="fa fa-phone mr-1"></i>|<i class="fa fa-skype  m-1"></i>support software:- 9827494118 </li>
 
-<li style="font-size:13px;margin:2px;">
+<li style="font-size:13px;">
       <i class="fa fa-phone m-1"></i>support hardware:- 9827494117 , 9827467259</li>
 
- <li style="font-size:13px;margin:2px;">
+ <li style="font-size:13px;">
       <i class="fa fa-skype  m-1"></i> support hardware:- 9827494116</li>
 
-<li style="font-size:13px;margin:2px;">
+<li style="font-size:13px;">
       <i class="fa fa-phone  m-1"></i> IT training:- 071-549281 , 9867245414</li>
 
 </ul>
@@ -195,7 +195,7 @@
   
   <div class="container-fluid mt-5 row ">
   
-      <div class="header col-md-7">
+      <div class="header col-md-7 text-center">
       
       
         <a href="facebook.com" class="icon " ><i class="fab fa-facebook-square" ></i></a>
@@ -207,7 +207,7 @@
         <a href="facebook.com" class="icon" ><i class="fab fa-google" ></i></a>
       </div>
 
-      <div class=" col-md-5 bottom-footer">
+      <div class=" col-md-5 bottom-footer text-center">
       <ul>
         <li><a href="privacy-policy">Privacy policy</a></li>
         <li><a href="FAQ">FAQ</a></li>

@@ -132,8 +132,23 @@ Route::get('login', function () {
 Route::get('log-admin', function () {
     return view('admin-panel/log-admin');
 });
+Route::view('login','login');
+Route::post('login','admincontroller@index');
 Route::get('home-admin', function () {
     return view('admin-panel/home-admin');
+});
+Route::get('home-admin/',
+function(){
+    if(!session()->has('data'))
+    {
+        return redirect ('log-admin');
+    }
+        return view('admin-panel/home-admin');
+});
+Route::get('/logout', function()
+{
+    session()->forget('data');
+    return redirect('log-admin');
 });
 // admin panel route end
 

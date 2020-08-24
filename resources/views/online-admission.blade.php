@@ -12,7 +12,7 @@
   
 
 
-
+ 
 
     
     <title>Online-Admission</title>
@@ -94,10 +94,8 @@ Our admissions team will be in touch to schedule a call. During the call, they'l
 				<legend>Contact Details</legend>
 				<div class="form-group">
 				  <label class="col-md-3 control-label" for="textinput">Permanent Address <span>*</span></label>  
-				  <div class="col-md-9">
 				  	<input id="textinput" name="p_address" type="text" class="form-control input-md" value="" required="">
 				   </div>
-				</div>
 				
 				<div class="form-group">
 				  <label class="col-md-3 control-label" for="textinput">Telephone No. </label>  
@@ -109,9 +107,7 @@ Our admissions team will be in touch to schedule a call. During the call, they'l
 				  	<input id="textinput" name="mobile" type="number" class="form-control input-md" value="" required="">
 				   </div>
 				   <label class="col-md-3 control-label" for="textinput">E-mail</label>  
-				  <div class="col-md-9">
 				  	<input id="textinput" name="email" type="email" class="form-control input-md" value="">
-				   </div>
 				</div>
 			</fieldset>
 

@@ -158,6 +158,11 @@ marquee{
 
 }
 
+
+.mobile-view{
+    display: none;
+}
+
 @media screen and (max-width: 999px) {
 
     .next,
@@ -170,3 +175,14 @@ marquee{
         display: block !important
     }
 }
+
+@media (max-width: 800px) and (min-width: 0px) {
+    .mobile-view{
+        display: inline !important;
+    }
+    .desktop-view{
+        display: none !important;
+    }
+    
+}
+

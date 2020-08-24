@@ -1,3 +1,4 @@
+
 .top-header{
 	height:25px; 
 	width:100%;
@@ -5,7 +6,8 @@
 	color:black;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 16px !important;
-	
+	display: flex;
+	flex-wrap: nowrap;
   }
   .icon-social{
 		  color: #ff9800;
@@ -56,12 +58,22 @@
   .sign-up i{
 	  font-size: 20px;
 	  color: #ff9800 !important;
-	  float: right;
-	  padding-right: 10px;
-
+	  padding-left: 10px;
+	  
+	  
   }
   .hire-talent :hover {
-	  color: greenyellow !important;
+	  color: white !important;
+  }
+  @media only screen and (max-width: 1024px) {
+	.hire-talent button{
+		float: none !important;
+	}
+	.sign-up i{
+		float:none;
+	}
+
+	  
   }
 
 
@@ -72,6 +84,14 @@
 	  .hire-talent{
 		max-width: 13.666667% !important;
 	  }
+  .hire-talent button{
+	  float: none !important;
+  }
+  .e-mail{
+	  display: none;
+  }
+  
+
 	  
 
 
@@ -87,9 +107,12 @@
 
 
 	  }
-	  .top-header .col-md-3{
+	  .top-header .col-md-4{
 		display: none;
 
+	  }
+	  .hire-talent{
+		  display: none;
 	  }
 
 	  .top-social-icon{

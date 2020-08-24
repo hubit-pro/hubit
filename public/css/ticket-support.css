@@ -4,15 +4,18 @@
 /* ticket support text  */
 .head-ticket-support{
     text-align:center;
-    border-bottom: 5px solid #ff9800;
-    margin:0px 600px 0px 600px;
    
 }
+/* ticket support horizontal hr */
+.head-ticket-support hr{
+background-color: #ff9800;
+height: 5px;
+width: 30%;
+}
 /* <ticket support image */
-.container-fluid img{
-    height:300px;
-    width:50%; 
-    margin-left:25%;
+.container img{
+    height:400px;
+    width:100%; 
 }
 
 /* ticket support form div */
@@ -90,16 +93,7 @@
     
     width: 300px;
 }
-.head-ticket-support{
-    margin-right: 40px;
-    margin-left: 40px;
-}
-
-.container-fluid img{
-    margin-left: 0px;
-    width: 400px;
 
 
-}
 
 }

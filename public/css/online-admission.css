@@ -70,6 +70,10 @@ fieldset{
 span{
 	color:#e00615!important;
 }
+.img-responsive{
+    height: 100% !important;
+    width: 100% !important;
+}
 /* Section div of online-admission  */
 .heads{
     background-color: #51be78 !important;
@@ -92,16 +96,16 @@ b{
 }
 /* whole course div */
 .Course{
-    width: 500px;
+    width: 500px ;
     border: none;
     height: 30px;
-    margin: 20px;
+    margin-right: 100px;
 }
 
 
 /* <forms div/ */
 .form-groups{
-    display: inline-flex;
+    display:inline-block;
 }
 /* <sub course of hardware options */
 #otherFieldDiv{
@@ -149,6 +153,17 @@ margin-left: 20px;
     .Course{
         width: 100%;
     }
+
+}
+@media only screen and (min-width: 768px) {
+
+.col-md-3 {
+    max-width: 100% !important;
+    text-align: center !important;
+}
+.Course{
+    width: 100% !important;
+}
 }
 
     
