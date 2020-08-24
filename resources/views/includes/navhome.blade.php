@@ -17,8 +17,17 @@
 
         <a href="facebook.com" class="icon-social" ><i class="fab fa-google" ></i></a>
         </div>
+<<<<<<< HEAD
         <div class="col-md-2 hire-talent"><button>Hire Talent</button></div>
+=======
+<<<<<<< HEAD
+        <div class="col-md-2 hire-talent"><button>Hire Talent</button></div>
+        <div class="col-md-1 sign-up"><a href="login"><i class="fas fa-user"></i></a></div>
+=======
+        <div class="col-md-1 hire-talent"><button>Hire Talent</button></div>
+>>>>>>> d705793f15230dabe688425185438f38812b5120
         <div class="col-md-1 sign-up"><i class="fas fa-user"></i></div>
+>>>>>>> 39305eea426ed918bc10b551e016a31ef83aa306
 
         
 
@@ -28,7 +37,8 @@
 
 <nav class="navbar navbar-expand-sm  sticky-top " id="head" style="position:sticky; ">
 
-<div class="container" id="image"><a href="home"><img src="img/logo4.png"></a></div>
+<div class="container" id="image">
+<a href="home"><img src="img/logo4.png"></a></div>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 <i class="fas fa-bars"></i>
