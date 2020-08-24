@@ -12,7 +12,7 @@
 
 
 </style>
-  
+   
 
 </head>
 	
@@ -57,8 +57,12 @@
         </div>
         <div class="col-xl-9 text-justify">
               <p><strong>HUB IT GROUP PVT LTD.</strong> is the best IT Company to provide best IT Training and IT Solution in town since 2017 . We put ourselves in the shoes of your target audience and try to adopt their preferences, perceptions and behaviour . By providing best IT Suport we give POWER to your business and by providing best IT Training we give WINGS to your dreams .</p>
-         </div>
-              <h2>Go to page</h2>
+              
+            </div>
+             
+  </div>
+  <div class="go-to-page">
+  <h2>Go to page</h2>
   </div>
 
   <div class="row links">

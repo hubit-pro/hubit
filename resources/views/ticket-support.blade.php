@@ -15,10 +15,12 @@
 </head>
 <body >
 @include('includes/navhome')  
-<h1 class="head-ticket-support">TICKET-SUPPORT</h1>
+<h1 class="head-ticket-support">TICKET-SUPPORT
+  <hr>
+</h1>
 
 
-<div class="container-fluid">
+<div class="container">
 
 <img  src='img/tivket-support.png'>
 </div>
@@ -27,7 +29,7 @@
 
 <div class="row mb-5">
   
-    <div class="col-md-7 pr-5">
+    <div class="col-md-7 ">
 <h3>CREATE NEW TICKET</h3>
 
 

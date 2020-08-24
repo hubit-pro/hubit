@@ -46,7 +46,7 @@
 
 
 <!---------------------ABOUT START---------------------------->
-<section class="container-fluid p-5">
+<section class="container-fluid p-5 desktop-view">
 
   <div class="row pl-5 pr-5 pb-5">
     <div class="col-xl-12 text-center head">
@@ -116,6 +116,90 @@
 
 </section>
 <!---------------------ABOUT END------------------------------>
+
+
+
+
+
+
+<!---------------------ABOUT us mobile view start------------------------------>
+
+
+<section class="container-fluid p-5 mobile-view">
+
+  <div class="row pl-5 pr-5 pb-5">
+    <div class="col-xl-12 text-center head">
+      <h3>ABOUT HUB IT GROUP PVT LTD.</h3>
+    </div>
+    <div class="col-xl-12 pt-3 text-justify">
+      <p><strong style="color: #082941;">HUB IT GROUP PVT LTD.</strong> is a Hampshire based creative agency offering services such as surveillance system,intercom system Website Design, IT Support, IT Training and many more services . Founded in 2017 we have developed ourselves into the local area providing services to customers in the area. We are a relatively new agency however that doesn’t stop us providing professional services. We are learning new technologies, skills and methods all of the time and always updating our clients work to ensure the highest and latest standards possible. We put ourselves in the shoes of your target audience and try to adopt their preferences, perceptions and behaviour.</p>
+    </div>
+  </div>
+
+  <div class="row p-4 solution">
+    <div class="col-xl-12">
+      <div class="row">
+      <div class="col-xl-3 p-1 text-center">
+          <img src="img/about1.png">
+        </div>
+        <div class="col-xl-7 text-justify">
+          <h5>We As Solutioner</h5>
+          <p>A strong company will already have great customer relationships. But a smart company will always be asking <strong style="color: #082941;"><i>“ What is good customer service ? ”</i></strong> We are the smart company. We ensure what customers exactly want. Customer satisfaction is the first priority to us. Our service team has the right skills for managing our customer's need. Services such as <strong style="color: #082941;"><i>Surveillance system, Intercom system, Website Design, IT Support, IT Training</i></strong> and others are provided by our company.</p>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="row p-4 solution">
+    <div class="col-xl-12">
+      <div class="row">
+        <div class="col-xl-3 p-1 text-center">
+          <img src="img/about2.png">
+        </div>
+        <div class="col-xl-7 text-justify">
+          <h5>We As Trainer</h5>
+          <p>We provide the best training in the town. We have well experienced teachers. We have <strong style="color: #082941;">
+            <i>projector classrooms, well equipped & internet labs, poject trainings</i></strong> and many more. Our main features among all is our <strong style="color: #082941;"><i>Friday Programmes.</i></strong> We believe that only learning is not effective but learning practically is far effective .</p>
+        </div>        
+      </div>
+    </div>
+  </div>
+
+  <div class="row p-4 solution">
+    <div class="col-xl-12">
+      <div class="row">
+      <div class="col-xl-3 p-3 text-center">
+          <img src="img/about3.png">
+        </div>
+        <div class="col-xl-7 text-justify">
+          <h5>Our Mission</h5>
+          <p>our goal is to provide <strong style="color: #082941;">Economical</strong> and <strong style="color:#082941;">Effective</strong> solution for <strong style="color:#082941;">Surveillance system, Intercom system, Website Design, IT Support</strong> . And provide trending Courses to tackle in evolution era . We are here to provide our valueable customers new and effective technology. We believe in hardworking hands rather than on moving tongue. We believe in our client and we do ensure fulfilling our client requirement without any delay with best outcome.</p>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="row p-4 solution">
+    <div class="col-xl-12">
+      <div class="row">
+        <div class="col-xl-3 p-1 text-center">
+          <img src="img/about4.png">
+        </div>
+        <div class="col-xl-7 text-justify">
+          <h5>Why To Choose Us ? </h5>
+          <p><strong style="color: #082941;">THE RIGHT TEAM FOR YOUR PROJECT HUB IT GROUP PVT LTD.</strong> offers a great service in the webdesign, development,surveillance system,intercom system . And for Student we provide IT Trianing Classes . We strive to offer the best solution for your business and impartial advice at an honest price. We are constantly investigating new technologies and recommend them when they make sense. We love what we do, some might say a bit too much, and we bring enthusiasm and commitment to every project we work on. Put simply, if you want a partner who cares about your business choose HUB IT.</p>
+        </div>        
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- About us mobile view end -->
 
 
 
