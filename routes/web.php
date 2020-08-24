@@ -124,3 +124,12 @@ Route::get('FAQ', function () {
     return view('FAQ');
 });
 
+// admin panel route start
+Route::get('log-admin', function () {
+    return view('admin-panel/log-admin');
+});
+Route::get('home-admin', function () {
+    return view('admin-panel/home-admin');
+});
+// admin panel route end
+
