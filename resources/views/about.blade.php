@@ -57,7 +57,7 @@
     </div>
   </div>
 
-  <div class="row p-4 solution">
+  <div class="row p-4 solution"> 
     <div class="col-xl-12">
       <div class="row">
         <div class="col-xl-7 text-justify">

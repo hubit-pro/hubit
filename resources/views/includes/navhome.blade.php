@@ -5,7 +5,7 @@
         
           <div class="col-md-4">&nbsp;<i class="fas fa-phone">&nbsp;</i>071-549281/9857045414/9867245414</div>
       
-        <div class="col-md-2 text-center"><i class="fas fa-envelope mr-2" ></i>&nbsp;info@hubit.com.np</div>
+        <div class="col-md-2 text-center e-mail"><i class="fas fa-envelope mr-2" ></i>&nbsp;info@hubit.com.np</div>
         <div class="col-md-2 text-center " id="miss"></div>
         
         <div class="col-md-2 text-center top-social-icon">

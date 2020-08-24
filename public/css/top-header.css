@@ -87,6 +87,10 @@
   .hire-talent button{
 	  float: none !important;
   }
+  .e-mail{
+	  display: none;
+  }
+  
 
 	  
 
@@ -103,9 +107,12 @@
 
 
 	  }
-	  .top-header .col-md-3{
+	  .top-header .col-md-4{
 		display: none;
 
+	  }
+	  .hire-talent{
+		  display: none;
 	  }
 
 	  .top-social-icon{
