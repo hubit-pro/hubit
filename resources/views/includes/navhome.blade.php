@@ -18,7 +18,7 @@
         <a href="facebook.com" class="icon-social" ><i class="fab fa-google" ></i></a>
         </div>
         <div class="col-md-2 hire-talent"><button>Hire Talent</button></div>
-        <div class="col-md-1 sign-up"><i class="fas fa-user"></i></div>
+        <div class="col-md-1 sign-up"><a href="login"><i class="fas fa-user"></i></a></div>
 
         
 
@@ -28,7 +28,8 @@
 
 <nav class="navbar navbar-expand-sm  sticky-top " id="head" style="position:sticky; ">
 
-<div class="container" id="image"><a href="home"><img src="img/logo4.png"></a></div>
+<div class="container" id="image">
+<a href="home"><img src="img/logo4.png"></a></div>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 <i class="fas fa-bars"></i>
