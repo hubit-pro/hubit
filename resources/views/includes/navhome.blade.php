@@ -17,13 +17,8 @@
 
         <a href="facebook.com" class="icon-social" ><i class="fab fa-google" ></i></a>
         </div>
-<<<<<<< HEAD
         <div class="col-md-2 hire-talent"><button>Hire Talent</button></div>
         <div class="col-md-1 sign-up"><a href="login"><i class="fas fa-user"></i></a></div>
-=======
-        <div class="col-md-1 hire-talent"><button>Hire Talent</button></div>
-        <div class="col-md-1 sign-up"><i class="fas fa-user"></i></div>
->>>>>>> 39305eea426ed918bc10b551e016a31ef83aa306
 
         
 
