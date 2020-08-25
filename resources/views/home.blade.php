@@ -54,6 +54,8 @@
   <div class="row content1">
         <div class="col-xl-3">
               <h1>HUB IT<br>GROUP PVT LTD.</h1>
+              <h6>Enabling the Innovative Age</h6>
+
         </div>
         <div class="col-xl-9 text-justify">
               <p><strong>HUB IT GROUP PVT LTD.</strong> is the best IT Company to provide best IT Training and IT Solution in town since 2017 . We put ourselves in the shoes of your target audience and try to adopt their preferences, perceptions and behaviour . By providing best IT Suport we give POWER to your business and by providing best IT Training we give WINGS to your dreams .</p>
@@ -62,7 +64,7 @@
              
   </div>
   <div class="go-to-page">
-  <h2>Go to page</h2>
+  <h2>Visit our services</h2>
   </div>
 
   <div class="row links">
@@ -84,9 +86,18 @@
 
 <!------------------------SMALL SLIDER START---------------->
 <div class="heading mt-5">
-<p >OUR TRAINING GALLERY</p>
+<p >MEMORABLE MOMENTS @ HUB</p>
 <hr>
+<div class="container">
+<p class="quotes-moments"><i class="fas fa-quote-left"></i>We always welcome anyone who are willing to learn new things and 
+in the process we share some timeless moments, some of those are captured in photos. 
+<i class="fas fa-quote-right"></i>
+
+</p>
 </div>
+</div>
+
+
 <section class="container-fluid pb-4">
   <div class="owl-carousel owl-theme" id="box">
 
@@ -189,6 +200,13 @@
     
       <p>OUR RECENT CLIENTS</p>
       <hr>
+      <div class="container">
+<p class="quotes-moments"><i class="fas fa-quote-left"></i>We always welcome anyone who are willing to learn new things and 
+in the process we share some timeless moments, some of those are captured in photos. 
+<i class="fas fa-quote-right"></i>
+</p>
+
+</div>
 </div>
 		</div>
 	</div>

@@ -57,6 +57,7 @@
   .sign-up i{
 	  font-size: 20px;
 	  color: #ff9800 !important;
+	  float: right;
 	  
 	  
   }
@@ -125,6 +126,10 @@
 		  display: inline;
 		  width: 20%;
 	  }
+	  .sign-up i{
+		  float: right;
+	  }
+
 
 	  
   

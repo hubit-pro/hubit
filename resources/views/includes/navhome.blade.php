@@ -3,7 +3,7 @@
   <div class="top-header">
       
         
-          <div class="col-md-3">&nbsp;<i class="fas fa-phone">&nbsp;</i>071-549281/9857045414/9867245414</div>
+          <div class="col-md-4">&nbsp;<i class="fas fa-phone">&nbsp;</i>071-549281/9857045414/9867245414</div>
       
         <div class="col-md-2 text-center"><i class="fas fa-envelope mr-2" ></i>&nbsp;info@hubit.com.np</div>
         <div class="col-md-2 text-center " id="miss"></div>
@@ -17,18 +17,9 @@
 
         <a href="facebook.com" class="icon-social" ><i class="fab fa-google" ></i></a>
         </div>
-<<<<<<< HEAD
-        <div class="col-md-2 hire-talent"><button>Hire Talent</button></div>
-=======
-<<<<<<< HEAD
-        <div class="col-md-2 hire-talent"><button>Hire Talent</button></div>
+        <div class="col-md-1.5 hire-talent"><button>Hire Talent</button></div>
         <div class="col-md-1 sign-up"><a href="login"><i class="fas fa-user"></i></a></div>
-=======
-        <div class="col-md-1 hire-talent"><button>Hire Talent</button></div>
->>>>>>> d705793f15230dabe688425185438f38812b5120
-        <div class="col-md-1 sign-up"><i class="fas fa-user"></i></div>
->>>>>>> 39305eea426ed918bc10b551e016a31ef83aa306
-
+       
         
 
       
@@ -71,11 +62,12 @@
         gallery
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="ourmembers" >Our members</a></li>
-          <li><a class="dropdown-item" href="ourworks" >Our Works</a></li>
+          <li><a class="dropdown-item" href="ourmembers" >Our Team</a></li>
+          <li><a class="dropdown-item" href="ourworks" >Our Training Moments</a></li>
           <li><a class="dropdown-item" href="ourpatners" >Our Patners</a></li>
           <li><a class="dropdown-item" href="ourclients" >Our Clients</a></li>
-          <li><a class="dropdown-item" href="ourprojects" >Our Projects</a></li>
+
+
         </ul>
 </li>
 
