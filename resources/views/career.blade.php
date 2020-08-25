@@ -127,9 +127,10 @@
         
         <div class="career container">
     <div class="internship">
-      <h2>Intership Programme</h2>
-      <h4>(For the students who enroll in one of our job  intensive training course.)</h4>
-      <p>We believe that studying and working platform are totally different .To let students 
+      <h2>Job/Internship Programme </h2>
+      <h4>(For the students  who enroll in one of our job  intensive training course.)</h4>
+      <p>We provide a job placement with our partners (Other organization who are willing to enroll students)
+        .We believe that studying and working platform are totally different .To let students 
         experience that difference in platform we offer them internship programme .Joining a company as 
         an intern gives you the opportunity to work hands on in a professional environment .
         As an intern you're not just there to get coffee or run errands but you're there to gain actual
@@ -139,14 +140,14 @@
          time management. When you're working in a fast paced professional environment you need to know every
           minute counts.Internships provide you with the building blocks you need for your future.
           Below listed are the criterias to apply for the internship.</p>
-      <h5>Criteria we seek in an intern...</h5>
+      <h5>Criteria we place in an intern/job...</h5>
         <ul>
           <li>Good knowledge of applying field</li>
           <li>Disciplined</li>
           <li>Hardworking</li>
           <li>Positive attitude</li>
           <li>Punctual</li>
-          <li>Academic: +2 minimum</li>
+          <li>Compulsory attend the training(Extra professional training provided)</li>
         </ul>
     </div>
     
@@ -155,18 +156,23 @@
     
 </div>
         <div class="job">
-        <h2>Job Placement</h2>
-        <h4>(This is for those people who contact our office directly for any job vacancies.)</h4>
-        <p>We not only provide internship but also help in job placement for the best candidate . We frequently hire people who are looking for career growth and are willing to learn technical skills on our On-Job-Training  programme. We also hire part-timers as well (specially working students). Candidate with no technical knowledge or skill also can contact our office for job oppurtunities. </p>
+        <h2>Job/intern on HUB IT</h2>
+        <h4>(This is for those people who contact our office directly or from any other social medium
+           for any job/intern vacancies.)</h4>
+        <p>We not only provide internship also we are looking for the best candidate to grow together 
+          . We frequently hire people who are looking for career growth and are willing to learn technical skills on our On-Job-Training  programme. We also hire part-timers as well (specially working students). Candidate with no technical knowledge or skill also can contact our office for job oppurtunities. </p>
         <h5>Criteria we seek in an candidate...</h5>
           <ul>
             <li>Disciplined</li>
             <li>Hardworking</li>
             <li>Positive attitude</li>
             <li>Punctual</li>
-            <li>Academic: SEE minimum</li>
+            <li>Academic: Depend on the position you are applying</li>
             <li>Motorcycle License</li>
           </ul>
+          <h5>If you are eligible on our criterias you can join us by just filling the bio-data form
+            our HR will set a call for you further
+          </h5>
     <hr>
 
       </div>

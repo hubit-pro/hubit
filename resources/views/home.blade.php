@@ -201,8 +201,7 @@ in the process we share some timeless moments, some of those are captured in pho
       <p>OUR RECENT CLIENTS</p>
       <hr>
       <div class="container">
-<p class="quotes-moments"><i class="fas fa-quote-left"></i>We always welcome anyone who are willing to learn new things and 
-in the process we share some timeless moments, some of those are captured in photos. 
+<p class="quotes-moments"><i class="fas fa-quote-left"></i>Above and beyond, not only are we an innovation company, we are in service of our clients. 
 <i class="fas fa-quote-right"></i>
 </p>
 

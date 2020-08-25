@@ -122,7 +122,6 @@
 
   <!-- Grid column -->
   <div class="col-md-1   text-center link" >
-
     <!-- Links -->
     <h6 class="text-uppercase font-weight-bold mt-3 text-ce nter">Links</h6>
     <hr class=" mt-0 d-inline-block mx-auto" style="width: 80%; background-color:white;">
@@ -131,23 +130,15 @@
       <li><a  href="home-solution">IT Solution</a></li>
       <li><a href="home-training">IT Training</a></li>  
       <li><a href="home-training">Online admission</a></li>  
-      <li><a href="home-training">Ticket support</a></li>  
       <li><a href="home-training">About us</a></li>  
       <li><a href="home-training">Contact us</a></li>  
       <li><a href="home-training">Services</a></li>  
-      <li><a href="home-training">Career</a></li>  
-      
       <li><a href="home-training">Blog</a></li>  
-      <li><a href="home-training">IT Training</a></li> 
       <li><a href="privacy-policy">Privacy policy</a></li>
-        <li><a href="FAQ">FAQ</a></li>
-        <li><a href="#">Terms & Conditions</a></li>
-        <li><a href="#">Hire talent</a></li>
- 
-        
+      <li><a href="FAQ">FAQ</a></li>
+      <li><a href="#">Terms & Conditions</a></li>
+      <li><a href="#">Hire talent</a></li>
     </ul>
-     
-
   </div>
   <!-- Grid column -->
 

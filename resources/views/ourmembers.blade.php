@@ -13,9 +13,10 @@
 
 <div class="container-fluid text-center banner">
   <h1>Our Teams</h1>
-  <p> <i class="fas fa-quote-left mr-3" style="color:red ;"></i>We are continuously improving our service deliverables, 
-    working methodologies and injecting new technologies 
-   in our service base .<i class="fas fa-quote-right ml-3 " style="color:red ;"></i> </p>
+  <p> <i class="fas fa-quote-left mr-3" style="color:red ;"></i>
+    Alone we can do so little; together we can do so much with high performance teams, 
+    with our best team our customers  receive their requested Products & Services more quickly, 
+    as the teams can fill these needs more rapidly<i class="fas fa-quote-right ml-3 " style="color:red ;"></i> </p>
 </div>
 
 
