@@ -14,13 +14,13 @@
 
   
 <!-- Footer Links -->
-<div class="container-fluid  mt-5 pl-5" style="border-top:2px solid #51be78;">
+<div class="container-fluid  mt-5 " style="border-top:2px solid #51be78; padding-left:100px !important;">
 
 <!-- Grid row -->
 <div class="row mt-3">
 
   <!-- Grid column -->
-  <div class="col-md-1 products ">
+  <div class="col-md-1 products  ">
 
     <!-- Content -->
     <h6 class="text-uppercase font-weight-bold mt-3 text-center ">Products</h6>

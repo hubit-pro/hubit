@@ -3,9 +3,9 @@
   <div class="top-header">
       
         
-          <div class="col-md-4">&nbsp;<i class="fas fa-phone">&nbsp;</i>071-549281/9857045414/9867245414</div>
+          <div class="col-md-3">&nbsp;<i class="fas fa-phone">&nbsp;</i>071-549281/9857045414/9867245414</div>
       
-        <div class="col-md-2 text-center e-mail"><i class="fas fa-envelope mr-2" ></i>&nbsp;info@hubit.com.np</div>
+        <div class="col-md-2 text-center"><i class="fas fa-envelope mr-2" ></i>&nbsp;info@hubit.com.np</div>
         <div class="col-md-2 text-center " id="miss"></div>
         
         <div class="col-md-2 text-center top-social-icon">
@@ -18,7 +18,11 @@
         <a href="facebook.com" class="icon-social" ><i class="fab fa-google" ></i></a>
         </div>
         <div class="col-md-2 hire-talent"><button>Hire Talent</button></div>
+
+        
         <div class="col-md-1 sign-up"><a href="login"><i class="fas fa-user"></i></a></div>
+       
+
 
         
 

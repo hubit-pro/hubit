@@ -57,6 +57,9 @@ ul li  {
 .bottom-footer li a{
     color: black;
 }
+.header a{
+    float: right;
+}
 
 
 @media only screen and (max-width: 766px) {
@@ -88,6 +91,14 @@ ul li  {
 }
 
 }
+@media (min-width: 0px) and (max-width: 615px) {
+    .header a{
+        text-align: center !important;
+    }
+    
+    
+}
+
 @media (min-width: 0px) and (max-width: 800px) {
     body{
         zoom: 90%;
@@ -125,15 +136,8 @@ ul li  {
         .ittraining .row .col-md-4{
             width: 30%;
         }
+
+   
     }
-
-    @media (min-width: 768px){
-       .col-md-1{
-           max-width: 22% !important;
-       }
-
-    }
-
-    
 
 
