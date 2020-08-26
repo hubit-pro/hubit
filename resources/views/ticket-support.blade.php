@@ -8,7 +8,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/ticket-support.css">
+<style>
+#login .container #login-row #login-column #login-box {
+  margin-top: 100px;
+  max-width: 600px;
+  height: 500px;
+  background-color: #EAEAEA;
+}
+#login h3{
+  color:#ff9800 !important ;
+  
+}
 
+</style>
 
     
     <title>Ticket-support</title>
@@ -22,12 +34,13 @@
 
 <img  src='img/supportbanner.jpg' class="ticket-banner">
 </div>
-<section class="container mt-5" id="border">  
+<section class="container-fluid mt-5 m-5" id="border">  
   
 
 <div class="row mb-5">
   
-    <div class="col-md-7 ">
+    <div class="col-md-5 ">
+      <p> If you are new to our services please, Fill the Form Below For Support</p>
 <h3>CREATE NEW TICKET</h3>
 
 
@@ -140,18 +153,36 @@
             </div>
 
             <div class="col-md-5 solution-div">
-        <h1 style="text-align:center;">solution</h1><hr>
-        <h3>Hardware Problems</h3>
-         <ul>
-         <li>Blank monitors....</li>
-         <li>Mouse Problems. ...</li>
-         <li>Jumpy Mouse. ...</li>
-         <li>PC won't recognize my USB camera. ...</li>
-         <li>My smartphone will not synch with my PC. ...</li>
-         <li>Keyboard Problems. ...</li>
-         <li>Power Cord Problems. ...</li>
-         <li>Motherboard Problems.</li>
-         </ul>
+            <div id="login">
+      <p> If you are Regular customer of our store  please , log in for support</p>
+       
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">Login</h3>
+                            <div class="form-group">
+                                <label for="username" class="text-info">Username:</label><br>
+                                <input type="text" name="username" id="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-info">Password:</label><br>
+                                <input type="text" name="password" id="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+                            </div>
+                            <div id="register-link" class="text-right">
+                                <a href="#" class="text-info">Register here</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
       </div>

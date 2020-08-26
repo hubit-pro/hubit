@@ -20,11 +20,18 @@ width: 30%;
 }
 
 /* ticket support form div */ 
-#border{
+#border .row .col-md-5{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px;
+}
+#border .row .col-md-5 p{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color:#ff9800 ;
 }
 /* ticket support heading of form */
-#border .col-md-7 h3{
+#border .col-md-5 h3{
     text-align:center; 
     margin:10px;
 }
@@ -46,7 +53,7 @@ width: 30%;
 }
 /* solution-side of tixket support */
 .solution-div{
-    background-color: #51be7db8;
+    background-color: #EAEAEA;
 }
 /* your problems and its options */
 .no-border {
@@ -83,23 +90,10 @@ width: 30%;
     background-color: rgb(157, 230, 84);
 }
 
-.btnContact:active{
+.btnContact:active{ 
     outline: none ;
 
 }
-.solution-div h3{
-    color:#ff9800 ;
-}
-.solution-div ul li{
-    font-size: 1.5vw;
-    font-weight: bold;
-    text-align: left;
-    margin-top:20px;
-
-}
-    
-}
-
 @media (min-width: 0) and (max-width: 768px) {
 .btnContact{
 
