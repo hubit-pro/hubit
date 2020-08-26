@@ -96,6 +96,9 @@ in the process we share some timeless moments, some of those are captured in pho
 </p>
 </div>
 </div>
+<div class="container-fluid see-all">
+  <p><a href="ourmembers">See All >></a></p>
+</div>
 
 
 <section class="container-fluid pb-4">
@@ -211,7 +214,9 @@ in the process we share some timeless moments, some of those are captured in pho
 	</div>
 </section>
 <!------------------------CLIENTS TOPIC END---------------------------->
-
+<div class="container-fluid see-all">
+  <p><a href="ourclients">See All >></a></p>
+</div>
 
 <!-----------------------CLIENTS START-------------------------------->
 

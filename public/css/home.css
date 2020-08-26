@@ -110,6 +110,20 @@ body{
 	color:grey;
 	margin-top: 60px;
 }
+.see-all {
+margin: -20px;
+}
+.see-all p a{
+	float:right;
+	margin-top:-50px;
+	font-weight: bold;
+	color:#ff9800 ;
+	font-size: 1vw;
+}
+.see-all p a:hover{
+	color: crimson;
+}
+
 
 /* Quopes of our memorable moments */
 .quotes-moments{
@@ -448,6 +462,9 @@ body{
   .content1 p{
 	  display: none;
 	}
+.see-all p a{
+	margin-top:-20px !important;
+}
 
 }
 

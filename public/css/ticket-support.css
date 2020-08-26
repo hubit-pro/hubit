@@ -104,6 +104,10 @@ width: 30%;
 #border .row .col-md-5{
     margin: 0px;
 }
-
-
+#login .container #login-row #login-column #login-box {
+    margin-top:10px !important;
+    }
+#login-box h3{
+    margin-bottom: 50px !important;
+}
 }
