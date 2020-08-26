@@ -26,9 +26,20 @@
 <!-- Grid row -->
 
 <div class="row m-3" >
+<div class="col-md-2">
 
+<div class="sidebar">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+</div>
 
   <!-- Grid column -->
+<div class="col-md-10">
+<div class="row">
+
   <div class="col-lg-3 col-md-6 mt-3">
 
     <!--Modal: Name-->

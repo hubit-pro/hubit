@@ -15,14 +15,12 @@
 </head>
 <body >
 @include('includes/navhome')  
-<h1 class="head-ticket-support">TICKET-SUPPORT
-  <hr>
-</h1>
 
 
-<div class="container">
 
-<img  src='img/tivket-support.png'>
+<div class="container-fluid ">
+
+<img  src='img/supportbanner.jpg' class="ticket-banner">
 </div>
 <section class="container mt-5" id="border">  
   
@@ -51,8 +49,8 @@
     <input type="number" class="no-border" id="input number" placeholder="">
   </div>
   <div class="form-group col-md-6">
-    <label for="inputAddress2">Courses</label>
-    <input type="text" class="no-border" id="inputAddress2" placeholder="">
+    <label for="inputAddress2">telephone</label>
+    <input type="number" class="no-border" id="input number1" placeholder="">
   </div>
 </div>
 <div class="form-group">
@@ -142,7 +140,19 @@
             </div>
 
             <div class="col-md-5 solution-div">
-        <h1 style="text-align:center;">solution</h1>
+        <h1 style="text-align:center;">solution</h1><hr>
+        <h3>Hardware Problems</h3>
+         <ul>
+         <li>Blank monitors....</li>
+         <li>Mouse Problems. ...</li>
+         <li>Jumpy Mouse. ...</li>
+         <li>PC won't recognize my USB camera. ...</li>
+         <li>My smartphone will not synch with my PC. ...</li>
+         <li>Keyboard Problems. ...</li>
+         <li>Power Cord Problems. ...</li>
+         <li>Motherboard Problems.</li>
+         </ul>
+
 
       </div>
 

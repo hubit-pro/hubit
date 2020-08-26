@@ -5,6 +5,9 @@
     @include('includes/homehead')
 	<title>Our Members</title>
   <link rel="stylesheet" type="text/css" href="css/gallery.css">
+  <style>
+ 
+  </style>
 
     <title>Ourmembers</title>
 </head>
@@ -24,9 +27,15 @@
 <!-- Grid row -->
 
 <div class="row m-3" >
+<div class="col-md-2">
 
-<div class="col-md-2"></div>
-
+<div class="sidebar">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+</div>
 
   <!-- Grid column -->
 <div class="col-md-10">

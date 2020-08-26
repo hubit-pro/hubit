@@ -24,9 +24,13 @@
 
 <div class="row m-3" >
 <div class="col-md-2">
-  <a href="#"> our works</a><br>
-  <a href="#"> our projects</a>
 
+<div class="sidebar">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
 </div>
 
   <!-- Grid column -->

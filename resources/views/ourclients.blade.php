@@ -27,9 +27,21 @@
 <!-- Grid row -->
 
 <div class="row m-3" >
+<div class="col-md-2">
 
+<div class="sidebar">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+</div>
 
   <!-- Grid column -->
+<div class="col-md-10">
+<div class="row">
+
+
   <div class="col-lg-3 col-md-6 mt-3">
 
     <!--Modal: Name-->
@@ -529,8 +541,17 @@
 
   
   <!-- Grid column -->
-
 </div>
+</div>
+<nav aria-label="Page navigation example " style="margin-top:100px; margin-left:50%;">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
 
 
 
