@@ -34,12 +34,12 @@
 
 <img  src='img/supportbanner.jpg' class="ticket-banner">
 </div>
-<section class="container-fluid mt-5 m-5" id="border">  
+<section class="container-fluid mt-5 " id="border">  
   
 
 <div class="row mb-5">
   
-    <div class="col-md-5 ">
+    <div class="col-md-5  ">
       <p> If you are new to our services please, Fill the Form Below For Support</p>
 <h3>CREATE NEW TICKET</h3>
 
