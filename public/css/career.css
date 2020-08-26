@@ -23,6 +23,7 @@ body{
 /* Bio-data form text */
 .contact-form h3{
   padding-bottom: 20px;
+  padding-top: 100px;
 
 }
 /* sumbit button of bio-data form */
@@ -64,7 +65,38 @@ body{
   height: 300px; 
   width: 100%;
 }
+.job{
+  padding: 50px;
+  
+}
+.job ul li{
+  text-align:left;
+}
+.job h2{
+  color: #ff9800;
+}
+.job h5{
+  color: #ff9800;
+}
+.internship{
+  margin-top: 50px;
+  padding: 50px;
+}
+.internship ul li{
+  text-align: left;
+}
+.internship h2{
+  color: #ff9800;
 
+}
+.internship h5{
+  color: #ff9800;
+
+}
+.vacancy{
+  height: 200px;
+  width: 100%;
+}
 /* footer css in foteer.css */
 @media (min-width: 0px) and (max-width: 1024px) {
   .col-xl-4{

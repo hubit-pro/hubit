@@ -14,13 +14,13 @@
 
   
 <!-- Footer Links -->
-<div class="container-fluid  mt-5 " style="border-top:2px solid #51be78; padding-left:100px !important;">
+<div class="container-fluid  mt-5 " style="border-top:2px solid #51be78;">
 
 <!-- Grid row -->
 <div class="row mt-3">
 
   <!-- Grid column -->
-  <div class="col-md-1 products  ">
+  <div class="col-md-2 products  ">
 
     <!-- Content -->
     <h6 class="text-uppercase font-weight-bold mt-3 text-center ">Products</h6>
@@ -122,7 +122,6 @@
 
   <!-- Grid column -->
   <div class="col-md-1   text-center link" >
-
     <!-- Links -->
     <h6 class="text-uppercase font-weight-bold mt-3 text-ce nter">Links</h6>
     <hr class=" mt-0 d-inline-block mx-auto" style="width: 80%; background-color:white;">
@@ -131,23 +130,20 @@
       <li><a  href="home-solution">IT Solution</a></li>
       <li><a href="home-training">IT Training</a></li>  
       <li><a href="home-training">Online admission</a></li>  
-      <li><a href="home-training">Ticket support</a></li>  
       <li><a href="home-training">About us</a></li>  
       <li><a href="home-training">Contact us</a></li>  
       <li><a href="home-training">Services</a></li>  
-      <li><a href="home-training">Career</a></li>  
-      
       <li><a href="home-training">Blog</a></li>  
-      <li><a href="home-training">IT Training</a></li>  
-        
+      <li><a href="privacy-policy">Privacy policy</a></li>
+      <li><a href="FAQ">FAQ</a></li>
+      <li><a href="#">Terms & Conditions</a></li>
+      <li><a href="#">Hire talent</a></li>
     </ul>
-     
-
   </div>
   <!-- Grid column -->
 
   <!-- Grid column -->
-  <div class="col-lg-3 p-0 contact ">
+  <div class="col-md-3 p-0 contact ">
 
     <!-- Links -->
 <h6 class="text-uppercase font-weight-bold mt-3 text-center">Contact</h6>
@@ -193,9 +189,9 @@
 
 
   
-  <div class="container-fluid mt-5 row ">
+  <div class="container-fluid mt-5 ">
   
-      <div class="header col-md-7 text-center">
+      <div class="header text-center">
       
       
         <a href="facebook.com" class="icon " ><i class="fab fa-facebook-square" ></i></a>
@@ -207,16 +203,7 @@
         <a href="facebook.com" class="icon" ><i class="fab fa-google" ></i></a>
       </div>
 
-      <div class=" col-md-5 bottom-footer text-center">
-      <ul>
-        <li><a href="privacy-policy">Privacy policy</a></li>
-        <li><a href="FAQ">FAQ</a></li>
-        <li><a href="#">Terms & Conditions</a></li>
-        <li><a href="#">Hire talent</a></li>
-
-
-      </ul>
-</div>
+      
 
 
      </div>

@@ -15,8 +15,11 @@
   <!------------------------ navbar------------------ -->
 
 
-<div class="container-fluid text-center">
+<div class="container-fluid text-center banner">
   <h1>Our Clients</h1>
+  <p> <i class="fas fa-quote-left mr-3" style="color:red ;"></i>We are continuously improving our service deliverables, 
+    working methodologies and injecting new technologies 
+   in our service base .<i class="fas fa-quote-right ml-3 " style="color:red ;"></i> </p>
 </div>
 
 

@@ -13,8 +13,12 @@
 <body>
 @include('includes/navhome')
 
-<div class="container-fluid text-center">
-  <h1>Our Patners</h1>
+
+<div class="container-fluid text-center banner">
+  <h1>Our patners</h1>
+  <p> <i class="fas fa-quote-left mr-3" style="color:red ;"></i>We are continuously improving our service deliverables, 
+    working methodologies and injecting new technologies 
+   in our service base .<i class="fas fa-quote-right ml-3 " style="color:red ;"></i> </p>
 </div>
 
 

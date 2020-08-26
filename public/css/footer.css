@@ -57,8 +57,22 @@ ul li  {
 .bottom-footer li a{
     color: black;
 }
-.header a{
-    float: right;
+.icon .fa-instagram:hover{
+    background: linear-gradient(45deg,#F58529,#FEDA77,#DD2A7B,#8134AF,#515BD4) !important;
+
+}
+.icon .fa-youtube:hover{
+    color: red !important;
+    
+}
+.icon .fa-twitter-square:hover{
+    color: #1DA1F2;
+}
+.icon .fa-linkedin:hover{
+    color: #0e76a8;
+}
+.icon .fa-google:hover{
+    color: #f4c20d;
 }
 
 
@@ -84,7 +98,7 @@ ul li  {
 }
 
 @media (min-width: 992px){
-.col-lg-3 {
+.col-md-3 {
     -ms-flex: 0 0 25%;
     flex: 22 0 0%;
     max-width: 25%;
