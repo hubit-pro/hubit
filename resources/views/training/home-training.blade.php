@@ -2,7 +2,7 @@
 <html>
 <head>
 	@include("includes/traininghead")
-  <link rel="stylesheet" type="text/css" href=" css/home-training.css" >
+  <link rel="stylesheet" type="text/css" href=" css/training/home-training.css" >
 
 </style>
 </head>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Services</title>
     @include('includes/traininghead')
-    <link rel="stylesheet" type="text/css" href="css/business-services.css">
+    <link rel="stylesheet" type="text/css" href="css/training/business-services.css">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200;1,500&family=Oswald:wght@500&family=Teko:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -22,7 +22,7 @@
   <button>GET STARTED</button>
 </div>
 <div class="row innovation">
-    <div class="col-md-5">
+    <div class="col-md-6">
     <h2 style="white-space: pre-wrap;"><strong>INJECT INNOVATION<br>INTO YOUR BUSINESS</strong></h2>
     <h3 style="white-space: pre-wrap;">Developing talent for high-growth and innovative companies is our core expertise:</h3>
      <ul data-rte-list="default">
@@ -40,61 +40,35 @@
     </ul>
     </div>
 
-    <div class="col-md-6 top-hire">
-    <form>
-  <div class="form-row">
-    <div class="form-group col-md-5">
-      <label for="inputname">Name</label>
-      <input type="text" class=" no-border" id="inputname" placeholder="">
+    <div class="col-md-4 top-hire">
+        <h3>Hire Top Talent</h3>
+    <form action="#">
+  <div class="row">
+    <div class="col">
+      <label>First Name</label>
+      <input type="text" class="form-control" placeholder="" required>
     </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Email</label>
-      <input type="email" class="no-border" id="inputemail" placeholder="">
+    <div class="col">
+    <label>Last Name</label>
+      <input type="text" class="form-control" placeholder="" required>
     </div>
   </div>
-  <div class="form-row">
+</form>
 
-  <div class="form-group col-md-6">  
-    <label for="inputAddress">Mobile Number</label>
-    <input type="number" class="no-border" id="input number" placeholder="">
+<form>
+  <div class="row">
+    <div class="col">
+    <label>Company</label>
+      <input type="text" class="form-control" placeholder="" required>
+    </div>
+    <div class="col">
+    <label>Phone</label>
+      <input type="text" class="form-control" placeholder="" required>
+    </div>
   </div>
-  <div class="form-group col-md-6">
-    <label for="inputAddress2">telephone</label>
-    <input type="number" class="no-border" id="input number1" placeholder="">
-  </div>
-</div>
-<div class="form-group">
-<label for="inputAddress">Address </label>
-<input type="text" class="no-border" id="inputAddress2" placeholder="">
-</div>
+</form>
 
 
-
-
-
-
-    
-       <div class="form-group">
-    <label for="seeAnotherField">YOUR PROBLEMS</label>
-    <select class="no-border" id="seeAnotherField">
-          <option value="no"></option>
-          <option value="yes">HARDWARE</option>
-          <option value="true">SOFTWARE</option>
-          <option value="y">Networking</option>
-
-
-    </select>
-  </div> 
-           
-                <div class="form-group">
-                      <label for="exampleFormControlFile1">ATTACHMENT</label>
-                      <input type="file" class="no-border-file" id="exampleFormControlFile1">
-                 </div>
-
-                <div class="form-group">
-                    <textarea name="txtMessage" class="no-border" placeholder="Describe your Problems!! " required="" 
-                   ></textarea>
-                </div>
      
     </div>
 </div>

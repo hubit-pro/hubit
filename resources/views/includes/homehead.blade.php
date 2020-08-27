@@ -64,8 +64,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">  
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <link rel="stylesheet" type="text/css" href="css/top-header.css">
-  <link rel="stylesheet" type="text/css" href="css/gallery.css">
-  <link rel="stylesheet" type="text/css" href="css/navhome.css">
+  <link rel="stylesheet" type="text/css" href="css/home/navhome.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
 
 

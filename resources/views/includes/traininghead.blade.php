@@ -71,7 +71,7 @@
   <link rel="stylesheet" href="o/css/bootstrap-datepicker.css"> 
   <link rel="stylesheet" href="o/fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" type="text/css" href="css/top-header.css">
-  <link rel="stylesheet" type="text/css" href="css/navtraining.css">
+  <link rel="stylesheet" type="text/css" href="css/training/navtraining.css">
   <link rel="stylesheet" href="o/css/aos.css">
   <link href="o/css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="o/css/style.css">

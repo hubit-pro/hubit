@@ -3,7 +3,7 @@
 <head>
     
     @include('includes/homehead')
-<link rel="stylesheet" type="text/css" href="css/gallery.css">
+<link rel="stylesheet" type="text/css" href="css/home/gallery.css">
 
     
     <title>Our Clients</title>

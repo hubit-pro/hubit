@@ -3,7 +3,7 @@
 <head>
 	@include('includes/homehead')
   <title>Career</title>
-  <link rel="stylesheet" type="text/css" href="css/career.css">
+  <link rel="stylesheet" type="text/css" href="css/home/career.css">
 
 
 </head>

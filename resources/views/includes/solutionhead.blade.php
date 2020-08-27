@@ -8,13 +8,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="css/home-solution.css">
-  <link rel="stylesheet" type="text/css" href="css/contact-solutions.css">
-  <link rel="stylesheet" type="text/css" href="css/products.css">
-  <link rel="stylesheet" type="text/css" href="css/services.css">
-  <link rel="stylesheet" type="text/css" href="css/career.css">
+  <link rel="stylesheet" type="text/css" href="css/solution/home-solution.css">
+  <link rel="stylesheet" type="text/css" href="css/solution/contact-solutions.css">
+  <link rel="stylesheet" type="text/css" href="css/solution/products.css">
+  <link rel="stylesheet" type="text/css" href="css/solution/services.css">
+  <link rel="stylesheet" type="text/css" href="css/solution/career.css">
   <link rel="stylesheet" type="text/css" href="css/top-header.css">
-  <link rel="stylesheet" type="text/css" href="css/navsolution.css">
+  <link rel="stylesheet" type="text/css" href="css/solution/navsolution.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
 
 

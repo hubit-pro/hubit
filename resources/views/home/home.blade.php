@@ -3,7 +3,7 @@
 <head>
 
   @include("includes/homehead")
-  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" type="text/css" href="css/home/home.css">
 
 	<title>Best IT Training In Butwal Nepal</title>
 

@@ -18,116 +18,95 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    return view('home');
+    return view('home/home');
 });
 
 Route::get('home', function () {
-    return view('home');
+    return view('home/home');
 });
-
+Route::get('career', function () {
+    return view('home/career');
+});
 
 Route::get('about', function () {
-    return view('about');
+    return view('home/about');
 });
-
-
-Route::get('blogs', function () {
-    return view('blogs');
-});
-
-
-Route::get('career-training', function () {
-    return view('career-training');
-});
-
-Route::get('career', function () {
-    return view('career');
-});
-
-Route::get('contact-solutions', function () {
-    return view('contact-solutions');
-});
-
-
-Route::get('home-training', function () {
-    return view('home-training');
-});
-
-Route::get('library', function () {
-    return view('library');
-});
-
-Route::get('home-solution', function () {
-    return view('home-solution');
-});
-
 Route::get('gallery', function () {
-    return view('gallery');
+    return view('home/gallery');
 });
-
-Route::get('gallery-training', function () {
-    return view('gallery-training');
-});
-
-Route::get('products', function () {
-    return view('products');
-});
-Route::get('services', function () {
-    return view('services');
-});
-
-Route::get('course', function () {
-    return view('course-training');
-});
-
-
 Route::get('contact', function () {
-    return view('contact');
+    return view('home/contact');
 });
-
-
 Route::get('online-admission', function () {
-    return view('online-admission');
+    return view('home/online-admission');
 });
 
 
 Route::get('ourclients', function () {
-    return view('ourclients');
+    return view('home/ourclients');
 });
 
 Route::get('ourmembers', function () {
-    return view('ourmembers');
+    return view('home/ourmembers');
 });
 
 Route::get('ourpatners', function () {
-    return view('ourpatners');
+    return view('home/ourpatners');
 });
 
 Route::get('ourprojects', function () {
-    return view('ourprojects');
+    return view('home/ourprojects');
 });
 
 Route::get('ourworks', function () {
-    return view('ourworks');
+    return view('home/ourworks');
 });
 
 
 Route::get('ticket-support', function () {
-    return view('ticket-support');
+    return view('home/ticket-support');
 });
 
 Route::get('privacy-policy', function () {
-    return view('privacy-policy');
+    return view('home/privacy-policy');
 });
 
 Route::get('FAQ', function () {
-    return view('FAQ');
+    return view('home/FAQ');
+});
+Route::get('blogs', function () {
+    return view('training/blogs');
+});
+Route::get('home-training', function () {
+    return view('training/home-training');
+});
+Route::get('library', function () {
+    return view('training/library');
+});
+Route::get('career-training', function () {
+    return view('training/career-training');
+});
+Route::get('course', function () {
+    return view('training/course-training');
 });
 Route::get('business-services', function () {
-    return view('business-services');
+    return view('training/business-services');
+});
+
+Route::get('contact-solutions', function () {
+    return view('training/contact-solutions');
+});
+Route::get('home-solution', function () {
+    return view('solution/home-solution');
+});
+Route::get('products', function () {
+    return view('solution/products');
+});
+Route::get('services', function () {
+    return view('solution/services');
 });
 Route::get('login', function () {
-    return view('login');
+    return view('admin-panel/login');
 });
 
 

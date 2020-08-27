@@ -4,7 +4,7 @@
     
     @include('includes/homehead')
   <title>Our Members</title>
-  <link rel="stylesheet" type="text/css" href="css/gallery.css">
+  <link rel="stylesheet" type="text/css" href="css/home/gallery.css">
   
 
 </head>
