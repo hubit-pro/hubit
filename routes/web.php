@@ -123,6 +123,9 @@ Route::get('privacy-policy', function () {
 Route::get('FAQ', function () {
     return view('FAQ');
 });
+Route::get('business-services', function () {
+    return view('business-services');
+});
 Route::get('login', function () {
     return view('login');
 });

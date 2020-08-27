@@ -1,0 +1,81 @@
+body{
+	overflow-x: hidden;
+}
+.banner{
+    height: 600px;
+    width: 100%;
+   
+}
+.container-fluid h1{
+    text-align: center !important;
+    top:25%;
+    left: 20%;
+    right: 20%;
+    position: absolute;
+    font-size: 4.5vw;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+.container-fluid p{
+    position: absolute;
+    top:45%;
+    left: 10%;
+    right: 10%;
+    font-size: 2vw;
+    color: black;
+    line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+.banner img{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+opacity: 0.2;
+width: 100%;
+height: 100%;
+}
+.banner button{
+    border: none;
+    position: absolute;
+    top:65%;
+    left: 40%;
+    right: 40%;
+    width: 20vw;
+    height: 5vw;
+    background-color: #ff9800;
+    font-weight: bold;
+    color: white;
+    font-size: 1.7vw;
+}
+.innovation{
+    margin-top: 4%;
+
+}
+.innovation .col-md-5 h2{
+    color: black;
+    font-size: 2.5vw;
+    margin-bottom: 30px;
+    font-family: 'kanit', sans-serif;
+    font-weight: bold;
+
+}
+.innovation .col-md-5 h3{
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+.innovation .col-md-5 ul li{
+    font-size: 1.7vw;
+}
+.innovation .col-md-5 ul li a{
+    color: #ff9800;
+}
+
+/* ticket support form div */ 
+.innovation  .top-hire{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 100px;
+}
+

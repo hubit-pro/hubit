@@ -2,6 +2,7 @@
 <html>
 <head>
 	@include("includes/traininghead")
+  <link rel="stylesheet" type="text/css" href=" css/home-training.css" >
 
 </style>
 </head>
@@ -24,7 +25,7 @@
 <!--------------------------SLIDER END------------------------>
 
 
-
+ 
 
 <!-------------------------TEXT CONTAINER-------------------->
 
@@ -613,7 +614,7 @@ $('.owl-item .show').parent().next().children('.item').addClass('next');
 <script type="text/javascript">
   var owl = $('.owl-carousel');
   owl.owlCarousel({
-    items:5,
+    items:3,
     loop:true,
     margin:0,
     autoplay:true,

@@ -59,55 +59,29 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <link rel="stylesheet" type="text/css" href="css/footer.css">
-  <link rel="stylesheet" type="text/css" href="css/navtraining.css">
-
-
-  
+  <link rel="stylesheet" type="text/css" href="css/navtraining.css">  
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
-
   <link rel="stylesheet" href="o/css/bootstrap.min.css">
   <link rel="stylesheet" href="o/css/jquery-ui.css">
   <link rel="stylesheet" href="o/css/owl.carousel.min.css">
   <link rel="stylesheet" href="o/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="o/css/owl.theme.default.min.css">
-
   <link rel="stylesheet" href="o/css/jquery.fancybox.min.css">
-
-  <link rel="stylesheet" href="o/css/bootstrap-datepicker.css">
-  <script src="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
-  <script src="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
-
+  <link rel="stylesheet" href="o/css/bootstrap-datepicker.css"> 
   <link rel="stylesheet" href="o/fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" type="text/css" href="css/top-header.css">
   <link rel="stylesheet" type="text/css" href="css/navtraining.css">
-
-
-
   <link rel="stylesheet" href="o/css/aos.css">
   <link href="o/css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
-
   <link rel="stylesheet" href="o/css/style.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
+
+
+ 
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+  <script src="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+  <script src="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
 
-   <!-- Please dont edit this code-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131576038-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-131576038-1');
-	</script>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WT6FX7W');</script>
-<!-- End Google Tag Manager -->
-<!-- to this -->
-<style>
+  
