@@ -165,7 +165,7 @@
 <section class="container-fluid p-5 text-center" style="background-color: white;">
 	<div class="row">
 		<div class="col-xl-12" style="color: darkslategray; border-bottom: 1px solid #082941;">
-			<h4>INTERNSHIP PROGRAMME</h4>
+			<h4>Some of our Sucess History</h4>
 		</div>
 	</div>
 </section>
@@ -176,24 +176,30 @@
 <section class="container-fluid p-5">
 	<div class="row">
 		<div class="col-xl-12">
+    <p>We believe that studying and working platform are totally different .
+    To let students experience that difference in platform we offer them Internship/Job programme.
+    Joining a company as an Intern/Job gives you the opportunity to work hands on in a professional 
+    environment .
+    As an Intern/Job you're not just there to get coffee or run errands 
+    but you're there to gain actual work experience .</p>
+
 			<div class="row intern">
 
 				<div class="col-xl-3">
 					<div class="go"></div>
 				</div>
-
-				<div class="col-xl-8 text-justify">
-					<p>We believe that studying and working platform are totally different .To let students experience that difference in platform we offer them internship programme .Joining a company as an intern gives you the opportunity to work hands on in a professional environment .As an intern you're not just there to get coffee or run errands but you're there to gain actual work experience .Internships are a way to test drive possible jobs and explore different career options .Without a solid resume it can be tougher to be considered for a position .Internships are key to building experience as a student or recent graduate .As an intern you'll become a master of time management. When you're working in a fast paced professional environment you need to know every minute counts.Internships provide you with the building blocks you need for your future.Below listed are the criterias to apply for the internship.</p>
+        <div class="col-xl-3">
+					<div class="go"></div>
+				</div><div class="col-xl-3">
+					<div class="go"></div>
+				</div><div class="col-xl-3">
+					<div class="go"></div>
 				</div>
-
-				<div class="col-xl-11 text-right">
+			</div>
+	</div>
+  <div class="col-xl-12 mt-2 text-right">
 					<a href="career-training"><button type="button" class="btn btn-secondary" style="color: white;">Know More</button></a>
 				</div>
-
-			</div>
-
-		</div>
-	</div>
 </section>
 <!------------------------INTERNSHIP END-------------------->
 
