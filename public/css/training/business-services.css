@@ -4,26 +4,27 @@ body{
 
 }
 .banner{
-    height: 600px;
+    height: 45vw;
     width: 100%;
-   
+    background-image: url("../../img/business-services.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner .header{
+    background-color: white;
+    height: 100%;
+    opacity: 0.6;
 }
 .header h1{
     text-align: center !important;
-    top:25%;
-    left: 20%;
-    right: 20%;
-    position: absolute;
-    font-size: 4.5vw;
+    font-size: 5vw;
     font-family: 'Oswald', sans-serif;
+    padding-top: 5%;
 }
 .header p{
-    position: absolute;
-    top:45%;
-    left: 10%;
-    right: 10%;
-    font-size: 2vw;
-    line-height: 30px;
+   
+    font-size: 2.5vw;
     font-family: 'Oswald', sans-serif;
 
 
@@ -32,16 +33,11 @@ body{
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-opacity: 0.2;
 width: 100%;
 height: 100%;
 }
 .banner button{
     border: none;
-    position: absolute;
-    top:65%;
-    left: 40%;
-    right: 40%;
     width: 20vw;
     height: 5vw;
     background-color: #ff9800;
@@ -49,40 +45,52 @@ height: 100%;
     color: white;
     font-size: 1.7vw;
 }
+.banner button:hover{
+    background-color: crimson;
+}
+
 .innovation{
     margin-top: 4%;
+    margin-bottom:4% ;
+    width: 100%;
 
 }
-.innovation .col-md-6 {
-    padding: 0px 100px 0px 100px;
+.innovation .col-md-7 .heading {
+    margin: 0px 5% 0px 5%;
 }
-.innovation .col-md-6 h2{
-    font-size: 2.5vw;
-    margin-bottom: 30px;
+.innovation .col-md-7 .heading h2{
+    font-size: 3vw;
+    margin-bottom: 5%;
     font-family: 'kanit', sans-serif;
     font-weight: bold;
+    text-align:center !important;
 
 }
-.innovation .col-md-6 h3{
-    margin-bottom: 20px;
+
+.innovation .col-md-7 .heading h3{
+    margin-bottom: 3%;
     font-weight: bold;
-    font-size: 1.8vw;
+    font-size: 2vw;
     
 }
-.innovation .col-md-6 ul li{
-    font-size: 1.7vw;
+.innovation .col-md-7 .heading ul li{
+    font-size: 1.6vw;
+    font-weight: bold;
+    text-align: left;
 }
-.innovation .col-md-6 ul li a{
+.innovation .col-md-7 .heading ul li a{
     color: #ff9800;
 }
 
-.innovation  .top-hire{
+.innovation  .top-hire .form-div{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin:0px 100px 0px 100px;
     background-color: #ff9800;
-}
+    margin:4% 5% 0px 5%;
+    padding: 4%;
+    text-align: center;
 
-.innovation  .top-hire h3{
+}
+.innovation  .top-hire .form-div h3{
     font-weight: bold;
     text-align: center;
     margin-top:20px ;
@@ -90,36 +98,35 @@ height: 100%;
     color: white;
 
 }
-.innovation  .top-hire .row  label{
+.innovation  .top-hire .form-div .row  label{
     color: white;
 }
 
-.innovation  .top-hire .Names .col{
+.innovation  .top-hire .form-div .Names .col{
     padding: 30px 20px 20px 20px;
 }
-.innovation  .top-hire .company .col{
+.innovation  .top-hire .form-div .company .col{
     padding: 20px 20px 20px 20px;
 }
-.innovation  .top-hire .E-mail .col-md-12{
+.innovation  .top-hire .form-div .E-mail .col-md-12{
     padding: 0px 20px 20px 20px;
 }
-.innovation  .top-hire .Selection .col-md-12{
+.innovation  .top-hire .form-div .Selection .col-md-12{
     padding: 0px 20px 20px 20px;
 
 }
-.innovation  .top-hire button{
+.innovation  .top-hire .form-div  button{
     border: none;
-    width: 20vw;
-    height: 4vw;
+    width: 200px;
+    height: 50px;
     font-weight: bold;
     color: white;
-    font-size: 1.7vw;
-    margin: 100px 130px 0px 130px;
+    font-size: 20px;
 }
 
 .Michale{
     margin:150px 0px;
-    height: 50vh;
+    height: auto;
     width: 100%;
     background-color: #00a6e5;
     color: white;
@@ -127,13 +134,14 @@ height: 100%;
 .Michale P{
     text-align: center;
     font-family: 'kanit', sans-serif;
-    font-size: 2vw;
-    padding: 80px 250px 20px 250px;
+    font-size: 25px;
+    padding: 80px 10% 20px 10%;
      
 }
 .Michale h6{
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 15px;
+    margin-bottom: 50px;
 }
 .Programs{
 width: 100%;
@@ -144,20 +152,51 @@ width: 100%;
 }
 .connect{
     width: 100%;
-    height: 300px;
+    height: 350px;
     background-color: #ffd941;
     margin-top: 100px;
+    text-align: center;
 }
-.connect h1{
+.connect h2{
     text-align: center;
     font-weight: bold;
     padding: 50px 0px 0px 0px;
 }
 .connect p{
     text-align: center;
-    font-size: 2.3vw;
-    padding: 0px 100px 0px 100px;
+    font-size: 20px;
+    padding: 20px 100px 0px 100px;
     font-weight: bold;
+}
+.connect button{
+    width: 200px;
+    font-size: 25px;
+    height: 50px;
 }
 
 
+
+
+@media (min-width: 0) and (max-width: 768px) {
+    body{
+        zoom: 80%;
+    overflow-x: hidden;
+
+    }
+    
+
+}
+@media (min-width: 0) and (max-width: 414px) {
+  
+
+    
+
+
+}
+@media (min-width: 0) and (max-width: 411px) {
+    body{
+        zoom: 80%;
+    overflow-x: hidden;
+
+    }
+}

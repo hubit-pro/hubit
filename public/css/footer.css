@@ -134,7 +134,7 @@ ul li  {
             flex: auto;
         }
         .ittraining .row .col-md-4{
-            width: 30%;
+            width: 33%;
         }
         .bottom-footer li{
             text-align: center;
@@ -148,7 +148,7 @@ ul li  {
     }
     @media (max-width: 320px){
         .ittraining .row .col-md-4{
-            width: 30%;
+            width: 33%;
         }
 
    
