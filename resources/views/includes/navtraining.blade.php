@@ -69,8 +69,8 @@
           <li><a class="dropdown-item" href="business-services" >Business services</a></li>
           <li><a class="dropdown-item" href="hire-top-talent" >Hire Top Talent</a></li>
           <li><a class="dropdown-item" href="corporate-training" >Corporate Training</a></li>
-          <li><a class="dropdown-item" href="customs-hakathons" >Customs Hackathons</a></li>
-          <li><a class="dropdown-item" href="corporate patners" >Corporate Patners</a></li>
+          <li><a class="dropdown-item" href="customs-hackathons" >Customs Hackathons</a></li>
+          <li><a class="dropdown-item" href="corporate-patners" >Corporate Patners</a></li>
 
 
 

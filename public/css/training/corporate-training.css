@@ -133,6 +133,68 @@ body{
     color: white;
     font-size: 20px;
 }
+.Training-programs h1{
+    margin:100px 0px 20px 0px;
+    font-weight: bold;
+
+}
+.Training-programs h3{
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.Training-programs .row .col-md-4 .row .first{
+    background-color: #ffd942;
+    margin:0px 0px 0px 100px;
+    padding: 0px 50px 50px 50px;
+    
+
+
+}
+.Training-programs .row .col-md-4 .row .second{
+    background-color: #ffd942;
+    margin:0px 20px 0px 60px;
+    padding: 0px 50px 50px 50px;
+    
+
+
+}
+.Training-programs .row .col-md-4 .row .third{
+    background-color: #ffd942;
+    margin:0px 100px 0px 20px;
+    padding: 0px 50px 50px 50px;
+    
+
+
+}
+.Training-programs .row .col-md-4 .row .col h3{
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0px 20px 0px ;
+    color: #111111;
+    font-size: 30px;
+}
+.Training-programs .row .col-md-4 .row .col p{
+    color: #000000;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    text-align: left;
+}
+.Training-programs .row .col-md-4 .row .col hr{
+    background-color: grey;
+}
+.Training-programs .row .col-md-4 .row .col button{
+    width: 80%;
+    height: 4vw;
+    background-color: crimson;
+    border: none;
+}
+
+
+
+
+
 
 
 
@@ -151,7 +213,7 @@ body{
     text-align: center;
 }
 /* redy get started heading */
-
+ 
 .connect h2{
     text-align: center;
     font-weight: bold;

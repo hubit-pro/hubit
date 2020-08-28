@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/training/hire-top-talent.css">
+    <link rel="stylesheet" type="text/css" href="../css/training/corporate-training.css">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200;1,500&family=Oswald:wght@500&family=Teko:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
 
-    <title>Hire Talent</title>
+    <title>Corporate Training</title>
     @include('includes/traininghead')
 </head>
 <body>
@@ -112,6 +112,82 @@
      </div>
     </div>
 </div>
+
+
+
+
+<div class="container-fluid Training-programs text-center">
+  <h1>TRAINING PROGRAMS<br>
+FOR ORGANIZATIONS OF ALL TYPES & SIZES</h1>
+<h3>We’ll apply our innovation-centric methodology to your specific needs.</h3>
+<div class="row">
+<div class="col-md-4">
+  <div class="row">
+<div class="col first">
+  <h3>Retain Talent</h3>
+  <p>Identifying and Promoting the Right People for Enterprise Innovation Initiatives</p>
+  <hr>
+  <p>How to Manage Teams Across Generations</p>
+  <hr>
+  <p>Building a Culture Employees Won’t Want to Leave</p>
+  <hr>
+  <p>Designing Employee Reviews that Develop and Retain Top Talent</p>
+
+<button type="submit" class="btn btn-primary mb-2 ">Get Started</button>
+</div>
+
+</div>
+  
+</div>
+
+
+
+<div class="col-md-4">
+  <div class="row">
+<div class="col second">
+  <h3>Retain Talent</h3>
+  <p>Identifying and Promoting the Right People for Enterprise Innovation Initiatives</p>
+  <hr>
+  <p>How to Manage Teams Across Generations</p>
+  <hr>
+  <p>Building a Culture Employees Won’t Want to Leave</p>
+  <hr>
+  <p>Designing Employee Reviews that Develop and Retain Top Talent</p>
+
+<button type="submit" class="btn btn-primary mb-2 ">Get Started</button>
+</div>
+
+</div>
+  
+</div>
+
+
+
+<div class="col-md-4">
+  <div class="row">
+<div class="col third">
+  <h3>Retain Talent</h3>
+  <p>Identifying and Promoting the Right People for Enterprise Innovation Initiatives</p>
+  <hr>
+  <p>How to Manage Teams Across Generations</p>
+  <hr>
+  <p>Building a Culture Employees Won’t Want to Leave</p>
+  <hr>
+  <p>Designing Employee Reviews that Develop and Retain Top Talent</p>
+
+<button type="submit" class="btn btn-primary mb-2 ">Get Started</button>
+</div>
+
+</div>
+  
+</div>
+
+
+</div>
+</div>
+
+
+
 
 
 

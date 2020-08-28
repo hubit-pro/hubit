@@ -101,7 +101,15 @@ Route::get('business-services', function () {
 Route::get('hire-top-talent', function () {
     return view('training/hire-top-talent');
 });
-
+Route::get('corporate-patners', function () {
+    return view('training/corporate-patners');
+});
+Route::get('corporate-training', function () {
+    return view('training/corporate-training');
+});
+Route::get('customs-hackathons', function () {
+    return view('training/customs-hackathons');
+});
 
 
 

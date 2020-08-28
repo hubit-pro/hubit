@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/training/hire-top-talent.css">
+    <link rel="stylesheet" type="text/css" href="../css/training/corporate-patners.css">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200;1,500&family=Oswald:wght@500&family=Teko:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
 
-    <title>Hire Talent</title>
+    <title>Corporate Patners</title>
     @include('includes/traininghead')
 </head>
 <body>
@@ -112,6 +112,10 @@
      </div>
     </div>
 </div>
+
+
+
+
 
 
 

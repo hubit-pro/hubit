@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/training/hire-top-talent.css">
+    <link rel="stylesheet" type="text/css" href="../css/training/customs-hackathons.css">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200;1,500&family=Oswald:wght@500&family=Teko:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
 
-    <title>Hire Talent</title>
+    <title>Customs Hackathones</title>
     @include('includes/traininghead')
 </head>
 <body>
@@ -118,10 +118,67 @@
 
 
 
+<div class="container-fluid Training-programs text-center">
+  <h1>HOW IT WORKS</h1>
+<h3>Everything About Your Hackathon Will Be Built to Your Specifications</h3>
+<div class="row">
+<div class="col-md-4">
+  <div class="row">
+<div class="col first">
+ <img src="img/per1.jpg" alt="">
+ <h4>BUILT FROM THE GROUND UP</h4>
+ <p>The Startup Institute team will work with you to develop your hackathon and craft 
+   an engaging event tailored to best solve your complex business goals. We have all of the tools, 
+   and operations in place to make building programs around your
+    specifications stress-free, and completely tailored to your goals. </p>
+  
+
+</div>
+
+</div>
+  
+</div>
 
 
 
+<div class="col-md-4">
+  <div class="row">
+<div class="col second">
+ <img src="img/per1.jpg" alt="">
+ <h4>BUILT FROM THE GROUND UP</h4>
+ <p>The Startup Institute team will work with you to develop your hackathon and craft 
+   an engaging event tailored to best solve your complex business goals. We have all of the tools, 
+   and operations in place to make building programs around your
+    specifications stress-free, and completely tailored to your goals. </p>
+  
+</div>
 
+</div>
+  
+</div>
+
+
+
+<div class="col-md-4">
+  <div class="row">
+<div class="col third">
+ <img src="img/per1.jpg" alt="">
+ <h4>BUILT FROM THE GROUND UP</h4>
+ <p>The Startup Institute team will work with you to develop your hackathon and craft 
+   an engaging event tailored to best solve your complex business goals. We have all of the tools, 
+   and operations in place to make building programs around your
+    specifications stress-free, and completely tailored to your goals. </p>
+  
+  
+</div>
+
+</div>
+  
+</div>
+
+
+</div>
+</div>
 
 
 
@@ -136,6 +193,8 @@
    
 
 </div>
+
+
 
 @include('includes/footer')
     
