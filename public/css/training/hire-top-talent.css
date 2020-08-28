@@ -1,0 +1,135 @@
+body{
+    overflow-x: hidden;
+    color: black;
+
+}
+/* tap-banner whole div with image on background */
+.banner{
+    height: 45vw;
+    width: 100%;
+    background-image: url("../../img/hire-top-talent.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* content and opacity div */
+.banner .header{
+    background-color: white;
+    height: 100%;
+    opacity: 0.7;
+}
+/* Bulding talent for growth h1 css */
+.header h1{
+    text-align: center !important;
+    font-size: 5vw;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 5%;
+}
+/*discription css */
+
+.header p{
+   
+    font-size: 2.5vw;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+/* banner button css */
+.banner button{
+    border: none;
+    width: 20vw;
+    height: 5vw;
+    background-color: #ff9800;
+    font-weight: bold;
+    color: white;
+    font-size: 1.7vw;
+}
+/* banner button hover css */
+.banner button:hover{
+    background-color: crimson;
+}
+/* hiring-patner whole div */
+.hiring-patner{
+    margin-top: 4%;
+    margin-bottom:4% ;
+    width: 100%;
+    background-color: #00a6e5;
+    margin: 0px;
+    width: 100%;
+
+}
+/* hiring-patner all content div */
+
+.hiring-patner .col-md-7 .heading {
+    margin: 0px 5% 10% 5%;
+}
+
+/* hiring-patner first heading css */
+
+.hiring-patner .col-md-7 .heading h2{
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 3vw;
+    margin-top: 10%;
+    color: white;
+    
+}
+/* hiring-patner list css */
+
+.hiring-patner .col-md-7 .heading ul li{
+    font-size: 1.6vw;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    list-style: none;
+}
+/* hiring-patner link inside li css */
+
+.hiring-patner .col-md-7 .heading ul li a{
+    color: #ff9800;
+}
+/* hire top talent form whole div css */
+.hiring-patner  .top-hire .form-div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ff9800;
+    margin:10% 5% 10% 5%;
+    padding: 4%;
+    text-align: center;
+
+}
+/* hire top talent form first heading css */
+
+.hiring-patner  .top-hire .form-div h3{
+    font-weight: bold;
+    text-align: center;
+    margin-top:20px ;
+    margin-bottom: 20px;
+    color: white;
+
+}
+/* hire top talent form input css */
+
+.hiring-patner  .top-hire .form-div .Names .col{
+    padding: 30px 20px 20px 20px;
+}
+.hiring-patner  .top-hire .form-div .company .col{
+    padding: 20px 20px 20px 20px;
+}
+.hiring-patner  .top-hire .form-div .E-mail .col-md-12{
+    padding: 0px 20px 20px 20px;
+}
+.hiring-patner  .top-hire .form-div .Selection .col-md-12{
+    padding: 0px 20px 20px 20px;
+
+}
+/* hire top talent form button css */
+
+.hiring-patner  .top-hire .form-div  button{
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}

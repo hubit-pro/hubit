@@ -74,6 +74,12 @@ Route::get('privacy-policy', function () {
 Route::get('FAQ', function () {
     return view('home/FAQ');
 });
+
+
+
+
+
+
 Route::get('blogs', function () {
     return view('training/blogs');
 });
@@ -92,6 +98,13 @@ Route::get('course', function () {
 Route::get('business-services', function () {
     return view('training/business-services');
 });
+Route::get('hire-top-talent', function () {
+    return view('training/hire-top-talent');
+});
+
+
+
+
 
 Route::get('contact-solutions', function () {
     return view('training/contact-solutions');
