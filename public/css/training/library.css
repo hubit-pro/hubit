@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+    
+  }
 body,
 html {
     margin: 0;
@@ -73,4 +77,64 @@ html {
 }
 section{
     display: none;
+}
+
+
+/* Library content css*/
+
+
+
+  #sidebar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 780px;
+    overflow: none;
+    overflow-y:scroll ;
+  }
+  
+  #sidebar a {
+    display: block;
+    color: black;
+    padding-left: 20px;
+    text-decoration: none;
+    text-align:left;
+    font-size:1.5vw;
+  
+  }
+   
+  #sidebar a.active {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  #sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  .scroll .row .col-md-10{
+      overflow-y: scroll;
+      height: 780px;
+
+  }
+  .btn{
+      color:black;
+      background-color: white;
+      border: none;
+      border-radius:0px !important;
+  }
+  .btn[data-toggle]:not(.collapsed):after {
+    content: "  ▾";
+}
+.btn[data-toggle].collapsed:before {
+    content: " ▾";
+}
+@media (min-width:0px) and (max-width:768px){
+    .col-md-2{
+        width: 20% !important;
+    }
+    .col-md-10{
+        width: 80% !important;
+    }
 }
