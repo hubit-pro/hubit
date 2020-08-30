@@ -120,7 +120,7 @@
   <h1>TRAINING PROGRAMS<br>
 FOR ORGANIZATIONS OF ALL TYPES & SIZES</h1>
 <h3>We’ll apply our innovation-centric methodology to your specific needs.</h3>
-<div class="row">
+<div class="row one">
 <div class="col-md-4">
   <div class="row">
 <div class="col first">

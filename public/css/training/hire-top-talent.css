@@ -134,6 +134,27 @@ body{
     font-size: 20px;
 }
 
+.next-top-talent .row{
+    margin: 100px;
+}
+.next-top-talent .row .pictures{
+    height: 400px;
+    width: 200px;
+   
+}
+.next-top-talent .row .col-md-6 img{
+    height: 100%;
+    width: 100%;
+}
+.mobile-view{
+    display: none;
+}
+.mobile-view .row .pictures{
+    height: 100%;
+    width: 100%;
+}
+
+
 
 
 
@@ -171,4 +192,15 @@ body{
     width: 200px;
     font-size: 25px;
     height: 50px;
+}
+
+
+@media (min-width:0px) and (max-width:768px){
+    .desktop-view{
+        display: none;
+
+    }
+    .mobile-view{
+        display: inline;
+    }
 }

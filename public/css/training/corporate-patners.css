@@ -133,8 +133,30 @@ body{
     color: white;
     font-size: 20px;
 }
+.our-patners .row{
+    margin: 20px 100px 20px 100px;
 
+}
 
+#logo1 {
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(100%); 
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(100%); 
+    -o-transition: .5s ease-in-out;
+    height: 100%;
+    width: 100%;
+}
+
+#logo1:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(0%);
+    -o-transition: .5s ease-in-out;
+} 
 
 
 /* redy get started whole div */
@@ -167,3 +189,8 @@ body{
     font-size: 25px;
     height: 50px;
 }
+
+
+
+
+

@@ -144,28 +144,41 @@ body{
     margin-bottom: 60px;
     font-weight: bold;
 }
-
-.Training-programs .row .col-md-4 .row .first{
-    margin:0px 0px 0px 100px;
-    padding: 0px 50px 50px 50px;
+.Training-programs .row {
+    margin:0px 100px 0px 100px ;
+}
+.Training-programs .row .col-md-4 {
+    margin-bottom: 50px;
     
-
+}
+.Training-programs .row .col-md-4 .card{
+    border: none;
+}
+.cohorts{
+    height: auto;
+    background-color: #d3d3d3;
 
 }
-.Training-programs .row .col-md-4 .row .second{
-    margin:0px 20px 0px 60px;
-    padding: 0px 50px 50px 50px;
-    
-
-
+.cohorts h3{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
 }
-.Training-programs .row .col-md-4 .row .third{
-    margin:0px 100px 0px 20px;
-    padding: 0px 50px 50px 50px;
-    
 
-
+.cohorts .row{
+    text-align: center;
+    margin: 50px 150px 60px 150px ;
 }
+.cohorts .row .col h4{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
+
 
 
 
@@ -203,4 +216,13 @@ body{
     width: 200px;
     font-size: 25px;
     height: 50px;
+}
+
+
+
+@media (max-width: 768px) and (min-width: 0px) {
+    .Training-programs .row {
+        margin:0px 50px 0px 50px ;
+    }
+
 }

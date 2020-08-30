@@ -2,69 +2,55 @@
 <html>
 <head>
 	@include('includes/traininghead')
-  <!-- Please dont edit this code-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131576038-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-131576038-1');
-  </script>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WT6FX7W');</script>
-<!-- End Google Tag Manager -->
-<!-- to this -->
-</head>
-<body>
-
-<!-- Dont edit this code-->
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WT6FX7W"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!-- to this -->
+ 
 
 
 <!-----------------------NAVBAR------------------------------->
 @include("includes/navtraining")
+<link rel="stylesheet" type="text/css" href="css/training/library.css">
  
 <!-------------------------NAVBAR END--------------------------------->
 
+<div class="container-fluid">
+  
+
+</div>
 
 
-<!--------------------------NON-SLIDER----------------------->
-<section class="container-fluid p-0 non" style="position: relative;">
-
-  <img src="img/train.jpg">
 
 
-<!-------------------------TEXT CONTAINER-------------------->
-  <section class="container-fluid" id="topper"><!--this id "topper" is the transparent box over the slider--->
 
-    <div class="row pt-5 pb-4 rib">
-   
-    <div class="row">
-      <div class="col-xl-12 text-center" style="color: white;">
-        <h3>Training-->Library</h3>
-      </div>
-    </div>
 
-  </section>
 
-</section>
-<!-------------------------TEXT CONTAINER END---------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-----------------------NOTICE RIBBON---------------------->
-<section class="container-fluid" style="background-color: red; color: white;">
+<section class="container-fluid mt-5" style="background-color: red; color: white;">
   <div class="row">
     <div class="col-xl-12">
-      <marquee behavior="alternate">Beware !! Only HUB IT students can enter this zone .</marquee>
+      <marquee behavior="alternate">Please, Login to access the content of library, Thank you. </marquee>
     </div>
   </div>
 </section>
@@ -72,26 +58,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!---------------------LOGIN FORM START--------------------->
-<section class="container-fluid p-5">
-  <div class="container text-center">
-    <form>
-      <div class="row">
-        <div class="col-xl-12">
-          <h4>LOGIN FORM</h4><p>Please login to enter the library .</p>
-        </div>
-        <div class="col-xl-12 text-center p-2">
-          <input type="text" name="" required="" placeholder="Enter you ID No.">
-        </div>
-        <div class="col-xl-12 text-center p-2">
-          <input type="password" name="" required="" placeholder="Enter your password">
-        </div>
-        <div class="col-xl-12 text-center p-2 but">
-          <button>SUBMIT</button>
-        </div>
-      </div>        
-    </form>
-  </div>
+<section class="container h-100">
+		<div class="d-flex justify-content-center h-100">
+			<div class="user_card">
+				<div class="d-flex justify-content-center">
+					<div class="brand_logo_container">
+						<img src="img/logo.jpg" class="brand_logo" alt="Logo">
+					</div>
+				</div>
+				<div class="d-flex justify-content-center form_container">
+					<form action="login" method="post">
+						<div class="input-group mb-3">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-user"></i></span>
+							</div>
+							<input type="text" name="username" class="form-control input_user" value="" placeholder="username">
+						</div>
+						<div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-key"></i></span>
+							</div>
+							<input type="password" name="password" class="form-control input_pass" value="" placeholder="password">
+						</div>
+						<div class="form-group">
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customControlInline">
+								<label class="custom-control-label" for="customControlInline">Remember me</label>
+							</div>
+						</div>
+						@csrf
+							<div class="d-flex justify-content-center mt-3 login_container">
+				 	<button type="submit" name="login" class="btn login_btn">Login</button>
+				   </div>
+					</form>
+				</div>
+		
+				<div class="mt-4">
+					<div class="d-flex justify-content-center links">
+						<a href="#">Forgot your password?</a>
+					</div>
+				</div>
+			</div>
+		</div>
 </section>
+
 <!---------------------LOGIN FORM END----------------------->
 
 
@@ -102,7 +112,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- </footer>  -->
 
-<script src="js/miss.js"></script>
 
 </body>
 </html>

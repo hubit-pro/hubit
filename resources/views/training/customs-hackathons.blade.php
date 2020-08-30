@@ -123,61 +123,63 @@
 <h3>Everything About Your Hackathon Will Be Built to Your Specifications</h3>
 <div class="row">
 <div class="col-md-4">
-  <div class="row">
-<div class="col first">
- <img src="img/per1.jpg" alt="">
- <h4>BUILT FROM THE GROUND UP</h4>
- <p>The Startup Institute team will work with you to develop your hackathon and craft 
-   an engaging event tailored to best solve your complex business goals. We have all of the tools, 
-   and operations in place to make building programs around your
-    specifications stress-free, and completely tailored to your goals. </p>
-  
-
+<div class="card" >
+  <img class="card-img-top" src="img/per1.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
 </div>
 
+<div class="col-md-4">
+<div class="card" >
+  <img class="card-img-top" src="img/per1.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
 </div>
-  
 </div>
-
 
 
 <div class="col-md-4">
+<div class="card" >
+  <img class="card-img-top" src="img/per1.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="container-fluid cohorts ">
+  <h3>Cohorts Include Students Enrolled in 4 Critical Tracks</h3>
   <div class="row">
-<div class="col second">
- <img src="img/per1.jpg" alt="">
- <h4>BUILT FROM THE GROUND UP</h4>
- <p>The Startup Institute team will work with you to develop your hackathon and craft 
-   an engaging event tailored to best solve your complex business goals. We have all of the tools, 
-   and operations in place to make building programs around your
-    specifications stress-free, and completely tailored to your goals. </p>
-  
+<div class="col">
+<h4>Web Development</h4>
+<p>Ruby on Rails, App Development</p>
+
+<h4>Digital Marketing</h4>
+<p>SEO, SEM, Analytics, Social Media, Email Marketing</p>
 </div>
 
-</div>
-  
-</div>
+<div class="col">
+<h4>Web Development</h4>
+<p>Ruby on Rails, App Development</p>
 
-
-
-<div class="col-md-4">
-  <div class="row">
-<div class="col third">
- <img src="img/per1.jpg" alt="">
- <h4>BUILT FROM THE GROUND UP</h4>
- <p>The Startup Institute team will work with you to develop your hackathon and craft 
-   an engaging event tailored to best solve your complex business goals. We have all of the tools, 
-   and operations in place to make building programs around your
-    specifications stress-free, and completely tailored to your goals. </p>
-  
-  
+<h4>Digital Marketing</h4>
+<p>SEO, SEM, Analytics, Social Media, Email Marketing</p>
 </div>
 
-</div>
-  
-</div>
-
-
-</div>
+  </div>
 </div>
 
 

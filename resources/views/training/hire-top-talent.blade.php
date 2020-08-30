@@ -116,6 +116,157 @@
 
 
 
+<div class="container-fluid next-top-talent desktop-view">
+
+<div class="row " >
+  
+<div class="col-md-6 pictures" >
+    <img src="img/about1.png">
+  </div>
+  <div class="col-md-6">
+  <h1>We've Already Trained Your Next Top Hire:</h1>
+<p>Could a pipeline of top talent help your business? What if you could access diverse, qualified,
+   high-potential candidates who are ready to contribute immediately as a result of completing courses at 
+   Startup Institute?</p><br>
+
+<p>Our Hiring Partners know all about this. Avoid the high cost of recruiters and the unnecessary
+   complexity of searching the talent haystack on your own. </p>
+
+<h4>Recruiting Top Talent is Highly Competitive...</h4>
+<p>Our hiring partners have an edge. Startup Institute is a remarkable resource for decision
+   makers who understand the importance of de-risking the hiring process and sourcing high-growth players.</p>
+
+
+    
+  </div>
+</div>
+<div class="row " >
+<div class="col-md-6">
+  <h1>We've Already Trained Your Next Top Hire:</h1>
+<p>Could a pipeline of top talent help your business? What if you could access diverse, qualified,
+   high-potential candidates who are ready to contribute immediately as a result of completing courses at 
+   Startup Institute?</p><br>
+
+<p>Our Hiring Partners know all about this. Avoid the high cost of recruiters and the unnecessary
+   complexity of searching the talent haystack on your own. </p>
+
+<h4>Recruiting Top Talent is Highly Competitive...</h4>
+<p>Our hiring partners have an edge. Startup Institute is a remarkable resource for decision
+   makers who understand the importance of de-risking the hiring process and sourcing high-growth players.</p>
+
+
+    
+  </div>
+<div class="col-md-6 pictures" >
+    <img src="img/about2.png">
+  </div>
+  
+</div>
+
+
+
+
+
+<div class="row" >
+  
+<div class="col-md-6 pictures" >
+    <img src="img/about1.png">
+  </div>
+  <div class="col-md-6">
+  <h1>We've Already Trained Your Next Top Hire:</h1>
+<p>Could a pipeline of top talent help your business? What if you could access diverse, qualified,
+   high-potential candidates who are ready to contribute immediately as a result of completing courses at 
+   Startup Institute?</p><br>
+
+<p>Our Hiring Partners know all about this. Avoid the high cost of recruiters and the unnecessary
+   complexity of searching the talent haystack on your own. </p>
+
+<h4>Recruiting Top Talent is Highly Competitive...</h4>
+<p>Our hiring partners have an edge. Startup Institute is a remarkable resource for decision
+   makers who understand the importance of de-risking the hiring process and sourcing high-growth players.</p>
+
+
+    
+  </div>
+</div>
+
+</div>
+<div class="container-fluid next-top-talent mobile-view">
+
+<div class="row " >
+  
+<div class="col-md-6 pictures" >
+    <img src="img/about1.png">
+  </div>
+  <div class="col-md-6">
+  <h1>We've Already Trained Your Next Top Hire:</h1>
+<p>Could a pipeline of top talent help your business? What if you could access diverse, qualified,
+   high-potential candidates who are ready to contribute immediately as a result of completing courses at 
+   Startup Institute?</p><br>
+
+<p>Our Hiring Partners know all about this. Avoid the high cost of recruiters and the unnecessary
+   complexity of searching the talent haystack on your own. </p>
+
+<h4>Recruiting Top Talent is Highly Competitive...</h4>
+<p>Our hiring partners have an edge. Startup Institute is a remarkable resource for decision
+   makers who understand the importance of de-risking the hiring process and sourcing high-growth players.</p>
+
+
+    
+  </div>
+</div>
+<div class="row " >
+<div class="col-md-6 pictures" >
+    <img src="img/about2.png">
+  </div>
+<div class="col-md-6">
+  <h1>We've Already Trained Your Next Top Hire:</h1>
+<p>Could a pipeline of top talent help your business? What if you could access diverse, qualified,
+   high-potential candidates who are ready to contribute immediately as a result of completing courses at 
+   Startup Institute?</p><br>
+
+<p>Our Hiring Partners know all about this. Avoid the high cost of recruiters and the unnecessary
+   complexity of searching the talent haystack on your own. </p>
+
+<h4>Recruiting Top Talent is Highly Competitive...</h4>
+<p>Our hiring partners have an edge. Startup Institute is a remarkable resource for decision
+   makers who understand the importance of de-risking the hiring process and sourcing high-growth players.</p>
+
+
+    
+  </div>
+
+  
+</div>
+
+
+
+
+
+<div class="row" >
+  
+<div class="col-md-6 pictures" >
+    <img src="img/about1.png">
+  </div>
+  <div class="col-md-6">
+  <h1>We've Already Trained Your Next Top Hire:</h1>
+<p>Could a pipeline of top talent help your business? What if you could access diverse, qualified,
+   high-potential candidates who are ready to contribute immediately as a result of completing courses at 
+   Startup Institute?</p><br>
+
+<p>Our Hiring Partners know all about this. Avoid the high cost of recruiters and the unnecessary
+   complexity of searching the talent haystack on your own. </p>
+
+<h4>Recruiting Top Talent is Highly Competitive...</h4>
+<p>Our hiring partners have an edge. Startup Institute is a remarkable resource for decision
+   makers who understand the importance of de-risking the hiring process and sourcing high-growth players.</p>
+
+
+    
+  </div>
+</div>
+
+</div>
 
 
 

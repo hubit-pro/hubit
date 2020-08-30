@@ -68,7 +68,7 @@
   <link rel="stylesheet" href="o/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="o/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="o/css/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="o/css/bootstrap-datepicker.css"> 
+  <link rel="stylesheet" href="o/css/bootstrap-datepicker.css">   
   <link rel="stylesheet" href="o/fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" type="text/css" href="css/top-header.css">
   <link rel="stylesheet" type="text/css" href="css/training/navtraining.css">

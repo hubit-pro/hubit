@@ -142,27 +142,31 @@ body{
     margin-bottom: 60px;
     font-weight: bold;
 }
+.Training-programs .one  {
+    margin: 0px 100px 0px 100px;
+}
 
 .Training-programs .row .col-md-4 .row .first{
     background-color: #ffd942;
-    margin:0px 0px 0px 100px;
     padding: 0px 50px 50px 50px;
+    margin: 10px;
     
 
 
 }
 .Training-programs .row .col-md-4 .row .second{
     background-color: #ffd942;
-    margin:0px 20px 0px 60px;
     padding: 0px 50px 50px 50px;
+    margin: 10px;
+
     
 
 
 }
 .Training-programs .row .col-md-4 .row .third{
     background-color: #ffd942;
-    margin:0px 100px 0px 20px;
     padding: 0px 50px 50px 50px;
+    margin: 10px;
     
 
 
@@ -186,14 +190,14 @@ body{
 }
 .Training-programs .row .col-md-4 .row .col button{
     width: 80%;
-    height: 4vw;
+    height: 60px;
     background-color: crimson;
     border: none;
 }
 
 
 
-
+ 
 
 
 
@@ -233,4 +237,11 @@ body{
     width: 200px;
     font-size: 25px;
     height: 50px;
+}
+
+
+@media (min-width:0px) and (max-width:768px){
+    .Training-programs .one  {
+        margin: 0px 20px 0px 20px;
+    }
 }

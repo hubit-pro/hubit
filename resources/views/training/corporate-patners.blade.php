@@ -115,8 +115,94 @@
 
 
 
+<div class="container-fluid our-patners">
+  <div class="row">
+    <div class="col-md-2">
+      <img src="img/c.png" id="logo1" alt="#img">
 
+    </div>
+    <div class="col-md-2">
+      <img src="img/arduino.png" id="logo1" alt="#img">
+      
+    </div>
+    <div class="col-md-2">
+      <img src="img/asp.png" id="logo1" alt="#img">
+      
+    </div>
+    <div class="col-md-2">
+      <img src="img/auto.png" id="logo1" alt="#img">
+      
+    </div>
+    <div class="col-md-2">
+      <img src="img/app.png" id="logo1" alt="#img">
+      
+    </div>
+    <div class="col-md-2">
+      <img src="img/broad.png" id="logo1" alt="#img">
+      
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2">
+      <img src="img/dj.png" id="logo1" alt="#img">
+      
+    </div>
+    <div class="col-md-2">
+      <img src="img/ccna.png" id="logo1" alt="#img">
+      
+    </div>
+    <div class="col-md-2">
+      <img src="img/eski.png" id="logo1" alt="#img">
+      
+    </div>
+    <div class="col-md-2">
+      <img src="img/embed.png" id="logo1" alt="#img">
+      
+   
+  </div>
+  <div class="col-md-2">
+    <img src="img/drupal.png" id="logo1" alt="#img">
+      
+   
+  </div>
+  <div class="col-md-2">
+    <img src="img/eng.png" id="logo1" alt="#img">
+      
+   
+  </div>
 
+</div>
+<div class="row">
+    <div class="col-md-2">
+      <img src="img/java.png" id="logo1" alt="#img">
+      
+    </div>
+    <div class="col-md-2">
+      <img src="img/laravel.png" id="logo1" alt="#img">
+      
+    </div>
+    <div class="col-md-2">
+      <img src="img/maya.png" id="logo1" alt="#img">
+      
+    </div>
+    <div class="col-md-2">
+      <img src="img/max.png" id="logo1" alt="#img">
+      
+   
+  </div>
+  <div class="col-md-2">
+    <img src="img/oracle.png" id="logo1" alt="#img">
+      
+   
+  </div>
+  <div class="col-md-2">
+    <img src="img/sap.png" id="logo1" alt="#img">
+      
+   
+  </div>
+
+</div>
+</div>
 
 
 
