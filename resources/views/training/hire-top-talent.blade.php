@@ -11,6 +11,8 @@
 </head>
 <body>
 @include('includes/navtraining')
+<!-- top banner start -->
+
 <div class="banner">
     
 <div class="container-fluid text-center header">
@@ -23,7 +25,10 @@
   </div>
 
 </div>
+<!-- top banner end -->
 
+
+<!-- hiring patner content start -->
 <div class="row hiring-patner m-0">
     <div class="col-md-7">
 <div class="heading">
@@ -32,14 +37,14 @@
 <h2 style="white-space: pre-wrap;">BECOME A HIRING PARTNER WITH STARTUP INSTITUTE</h2>
     
      <li><p>
-      Exclusive Access to Talent, Not High Staffing FeesGet priority access to vetted
-       Startup Institute graduates for fees FAR below what staffing firms typically charge. <br>&nbsp;</p></li>
+      <h4>Exclusive Access to Talent, Not High Staffing Fees</h4>
+      Get priority access to vetted Startup Institute graduates for fees FAR below what staffing firms typically charge. <br>&nbsp;</p></li>
 
-     <li><p>Gain a Recruiting Advantage in Boston and NYC Discounted access to 
-         award winning Startup Institute courses built around traditional business hours.<br>&nbsp;</p></li>
+     <li><p> <h4>Gain a Recruiting Advantage in Boston and NYC </h4>
+     Discounted access to award winning Startup Institute courses built around traditional business hours.<br>&nbsp;</p></li>
 
-     <li><p>Tap Into a Network of Highly-Vetted CandidatesStartup Institute's 
-         program only accept 15% of applicants on average, which means you get access to some
+     <li><p><h4>Tap Into a Network of Highly-Vetted Candidates</h4>
+     Startup Institute's  program only accept 15% of applicants on average, which means you get access to some
           of the sharpest talent in your city.&nbsp;</p></li>
       
 
@@ -49,6 +54,10 @@
     </ul>
 </div>
     </div>
+<!-- hiring patner content end -->
+
+
+<!-- hiring patner form start -->
 
     <div class="col-md-5 top-hire">
     <div class="form-div">
@@ -113,8 +122,10 @@
     </div>
 </div>
 
+<!-- hiring patner form end -->
 
 
+<!-- Our next top hire start desktop view -->
 
 <div class="container-fluid next-top-talent desktop-view">
 
@@ -142,17 +153,20 @@
 </div>
 <div class="row " >
 <div class="col-md-6">
-  <h1>We've Already Trained Your Next Top Hire:</h1>
-<p>Could a pipeline of top talent help your business? What if you could access diverse, qualified,
-   high-potential candidates who are ready to contribute immediately as a result of completing courses at 
-   Startup Institute?</p><br>
+  <h1>About Our Graduates:</h1>
+<p>Our students are vetted before they are accepted into the Startup Institute. In fact,
+   we only accept 15% of applicants on average. We find the best students, then immerse them in
+    an intensive program so they’re prepared to hit the ground running.
+</p><br>
 
-<p>Our Hiring Partners know all about this. Avoid the high cost of recruiters and the unnecessary
-   complexity of searching the talent haystack on your own. </p>
+<p>Startup Institute's core program includes real-world project work with partner companies, 
+  courses taught by actual developers, designers, marketers, and business experts, and startup-
+  mindset training so graduates are prepared to apply their skills in challenging environments. </p>
 
-<h4>Recruiting Top Talent is Highly Competitive...</h4>
-<p>Our hiring partners have an edge. Startup Institute is a remarkable resource for decision
-   makers who understand the importance of de-risking the hiring process and sourcing high-growth players.</p>
+
+<p>Our education platform is built to produce candidates who need very little ramp-up time, and with a highly 
+  diverse student population, our graduates bring with them the different kind of thinking to help you stay
+   ahead of the curve.</p>
 
 
     
@@ -173,24 +187,33 @@
     <img src="img/about1.png">
   </div>
   <div class="col-md-6">
-  <h1>We've Already Trained Your Next Top Hire:</h1>
-<p>Could a pipeline of top talent help your business? What if you could access diverse, qualified,
-   high-potential candidates who are ready to contribute immediately as a result of completing courses at 
-   Startup Institute?</p><br>
+  <h1>As a Hiring Partner...</h1>
+<p>You will have unparalleled, priority access to Startup Institute talent, including current students,
+   recent graduates, and seasoned alumni. In addition to traditional recruitment opportunities,
+   partners also have input on curriculum and even gain access to students within a classroom setting.</p><br>
 
-<p>Our Hiring Partners know all about this. Avoid the high cost of recruiters and the unnecessary
-   complexity of searching the talent haystack on your own. </p>
 
-<h4>Recruiting Top Talent is Highly Competitive...</h4>
-<p>Our hiring partners have an edge. Startup Institute is a remarkable resource for decision
-   makers who understand the importance of de-risking the hiring process and sourcing high-growth players.</p>
+  <p> In addition, partners have the opportunity to work with cross-functional teams of students who are 
+   tackling real business projects while sprinting toward a deliverable. Unlike internships or part-time
+    help, this is a unique way to keep your business movingforward while having vetted talent working with you for a more intelligent, less risky way to hire. </p>
 
+
+<p>By being able to evaluate vetted talent over a significant period of time, you are helping
+ remove much of the risk that comes with hiring </p>
 
     
   </div>
 </div>
 
 </div>
+<!-- Our next top hire start desktop view end -->
+
+
+
+
+
+<!-- Our next top hire start mobile view start -->
+
 <div class="container-fluid next-top-talent mobile-view">
 
 <div class="row " >
@@ -220,18 +243,21 @@
     <img src="img/about2.png">
   </div>
 <div class="col-md-6">
-  <h1>We've Already Trained Your Next Top Hire:</h1>
-<p>Could a pipeline of top talent help your business? What if you could access diverse, qualified,
-   high-potential candidates who are ready to contribute immediately as a result of completing courses at 
-   Startup Institute?</p><br>
+ 
+<h1>About Our Graduates:</h1>
+<p>Our students are vetted before they are accepted into the Startup Institute. In fact,
+   we only accept 15% of applicants on average. We find the best students, then immerse them in
+    an intensive program so they’re prepared to hit the ground running.
+</p><br>
 
-<p>Our Hiring Partners know all about this. Avoid the high cost of recruiters and the unnecessary
-   complexity of searching the talent haystack on your own. </p>
+<p>Startup Institute's core program includes real-world project work with partner companies, 
+  courses taught by actual developers, designers, marketers, and business experts, and startup-
+  mindset training so graduates are prepared to apply their skills in challenging environments. </p>
 
-<h4>Recruiting Top Talent is Highly Competitive...</h4>
-<p>Our hiring partners have an edge. Startup Institute is a remarkable resource for decision
-   makers who understand the importance of de-risking the hiring process and sourcing high-growth players.</p>
 
+<p>Our education platform is built to produce candidates who need very little ramp-up time, and with a highly 
+  diverse student population, our graduates bring with them the different kind of thinking to help you stay
+   ahead of the curve.</p>
 
     
   </div>
@@ -249,25 +275,28 @@
     <img src="img/about1.png">
   </div>
   <div class="col-md-6">
-  <h1>We've Already Trained Your Next Top Hire:</h1>
-<p>Could a pipeline of top talent help your business? What if you could access diverse, qualified,
-   high-potential candidates who are ready to contribute immediately as a result of completing courses at 
-   Startup Institute?</p><br>
-
-<p>Our Hiring Partners know all about this. Avoid the high cost of recruiters and the unnecessary
-   complexity of searching the talent haystack on your own. </p>
-
-<h4>Recruiting Top Talent is Highly Competitive...</h4>
-<p>Our hiring partners have an edge. Startup Institute is a remarkable resource for decision
-   makers who understand the importance of de-risking the hiring process and sourcing high-growth players.</p>
+  <h1>As a Hiring Partner...</h1>
+<p>You will have unparalleled, priority access to Startup Institute talent, including current students,
+   recent graduates, and seasoned alumni. In addition to traditional recruitment opportunities,
+   partners also have input on curriculum and even gain access to students within a classroom setting.</p><br>
 
 
+  <p> In addition, partners have the opportunity to work with cross-functional teams of students who are 
+   tackling real business projects while sprinting toward a deliverable. Unlike internships or part-time
+    help, this is a unique way to keep your business movingforward while having vetted talent working with you for a more intelligent, less risky way to hire. </p>
+
+
+<p>By being able to evaluate vetted talent over a significant period of time, you are helping
+ remove much of the risk that comes with hiring </p>
+
+  
     
   </div>
 </div>
 
 </div>
 
+<!-- Our next top hire start mobile view start -->
 
 
 
@@ -277,16 +306,16 @@
 
 
 
-
+<!-- ready to get started start -->
 
 <div class="container-fluid connect">
 <h2>READY TO GET STARTED?</h2>
-<p>Uniquely positioned at the center of tech ecosystems, we've designed our programs
-   to open new doors for you.</p>
-<button type="submit" class="btn btn-primary mb-2 ">Get Started</button>
+<p>Access Startup Institute's network of vetted coding, design, marketing, and sales talent.</p>
+<button type="submit" class="btn btn-primary mb-2  ">Hire now</button>
    
 
 </div>
+<!-- ready to get started end -->
 
 @include('includes/footer')
     

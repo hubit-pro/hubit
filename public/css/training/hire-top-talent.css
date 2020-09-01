@@ -77,8 +77,7 @@ body{
 }
 /* hiring-patner list css */
 
-.hiring-patner .col-md-7 .heading ul li{
-    font-size: 1.6vw;
+.hiring-patner .col-md-7 .heading ul li {
     font-weight: bold;
     text-align: left;
     color: white;
@@ -133,19 +132,30 @@ body{
     color: white;
     font-size: 20px;
 }
+/* next-top-talent heading css */
+.next-top-talent .row .col-md-6 h1{
+    color: #ff9800;
+}
+/* next-top-talent whole row */
 
 .next-top-talent .row{
     margin: 100px;
 }
+/* next-top-talent row column */
+
 .next-top-talent .row .pictures{
     height: 400px;
     width: 200px;
    
 }
+/* next-top-talent row column images */
+
 .next-top-talent .row .col-md-6 img{
     height: 100%;
     width: 100%;
 }
+/* next-top-talent mobile view */
+
 .mobile-view{
     display: none;
 }
@@ -167,7 +177,7 @@ body{
 .connect{
     width: 100%;
     height: 350px;
-    background-color: #ffd941;
+    background-color: #00a6e5;
     margin-top: 100px;
     text-align: center;
 }
@@ -191,7 +201,9 @@ body{
 .connect button{
     width: 200px;
     font-size: 25px;
-    height: 50px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: black;
 }
 
 

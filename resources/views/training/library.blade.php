@@ -11,15 +11,21 @@
  
 <!-------------------------NAVBAR END--------------------------------->
 
+<!--  library start -->
 
+<!-- second nav of library start -->
+<nav id="secondnav">
 
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+</nav>
 
-
-
-
-
-
-
+<!-- second nav of library end -->
+<!-- <sidebar of library start -->
 <div class="container-fluid scroll m-0 p-0">
 <div class="row m-0" >
 <div class="col-md-2 m-0 p-0">
@@ -101,9 +107,13 @@
   <a href="#about">About</a>
 </div>
 </div>
+<!-- <sidebar of library start -->
+
+
+<!-- content div of library start -->
 
 <div class="col-md-10">
-Search Results
+<pre>Search Results
 Web result with site links
 
 Bootstrap 3 Tutorial - W3Schoolswww.w3schools.com › bootstrap
@@ -386,10 +396,13 @@ NepalButwal - From your Location History - Use precise location - Learn more
 HelpSend feedbackPrivacyTerms
 
 Search Results
+</pre>
 
 </div>
 </div>
 </div>
+<!-- content div of library  -->
+<!--  library end -->
 
 
 
@@ -416,7 +429,7 @@ Search Results
 
 
 
-
+<!-- login form start -->
 <!-----------------------NOTICE RIBBON---------------------->
 <section class="container-fluid mt-5" style="background-color: red; color: white;">
   <div class="row">
@@ -475,6 +488,7 @@ Search Results
 
 <!---------------------LOGIN FORM END----------------------->
 
+<!-- login form end -->
 
 <!----------------------FOOTER------------------------------->
  <!-- <footer> -->

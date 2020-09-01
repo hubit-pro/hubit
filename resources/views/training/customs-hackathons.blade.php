@@ -11,49 +11,57 @@
 </head>
 <body>
 @include('includes/navtraining')
+
+<!-- banner whole div start -->
 <div class="banner">
     
 <div class="container-fluid text-center header">
   
-<h1><strong>TAP INTO A NETWORK OF HIGHLY<br> ENGAGED & TALENTED PEOPLE</strong></h1>
-<p>At Startup Institute, we’re building solutions to bridge the gap between<br>
-     innovation and the modern workforce.
+<h1><strong>CUSTOM HACKATHONS</h1>
+<p>Building a custom hackathon with Startup Institute gives you the ability to 
+  inject new ideas, tackle complex challenges, and energize your team by working with a
+   cross-functional team of highly vetted students, or bring our well-tested methodologies to host your own internal event.
 </p>
-  <button type="sumbit">HIRE TALENT</button>
+  <button type="sumbit">GET STARTED</button>
   </div>
 
 </div>
+<!-- banner whole div end -->
 
-<div class="row hiring-patner m-0">
+<!-- custome hackathones content start  -->
+
+<div class="row custom-hackathons m-0">
     <div class="col-md-7">
 <div class="heading">
 
 <ul data-rte-list="default">
-<h2 style="white-space: pre-wrap;">BECOME A HIRING PARTNER WITH STARTUP INSTITUTE</h2>
+<h2 style="white-space: pre-wrap;">INTRODUCING CUSTOM HACKATHONS
+BY STARTUP INSTITUTE</h2>
     
      <li><p>
-      Exclusive Access to Talent, Not High Staffing FeesGet priority access to vetted
-       Startup Institute graduates for fees FAR below what staffing firms typically charge. <br>&nbsp;</p></li>
+       <h3>Get Access to Top Talent</h3>
+       Startup Institute is a highly selective innovation school that on average
+        accepts the top 15% of applicants, most of whom come with years of professional experience
+         in a wide range of industries. <br>&nbsp;</p></li>
 
-     <li><p>Gain a Recruiting Advantage in Boston and NYC Discounted access to 
-         award winning Startup Institute courses built around traditional business hours.<br>&nbsp;</p></li>
-
-     <li><p>Tap Into a Network of Highly-Vetted CandidatesStartup Institute's 
-         program only accept 15% of applicants on average, which means you get access to some
-          of the sharpest talent in your city.&nbsp;</p></li>
+     <li><p>
+     <h3>Tap Into a Curated Network of Local Innovators Looking for Problems to Solve:</h3>
       
-
-
-
+     As a leader in the innovation space, you’re keenly aware that time is a premium resource.
+      Every minute of every work day is valuable, but it’s often hard to dedicate enough 
+      time or resources to projects when you have teams to manage, and meetings to run.</p>
 
     </ul>
 </div>
     </div>
+<!-- custome hackathones content end  -->
+
+<!-- custome hackathones form start  -->
 
     <div class="col-md-5 top-hire">
     <div class="form-div">
      
-        <h3>Hire Top Talent</h3>
+        <h3>Join Our Network</h3>
     <form action="#">
   <div class="row Names">
     <div class="col">
@@ -113,10 +121,11 @@
     </div>
 </div>
 
+<!-- custome hackathones form end  -->
 
 
 
-
+<!-- training-programs div start -->
 
 <div class="container-fluid Training-programs text-center">
   <h1>HOW IT WORKS</h1>
@@ -126,7 +135,12 @@
 <div class="card" >
   <img class="card-img-top" src="img/per1.jpg" alt="Card image cap">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text"><h4>BUILT FROM THE GROUND UP</h4>
+    The Startup Institute team will work with you to develop your hackathon and
+     craft an engaging event tailored to best solve your complex business goals.
+      We have all of the tools, and operations in place to 
+    make building programs around your specifications stress-free, and completely tailored to your goals. 
+  </p>
   </div>
 </div>
 </div>
@@ -135,7 +149,14 @@
 <div class="card" >
   <img class="card-img-top" src="img/per1.jpg" alt="Card image cap">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">
+    <h4>ENGAGE YOUR TEAM</h4>
+    You’ll have teams competing against each other and the clock to produce research-backed
+     ideas and prototypes while being encouraged to think outside the box for practical solutions.
+      Custom hackathons by Startup Institute offer a unique experience for your staff
+       to come together, solve problems, and ultimately collaborate more effectively. 
+
+    </p>
   </div>
 </div>
 </div>
@@ -145,7 +166,16 @@
 <div class="card" >
   <img class="card-img-top" src="img/per1.jpg" alt="Card image cap">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">
+    <h4>BUILD YOUR CULTURE</h4>
+    Custom hackathons built by Startup Institute offer far more than design, dev, 
+    marketing, and sales problem-solving. Our legacy has been built around growing mindsets, and
+     nothing is more effective in developing successful mindsets within your team like immersive projects
+      delivered by Startup Institute. 
+
+
+      
+    </p>
   </div>
 </div>
 </div>
@@ -155,11 +185,12 @@
 
 </div>
 </div>
+ 
+<!-- training-programs div end -->
 
 
 
-
-
+<!-- cohorts program start -->
 <div class="container-fluid cohorts ">
   <h3>Cohorts Include Students Enrolled in 4 Critical Tracks</h3>
   <div class="row">
@@ -181,6 +212,7 @@
 
   </div>
 </div>
+<!-- cohorts program end -->
 
 
 
@@ -188,10 +220,9 @@
 
 
 <div class="container-fluid connect">
-<h2>READY TO GET STARTED?</h2>
-<p>Uniquely positioned at the center of tech ecosystems, we've designed our programs
-   to open new doors for you.</p>
-<button type="submit" class="btn btn-primary mb-2 ">Get Started</button>
+<h2>READY TO GO?</h2>
+<p>Inspire a culture of innovation by working with Startup Institute to build a hackathon.</p>
+<button type="submit" class="btn btn-primary mb-2 ">Connect with us</button>
    
 
 </div>

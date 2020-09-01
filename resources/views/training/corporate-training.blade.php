@@ -11,36 +11,47 @@
 </head>
 <body>
 @include('includes/navtraining')
+<!-- top banner div start -->
 <div class="banner">
     
 <div class="container-fluid text-center header">
   
-<h1><strong>TAP INTO A NETWORK OF HIGHLY<br> ENGAGED & TALENTED PEOPLE</strong></h1>
-<p>At Startup Institute, we’re building solutions to bridge the gap between<br>
-     innovation and the modern workforce.
+<h1>CORPORATE<br>
+INNOVATION TRAINING</h1>
+<p>At Startup Institute, we’re training the modern workforce for the <br> innovation economy. 
+Let us help you to develop and retain top talent,<br> oviding employees with the skills,
+ mindset and network that will propel <br> your business forward
 </p>
-  <button type="sumbit">HIRE TALENT</button>
+  <button type="sumbit">GET STARTED</button>
   </div>
 
 </div>
+<!-- top banner div end -->
 
-<div class="row hiring-patner m-0">
+<!-- create a culture div content start -->
+
+<div class="row create-a-culture m-0">
     <div class="col-md-7">
 <div class="heading">
 
 <ul data-rte-list="default">
-<h2 style="white-space: pre-wrap;">BECOME A HIRING PARTNER WITH STARTUP INSTITUTE</h2>
+<h2 style="white-space: pre-wrap;">CREATE A CULTURE
+WHERE INNOVATION THRIVES</h2>
+<h3 style="white-space: pre-wrap;">Talent development is our core expertise</h3>
     
      <li><p>
-      Exclusive Access to Talent, Not High Staffing FeesGet priority access to vetted
-       Startup Institute graduates for fees FAR below what staffing firms typically charge. <br>&nbsp;</p></li>
+     Retain top performers by keeping them engaged and expanding their skill sets. <br>&nbsp;</p></li>
 
-     <li><p>Gain a Recruiting Advantage in Boston and NYC Discounted access to 
-         award winning Startup Institute courses built around traditional business hours.<br>&nbsp;</p></li>
+     <li><p>Develop employees with the newest technology and state-of-the-art training.<br>&nbsp;</p></li>
 
-     <li><p>Tap Into a Network of Highly-Vetted CandidatesStartup Institute's 
-         program only accept 15% of applicants on average, which means you get access to some
-          of the sharpest talent in your city.&nbsp;</p></li>
+     <li><p>Our partner companies provide thousands of proof points.&nbsp;</p></li>
+
+     <li><p>Customized offerings allow you to incorporate your culture and specific
+        requirements into training.&nbsp;</p></li>
+
+     <li><p>Our instructors are practitioners with a deep understanding of current industry
+        trends and the skills needed to help businesses grow.&nbsp;</p></li>
+
       
 
 
@@ -49,11 +60,16 @@
     </ul>
 </div>
     </div>
+<!-- create a culture div content end -->
+
+
+
+<!-- create a culture div form start -->
 
     <div class="col-md-5 top-hire">
     <div class="form-div">
      
-        <h3>Hire Top Talent</h3>
+        <h3>Get Custom On-Site Training</h3>
     <form action="#">
   <div class="row Names">
     <div class="col">
@@ -113,9 +129,10 @@
     </div>
 </div>
 
+<!-- create a culture div form end -->
 
 
-
+<!-- training program start -->
 <div class="container-fluid Training-programs text-center">
   <h1>TRAINING PROGRAMS<br>
 FOR ORGANIZATIONS OF ALL TYPES & SIZES</h1>
@@ -145,14 +162,14 @@ FOR ORGANIZATIONS OF ALL TYPES & SIZES</h1>
 <div class="col-md-4">
   <div class="row">
 <div class="col second">
-  <h3>Retain Talent</h3>
-  <p>Identifying and Promoting the Right People for Enterprise Innovation Initiatives</p>
+  <h3>Develop Staff</h3>
+  <p>Customized skill building workshops to grow cross-functional collaboration, and develop growth mindsets</p>
   <hr>
-  <p>How to Manage Teams Across Generations</p>
+  <p>Design innovation hackathons</p>
   <hr>
-  <p>Building a Culture Employees Won’t Want to Leave</p>
+  <p>Tools and Vocabulary for the Digital Economy</p>
   <hr>
-  <p>Designing Employee Reviews that Develop and Retain Top Talent</p>
+  <p>Sales management workshops to grow pitch, and presentation skills</p>
 
 <button type="submit" class="btn btn-primary mb-2 ">Get Started</button>
 </div>
@@ -166,14 +183,14 @@ FOR ORGANIZATIONS OF ALL TYPES & SIZES</h1>
 <div class="col-md-4">
   <div class="row">
 <div class="col third">
-  <h3>Retain Talent</h3>
-  <p>Identifying and Promoting the Right People for Enterprise Innovation Initiatives</p>
+  <h3>Recruit Smarter</h3>
+  <p>Customized recruiting workshops for early-stage, high-growth, and established </p>
   <hr>
-  <p>How to Manage Teams Across Generations</p>
+  <p>Building a Best Practice Recruiting Process</p>
   <hr>
-  <p>Building a Culture Employees Won’t Want to Leave</p>
+  <p>Identifying Success Characteristics and Key Competencies</p>
   <hr>
-  <p>Designing Employee Reviews that Develop and Retain Top Talent</p>
+  <p>Assessment Tools for Measuring Key Competencies for Innovation</p>
 
 <button type="submit" class="btn btn-primary mb-2 ">Get Started</button>
 </div>
@@ -186,32 +203,22 @@ FOR ORGANIZATIONS OF ALL TYPES & SIZES</h1>
 </div>
 </div>
 
+<!-- training program end-->
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- in -person training start -->
 
 <div class="container-fluid connect">
-<h2>READY TO GET STARTED?</h2>
-<p>Uniquely positioned at the center of tech ecosystems, we've designed our programs
-   to open new doors for you.</p>
+<h2>IN-PERSON TRAINING AT YOUR OFFICE OR SCHOOL</h2>
+<p>Whether you want to give your employees a break from the office,
+or give your students a glimpse into the innovation sector, we can make the logistics fit your needs.</p>
 <button type="submit" class="btn btn-primary mb-2 ">Get Started</button>
    
 
 </div>
+<!-- in -person training end -->
 
 @include('includes/footer')
     

@@ -7,7 +7,7 @@ body{
 .banner{
     height: 45vw;
     width: 100%;
-    background-image: url("../../img/hire-top-talent.jpg");
+    background-image: url("../../img/customes-hackathones.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +19,7 @@ body{
     height: 100%;
     opacity: 0.7;
 }
-/* Bulding talent for growth h1 css */
+/* customs hackathones h1 css */
 .header h1{
     text-align: center !important;
     font-size: 5vw;
@@ -49,8 +49,8 @@ body{
 .banner button:hover{
     background-color: crimson;
 }
-/* hiring-patner whole div */
-.hiring-patner{
+/* custom-hackathons whole div */
+.custom-hackathons{
     margin-top: 4%;
     margin-bottom:4% ;
     width: 100%;
@@ -59,15 +59,15 @@ body{
     width: 100%;
 
 }
-/* hiring-patner all content div */
+/* custom-hackathons all content div */
 
-.hiring-patner .col-md-7 .heading {
+.custom-hackathons .col-md-7 .heading {
     margin: 0px 5% 10% 5%;
 }
 
-/* hiring-patner first heading css */
+/* custom-hackathons first heading css */
 
-.hiring-patner .col-md-7 .heading h2{
+.custom-hackathons .col-md-7 .heading h2{
     margin-bottom: 3%;
     font-weight: bold;
     font-size: 3vw;
@@ -75,22 +75,22 @@ body{
     color: white;
     
 }
-/* hiring-patner list css */
+/* custom-hackathons list css */
 
-.hiring-patner .col-md-7 .heading ul li{
+.custom-hackathons .col-md-7 .heading ul li{
     font-size: 1.6vw;
     font-weight: bold;
     text-align: left;
     color: white;
     list-style: none;
 }
-/* hiring-patner link inside li css */
+/* custom-hackathons link inside li css */
 
-.hiring-patner .col-md-7 .heading ul li a{
+.custom-hackathons .col-md-7 .heading ul li a{
     color: #ff9800;
 }
-/* hire top talent form whole div css */
-.hiring-patner  .top-hire .form-div{
+/* custom-hackathons form whole div css */
+.custom-hackathons  .top-hire .form-div{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #ff9800;
     margin:10% 5% 10% 5%;
@@ -98,9 +98,9 @@ body{
     text-align: center;
 
 }
-/* hire top talent form first heading css */
+/* custom-hackathons form first heading css */
 
-.hiring-patner  .top-hire .form-div h3{
+.custom-hackathons  .top-hire .form-div h3{
     font-weight: bold;
     text-align: center;
     margin-top:20px ;
@@ -108,24 +108,24 @@ body{
     color: white;
 
 }
-/* hire top talent form input css */
+/* custom-hackathons form input css */
 
-.hiring-patner  .top-hire .form-div .Names .col{
+.custom-hackathons  .top-hire .form-div .Names .col{
     padding: 0px 20px 20px 20px;
 }
-.hiring-patner  .top-hire .form-div .company .col{
+.custom-hackathons  .top-hire .form-div .company .col{
     padding: 0px 20px 20px 20px;
 }
-.hiring-patner  .top-hire .form-div .E-mail .col-md-12{
+.custom-hackathons  .top-hire .form-div .E-mail .col-md-12{
     padding: 0px 20px 20px 20px;
 }
-.hiring-patner  .top-hire .form-div .Selection .col-md-12{
+.custom-hackathons  .top-hire .form-div .Selection .col-md-12{
     padding: 0px 20px 20px 20px;
 
 }
-/* hire top talent form button css */
+/* custom-hackathons form button css */
 
-.hiring-patner  .top-hire .form-div  button{
+.custom-hackathons  .top-hire .form-div  button{
     border: none;
     width: 200px;
     height: 50px;
@@ -201,21 +201,25 @@ body{
     text-align: center;
     font-weight: bold; 
     padding: 50px 0px 0px 0px;
+    font-size: 2.3vw;
 }
 /* redy get started paragraph */
 
 .connect p{
     text-align: center;
-    font-size: 20px;
+    font-size: 2vw;
     padding: 20px 100px 0px 100px;
     font-weight: bold;
 }
 /* redy get started button */
 
 .connect button{
-    width: 200px;
+    width: 250px;
     font-size: 25px;
-    height: 50px;
+    height: 80px;
+    background-color: black;
+    border: none;
+    margin-top: 50px;
 }
 
 

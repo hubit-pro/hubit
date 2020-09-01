@@ -3,11 +3,11 @@ body{
     color: black;
 
 }
-/* tap-banner whole div with image on background */
+/* t0p-banner whole div with image on background */
 .banner{
     height: 45vw;
     width: 100%;
-    background-image: url("../../img/hire-top-talent.jpg");
+    background-image: url("../../img/corporate-training.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +19,7 @@ body{
     height: 100%;
     opacity: 0.7;
 }
-/* Bulding talent for growth h1 css */
+/* corporate innovaton h1 css */
 .header h1{
     text-align: center !important;
     font-size: 5vw;
@@ -49,8 +49,8 @@ body{
 .banner button:hover{
     background-color: crimson;
 }
-/* hiring-patner whole div */
-.hiring-patner{
+/*create culture whole div */
+.create-a-culture{
     margin-top: 4%;
     margin-bottom:4% ;
     width: 100%;
@@ -59,15 +59,15 @@ body{
     width: 100%;
 
 }
-/* hiring-patner all content div */
+/*create culture all content div */
 
-.hiring-patner .col-md-7 .heading {
+.create-a-culture .col-md-7 .heading {
     margin: 0px 5% 10% 5%;
 }
 
-/* hiring-patner first heading css */
+/*create culture first heading css */
 
-.hiring-patner .col-md-7 .heading h2{
+.create-a-culture .col-md-7 .heading h2{
     margin-bottom: 3%;
     font-weight: bold;
     font-size: 3vw;
@@ -75,22 +75,31 @@ body{
     color: white;
     
 }
-/* hiring-patner list css */
+/*create culture second heading css */
 
-.hiring-patner .col-md-7 .heading ul li{
+.create-a-culture .col-md-7 .heading h3{
+    color: #ff9800;
+    font-weight: bold;
+
+}
+
+/*create culture list css */
+
+.create-a-culture .col-md-7 .heading ul li{
     font-size: 1.6vw;
     font-weight: bold;
     text-align: left;
     color: white;
-    list-style: none;
+    list-style: disc;
+    padding-top: 20px;
 }
-/* hiring-patner link inside li css */
+/*create culture link inside li css */
 
-.hiring-patner .col-md-7 .heading ul li a{
+.create-a-culture .col-md-7 .heading ul li a{
     color: #ff9800;
 }
-/* hire top talent form whole div css */
-.hiring-patner  .top-hire .form-div{
+/* create culture form whole div css */
+.create-a-culture  .top-hire .form-div{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #ff9800;
     margin:10% 5% 10% 5%;
@@ -98,9 +107,9 @@ body{
     text-align: center;
 
 }
-/* hire top talent form first heading css */
+/* create culture form first heading css */
 
-.hiring-patner  .top-hire .form-div h3{
+.create-a-culture  .top-hire .form-div h3{
     font-weight: bold;
     text-align: center;
     margin-top:20px ;
@@ -108,24 +117,24 @@ body{
     color: white;
 
 }
-/* hire top talent form input css */
+/* create culture form input css */
 
-.hiring-patner  .top-hire .form-div .Names .col{
+.create-a-culture  .top-hire .form-div .Names .col{
     padding: 0px 20px 20px 20px;
 }
-.hiring-patner  .top-hire .form-div .company .col{
+.create-a-culture  .top-hire .form-div .company .col{
     padding: 0px 20px 20px 20px;
 }
-.hiring-patner  .top-hire .form-div .E-mail .col-md-12{
+.create-a-culture  .top-hire .form-div .E-mail .col-md-12{
     padding: 0px 20px 20px 20px;
 }
-.hiring-patner  .top-hire .form-div .Selection .col-md-12{
+.create-a-culture  .top-hire .form-div .Selection .col-md-12{
     padding: 0px 20px 20px 20px;
 
 }
-/* hire top talent form button css */
+/* create culture form button css */
 
-.hiring-patner  .top-hire .form-div  button{
+.create-a-culture  .top-hire .form-div  button{
     border: none;
     width: 200px;
     height: 50px;
@@ -133,19 +142,26 @@ body{
     color: white;
     font-size: 20px;
 }
+
+/* training programs first heading */
+
 .Training-programs h1{
     margin:100px 0px 20px 0px;
     font-weight: bold;
 
 }
+/* training programs second heading */
+
 .Training-programs h3{
     margin-bottom: 60px;
     font-weight: bold;
 }
+/* training programs whole row  */
+
 .Training-programs .one  {
     margin: 0px 100px 0px 100px;
 }
-
+/* training programs first retain talent  */
 .Training-programs .row .col-md-4 .row .first{
     background-color: #ffd942;
     padding: 0px 50px 50px 50px;
@@ -154,6 +170,8 @@ body{
 
 
 }
+/* training programs second retain talent  */
+
 .Training-programs .row .col-md-4 .row .second{
     background-color: #ffd942;
     padding: 0px 50px 50px 50px;
@@ -163,6 +181,8 @@ body{
 
 
 }
+/* training programs third retain talent  */
+
 .Training-programs .row .col-md-4 .row .third{
     background-color: #ffd942;
     padding: 0px 50px 50px 50px;
@@ -171,6 +191,8 @@ body{
 
 
 }
+/* training programs all heading of column  */
+
 .Training-programs .row .col-md-4 .row .col h3{
     font-weight: bold;
     text-align: center;
@@ -178,6 +200,8 @@ body{
     color: #111111;
     font-size: 30px;
 }
+/* training programs all paragraph of column  */
+
 .Training-programs .row .col-md-4 .row .col p{
     color: #000000;
     font-weight: bold;
@@ -185,9 +209,13 @@ body{
     padding-bottom:20px ;
     text-align: left;
 }
+/* training programs all line of column  */
+
 .Training-programs .row .col-md-4 .row .col hr{
     background-color: grey;
 }
+/* training programs all button of column  */
+
 .Training-programs .row .col-md-4 .row .col button{
     width: 80%;
     height: 60px;
@@ -208,35 +236,41 @@ body{
 
 
 
-/* redy get started whole div */
+/* in-person-training whole div */
 .connect{
     width: 100%;
     height: 350px;
-    background-color: #ffd941;
+    background-color: grey;
     margin-top: 100px;
     text-align: center;
 }
-/* redy get started heading */
+/* in-person-training heading */
  
 .connect h2{
     text-align: center;
     font-weight: bold;
     padding: 50px 0px 0px 0px;
+    color: black;
 }
-/* redy get started paragraph */
+/* in-person-training paragraph */
 
 .connect p{
     text-align: center;
     font-size: 20px;
     padding: 20px 100px 0px 100px;
     font-weight: bold;
+    color: black;
+
 }
-/* redy get started button */
+/* in-person-training button */
 
 .connect button{
-    width: 200px;
+    width: 220px;
     font-size: 25px;
-    height: 50px;
+    height: 90px;
+    margin-top: 50px;
+    background-color: black;
+    border: none;
 }
 
 

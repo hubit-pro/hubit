@@ -1,3 +1,6 @@
+/* top header css is in top-header.css */
+/* nav css is in navtraining.css */
+
 body{
     overflow-x: hidden;
     
@@ -9,6 +12,128 @@ html {
     height: 100%;
     
 }
+/* Library content css start*/
+
+
+/* library whole sidebar div */
+  #sidebar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 780px;
+    overflow: none;
+    overflow-y:scroll ;
+  }
+/* library  sidebar content */
+
+  
+  #sidebar a {
+    display: block;
+    color: black;
+    padding-left: 20px;
+    text-decoration: none;
+    text-align:left;
+    font-size:1.5vw;
+  
+  }
+/* library  sidebar content active */
+   
+  #sidebar a.active {
+    background-color: #ff9800;
+    color: white;
+  }
+/* library  sidebar content hover */
+  
+  #sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+/* library  discription div */
+
+  .scroll .row .col-md-10{
+      overflow-y: scroll;
+      height: 780px;
+
+  }
+/* library select a course btn  */
+
+  .btn{
+      color:black;
+      background-color: white;
+      border: none;
+      border-radius:0px !important;
+  }
+  .btn[data-toggle]:not(.collapsed):after {
+    content: "  ▾";
+}
+.btn[data-toggle].collapsed:before {
+    content: " ▾";
+}
+/* library second nav ul */
+#secondnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding: 10px;
+
+
+  }
+/* library second nav ul li */
+  
+  #secondnav ul li {
+    float: left;
+  }
+/* library second nav ul li a */
+  
+  #secondnav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+  }
+/* library second nav ul li a hover */
+  
+  #secondnav ul li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+/* library content:end */
+
+/* library column mobile view css */
+@media (min-width:0px) and (max-width:768px){
+    .col-md-2{
+        width: 20% !important;
+    }
+    .col-md-10{
+        width: 80% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login form css start */
+
+/* login form card */
 .user_card {
     height: 500px;
     width: 450px;
@@ -26,6 +151,8 @@ html {
     border-radius: 5px;
 
 }
+/* login form logo div */
+
 .brand_logo_container {
     position: absolute;
     height: 170px;
@@ -36,105 +163,67 @@ html {
     padding: 10px;
     text-align: center;
 }
+/* login form logo image */
+
 .brand_logo {
     height: 150px;
     width: 150px;
     border-radius: 50%;
     border: 2px solid white;
 }
+/* login form div */
+
 .form_container {
     margin-top: 100px;
 }
+/* login form login btn */
+
 .login_btn {
     width: 100%;
     background: #c0392b !important;
     color: white !important;
 }
+/* login form login btn */
+
 .login_btn:focus {
     box-shadow: none !important;
     outline: 0px !important;
 }
+/* login form login btn div */
+
 .login_container {
     padding: 0 2rem;
 }
+/* login form input */
+
 .input-group-text {
     background: #c0392b !important;
     color: white !important;
     border: 0 !important;
     border-radius: 0.25rem 0 0 0.25rem !important;
 }
+/* login form input */
+
 .input_user,
 .input_pass:focus {
     box-shadow: none !important;
     outline: 0px !important;
 }
+/* login form checkbox */
+
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #c0392b !important;
 }
+/* login form forget your password */
+
 .mt-4 a{
     color: crimson !important;
 
 }
+/* login form allsection */
 section{
-    display: none;
+    display:none;
+
 }
+/* login form css end */
 
-
-/* Library content css*/
-
-
-
-  #sidebar {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: #f1f1f1;
-    height: 780px;
-    overflow: none;
-    overflow-y:scroll ;
-  }
-  
-  #sidebar a {
-    display: block;
-    color: black;
-    padding-left: 20px;
-    text-decoration: none;
-    text-align:left;
-    font-size:1.5vw;
-  
-  }
-   
-  #sidebar a.active {
-    background-color: #ff9800;
-    color: white;
-  }
-  
-  #sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }
-  .scroll .row .col-md-10{
-      overflow-y: scroll;
-      height: 780px;
-
-  }
-  .btn{
-      color:black;
-      background-color: white;
-      border: none;
-      border-radius:0px !important;
-  }
-  .btn[data-toggle]:not(.collapsed):after {
-    content: "  ▾";
-}
-.btn[data-toggle].collapsed:before {
-    content: " ▾";
-}
-@media (min-width:0px) and (max-width:768px){
-    .col-md-2{
-        width: 20% !important;
-    }
-    .col-md-10{
-        width: 80% !important;
-    }
-}
