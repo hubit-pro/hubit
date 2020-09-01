@@ -96,6 +96,8 @@ body{
     margin:10% 5% 10% 5%;
     padding: 4%;
     text-align: center;
+    border-radius:20px ;
+
 
 }
 /* custom-hackathons form first heading css */
@@ -134,58 +136,62 @@ body{
     font-size: 20px;
 }
 
-
-.Training-programs h1{
+  /* how it works first heading */
+.how-it-works h1{
     margin:100px 0px 20px 0px;
     font-weight: bold;
 
 }
-.Training-programs h3{
+  /* how it works first heading */
+
+.how-it-works h3{
     margin-bottom: 60px;
     font-weight: bold;
 }
-.Training-programs .row {
+  /* how it works first whole row */
+
+.how-it-works .row {
     margin:0px 100px 0px 100px ;
 }
-.Training-programs .row .col-md-4 {
+  /* how it works  all column*/
+
+
+.how-it-works .row .col-md-4 {
     margin-bottom: 50px;
     
 }
-.Training-programs .row .col-md-4 .card{
+  /* how it works  all column cards*/
+
+.how-it-works .row .col-md-4 .card{
     border: none;
 }
+
+/* cohorts whole div */
 .cohorts{
     height: auto;
     background-color: #d3d3d3;
 
 }
+/* cohorts heading */
+
 .cohorts h3{
     text-align: center;
     font-weight: bold;
     padding-top: 30px;
 }
+/* cohorts whole row */
 
 .cohorts .row{
     text-align: center;
     margin: 50px 150px 60px 150px ;
 }
+/* cohorts topic heading*/
+
 .cohorts .row .col h4{
     text-align: center;
     font-weight: bold;
     margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* redy get started whole div */
 .connect{
@@ -225,7 +231,7 @@ body{
 
 
 @media (max-width: 768px) and (min-width: 0px) {
-    .Training-programs .row {
+    .how-it-works .row {
         margin:0px 50px 0px 50px ;
     }
 

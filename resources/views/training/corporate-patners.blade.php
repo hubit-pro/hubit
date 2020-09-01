@@ -11,49 +11,59 @@
 </head>
 <body>
 @include('includes/navtraining')
+<!-- banner whole div start -->
 <div class="banner">
     
 <div class="container-fluid text-center header">
   
-<h1><strong>TAP INTO A NETWORK OF HIGHLY<br> ENGAGED & TALENTED PEOPLE</strong></h1>
-<p>At Startup Institute, we’re building solutions to bridge the gap between<br>
-     innovation and the modern workforce.
+<h1><strong>CORPORATE PARTNERS</strong></h1>
+<p>We partner with a group of employers who are actively seeking to hire the <br>
+  best talent for their companies.
 </p>
-  <button type="sumbit">HIRE TALENT</button>
+  <button type="sumbit">BECOME A PARTNER</button>
   </div>
 
 </div>
+<!-- banner whole div start -->
 
-<div class="row hiring-patner m-0">
+<!-- corporate patners content start -->
+
+<div class="row corporate-patners m-0">
     <div class="col-md-7">
 <div class="heading">
 
 <ul data-rte-list="default">
-<h2 style="white-space: pre-wrap;">BECOME A HIRING PARTNER WITH STARTUP INSTITUTE</h2>
+<h2 style="white-space: pre-wrap;">THE STARTUP INSTITUTE
+CORPORATE NETWORK:</h2>
     
      <li><p>
-      Exclusive Access to Talent, Not High Staffing FeesGet priority access to vetted
-       Startup Institute graduates for fees FAR below what staffing firms typically charge. <br>&nbsp;</p></li>
+     At Startup Institute, we take great pride in our community
+      of corporate partners. We’re committed to building relationships with an elite group of 
+      employers who are actively seeking to hire the best talent for their companies. These companies 
+      have the opportunity to meet our students early in the program and watch them develop throughout 
+      the eight weeks.<br><br>
 
-     <li><p>Gain a Recruiting Advantage in Boston and NYC Discounted access to 
-         award winning Startup Institute courses built around traditional business hours.<br>&nbsp;</p></li>
+      With every new partner we bring on, new opportunities follow. As our network expands, 
+      so too do the opportunities of our students and alumni.<br><br>
 
-     <li><p>Tap Into a Network of Highly-Vetted CandidatesStartup Institute's 
-         program only accept 15% of applicants on average, which means you get access to some
-          of the sharpest talent in your city.&nbsp;</p></li>
-      
-
-
+      Startup Institute’s corporate partnership program is an example of what can be accomplished 
+      when companies and people come together with a single goal: innovation.<br><br>
+     
+     <br>&nbsp;</p></li>
 
 
     </ul>
 </div>
     </div>
+<!-- corporate patners content end -->
+
+
+<!-- corporate patners form start -->
 
     <div class="col-md-5 top-hire">
     <div class="form-div">
      
-        <h3>Hire Top Talent</h3>
+        <h3>Join our Network</h3>
     <form action="#">
   <div class="row Names">
     <div class="col">
@@ -113,9 +123,14 @@
     </div>
 </div>
 
+<!-- corporate patners form end -->
+
+<!-- our patners div start -->
 
 
 <div class="container-fluid our-patners">
+<h1>SOME OF OUR STUDENTS HAVE LANDED HERE:</h1>
+
   <div class="row">
     <div class="col-md-2">
       <img src="img/c.png" id="logo1" alt="#img">
@@ -198,34 +213,24 @@
   <div class="col-md-2">
     <img src="img/sap.png" id="logo1" alt="#img">
       
-   
+
   </div>
 
 </div>
 </div>
 
+<!-- our patners div end -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- ready to become patner start -->
 <div class="container-fluid connect">
-<h2>READY TO GET STARTED?</h2>
-<p>Uniquely positioned at the center of tech ecosystems, we've designed our programs
-   to open new doors for you.</p>
+<h2>READY TO JOIN THE STARTUP INSTITUTE NETWORK?</h2>
+
 <button type="submit" class="btn btn-primary mb-2 ">Get Started</button>
    
 
 </div>
+<!-- ready to become patner end -->
 
 @include('includes/footer')
     

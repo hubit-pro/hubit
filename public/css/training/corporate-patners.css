@@ -7,7 +7,7 @@ body{
 .banner{
     height: 45vw;
     width: 100%;
-    background-image: url("../../img/hire-top-talent.jpg");
+    background-image: url("../../img/corporate-partners.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -49,8 +49,8 @@ body{
 .banner button:hover{
     background-color: crimson;
 }
-/* hiring-patner whole div */
-.hiring-patner{
+/* corporate-patners whole div */
+.corporate-patners{
     margin-top: 4%;
     margin-bottom:4% ;
     width: 100%;
@@ -59,15 +59,15 @@ body{
     width: 100%;
 
 }
-/* hiring-patner all content div */
+/* corporate-patners all content div */
 
-.hiring-patner .col-md-7 .heading {
+.corporate-patners .col-md-7 .heading {
     margin: 0px 5% 10% 5%;
 }
 
-/* hiring-patner first heading css */
+/* corporate-patners first heading css */
 
-.hiring-patner .col-md-7 .heading h2{
+.corporate-patners .col-md-7 .heading h2{
     margin-bottom: 3%;
     font-weight: bold;
     font-size: 3vw;
@@ -75,32 +75,33 @@ body{
     color: white;
     
 }
-/* hiring-patner list css */
+/* corporate-patners list css */
 
-.hiring-patner .col-md-7 .heading ul li{
+.corporate-patners .col-md-7 .heading ul li{
     font-size: 1.6vw;
     font-weight: bold;
     text-align: left;
     color: white;
     list-style: none;
 }
-/* hiring-patner link inside li css */
+/* corporate-patners link inside li css */
 
-.hiring-patner .col-md-7 .heading ul li a{
+.corporate-patners .col-md-7 .heading ul li a{
     color: #ff9800;
 }
-/* hire top talent form whole div css */
-.hiring-patner  .top-hire .form-div{
+/* corporate-patners form whole div css */
+.corporate-patners  .top-hire .form-div{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #ff9800;
     margin:10% 5% 10% 5%;
     padding: 4%;
     text-align: center;
+    border-radius:20px ;
 
 }
-/* hire top talent form first heading css */
+/* corporate-patners form first heading css */
 
-.hiring-patner  .top-hire .form-div h3{
+.corporate-patners  .top-hire .form-div h3{
     font-weight: bold;
     text-align: center;
     margin-top:20px ;
@@ -108,24 +109,24 @@ body{
     color: white;
 
 }
-/* hire top talent form input css */
+/* corporate-patners form input css */
 
-.hiring-patner  .top-hire .form-div .Names .col{
+.corporate-patners  .top-hire .form-div .Names .col{
     padding: 0px 20px 20px 20px;
 }
-.hiring-patner  .top-hire .form-div .company .col{
+.corporate-patners  .top-hire .form-div .company .col{
     padding: 0px 20px 20px 20px;
 }
-.hiring-patner  .top-hire .form-div .E-mail .col-md-12{
+.corporate-patners  .top-hire .form-div .E-mail .col-md-12{
     padding: 0px 20px 20px 20px;
 }
-.hiring-patner  .top-hire .form-div .Selection .col-md-12{
+.corporate-patners  .top-hire .form-div .Selection .col-md-12{
     padding: 0px 20px 20px 20px;
 
 }
-/* hire top talent form button css */
+/* corporate-patners form button css */
 
-.hiring-patner  .top-hire .form-div  button{
+.corporate-patners  .top-hire .form-div  button{
     border: none;
     width: 200px;
     height: 50px;
@@ -138,6 +139,8 @@ body{
 
 }
 
+/* logo animation */
+
 #logo1 {
     -webkit-filter: grayscale(100%);
     -webkit-transition: .5s ease-in-out;
@@ -148,6 +151,7 @@ body{
     height: 100%;
     width: 100%;
 }
+/* logo animation on hover */
 
 #logo1:hover {
     -webkit-filter: grayscale(0%);
@@ -163,7 +167,7 @@ body{
 .connect{
     width: 100%;
     height: 350px;
-    background-color: #ffd941;
+    background-color: #00a6e5;
     margin-top: 100px;
     text-align: center;
 }
@@ -187,7 +191,10 @@ body{
 .connect button{
     width: 200px;
     font-size: 25px;
-    height: 50px;
+    height: 80px;
+    margin-top: 50px;
+    background-color: black;
+    border: none;
 }
 
 

@@ -125,9 +125,9 @@ BY STARTUP INSTITUTE</h2>
 
 
 
-<!-- training-programs div start -->
+<!-- how-it-works div start -->
 
-<div class="container-fluid Training-programs text-center">
+<div class="container-fluid how-it-works text-center">
   <h1>HOW IT WORKS</h1>
 <h3>Everything About Your Hackathon Will Be Built to Your Specifications</h3>
 <div class="row">
@@ -186,7 +186,7 @@ BY STARTUP INSTITUTE</h2>
 </div>
 </div>
  
-<!-- training-programs div end -->
+<!-- how-it-works div end -->
 
 
 
@@ -218,7 +218,7 @@ BY STARTUP INSTITUTE</h2>
 
 
 
-
+<!-- connect div start -->
 <div class="container-fluid connect">
 <h2>READY TO GO?</h2>
 <p>Inspire a culture of innovation by working with Startup Institute to build a hackathon.</p>
@@ -226,6 +226,7 @@ BY STARTUP INSTITUTE</h2>
    
 
 </div>
+<!-- connect div start -->
 
 
 
