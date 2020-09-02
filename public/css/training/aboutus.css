@@ -104,7 +104,7 @@ hr{
     font-weight: bold;
     font-size: 20px;
     padding: 5px;
-    line-height: 20px;
+    text-align: left !important;
 
 
 
@@ -129,6 +129,8 @@ hr{
     font-weight: bold;
     font-size: 20px;
     padding: 5px;
+    text-align: left !important;
+
 
 
 
