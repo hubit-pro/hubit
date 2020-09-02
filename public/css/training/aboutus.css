@@ -7,13 +7,18 @@ hr{
 }
 
 .banner{
-    background-image: url("../../img/about-us-banner.jpg");
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
 }
+.banner img{
+    height: 100%;
+    width: 100%;
+   
+}
+
 
 
 .why-us h1{
@@ -23,7 +28,7 @@ hr{
 
 
 .why-us .row {
-    margin: 50px 100px 50px 100px;
+    margin: 50px 100px 20px 100px;
 }
 .why-us .row .col-md-4 hr{
     width: 120px;
@@ -48,7 +53,8 @@ hr{
 }
 
 .our-values .row {
-    margin: 70px 50px 50px 70px;
+    margin: 50px 70px 0px 70px;
+    padding: 0px 0px 100px 0px;
 }
 .our-values .row .col-md-3 .content h4{
     padding-top: 15px;

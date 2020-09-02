@@ -113,6 +113,9 @@ Route::get('customs-hackathons', function () {
 Route::get('aboutus', function () {
     return view('training/aboutus');
 });
+Route::get('career-training', function () {
+    return view('training/career-training');
+});
 
 
 

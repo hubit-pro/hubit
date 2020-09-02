@@ -57,7 +57,7 @@
 
       
       <li class="nav-item">
-        <a class="nav-link" href="#" id="navitems">career</a>
+        <a class="nav-link" href="career-training" id="navitems">career</a>
       </li>
 
 
@@ -101,7 +101,7 @@
 
 
       <li class="nav-item">
-        <a class="nav-link" href="contact us" id="navitems">Contact Us</a>
+        <a class="nav-link" href="contactus" id="navitems">Contact Us</a>
       </li> 
 
    

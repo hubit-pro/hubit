@@ -9,7 +9,8 @@
 </head>
 <body>
 @include("includes/navtraining")
-<div class="container-fluid banner">
+<div class="container-fluid banner m-0 p-0">
+  <img src=" img/about-us-banner.jpg">
     
 </div>
 <hr>
@@ -18,7 +19,7 @@
 <div class="col-md-4">
 <h1>HUBIT History</h1>
 <hr>
-
+ 
 
 </div>
 <div class="col-md-8">
