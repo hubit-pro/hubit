@@ -68,8 +68,7 @@
 
 				<div class="col-xl-12 pt-3 pb-3 text"><i>Project Trainings</i></div>
 			</div>
-    </div>
-    
+		</div>
 
 		<div class="col-xl-2">
 			<div class="row">
