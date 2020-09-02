@@ -125,40 +125,6 @@
 
 
 
-<!--------------------------FRIDAY PROGRAMMES TOPIC START------------------->
-<section class="container-fluid p-5 text-center" style="background-color: white;">
-	<div class="row">
-		<div class="col-xl-12" style="color: darkslategray; border-bottom: 1px solid #082941;">
-			<h4>OUR FRIDAY PROGRAMME</h4>
-		</div>
-	</div>
-</section>
-<!------------------------FRIDAY PROGRAMMESTOPIC END------------------------>
-
-<!-----------------------FRIDAY PROGRAMMES START---------------------------->
-<section class="container-fluid p-5">
-	
-	<div class="row">
-
-		<div class="col-xl-12 pro">
-			<div class="row">
-			
-				
-
-			</div>
-		</div>
-
-		<div class="col-xl-12 pt-5">
-			<div class="row" style="border: 2px solid silver; border-radius: 5px;">
-		
-				
-			</div>
-		</div>
-
-	</div>
-
-</section>
-<!-----------------------FRIDAY PROGRAMMES END------------------------------>
 
 
 <!--------------------------INTERNSHIP TOPIC START-------------------------->
