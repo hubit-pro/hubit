@@ -1,0 +1,224 @@
+.body{
+    overflow-x: hidden;
+}
+hr{
+    height: 3px;
+    background-color: #ff9800;
+}
+
+.banner{
+    background-image: url("../../img/about-us-banner.jpg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+
+.why-us h1{
+    color: #a0047d;
+    
+}
+
+
+.why-us .row {
+    margin: 50px 100px 50px 100px;
+}
+.why-us .row .col-md-4 hr{
+    width: 120px;
+    height: 3px;
+    background-color: #ff9800;
+    float: left;
+    margin-top: 0px;
+}
+
+.why-us .row .col-md-8 p{
+    font-size: 20px;
+}
+
+
+.our-values .row .col h1{
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+    color: grey;
+    border-bottom: 2px solid #ff9800;
+    display: inline-block;
+   
+}
+
+.our-values .row {
+    margin: 70px 50px 50px 70px;
+}
+.our-values .row .col-md-3 .content h4{
+    padding-top: 15px;
+    font-weight: bold;
+}
+.our-values .row .col-md-3 .content p{
+    padding: 10px 20px 20px 20px;
+    color: grey;
+}
+.our-vision{
+    background-color: #002130;
+    color: white;
+}
+.our-vision .row .col-md-8 .moto{
+    margin: 50px 120px 50px 120px;
+}
+.our-vision .row .col-md-8 .moto h1{
+    color: #ff9800;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.our-vision .row .col-md-8 .moto p{
+    font-size: 20px;
+}
+.our-vision .row .col-md-4 .image{
+    height: 100%;
+    width: 100%;
+}
+.our-vision .row .col-md-4 .image img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.objectives{
+    padding: 50px 100px 50px 100px;
+}
+.objectives .row .col h1{
+    font-weight: bold;
+    border-left: 5px solid #ff9800;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 0px 0px 20px;
+    color: rgb(30, 28, 59);
+}
+.objectives .row .col p{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+.objectives .row .col ul li{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    line-height: 20px;
+
+
+
+}
+
+.why{
+    padding: 50px 100px 50px 100px;
+}
+.why .row .col h1{
+    font-weight: bold;
+    border-left: 5px solid #ff9800;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 0px 0px 20px;
+    color: rgb(30, 28, 59);
+}
+.why .row .col p{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+.why .row .col ul li{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+.testimonials .container-fluid h1{
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+    color: grey;
+}
+.testimonials .container-fluid h1 hr{
+    display:block;
+    width: 200px;
+  
+}
+
+
+.shadow-effect {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+border:1px solid #ECECEC;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+}
+#customers-testimonials .shadow-effect p {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+}
+.testimonial-name {
+    margin: -17px auto 0;
+    display: table;
+    width: auto;
+    background: #3190E7;
+    padding: 9px 35px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+}
+#customers-testimonials .item {
+    text-align: center;
+    padding: 50px;
+        margin-bottom:80px;
+    opacity: 1;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#customers-testimonials .owl-item.active.center .item {
+    opacity: 1;
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+    transform: scale3d(1.0, 1.0, 1);
+}
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+    max-width: 90px;
+    margin: 0 auto 17px;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+    background: #3190E7;
+    transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+#customers-testimonials.owl-carousel .owl-dots{
+display: inline-block;
+width: 100%;
+text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+display: inline-block;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+    background: #3190E7;
+    display: inline-block;
+    height: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    width: 20px;
+}

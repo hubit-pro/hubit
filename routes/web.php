@@ -110,6 +110,9 @@ Route::get('corporate-training', function () {
 Route::get('customs-hackathons', function () {
     return view('training/customs-hackathons');
 });
+Route::get('aboutus', function () {
+    return view('training/aboutus');
+});
 
 
 

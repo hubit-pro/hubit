@@ -52,7 +52,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#" id="navitems">About us</a>
+        <a class="nav-link" href="aboutus" id="navitems">About us</a>
       </li>
 
       
