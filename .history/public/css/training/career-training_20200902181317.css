@@ -1,0 +1,66 @@
+body{
+    overflow-x: hidden;
+
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+       
+    
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+    background-blend-mode: multiply;
+    background-color: #1dc2ef;
+
+}
+.banner hr{
+    height: 3px;
+    background-color: #ff9800;
+    margin: 0px;
+}
+.for-you .row .col{
+    height: 300px;
+    width: 100px !important;
+    text-align: center;
+}
+.for-you .row .col img{
+    height: 100%;
+    margin-top: 50px;
+
+}
+.for-you .row .col h1{
+    font-weight: bold;
+    color: rgb(33, 32, 70);
+    margin: 0px;
+    font-size: 4vw;
+}
+.for-you .row .col p{
+    font-weight: bold;
+    color: rgb(64, 63, 94);
+    margin: 0px;
+    font-size: 25px;
+
+}
+
+.our-alumini{
+    background-color: #333;
+    height: auto;
+    width: 100%;
+    margin-top: 150px;
+}
+.our-alumini .row .col-md-3 .content {
+    height: 100px;
+    width: 100px;
+    margin: 150px 100px 150px 100px;
+}
+.our-alumini .row .col-md-3 .content img{
+    height: 100%;
+    width: 100%;
+}
+
