@@ -2,6 +2,7 @@ body{
   overflow-x: hidden;
   
 }
+
 .sidebar {
   margin: 0;
   padding: 0;
@@ -74,7 +75,7 @@ div.content {
   .banner{
     background-color:#ff9800b8;
     height: 250px;
-    width: 100%;
+    width: 97%;
     color: white;
     
   }

@@ -14,7 +14,7 @@
 
 
 <!-----------------------------SLIDER----------------------->
-<div class='container-fluid' >
+<div class='container-fluid m-0 p-0' >
      
               <img src="img/it-training-banner.jpg">
 

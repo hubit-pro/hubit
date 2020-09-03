@@ -22,7 +22,7 @@
 
 
 <!--------------------------NON-SLIDER----------------------->
-<section class="container-fluid p-0 non" style="position: relative;">
+<section class="container-fluid non" style="position: relative;">
 
   <img src="img/confused.jpg">
 

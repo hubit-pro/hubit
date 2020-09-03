@@ -25,7 +25,7 @@
 
 
 <!-----------------------------SLIDER----------------------->
-<section class="container-fluid p-0 mt-2" style="position: relative;">
+<section class="container-fluid p-0 mt-2 pl-3 pr-3" style="position: relative;">
      <div id="MagicCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
 
   <div class="carousel-inner" role="listbox">
@@ -135,7 +135,7 @@ in the process we share some timeless moments, some of those are captured in pho
 
 
 
-  <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide mb-5 ml-3 mr-3" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators"  data-slide-to="1" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>

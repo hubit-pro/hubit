@@ -9,7 +9,7 @@
 </head>
 <body>
 @include("includes/navtraining")
-<div class="container-fluid banner m-0 p-0">
+<div class="container-fluid banner ">
   <img src=" img/about-us-banner.jpg">
     
 </div>

@@ -28,7 +28,7 @@ hr{
 
 
 .why-us .row {
-    margin: 50px 100px 20px 100px;
+    margin: 50px ;
 }
 .why-us .row .col-md-4 hr{
     width: 120px;
@@ -53,8 +53,7 @@ hr{
 }
 
 .our-values .row {
-    margin: 50px 70px 0px 70px;
-    padding: 0px 0px 100px 0px;
+    padding: 50px;
 }
 .our-values .row .col-md-3 .content h4{
     padding-top: 15px;
@@ -69,7 +68,7 @@ hr{
     color: white;
 }
 .our-vision .row .col-md-8 .moto{
-    margin: 50px 120px 50px 120px;
+    margin: 50px ;
 }
 .our-vision .row .col-md-8 .moto h1{
     color: #ff9800;
@@ -92,7 +91,7 @@ hr{
 
 
 .objectives{
-    padding: 50px 100px 50px 100px;
+    padding: 50px 
 }
 .objectives .row .col h1{
     font-weight: bold;
@@ -117,7 +116,7 @@ hr{
 }
 
 .why{
-    padding: 50px 100px 50px 100px;
+    padding: 50px ;
 }
 .why .row .col h1{
     font-weight: bold;
