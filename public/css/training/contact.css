@@ -1,0 +1,85 @@
+ 
+body{
+    overflow-x: hidden;
+  }
+  
+  /* top header css is on top-header.css */
+  /* navbar css is on navhome.css */
+  /* box shadow of contzct form */
+  #contact-form{
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  
+  
+  /* Enquiery text  */
+  .col-md-7 h4{
+    font-family: 'Lemonada', cursive;
+  
+  
+  }
+  /* contact-information */
+  .contact-div{
+    background-color: rgb(0 0 0 / 21%);
+    
+  }
+  /* hub it group pvt ltd boder bottom */
+  hr{
+    background-color: #ffca07;
+    height: 2px;
+    width: 20%;
+  }
+  
+  /* contact information text div */
+  .contact-information{
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    font-size: larger;
+    margin-top:10px ;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    
+  
+  }
+  /* Contact details */
+  .information {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2rem;
+    margin-top: 7px;
+  
+  
+  }
+  /* <hubitpvtltd text   */
+  .c-name{
+    text-align: center;
+    border-bottom: 2px solid rgb(7, 134, 75);
+  }
+  .contact-list{
+    margin-top: 5%;
+  }
+  /* Enquiry button */
+  .btn{
+    width: 40%;
+    margin-left: 30%;
+    font-size: 25px;
+    background-color: #ff9800;
+    border: none;
+  }
+  .btn:hover{
+    background-color: green;
+  }
+  #heading {
+    text-align:center;
+    margin-top:20px;
+  }
+  
+  @media (min-width: 0) and (max-width: 768px) {
+    hr{
+      width: 70%;
+    }
+  }
+    

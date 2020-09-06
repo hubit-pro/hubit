@@ -2,7 +2,6 @@
   <link rel="stylesheet" type="text/css" href="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
   <link rel="stylesheet" type="text/css" href="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
   <link rel="icon" type="image/ico" href="logo.png" />
-	<title>Best IT Training In Butwal Nepal</title>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Best IT training and Solutions in Butwal, No.1 web designer and computer Institute in Rupandehi, Best IT Training in Butwal Nepal

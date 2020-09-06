@@ -116,12 +116,18 @@ Route::get('aboutus', function () {
 Route::get('career-training', function () {
     return view('training/career-training');
 });
+Route::get('examination', function () {
+    return view('training/examination');
+});
+Route::get('contactus', function () {
+    return view('training/contact');
+});
 
 
 
 
 Route::get('contact-solutions', function () {
-    return view('training/contact-solutions');
+    return view('solution/contact-solutions');
 });
 Route::get('home-solution', function () {
     return view('solution/home-solution');
