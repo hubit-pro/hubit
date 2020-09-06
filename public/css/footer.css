@@ -1,12 +1,9 @@
 html{
 
-    zoom: 80%;
     padding: 0px 25px 25px 25px;
-
-
-    
+    zoom: 80%;    
     }
-
+  
 footer {
     background-color: white;
     color:black;
@@ -36,7 +33,6 @@ h6{
 
 #footer-list li a{
     color: black;
-    font-weight: bolder;
     text-align: center;
     
 }

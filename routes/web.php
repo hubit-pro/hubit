@@ -122,6 +122,12 @@ Route::get('examination', function () {
 Route::get('contactus', function () {
     return view('training/contact');
 });
+Route::get('blog-single', function () {
+    return view('training/blog-single');
+});
+Route::get('categories', function () {
+    return view('training/categories');
+});
 
 
 

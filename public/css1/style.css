@@ -1,50 +1,16 @@
-
-body{
-    overflow-x: hidden;
-}
-
-
 /* Base */
 html {
   overflow-x: hidden;
+  zoom: 100% !important;
+
  }
+  
 
 body {
   line-height: 1.7;
   color: gray;
   font-weight: 300;
- }
-/* 
-  .top-header{
-    font-size: 13px !important;
-    height: 40px !important;
-  }
-  .hire-talent button{
-    width: 93px !important;
-    font-size: 12px !important;
-    height: 20px !important;
-  }
-  .sign-up i {
-    font-size: 16px !important;}
-
-    .nav-item{
-      font-size: 13.6px !important;
-    }
-    #image {
-      width: 180px !important;
-      height: 60px !important;
-  }
-  #footer-list{
-    font-size: 10px !important ;
-  }
-.footer-contact li{
-  font-size: 10px !important;
-}
-.icon{
-  font-size: 22px !important;
-} */
-
-
+  font-size: .9rem; }
 
 ::-moz-selection {
   background: #000;
