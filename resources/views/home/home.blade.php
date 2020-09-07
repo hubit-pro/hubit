@@ -97,7 +97,7 @@ in the process we share some timeless moments, some of those are captured in pho
 </div>
 </div>
 <div class="container-fluid see-all">
-  <p><a href="ourmembers">See All >></a></p>
+  <p><a href="ourworks">See All >></a></p>
 </div>
 
 
@@ -139,8 +139,7 @@ in the process we share some timeless moments, some of those are captured in pho
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators"  data-slide-to="1" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    
+   
 
   </ol>
   <div class="carousel-inners ">
@@ -166,16 +165,7 @@ in the process we share some timeless moments, some of those are captured in pho
                       
     </div>
     </div>
-    <div class="carousel-item">
-    <div class="inactive">
-    <div class="board-img">
-    <img src="img/per.jpg">
-</div>
-    <h2 >Er. Hari Banjade</h2>
-       <p>We are always trying to better the expereince the student get from our institution by providing them better consultation and facilities. HUB IT primarily focuses on sharpening students skills with internship and job oppurtunities.</p>                    
-                      
-    </div>
-    </div>
+    
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

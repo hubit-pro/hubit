@@ -149,7 +149,6 @@ margin: -20px;
 }
 /* carousel items of our memorable moments */
 .item {
-	
 	transition: transform .2s,ease;
 	margin-left:5px;
 	box-shadow:0px 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23) ;
@@ -214,14 +213,14 @@ margin: -20px;
 }
 	/* <our clients  carousel-item image div */
 .item1{
-	margin-left:50px;
+	margin-left:20px;
   }
 	/* <ourclients  carousel-item image */
 .item1 img{
-	height: 120px;
+	height: 170px;
 	 border-radius: 50%; 
 	 border: 3px solid silver;
-	 width: 120px !important;
+	 width: 170px !important;
   }
 	/* Our clients carousel item div*/
 .our-clients .item1{
