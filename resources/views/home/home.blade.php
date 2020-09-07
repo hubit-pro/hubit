@@ -4,6 +4,7 @@
 
   @include("includes/homehead")
   <link rel="stylesheet" type="text/css" href="css/home/home.css">
+  
 
 	<title>Best IT Training In Butwal Nepal</title>
 
@@ -97,7 +98,7 @@ in the process we share some timeless moments, some of those are captured in pho
 </div>
 </div>
 <div class="container-fluid see-all">
-  <p><a href="ourmembers">See All >></a></p>
+  <p><a href="our ">See All >></a></p>
 </div>
 
 
