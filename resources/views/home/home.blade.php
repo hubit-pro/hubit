@@ -98,11 +98,7 @@ in the process we share some timeless moments, some of those are captured in pho
 </div>
 </div>
 <div class="container-fluid see-all">
-<<<<<<< HEAD
-  <p><a href="our ">See All >></a></p>
-=======
   <p><a href="ourworks">See All >></a></p>
->>>>>>> 19b2d1ff928aafe73f33d4bd543901d2a56327f9
 </div>
 
 

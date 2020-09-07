@@ -92,7 +92,7 @@ Route::get('library', function () {
 Route::get('career-training', function () {
     return view('training/career-training');
 });
-Route::get('course', function () {
+Route::get('courses', function () {
     return view('training/course-training');
 });
 Route::get('business-services', function () {
@@ -127,6 +127,9 @@ Route::get('blog-single', function () {
 });
 Route::get('categories', function () {
     return view('training/categories');
+});
+Route::get('course-details', function () {
+    return view('training/course-details');
 });
 
 
