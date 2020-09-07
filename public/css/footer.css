@@ -1,7 +1,11 @@
 html{
 
     padding: 0px 25px 25px 25px;
-    zoom: 80%;    
+    
+    }
+    body{
+        zoom: 80%;
+       
     }
   
 footer {
