@@ -17,8 +17,9 @@
 <link rel="stylesheet" type="text/css" href="unicat/styles/courses_responsive.css">
 </head>
 <body>
+<div class="container-fluid p-0" style="zoom:80% !important">
 @include('includes/navtraining')
-
+</div>
 
 <div class="super_container">
 
@@ -419,7 +420,9 @@
 
 	
 </div>
+<div class="container-fluid p-0" style="zoom:80% !important">
 @include('includes/footer')
+</div>
 
 
 <script src="unicat/js/jquery-3.2.1.min.js"></script>

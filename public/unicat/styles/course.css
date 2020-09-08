@@ -218,6 +218,7 @@ section
 {
 	width: 100%;
 	overflow: hidden;
+	zoom:100% !important;
 }
 .prlx_parent
 {

@@ -17,8 +17,9 @@
 <link rel="stylesheet" type="text/css" href="unicat/styles/course_responsive.css">
 </head>
 <body>
+<div class="container-fluid" style="zoom:80%;">
 @include('includes/navtraining')
-
+</div>
 
 <div class="super_container">
 
@@ -505,8 +506,9 @@
 
 	
 </div>
+<div class="container-fluid" style="zoom:80%;">
 @include('includes/footer')
-
+</div>
 <script src="unicat/js/jquery-3.2.1.min.js"></script>
 <script src="unicat/styles/bootstrap4/popper.js"></script>
 <script src="unicat/styles/bootstrap4/bootstrap.min.js"></script>

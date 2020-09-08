@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="css/home/gallery.css">
 
 </head>
-<body>
+<body  style="zoom:80%">
 @include('includes/navhome')
 
 

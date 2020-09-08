@@ -34,8 +34,9 @@
 
 	<body>
 <!-----------------------NAVBAR------------------------------->
+<div class="container-fluid" style="zoom:80%;">
 	@include("includes/navtraining")
-  
+  </div>
 <!-------------------------NAVBAR END--------------------------------->
 
  
@@ -533,8 +534,10 @@
 
 
     <!-- <footer> -->
+    <div class="container-fluid" style="zoom:80%;">
 
     @include('includes.footer')
+    </div>
 
 <!-- </footer>  -->
 

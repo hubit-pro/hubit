@@ -11,7 +11,7 @@
 
     <title>Ourmembers</title>
 </head>
-<body>
+<body  style="zoom:80%">
 @include('includes/navhome')
 
 <div class="container-fluid text-center banner">

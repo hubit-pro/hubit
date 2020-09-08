@@ -7,7 +7,7 @@
 	<title>Career</title>
 </head>
 @include('includes/traininghead')
-<body>
+<body  style="zoom:80%">
 @include('includes/navtraining')
 <div class="container-fluid banner">
 	<img src="img/career-banner.jpg"><hr>

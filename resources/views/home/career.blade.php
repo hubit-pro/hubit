@@ -7,7 +7,7 @@
 
 
 </head>
-<body>
+<body  style="zoom:80%">
    
 <!-----------------------NAVBAR------------------------------->
 	@include('includes/navhome')

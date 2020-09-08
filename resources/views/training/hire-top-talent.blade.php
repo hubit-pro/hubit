@@ -9,7 +9,7 @@
     <title>Hire Talent</title>
     @include('includes/traininghead')
 </head>
-<body>
+<body  style="zoom:80%">
 @include('includes/navtraining')
 <!-- top banner start -->
 
