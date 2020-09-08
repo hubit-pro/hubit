@@ -9,7 +9,7 @@
     <title>Corporate Training</title>
     @include('includes/traininghead')
 </head>
-<body>
+<body  style="zoom:80%">
 @include('includes/navtraining')
 <!-- top banner div start -->
 <div class="banner">

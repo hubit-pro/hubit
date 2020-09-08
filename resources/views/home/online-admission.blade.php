@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  style="zoom:0.8 !important;">
 <head>
     
     @include('includes/homehead')
 	<title>Online-Admission</title>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, ">
   <link rel="stylesheet" type="text/css" href="css/home/online-admission.css">
-  <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
   
 
 
@@ -17,7 +16,7 @@
     
     <title>Online-Admission</title>
 </head>
-<body >
+<body>
 @include('includes/navhome')
 
 <div class="container ">

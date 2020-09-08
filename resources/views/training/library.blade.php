@@ -4,7 +4,7 @@
 	@include('includes/traininghead')
  
 
-
+<body  style="zoom:80%">
 <!-----------------------NAVBAR------------------------------->
 @include("includes/navtraining")
 <link rel="stylesheet" type="text/css" href="css/training/library.css">
@@ -161,7 +161,7 @@ Bootstrap 4 Containers - W3Schoolswww.w3schools.com › bootstrap4 › bootstrap
 Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java ...
 
 Bootstrap Text/Typography - W3Schoolsw3schools-fa.ir › bootstrap › bootstrap_typography
-Bootstrap's Default Settings. Bootstrap's global default font-size is 14px, with a line-height of 1.428. This is applied to the <body> element and all paragraphs ...
+Bootstrap's Default Settings. Bootstrap's global default font-size is 14px, with a line-height of 1.428. This is applied to the  element and all paragraphs ...
 People also search for
 
 jQuery

@@ -9,7 +9,7 @@
     <title>Customs Hackathones</title>
     @include('includes/traininghead')
 </head>
-<body>
+<body  style="zoom:80%">
 @include('includes/navtraining')
 
 <!-- banner whole div start -->

@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/training/business-services.css">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200;1,500&family=Oswald:wght@500&family=Teko:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
-<body>
+<body  style="zoom:80%">
 @include('includes/navtraining')
 <div class="banner">
     

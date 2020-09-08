@@ -50,6 +50,10 @@
       <li class="nav-item">
         <a class="nav-link" href="home-training" id="navitems">Home</a>
       </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="courses" id="navitems">Courses</a>
+      </li>
 
       <li class="nav-item">
         <a class="nav-link" href="aboutus" id="navitems">About us</a>
