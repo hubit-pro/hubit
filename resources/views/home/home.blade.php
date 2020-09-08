@@ -4,6 +4,9 @@
 
   @include("includes/homehead")
   <link rel="stylesheet" type="text/css" href="css/home/home.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
 
 	<title>Best IT Training In Butwal Nepal</title>
 
@@ -72,11 +75,25 @@
       <a class="button" href="home-solution"><button type="button" class="btn lin" class="button">IT SOLUTION</button></a>
       <a class="button" href="home-training"><button type="button" class="btn lin" class="button">IT TRAINING</button></a>
     </div>
-  
-    <div class="notice-section">
-        <marquee>Notice: Web Design and Developement classes will start from Thrusday, 21st December. All other classes will start from Sunday, 24th December. For any enquiry please call at 071-549281 or 9857245414. Have a great day ahead. Thank you.  </marquee>
-    </div>
 
+<!-------------marquee repeat start-------------------------------------- -->
+
+<div class="marquee">
+  <div class="track">
+    <div class="content">Notice: Web Design and Developement classes will start from Thursday, 21st December. 
+      All other classes will start from Sunday, 24th December. 
+      For any enquiry please call at 071-549281 or 9857245414. Have a great day ahead. Thank you.
+    </div>
+      <div class = "content2">Notice: Web Design and Developement classes will start from Thursday, 21st December. 
+      All other classes will start from Sunday, 24th December. 
+      For any enquiry please call at 071-549281 or 9857245414. Have a great day ahead.
+       Thank you.
+
+    </div> 
+    
+  </div>
+</div>
+<!--------------------marquee repeat end--------------------------------------------- -->
 </section>
 
 </section>
@@ -295,8 +312,24 @@ in the process we share some timeless moments, some of those are captured in pho
     autoplayTimeout:2000,
     autoplayHoverPause:true
 });
-
-
+//notice board marquee script 
+// jQuery(document).ready(function($) {
+//   $('.slick.marquee').slick({
+//     speed:12000,
+//     autoplay: true,
+//     autoplaySpeed: 0,
+//     centerMode: true,
+//     cssEase: 'linear',
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     variableWidth: true,
+//     infinite: true,
+//     initialSlide: 1,
+//     arrows: false,
+//     buttons: false
+//   });
+// });
+// notice board marquee script end
 
 </script>
 

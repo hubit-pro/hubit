@@ -7,6 +7,9 @@
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 
@@ -24,7 +27,7 @@
 <!--------------------------NON-SLIDER----------------------->
 <section class="container-fluid non" style="position: relative;">
 
-  <img src="img/confused.jpg">
+  <img src="https://royalrankings.ae/wp-content/uploads/2016/11/Website-Design-Background-1.jpg">
 
 
 <!-------------------------TEXT CONTAINER-------------------->
@@ -267,30 +270,36 @@
 <hr>
 </h2>
 <section class="container-fluid p-5">
-
-
-<marquee >
-      
-      <div class="award-marquee">
-        <img src="img/award5.jpg" class="img-fluid ml-3" alt="12">
-                </div>
-      <div class="award-marquee">
-         <img src="img/award.png" class="img-fluid ml-3" alt="12">
-      </div>
-      <div class="award-marquee">
-         <img src="img/award2.jpg" class="img-fluid ml-3" alt="12">
-      </div>
-      <div class="award-marquee">
-        <img src="img/award3.png" class="img-fluid ml-3" alt="12">
-      </div>  
-      <div class="award-marquee">
-        <img src="img/award4.png" class="img-fluid ml-3" alt="12">
-      </div>
-      
-
-
   
-  </marquee>
+<div class="slick marquee">
+  <div class="slick-slide">
+    <div class="inner">
+    <img src="img/award5.jpg" class="img-fluid ml-3" alt="12">
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+    <img src="img/award.png" class="img-fluid ml-3" alt="12">
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+    <img src="img/award2.jpg" class="img-fluid ml-3" alt="12">
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+    <img src="img/award3.png" class="img-fluid ml-3" alt="12">
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+    <img src="img/award4.png" class="img-fluid ml-3" alt="12">
+    </div>
+  </div>
+ 
+  
+</div>
 
 
 </section>
@@ -386,6 +395,24 @@ $('.owl-item .show').parent().next().children('.item').addClass('next');
 }
 });
 
+});
+
+
+jQuery(document).ready(function($) {
+  $('.slick.marquee').slick({
+    speed:5000,
+    autoplay: true,
+    autoplaySpeed: 0,
+    centerMode: true,
+    cssEase: 'linear',
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    variableWidth: true,
+    infinite: true,
+    initialSlide: 1,
+    arrows: false,
+    buttons: false
+  });
 });
 </script>
 
