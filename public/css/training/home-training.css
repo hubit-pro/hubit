@@ -1,28 +1,31 @@
 body{
   overflow-x: hidden;
 }
-.bg-img {
-  /* The image used */
 
-  min-height: 600px;
+.main-div{
+  height: 600px;
+}
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.carousel-inner{
+  height: 600px;
+  width: 100%;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
 }
 
 /* Add styles to the form container */
 .containers {
-  position: absolute;
-  top: 90px;
-  right: 5vw;
-  margin: 20px;
-  max-width: 300px;
+  top: 300px;
+  right: 10vw;
+  max-width:20vw;
   padding: 16px;
   background-color: white;
   opacity: 0.8;
+  position: absolute;
+
+
 }
 
 /* Full-width input fields */
@@ -114,24 +117,224 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 
+.our-alumini{
+  height: auto;
+  width: 100%;
+  margin-top: 0px;
+}
+.our-alumini .row{
+  background-color: #333;
+  margin: 0px 15px 0px 15px;
+  text-align: center;
 
-.why-us h1{
-  color: #a0047d;
+}
+.our-alumini .row .col-md-3 .content {
+  height: 100px;
+  margin: 150px 100px 150px 100px;
+}
+.our-alumini .row .col-md-3 .content img{
+  height: 100%;
+  width: 100%;
+}
+.our-alumini .row .col-md-3 .content .stat-number {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+
+.our-values .row .col h1{
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  color: grey;
+  border-bottom: 2px solid #ff9800;
+  display: inline-block;
+ 
+}
+
+.our-values .row {
+  padding: 50px;
+} 
+.our-values .row .col-md-3 .content h4{
+  padding-top: 15px;
+  font-weight: bold;
+}
+.our-values .row .col-md-3 .content p{
+  padding: 10px 20px 20px 20px;
+  color: grey;
+}
+
+
+
+
+
+/* what our client says carousel card */
+.card {
+  box-shadow: 0px 4px 8px 0px #BDBDBD !important
+}
+/* what our client says carousel card profile photo */
+
+.profile-pic {
+  width: 100px !important;
+  height: 100px !important;
+  box-shadow: 0px 4px 8px 0px #BDBDBD!important
+}
+/* next and previous button of what our client says */
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  background: 0 0;
+  color: #1E88E5 !important;
+  border: none;
+  padding: 5px 20px !important;
+  font: inherit;
+  font-size: 50px !important;
+  display:none;
+}
+
+/* next and previous button of what our client says on hover */
+
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+  color: #0D47A1 !important;
+  background-color: transparent !important
+}
+/* what our clients say carousel dots */
+.owl-dots {
+  display: none
+}
+
+button:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0
+}
+
+/* next of whatour client says icon */
+.next {
+  display: block !important;
+  position: relative;
+  transform: scale(0.8);
+  transition-duration: 0.3s;
+  opacity: 0.6
+}
+/* previous button of whatour client says icon */
+
+.prev {
+  display: block !important;
+  position: relative;
+  transform: scale(0.8);
+  transition-duration: 0.3s;
+  opacity: 0.6
+}
+/* what our clients says items */
+.item.show {
+  display: block;
+transition-duration: 0.4s;
+
+}
+
+
+.item .show .row{
+border: none;
+
+}
+
+hr{
+  background-color:#ff9800;
+  width: 30% !important;
+  height: 3px !important;
   
 }
 
+.inner
+{
+width:200px !important;
+height: 200px !important ;
+  margin: 10px !important;
+  display: inline-block !important;
+}
 
-.why-us .row {
-  margin: 100px 50px 50px 50px ;
-  box-shadow: 10px 10px 15px #e3e3e3, -10px -10px 15px #ffffff;
-  height: auto;
-  padding: 20px;
-  background-color:#ff9800 ;
+.course h1{
+  text-align: center;
+  margin: 50px;
+}
+
+.ourpatners h1{
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.ourpatners .card .item{
+  height: 10vw;
+  width: 10vw;
+}
+.ourpatners .card .item img{
+  height: 100%;
+  width: 100%;
+  margin-left: 50px;
+
 }
 
 
-.why-us .row .col-md-8 p{
-  font-size: 20px;
-  color: white;
+
+
+.inner
+{
+	width:200px;
+	height: 200px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+.inner img {
+    border-radius: 10%;
+	height: 100%;
+	width: 100%;
+	
+    
+}
+
+ marquee{
+    animation:awards 5sec infinite ;
+} 
+
+
+
+
+/* redy get started whole div */
+.connect{
+  width: 100%;
+  height: 350px;
+  background-color: #00a6e5;
+  margin-top: 100px;
+  text-align: center;
+}
+/* redy get started heading */
+
+.connect h2{
+  text-align: center;
   font-weight: bold;
+  padding: 50px 0px 0px 0px;
+}
+/* redy get started paragraph */
+
+.connect p{
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 100px 0px 100px;
+  font-weight: bold;
+}
+/* redy get started button */
+
+.connect button{
+  width: 200px;
+  font-size: 25px;
+  height: 100px;
+  margin-top: 50px;
+  background-color: black;
 }

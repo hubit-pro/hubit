@@ -24,7 +24,7 @@
 
     <!-- Content -->
     <h6 class="text-uppercase font-weight-bold mt-3 text-center ">Products</h6>
-    <hr class="  mt-0 d-inline-block mx-auto" style="width: 100%; background-color:white;">
+    <hr class="  mt-0 d-inline-block mx-auto" style="width: 100% !important; background-color:white;">
     
     <ul  style="list-style: none; font-size:12px;" id="footer-list">
     <li><a href="products"> CCTV camera</a></li>
@@ -45,7 +45,7 @@
 
     <div class="col-md-2 services">
     <h6 class="text-uppercase font-weight-bold mt-3 text-center  ">Services</h6>
-    <hr class="  mt-0 d-inline-block mx-auto" style="width: 100%; background-color:white;">
+    <hr class="  mt-0 d-inline-block mx-auto" style="width: 100% !important; background-color:white;">
     
     
     </ul>
@@ -74,7 +74,7 @@
 
     <!-- Links -->
     <h6 class="text-uppercase font-weight-bold mt-3 text-center"> IT Training</h6>
-    <hr class="mt-0 d-inline-block mx-auto" style="width: 100%; background-color:white;">
+    <hr class="mt-0 d-inline-block mx-auto" style="width: 100% !important; background-color:white;">
     <div class="row">
     <ul  class="col-md-4 "style="list-style: none;  font-size:12px;" id="footer-list">
     <li><a  href="course">Office Package</a></li>
@@ -147,7 +147,7 @@
 
     <!-- Links -->
 <h6 class="text-uppercase font-weight-bold mt-3 text-center">Contact</h6>
-    <hr class="mt-0 d-inline-block mx-auto" style="width: 100%; background-color:white;">
+    <hr class="mt-0 d-inline-block mx-auto" style="width: 100% !important; background-color:white;">
 <ul  style="list-style: none;  font-weight:bolder" class="footer-contact" >
 <li style="font-size:13px;" >
       <i class="fa fa-home m-1" ></i> Tinkune-Milanchowk , Butwal</li>

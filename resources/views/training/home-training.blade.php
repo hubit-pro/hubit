@@ -6,6 +6,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
 
 
 </head> 
@@ -17,72 +24,58 @@
 
 
 <!-----------------------------SLIDER----------------------->
-<div class="container-fluid">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner " style="height:600px;">
-    
 
-      <div class="item active" >
-      <div class="bg-img"  style="background-image: url('../../img/it.jpg'); ">
-  <form action="/action_page.php" class="containers">
-    <h1>Login</h1>
+<div class="container-fluid main-div">
+  <div class="container-fluid">
+  
+  
+<div id="demo" class="carousel slide" data-ride="carousel">
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+<!-- Indicators -->
+<ul class="carousel-indicators">
+  <li data-target="#demo" data-slide-to="0" class="active"></li>
+  <li data-target="#demo" data-slide-to="1"></li>
+  <li data-target="#demo" data-slide-to="2"></li>
+</ul>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit" class="btn">Login</button>
-  </form>
+<!-- The slideshow -->
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="img/it.jpg" alt="Los Angeles" >
+  </div>
+  <div class="carousel-item">
+    <img src="img/it1.jpg" alt="Chicago" >
+  </div>
+  <div class="carousel-item">
+    <img src="img/it2.jpg" alt="New York" >
+  </div>
 </div>
-      </div>
 
-      <div class="item">
-      <div class="bg-img"  style="background-image: url('../../img/it1.jpg'); ">
-  <form action="/action_page.php" class="containers">
-    <h1>Login</h1> 
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit" class="btn">Login</button>
-  </form>
-</div>
-      </div>
-    
-      <div class="item">
-      <div class="bg-img" style="background-image: url('../../img/it2.jpg'); ">
-  <form action="/action_page.php" class="containers">
-    <h1>Login</h1>
-
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit" class="btn">Login</button>
-  </form>
-</div>
-      </div>
-    </div>
 
     <!-- Left and right controls -->
   
   </div>
 </div>
+
+<div class="container-fluid">
+<form action="/action_page.php" class="containers">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+  </form>
+  </div>
+
+
+  </div>
 
 <!--------------------------SLIDER END------------------------>
 <div class="containter-fluid">
@@ -145,33 +138,288 @@
 <!-------------------------TEXT CONTAINER-------------------->
 
 
-<div class="container-fluid why-us">
-<div class="row">
-<div class="col-md-4 m-0 p-0 ">
-<div style="height:200px;width:300px;" class="row">
-<img src="img/logo4.png"style="height:100%;width:100%;" >
+<div class="container-fluid our-alumini">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="content">
+				<img src="https://labanepal.com/assets/front/images/svg/graduation-hat.svg">
+				<div class="stat-number" data-n="200">
+                  <span class="Single">0</span>
+                </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="content">
+				<img src="https://labanepal.com/assets/front/images/svg/connection.svg">
+                <div class="stat-number" data-n="60">0</div>
+
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="content">
+				<img src="https://labanepal.com/assets/front/images/svg/university-lecture.svg">
+                <div class="stat-number" data-n="10">0</div>
+
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="content">
+				<img src="https://labanepal.com/assets/front/images/svg/open-book.svg">
+                <div class="stat-number" data-n="10000">10000</div>
+
+			</div>
+		</div>
+
+	</div>
 </div>
 
-</div>
-<div class="col-md-8">
-<p><strong style="color: #ff2300">HUB IT GROUP PVT LTD.</strong> is a Hampshire based 
-creative agency offering services such as surveillance system,intercom system Website Design,
- IT Support, IT Training and many more services . Founded in 2017 we have developed ourselves into the 
- local area providing services to customers in the area. We are a relatively new agency however that doesn’t 
- stop us providing professional services. We are learning new technologies, skills and methods all of the
-  time and always updating our clients work to ensure the highest and latest standards possible.
-  We put ourselves in the shoes of your target audience and try to adopt their preferences, perceptions and 
-  behaviour.</p><br>
 
+
+
+
+<div class="container-fluid our-values text-center">
+    <div class="row">
+    <div class="col" >
+        <h1>Our values</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+        <img src="https://cdn01.alison-static.net/public/html/site/img/empowerment.png">
+        <div class="content">
+            <h4>Empowerment</h4>
+            <p>We are driven by our belief in the power of free education and skills training to change
+                 people’s lives for the better and are passionate about providing an
+                 overall learning experience that meets their needs and helps them to achieve life goals.</p>
+                </div>
+         
+        </div>
+        <div class="col-md-3">
+        <img src="https://cdn01.alison-static.net/public/html/site/img/knowledge.png">
+        <div class="content">
+        <h4>Knowledge</h4>
+
+
+            <p>We are experts in the field of online education and are rigorous in 
+                delivering high quality learning materials,
+                 services and experiences that deliver the learning outcomes we have promised.</p>
+                </div>
+
+        </div>
+        <div class="col-md-3">
+            <img src="https://cdn01.alison-static.net/public/html/site/img/inclusivity.png" >
+        <div class="content">
+        <h4>Inclusivity</h4>
+
+
+            <p>We are inspired by the UN Declaration that “everyone is entitled
+                 to a free education”. We are committed to equality and access
+                 to education irrespective of gender, geography, economic status or any other barriers 
+                 to access.</p>
+                </div>
+
+        </div>
+        <div class="col-md-3">
+                <img src="https://cdn01.alison-static.net/public/html/site/img/innovation.png" >
+
+        <div class="content">
+        <h4>Innovation</h4>
+
+
+            <p>We will not be constrained by what already exists but will lead
+                 the way in introducing new ways to achieve our mission. Our DNA is
+                 entrepreneurial and we understand and embrace the pioneering spirit that
+                  motivates other entrepreneurs.</p>
+                </div>
+            
+        </div>
+
+    </div>
+
+    </div>
+
+
+</div>
+
+
+
+<div class="container-fluid px-3 px-sm-5 my-5 text-center">
+    <h4 class="mb-5 font-weight-bold">What Our Client Say <hr></h4>
+    <div class="owl-carousel owl-theme">
+        <div class="item show">
+            <div class="card border-0 py-3 px-4">
+                <div class="row justify-content-center"> <img src="https://i.imgur.com/gazoShk.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
+                <h6 class="mb-3 mt-2">Marielle Haag</h6>
+                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
+            </div>
+        </div>
+        <div class="item show">
+            <div class="card border-0 py-3 px-4">
+                <div class="row justify-content-center"> <img src="https://i.imgur.com/oW8Wpwi.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
+                <h6 class="mb-3 mt-2">Ximena Vegara</h6>
+                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
+            </div>
+        </div>
+        <div class="item show">
+            <div class="card border-0 py-3 px-4">
+                <div class="row justify-content-center"> <img src="https://i.imgur.com/ndQx2Rg.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
+                <h6 class="mb-3 mt-2">John Paul</h6>
+                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
+            </div>
+        </div>
+        <div class="item show">
+            <div class="card border-0 py-3 px-4">
+                <div class="row justify-content-center"> <img src="https://i.imgur.com/T5aOhwh.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
+                <h6 class="mb-3 mt-2">William Doe</h6>
+                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container-fluid course">
+  <h1>COURSE</h1><hr>
+  <div class="row">
+    <div class="col">
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+
+<div class="col">
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<h2 class="landing-photo-gallery text-center">our-patners
+<hr>
+</h2>
+<section class="container-fluid p-5">
+  
+<div class="slick marquee">
+  <div class="slick-slide">
+    <div class="inner">
+    <img src="img/award5.jpg" class="img-fluid ml-3" alt="12">
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+    <img src="img/award.png" class="img-fluid ml-3" alt="12">
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+    <img src="img/award2.jpg" class="img-fluid ml-3" alt="12">
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+    <img src="img/award3.png" class="img-fluid ml-3" alt="12">
+    </div>
+  </div>
+  <div class="slick-slide">
+    <div class="inner">
+    <img src="img/award4.png" class="img-fluid ml-3" alt="12">
+    </div>
+  </div>
+ 
   
 </div>
-</div>
+
+
+</section>
+
+
+
+
+<!-- ready to get started start -->
+
+<div class="container-fluid connect">
+<h2>READY TO GET STARTED?</h2>
+<p>Access Startup Institute's network of vetted coding, design, marketing, and sales talent.</p>
+<button type="submit" class="btn btn-primary mb-2  ">Hire now</button>
+   
 
 </div>
-
-@section('our-values')
-@parent
-@endsection
+<!-- ready to get started end -->
 
 
 
@@ -180,6 +428,118 @@ creative agency offering services such as surveillance system,intercom system We
 @include('includes/footer')
 <!-- footer -->
 
+
+<script>
+
+
+jQuery(document).ready(function($) {
+  $('.slick.marquee').slick({
+    speed:5000,
+    autoplay: true,
+    autoplaySpeed: 0,
+    centerMode: true,
+    cssEase: 'linear',
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    variableWidth: true,
+    infinite: true,
+    initialSlide: 1,
+    arrows: false,
+    buttons: false
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function() {
+
+$('.owl-carousel').owlCarousel({
+  
+  
+
+    // autoplay:true,
+    // autoplayTimeout:2500,
+    // autoplayHoverPause:true
+mouseDrag:false,
+loop:true,
+margin:2,
+nav:true,
+autoplay:true,
+autoplayTimeout:2000,
+autoplayHoverPause:true,
+responsive:{
+0:{
+items:1
+},
+600:{
+items:1
+},
+1000:{
+items:3
+}
+}
+});
+
+$('.owl-prev').click(function() {
+$active = $('.owl-item .item.show');
+$('.owl-item .item.show').removeClass('show');
+$('.owl-item .item').removeClass('next');
+$('.owl-item .item').removeClass('prev');
+$active.addClass('next');
+if($active.is('.first')) {
+$('.owl-item .last').addClass('show');
+$('.first').addClass('next');
+$('.owl-item .last').parent().prev().children('.item').addClass('prev');
+}
+else {
+$active.parent().prev().children('.item').addClass('show');
+if($active.parent().prev().children('.item').is('.first')) {
+$('.owl-item .last').addClass('prev');
+}
+else {
+$('.owl-item .show').parent().prev().children('.item').addClass('prev');
+}
+}
+});
+
+$('.owl-next').click(function() {
+$active = $('.owl-item .item.show');
+$('.owl-item .item.show').removeClass('show');
+$('.owl-item .item').removeClass('next');
+$('.owl-item .item').removeClass('prev');
+$active.addClass('prev');
+if($active.is('.last')) {
+$('.owl-item .first').addClass('show');
+$('.owl-item .first').parent().next().children('.item').addClass('prev');
+}
+else {
+$active.parent().next().children('.item').addClass('show');
+if($active.parent().next().children('.item').is('.last')) {
+$('.owl-item .first').addClass('next');
+}
+else {
+$('.owl-item .show').parent().next().children('.item').addClass('next');
+}
+}
+});
+
+});
+
+</script>
 
 
 </body>
