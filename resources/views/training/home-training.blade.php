@@ -193,7 +193,7 @@
 <div class="container-fluid our-values text-center">
     <div class="row">
     <div class="col" >
-        <h1>Our values</h1>
+        <h1>Our values</h1><hr>
     </div>
     <div class="row">
         <div class="col-md-3">
