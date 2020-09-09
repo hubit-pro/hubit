@@ -78,10 +78,12 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 #txt-1 {
-  color: #cb0fa2;
-  font-size: 40px;
+  color: grey;
+  font-size: 30px;
   text-align: center;
   padding-top: 10vh;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 
@@ -110,7 +112,7 @@ input[type=text]:focus, input[type=password]:focus {
   margin-top: 5px;
 }
 .card-container .card .content-box h3 {
-  color: #cb0fa2;
+  color: #ff9800;
   font-weight: 500;
   font-size: 2em;
   font-family: orkney-reg;
@@ -163,7 +165,6 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 .our-values .row {
-  padding: 50px;
 } 
 .our-values .row .col-md-3 .content h4{
   padding-top: 15px;

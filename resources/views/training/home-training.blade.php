@@ -83,7 +83,7 @@
        <p id="txt-1">
           Our Amenities
       </p>
-      <hr style="width: 50%; height: 2px; background-color: #cb0fa2;border-radius: 13px;">
+      <hr style="width: 50%; height: 2px; background-color: #ff9800;border-radius: 13px;">
   </div>
 </div>
 
@@ -261,28 +261,28 @@
         <div class="item show">
             <div class="card border-0 py-3 px-4">
                 <div class="row justify-content-center"> <img src="https://i.imgur.com/gazoShk.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h6 class="mb-3 mt-2">Marielle Haag</h6>
+                <h4 class="mb-3 mt-2 font-weight-bold">Marielle Haag</h4>
                 <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
             </div>
         </div>
         <div class="item show">
             <div class="card border-0 py-3 px-4">
                 <div class="row justify-content-center"> <img src="https://i.imgur.com/oW8Wpwi.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h6 class="mb-3 mt-2">Ximena Vegara</h6>
+                <h4 class="mb-3 mt-2 font-weight-bold">Ximena Vegara</h4>
                 <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
             </div>
         </div>
         <div class="item show">
             <div class="card border-0 py-3 px-4">
                 <div class="row justify-content-center"> <img src="https://i.imgur.com/ndQx2Rg.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h6 class="mb-3 mt-2">John Paul</h6>
+                <h4 class="mb-3 mt-2 font-weight-bold">John Paul</h4>
                 <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
             </div>
         </div>
         <div class="item show">
             <div class="card border-0 py-3 px-4">
                 <div class="row justify-content-center"> <img src="https://i.imgur.com/T5aOhwh.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h6 class="mb-3 mt-2">William Doe</h6>
+                <h4 class="mb-3 mt-2 font-weight-bold">William Doe</h4>
                 <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
             </div>
         </div>
@@ -299,7 +299,7 @@
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h4 class="card-title font-weight-bold">Card title</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
@@ -310,7 +310,7 @@
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h4 class="card-title font-weight-bold">Card title</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
@@ -321,7 +321,7 @@
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h4 class="card-title font-weight-bold">Card title</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
@@ -332,7 +332,7 @@
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h4 class="card-title font-weight-bold">Card title</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
@@ -343,7 +343,7 @@
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h4 class="card-title font-weight-bold">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
@@ -354,7 +354,7 @@
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h4 class="card-title font-weight-bold">Card title</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
@@ -366,7 +366,7 @@
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h4 class="card-title font-weight-bold">Card title</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
