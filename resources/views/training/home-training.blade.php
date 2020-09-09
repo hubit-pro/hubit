@@ -139,7 +139,7 @@
 
 
 <div class="container-fluid our-alumini">
-  <h1 style="text-align:center; margin-top:50px;">Our Students</h1><hr>
+  <h1 style="text-align:center; margin-top:50px; font-size:40px;">Our Students</h1><hr>
 	<div class="row">
 		<div class="col-md-3">
 			<div class="content">
@@ -256,7 +256,7 @@
 
 
 <div class="container-fluid px-3 px-sm-5 my-5 text-center">
-    <h4 class="mb-5 font-weight-bold">What Our Client Say <hr></h4>
+    <h1 class="mb-5 font-weight-bold" style="font-size:40px;">What Our Client Say <hr></h1>
     <div class="owl-carousel owl-theme">
         <div class="item show">
             <div class="card border-0 py-3 px-4">
@@ -293,7 +293,7 @@
 
 
 <div class="container-fluid course">
-  <h1>COURSE</h1><hr>
+  <h1 >COURSE</h1><hr>
   <div class="row">
     <div class="col">
 <div class="card" style="width: 20rem;">
@@ -382,9 +382,9 @@
 
 
 
-<h2 class="landing-photo-gallery text-center " style="margin-top:100px;">our-patners
+<h1 class="landing-photo-gallery text-center " style="margin-top:100px;">our-patners
 <hr>
-</h2>
+</h1>
 <section class="container-fluid p-5">
   
 <div class="slick marquee">
