@@ -139,11 +139,13 @@
 
 
 <div class="container-fluid our-alumini">
+  <h1 style="text-align:center; margin-top:50px;">Our Students</h1><hr>
 	<div class="row">
 		<div class="col-md-3">
 			<div class="content">
 				<img src="https://labanepal.com/assets/front/images/svg/graduation-hat.svg">
 				<div class="stat-number" data-n="200">
+        <span class="Single">Lorem ipsum</span>
                   <span class="Single">0</span>
                 </div>
 			</div>
@@ -151,21 +153,32 @@
 		<div class="col-md-3">
 			<div class="content">
 				<img src="https://labanepal.com/assets/front/images/svg/connection.svg">
-                <div class="stat-number" data-n="60">0</div>
+                <div class="stat-number" data-n="60">
+        <span class="Single">Lorem ipsum</span>
+        <span class="Single">0</span>
+
+                  
+                </div>
 
 			</div>
 		</div>
 		<div class="col-md-3">
 			<div class="content">
 				<img src="https://labanepal.com/assets/front/images/svg/university-lecture.svg">
-                <div class="stat-number" data-n="10">0</div>
+                <div class="stat-number" data-n="10">
+                <span class="Single">Lorem ipsum</span>
+        <span class="Single">0</span>
+                </div>
 
 			</div>
 		</div>
 		<div class="col-md-3">
 			<div class="content">
 				<img src="https://labanepal.com/assets/front/images/svg/open-book.svg">
-                <div class="stat-number" data-n="10000">10000</div>
+                <div class="stat-number" data-n="10000">
+                <span class="Single">Lorem ipsum</span>
+        <span class="Single">0</span>
+                </div>
 
 			</div>
 		</div>
@@ -284,7 +297,7 @@
   <div class="row">
     <div class="col">
 <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -295,7 +308,7 @@
 
 <div class="col">
 <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -306,7 +319,7 @@
 
 <div class="col">
 <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -317,7 +330,7 @@
 
 <div class="col">
 <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -328,7 +341,7 @@
 
 <div class="col">
 <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -339,7 +352,7 @@
 
 <div class="col">
 <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -351,7 +364,7 @@
 
 <div class="col">
 <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -369,7 +382,7 @@
 
 
 
-<h2 class="landing-photo-gallery text-center">our-patners
+<h2 class="landing-photo-gallery text-center " style="margin-top:100px;">our-patners
 <hr>
 </h2>
 <section class="container-fluid p-5">
