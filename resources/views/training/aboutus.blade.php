@@ -46,6 +46,8 @@ creative agency offering services such as surveillance system,intercom system We
 </div>
 
 </div>
+@section('our-values')
+
 
 <div class="container-fluid our-values text-center">
     <div class="row">
@@ -109,7 +111,7 @@ creative agency offering services such as surveillance system,intercom system We
 
 
 </div>
-
+@show
 <div class="container-fluid our-vision">
 <div class="row">
     <div class="col-md-8">
