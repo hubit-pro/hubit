@@ -70,7 +70,6 @@ body{
 	position: absolute;
 	white-space: nowrap;
 	margin-top: 90px;
-	/* will-change: transform; */
 	display: flex;
 	animation: marquee 32s linear infinite;
   }
@@ -271,6 +270,7 @@ margin: -20px;
    @media (min-width: 0px) and (max-width: 1024px) {
 	#topper{
 		height: 600px;
+		width:92%;
 	  }
 	  body{
 		overflow-x: hidden;
