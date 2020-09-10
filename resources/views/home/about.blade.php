@@ -318,7 +318,6 @@
 
 <!-- </footer>  -->
 
-<script src="js/miss.js"></script>
 
 <script>
 

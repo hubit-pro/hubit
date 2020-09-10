@@ -75,6 +75,11 @@ Route::get('FAQ', function () {
     return view('home/FAQ');
 });
 
+Route::get('testimonials', function () {
+    return view('includes/testimonials');
+});
+
+
 
 
 
