@@ -218,14 +218,14 @@ Our admissions team will be in touch to schedule a call. During the call, they'l
 			    <div class="row">
     			    <div class="col-md-4">
     			        <p><b>HUB IT Training & Solution</b><br>
-    			        Tinkune, Butwal, Nepal<br>
+    			        Milanchowk, Butwal, Nepal<br>
     			        Bank Name: Shine Resunga Bank <br>
     			        Branch Name: Yogikuti  <br>
     			        Account Number:<b> </b></p>
     			    </div>
     			    <div class="col-md-4">
     			        <p><b>HUB IT GROUP PVT.LTD</b><br>
-    			        Tinkune, Butwal, Nepal<br>
+    			        Milanchowk, Butwal, Nepal<br>
     			        
     			        
     			    </div>

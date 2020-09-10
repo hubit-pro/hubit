@@ -136,7 +136,7 @@ hr{
     height: 3px;
     
 }
-
+/*-------------------certificate-------------------------------  */
 .inner
 {
 	width:200px;
@@ -149,9 +149,9 @@ hr{
     border-radius: 10%;
 	height: 100%;
 	width: 100%;
-	
-    
 }
+
+/* -----------------certificate end-------------------------------- */
 
  marquee{
     animation:awards 5sec infinite ;
