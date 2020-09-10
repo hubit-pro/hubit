@@ -15,7 +15,7 @@
 
 
 
-</head> 
+</head>  
 <body  style="zoom:80%"> 
 
 <!-----------------------NAVBAR------------------------------->
@@ -83,7 +83,7 @@
        <p id="txt-1">
           Our Amenities
       </p>
-      <hr style="width: 50%; height: 2px; background-color: #ff9800;border-radius: 13px;">
+      <hr >
   </div>
 </div>
 
@@ -138,52 +138,40 @@
 <!-------------------------TEXT CONTAINER-------------------->
 
 
-<div class="container-fluid our-alumini">
-  <h1 style="text-align:center; margin-top:50px; font-size:40px;">Our Students</h1><hr>
-	<div class="row">
-		<div class="col-md-3">
-			<div class="content">
-				<img src="https://labanepal.com/assets/front/images/svg/graduation-hat.svg">
-				<div class="stat-number" data-n="200">
-        <span class="Single">Lorem ipsum</span>
-                  <span class="Single">0</span>
-                </div>
-			</div>
-		</div>
-		<div class="col-md-3">
-			<div class="content">
-				<img src="https://labanepal.com/assets/front/images/svg/connection.svg">
-                <div class="stat-number" data-n="60">
-        <span class="Single">Lorem ipsum</span>
-        <span class="Single">0</span>
+<div class="container-fluid our-alumini mt-5">
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-user"></i></p>
+      <h3>11+</h3>
+      <p>Partners</p>
+    </div>
+  </div>
 
-                  
-                </div>
-
-			</div>
-		</div>
-		<div class="col-md-3">
-			<div class="content">
-				<img src="https://labanepal.com/assets/front/images/svg/university-lecture.svg">
-                <div class="stat-number" data-n="10">
-                <span class="Single">Lorem ipsum</span>
-        <span class="Single">0</span>
-                </div>
-
-			</div>
-		</div>
-		<div class="col-md-3">
-			<div class="content">
-				<img src="https://labanepal.com/assets/front/images/svg/open-book.svg">
-                <div class="stat-number" data-n="10000">
-                <span class="Single">Lorem ipsum</span>
-        <span class="Single">0</span>
-                </div>
-
-			</div>
-		</div>
-
-	</div>
+  <div class="column">
+    <div class="card">
+      <p><i class="fas fa-user-graduate"></i></p>
+      <h3>1000+</h3>
+      <p> Graduates</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <p><i class="fas fa-book-open"></i></p>
+      <h3>200+</h3>
+      <p>Courses</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-coffee"></i></p>
+      <h3>100+</h3>
+      <p>Meetings</p>
+    </div>
+  </div>
+</div>
 </div>
 
 
@@ -293,85 +281,65 @@
 
 
 <div class="container-fluid course">
-  <h1 >COURSE</h1><hr>
+  <h1 > POpular COURSE</h1><hr>
   <div class="row">
     <div class="col">
-<div class="card" style="width: 20rem;">
+<div class="card" >
   <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
-    <h4 class="card-title font-weight-bold">Card title</h4>
+    <h4 class="card-title font-weight-bold">Web Design</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Enroll Now</a>
   </div>
 </div>
 </div>
 
 <div class="col">
-<div class="card" style="width: 20rem;">
+<div class="card" >
   <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
-    <h4 class="card-title font-weight-bold">Card title</h4>
+    <h4 class="card-title font-weight-bold">Graphics Design</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Enroll Now</a>
   </div>
 </div>
 </div>
 
 <div class="col">
-<div class="card" style="width: 20rem;">
+<div class="card" >
   <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
-    <h4 class="card-title font-weight-bold">Card title</h4>
+    <h4 class="card-title font-weight-bold">Python</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Enroll Now</a>
   </div>
 </div>
 </div>
 
 <div class="col">
-<div class="card" style="width: 20rem;">
+<div class="card" >
   <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
-    <h4 class="card-title font-weight-bold">Card title</h4>
+    <h4 class="card-title font-weight-bold">Accounting Package</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Enroll Now</a>
   </div>
 </div>
 </div>
 
 <div class="col">
-<div class="card" style="width: 20rem;">
+<div class="card" >
   <img class="card-img-top" src="img/about1.png" alt="Card image cap">
   <div class="card-body">
-    <h4 class="card-title font-weight-bold">Card title</h5>
+    <h4 class="card-title font-weight-bold">Hardware</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
-
-<div class="col">
-<div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title font-weight-bold">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Enroll Now</a>
   </div>
 </div>
 </div>
 
 
-<div class="col">
-<div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title font-weight-bold">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
+
 </div>
 </div>
 

@@ -4,14 +4,11 @@
 
   @include("includes/homehead")
   <link rel="stylesheet" type="text/css" href="css/home/home.css">
-<<<<<<< HEAD
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
-=======
-  
->>>>>>> d353b588c4a5a408d3d777c7aa2c9025fbdf9904
 
+  
 	<title>Best IT Training In Butwal Nepal</title>
 
   <style>

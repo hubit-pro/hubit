@@ -138,6 +138,8 @@
       <li><a href="FAQ">FAQ</a></li>
       <li><a href="#">Terms & Conditions</a></li>
       <li><a href="#">Hire talent</a></li>
+      <li><a href="testimonials">Testimonials</a></li>
+
     </ul>
   </div>
   <!-- Grid column -->
