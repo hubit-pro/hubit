@@ -13,7 +13,8 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 </head>  
 <body  style="zoom:80%"> 
@@ -52,7 +53,8 @@
    100% <br> Practical <br>Training
    <span>Industry Professional Instructors</span>
   </h2>
-  <!-- <img src="image/banner-img-2.png" class="p_img"> -->
+  <img src="img/training2.png" class="p_img">
+  
   <div class="p_detail">
       <h4>Quality Learning Environment</h4>
       <p>
@@ -81,6 +83,8 @@
    Networking <br> hardware <br> programming
    <span>BASIC TO ADVANCED</span>
   </h2>
+  <img src="img/training3.png" class="p_img">
+
   <div class="p_detail">
       <h4>Pathway for IT Professionals</h4>
       <p>
@@ -107,7 +111,7 @@
    Accounting <br> Auditing <br>  &amp; office
    <span>FOR MANAGEMENT STUDENTS</span>
   </h2>
-  <!-- <img src="image/banner-img-3.png" class="p_img"> -->
+  <img src="img/training1.png" class="p_img">
   <div class="p_detail">
       <h4>Best for Business Students</h4>
       <p>
@@ -117,8 +121,6 @@
       <a href="#goto" id="banner-btn">Enroll Now</a>
   </div>
 </div>
-<a class="prev fas fa-chevron-left " onclick="plusSlides(-1)" style="color: aliceblue;" aria-hidden="true"></a>
-<a class="next fas fa-chevron-right " onclick="plusSlides(+1)" style="color: aliceblue;" aria-hidden="true"></a>
 
   </div>
 </div>
@@ -136,7 +138,7 @@
 
 
 <!--------------------------SLIDER END------------------------>
-<div class="containter-fluid">
+<div class="containter-fluid mt-5 ">
   <div class="passion">
        <p id="txt-1">
           Our Amenities
@@ -196,7 +198,7 @@
 <!-------------------------TEXT CONTAINER-------------------->
 
 
-<div class="container-fluid our-alumini mt-5">
+<div class="container-fluid our-alumini" style="margin-top:150px;">
 <div class="row">
   <div class="column">
     <div class="card">
@@ -236,7 +238,7 @@
 
 
 
-<div class="container-fluid our-values text-center">
+<div class="container-fluid our-values text-center mt-5">
     <div class="row">
     <div class="col" >
         <h1>Our values</h1><hr>
@@ -301,7 +303,7 @@
 
 
 
-<div class="container-fluid course">
+<div class="container-fluid course mt-5">
   <h1 > POpular COURSE</h1><hr>
   <div class="row">
     <div class="col">
@@ -370,7 +372,7 @@
 
 
 
-<div class="container-fluid px-3 px-sm-5 my-5 text-center">
+<div class="container-fluid px-3 px-sm-5 mt-5 text-center">
     <h1 class="mb-5 font-weight-bold" style="font-size:40px;">Our Students Sucess Story <hr></h1>
     <div class="owl-carousel owl-theme">
         <div class="item show">
@@ -415,7 +417,7 @@
 
 
 
-<h1 class="landing-photo-gallery text-center " style="margin-top:100px;">our-patners
+<h1 class="landing-photo-gallery text-center " style="margin-top:150px;">our-patners
 <hr>
 </h1>
 <section class="container-fluid p-5">
