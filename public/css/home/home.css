@@ -27,13 +27,10 @@ body{
 .content1{
 	padding: 30px 30px 0px 100px;
 }
-
 /* company name */
 .content1 h1{
-	color: white;
-	
+	color: white;	
 }
-
 /* company discription */
 .content1 p{
 	color: white;
@@ -44,8 +41,7 @@ body{
 /* go to page */
 .go-to-page h2 {
 	text-align:center ; 
-	color:#ff9800;
-	
+	color:#ff9800;	
 }
   /* marquee div */
 .notice-section {
@@ -56,16 +52,13 @@ body{
 	opacity: 0.7;
 }
 /*  marquee setting for multi time (repeat)*/
-  
   .marquee {
 	position: relative;
 	width: 117vw;
 	max-width: 100%;
 	height: 200px;
 	overflow-x: hidden;
-
   }
-  
   .track {
 	position: absolute;
 	white-space: nowrap;
@@ -78,14 +71,11 @@ body{
 	  background-color: white;
 	  font-size:18px ;
   }
-  
   @keyframes marquee {
 	from { transform: translateX(0); }
 	to { transform: translateX(-50%); }
   }
-  
 /*  marquee setting for multi time (repeat) end*/
-
 /* marquee content */
 .notice-section marquee {
 	color: rgb(255, 13, 13);
@@ -103,7 +93,6 @@ body{
 	background-color: #ff9800;
 }
 /* It solution and training button */
-
 .button {
   background-color: #ff9800;
   border-radius: 5px;
@@ -120,14 +109,12 @@ body{
   margin: 25px;
 }
 /* It solution and training button glowing */
-
 @keyframes glowing {
 	0% { background-color:#ff9800; box-shadow: 0 0 3px white; }
 	50% { background-color: #ff9800; box-shadow: 0 0 40px white; }
 	100% { background-color:#ff9800; box-shadow: 0 0 3px white; }
   }
 /* buttons main div */
-
 .links{
 	padding-top: 50px;
 }
@@ -154,8 +141,6 @@ margin: -20px;
 .see-all p a:hover{
 	color: crimson;
 }
-
-
 /* Quopes of our memorable moments */
 .quotes-moments{
 	text-align: center;
@@ -163,16 +148,13 @@ margin: -20px;
 	margin-bottom: 4%;
 	font-family: 'Kanit', sans-serif;
 }
-
 .fa-quote-right {
 	color:#ff9800 ;
 	padding-top: 5px;
-
 }
 .fa-quote-left {
 	color:#ff9800 ;
 	float: left;
-
 }
 /* images div of our our memorable moments */
 #box{
@@ -185,14 +167,12 @@ margin: -20px;
 	box-shadow:0px 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23) ;
 	width: 100% !important;
   }
-  
   .item:hover {
 	-ms-transform: scale(1.5); /* IE 9 */
 	-webkit-transform: scale(1.5); /* Safari 3-8 */
 	transform: scale(1.5); 
 	opacity:1;
 	box-shadow:0px 19px 38px rgba(0,0,0,0.3),0 15px 12px rgba(0,0,0,0.22) 
-  
   }
 /* <message from board images */
   .img-fluid{
@@ -206,26 +186,17 @@ margin: -20px;
 	  height: 150px ;
 	  margin: auto;
 }
-
 .inactive .board-img img {
 	height: 100%;
 	width: 100%;
 	border-radius: 100%;
-
 }
-
-  
-
- 
   /* <message from the board  Person name */
 .carousel-inners h2{
 	text-align:center;
 	 color:#ff9800;
-	 
-
 }
   /* <message from the board  Person description */
-
 .carousel-inners p{
 	text-align:center;
 		font-size: 1.15em;
@@ -234,13 +205,11 @@ margin: -20px;
 	  margin: auto;
 }
   /* <message from the board  carousel-item */
-
 .carousel-inners .carousel-item{
 	background-color: #e2d7d7; 
 	height:380px; 
 	width:100% ;
     padding-top:50px;
-
 }
 	/* <our clients  carousel-item image div */
 .item1{
@@ -262,11 +231,6 @@ margin: -20px;
 	border-top: 3px solid #ff9800 !important ;
 	width:25%;
    }
-
-
-
-
-
    @media (min-width: 0px) and (max-width: 1024px) {
 	#topper{
 		height: 600px;
@@ -274,38 +238,22 @@ margin: -20px;
 	  }
 	  body{
 		overflow-x: hidden;
-
 	}
-
 	.content1 h1{
 		text-align: center;
 	  }
 	.content1 h6{
 		text-align: center;
 	}
-
-	
-	.notice-section {
-		
+	.notice-section {	
 		width: 100%;
 		height: 30px;
 		background-color: white;
-
 	}
 	.heading {
 		font-size: 30px !important;
 		}
-	
 }
-
-
-
-
-
-
-
-
-
 @media (min-width:0px) and (max-width: 414px)
 {
 	body{
@@ -319,7 +267,6 @@ margin: -20px;
 		height: 30px;
 		background-color: white;
 	}
-	
 	.content1 h1{
 		font-size: 25px;
 		text-align: center;
@@ -327,11 +274,9 @@ margin: -20px;
 	.content1{
 		padding: 0px ;
 	}
-
 	.content1 h2 {
 		margin-left:40%; 
-		font-size: 20px;
-		
+		font-size: 20px;	
 	}
 	.links{
 		padding-top:20px;
@@ -349,7 +294,6 @@ margin: -20px;
 	#topper {
 		height: 290px;
 	}
-	
 	.carousel {
 		height: 400px;
 	}
@@ -390,11 +334,7 @@ margin: -20px;
 		display: block;
 		height: 100px;
 	}
-	
-	
-	
 }
-
 @media (min-width: 0) and (max-width: 320px){
 	.content1 h1{
 		margin-top: 10px;
@@ -413,7 +353,6 @@ margin: -20px;
 		height: 100%;
 		width: 100%;
 	}
-
 	.board-img {
 		height: 100px !important;
 		width: 100px !important;
@@ -421,60 +360,31 @@ margin: -20px;
 	.carousel{
 		height: 270px;
 	}
-	
-
 }
-
-@media (min-width: 0) and (max-width: 411px){
-	
-}
-
-
-   
-
-
-
-   
-
-	
 @media (min-width: 415px) and (max-width: 767px) {
   .carousel-item img{
 	height: 90%;
-  }
-  
+  } 
 	.item1{
 		display: inline;
-
-		
-
 	}
 	.item1 img{
 		height: 200px;
 		width: 200px;
-
-		
-		
 	}
 	.carousel-inners p{
 		font-size: 15px;
-
-
-
 	}
 	#box img{
 		height:100px ;
 		width: 175px;
 		display: inline-block;
 	}
-
 	.heading{
 		font-size: 3vw !important;
 	}
-
-	
 .our-clients .item1{
 	display:inline ;
-	
 }
 .button{
     margin-top: 25px;
@@ -482,7 +392,6 @@ margin: -20px;
   .links{
     padding-top: 80px;
   }
-	
   #topper{
 	height: 380px;
 }
@@ -496,7 +405,6 @@ margin: -20px;
 .see-all p a{
 	margin-top:-20px !important;
 }
-
 }
 
 
