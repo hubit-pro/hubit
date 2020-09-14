@@ -16,13 +16,13 @@
 <hr>
 <div class="container-fluid why-us">
 <div class="row">
-<div class="col-md-4">
+<div class="col-md-4" data-aos="fade-right">
 <h1>HUBIT History</h1>
 <hr>
  
 
 </div>
-<div class="col-md-8">
+<div class="col-md-8" data-aos="fade-left" data-aos-easing="ease-in-left">
 <p><strong style="color: #ff9800">HUB IT GROUP PVT LTD.</strong> is a Hampshire based 
 creative agency offering services such as surveillance system,intercom system Website Design,
  IT Support, IT Training and many more services . Founded in 2017 we have developed ourselves into the 
@@ -49,7 +49,7 @@ creative agency offering services such as surveillance system,intercom system We
 
 
 
-<div class="container-fluid our-values text-center">
+<div class="container-fluid our-values text-center" data-aos="zoom-in-down">
     <div class="row">
     <div class="col" >
         <h1>Our values</h1>
@@ -145,14 +145,14 @@ creative agency offering services such as surveillance system,intercom system We
 
 
 <!-- hubit training objective start -->
-<div class="container-fluid objectives">
-<div class="row p-0 m-0">
-    <div class="col m-0 p-0">
+<div class="container-fluid objectives"  style="top:100px">
+<div class="row p-0 m-0" >
+    <div class="col m-0 p-0" >
         <h1>HUBIT Objective</h1>
 
     </div>
     <div class="row">
-        <div class="col">
+        <div class="col" >
             <p>Our core objective is to train people who are keen to start professional IT career and learn job related skills in order to turn them into effective and efficient IT professionals who will then be using computing technology to develop effective 
                 information systems for solving real life problems in diverse organizational environments.<br><br>
                 Therefore, we are committed and dedicated towards achieving the following objectives:<br><br></p>
@@ -286,12 +286,19 @@ creative agency offering services such as surveillance system,intercom system We
       </div>
       </div>
     </section>
-    <!-- END OF TESTIMONIALS -->
+    <!-- END OF TESTIMONIALS --> 
 
 
 
 
 @include("includes/footer")  
+
+<script>
+  AOS.init({
+     offset:100,
+    duration:500,
+  });
+</script>
 
 <script>
 jQuery(document).ready(function($) {
@@ -304,7 +311,7 @@ jQuery(document).ready(function($) {
 		            margin: 0,
 		            autoplay: true,
 		            dots:true,
-		            autoplayTimeout: 8500,
+		            autoplayTimeout: 4000,
 		            smartSpeed: 450,
 		            responsive: {
 		              0: {
