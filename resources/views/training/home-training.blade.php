@@ -381,7 +381,7 @@
 
 
 <div class="container-fluid px-3 px-sm-5 mt-5 text-center">
-    <h1 class="mb-5 font-weight-bold" style="font-size:40px;">Our Students Sucess Story <hr></h1>
+    <h1 class="mb-5 font-weight-bold" style="font-size:40px;">Our Students Success Story <hr></h1>
     <div class="owl-carousel owl-theme">
         <div class="item show">
             <div class="card border-0 py-3 px-4">
@@ -505,31 +505,9 @@ jQuery(document).ready(function($) {
   });
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $(document).ready(function() {
 
 $('.owl-carousel').owlCarousel({
-  
-  
-
-    // autoplay:true,
-    // autoplayTimeout:2500,
-    // autoplayHoverPause:true
 mouseDrag:false,
 loop:true,
 margin:2,
