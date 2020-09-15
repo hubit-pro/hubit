@@ -56,7 +56,16 @@
 				<div class="col-lg-8">
 					<div class="courses_search_container">
 						<form action="#" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
-							<input type="search" class="courses_search_input" placeholder="Search Courses" required="required">
+							<input type="search" list="brow" class="courses_search_input" placeholder="Search Courses" required="required">
+							
+                                      <datalist id="brow">
+                                          <option value="Internet Explorer">
+                                          <option value="Firefox">
+                                          <option value="Chrome">
+                                          <option value="Opera">
+                                          <option value="Safari">
+                                        </datalist>  
+
 							<select id="courses_search_select" class="courses_search_select courses_search_input">
 								<option>All Categories</option>
 								<option>Category</option>

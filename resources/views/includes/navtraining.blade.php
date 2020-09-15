@@ -30,7 +30,7 @@
   </div> 
 </div>
 
-<nav class="navbar navbar-expand-sm  sticky-top " id="head" style="position:sticky; ">
+<nav class="navbar navbar-expand-sm  sticky-top m-0" id="head" style="position:sticky; ">
 
 <div class="container" id="image">
 <a href="home"><img src="img/logo4.png"></a></div>

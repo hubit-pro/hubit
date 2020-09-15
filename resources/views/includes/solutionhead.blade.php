@@ -8,16 +8,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="css/solution/home-solution.css">
-  <link rel="stylesheet" type="text/css" href="css/solution/contact-solutions.css">
-  <link rel="stylesheet" type="text/css" href="css/solution/products.css">
-  <link rel="stylesheet" type="text/css" href="css/solution/services.css">
-  <link rel="stylesheet" type="text/css" href="css/solution/career.css">
   <link rel="stylesheet" type="text/css" href="css/top-header.css">
   <link rel="stylesheet" type="text/css" href="css/solution/navsolution.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
 
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 
 

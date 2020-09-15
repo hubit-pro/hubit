@@ -3,131 +3,266 @@ body{
   font-family: 'Mulish', sans-serif;
 
 
+
 }
-/* 
-#head{
-  background-color: #082941;
+
+
+.slideshow-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  text-transform: uppercase;
+  height: 85vh;
+  background-color: black;
 }
-
-.top-header{
-	height:25px; 
-	width:100%;
-	background-color:#19dded73;
-  color: #082941;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-  
-  }
-  .icon-social{
-		  color: #082941;
-		  padding-left: 5px;
-
-  }
-.nav-item:hover{
-  border: 1px solid white;
-  border-radius: 5px;
-}
-
-.nav-item{
-	color: white;
-	font-size: 17.6px;
-	
-	
-}
-.navbar-nav{
+.contents {
   width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  background-color: rgb(93, 125, 192);
+}
+@media (min-width:0px) and (max-width: 1140px){
+.myslides h2 {
+    font-size: 35px;
+}
+}
+.myslides h2 {
+    font-family: orkney-med;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    line-height: 1;
+    position: absolute;
+    text-align: left;
+    top: 19%;
+    left: 28%;
+    z-index: 9;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
+}
+@media (min-width:0px) and (max-width: 1140px){
+.myslides h2 span {
+    font-size: 30px;
+}
+}
+.myslides h2 span {
+    font-family: orkney-reg;
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-right: 20px;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
 }
 
-@media (min-width: 0) and (max-width: 768px) {
-  .navbar-nav{
+
+
+@media (min-width:0px) and (max-width: 1140px){
+.myslides .p_img {
+    height: 400px;
+}
+}
+.myslides .p_img {
+    display: block;
+    position: relative;
+    left: 1%;
+    height: 400px;
+    width: 400px;
+    z-index: 15;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-name: slideInRight;
+}
+.myslides img {
+    z-index: 15;
+    padding-top: 5%;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-name: slideInRight;
     width: 100%;
-  }
-}
-
-@media (min-width: 0) and (max-width: 768px) {
-  .navbar-collapse{
-    display: flex;
-    justify-content: flex-start;
-  }
-} */
-
-
-#image{
-  width: 200px;
-  height: 80px;
-}
-
-#image img{
-  height: 100%;
-  width: 100%;
+    height: 100%;
 }
 
 
-@media (min-width: 0) and (max-width: 768px) {
-  #image{
-  width: 150px;
-  height: 80px;
-  margin-right: 50px;
-  }
-}
-
-.rib{ 
-  color: white;
-  font-weight: bold;
-  font-family: sans-serif;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  text-align: center;
-  font-size: 1rem;
-}
-
-.carousel-item img{
-  height: 550px;
-}
-
-@media (min-width: 0) and (max-width: 1024px) {
-  .carousel-item img{
-    height: 400px;
-  }
-}
-
-#topper{
-  top: 0px; 
-  background-color: rgba(0,0,0,0.5);
+.p_detail {
   position: absolute;
-  width: 100%;
-  height: 550px;
+  text-align: left;
+  width: 350px;
+  top: 20%;
+  right: 10%;
+  z-index: 30;
+  width: 25%;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
+}
+.p_detail {
+  position: absolute;
+  text-align: left;
+  width: 350px;
+  top: 20%;
+  right: 10%;
+  z-index: 30;
+  width: 25%;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
+}
+.p_detail p {
+  font-size: 20px;
+  font-weight: lighter;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
 }
 
-@media (min-width: 0) and (max-width: 1024px) {
-  #topper{
-    height: 400px;
-  }
+.p_detail #banner-btn {
+  white-space: nowrap;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-family: 'Georgia';
+  text-decoration: none;
+  color: #cb0fa2;
+  border: thin solid white;
+  background-color: white;
+  padding: 4px 10px 4px 10px;
+  margin-right: 5px;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+}
+.p_detail h4 {
+  font-family: orkney-med;
+  font-size: 40px;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
 }
 
-.content1{
-  color: white;
-  font-weight: bolder;
-}
 
-@media (min-width: 0) and (max-width: 1024px) {
-  .content1 .list{
-    display: none;
-  }
-}
-
-@media (min-width: 0) and (max-width: 1024px) {
-  .content1 h1{
+@media (min-width:0px) and (max-width: 375px){
+.myslides h2 {
+    font-size: 28px;
+    left: 13%;
+    top: 67%;
     text-align: center;
-  }
 }
+}
+@media (min-width:375px) and (max-width: 550px){
+.myslides h2 {
+    font-size: 35px;
+    left: 20%;
+    top: 67%;
+    text-align: center;
+}
+}
+@media (min-width:550px) and (max-width: 640px){
+.myslides h2 {
+    font-size: 45px;
+    left: 25%;
+    top: 67%;
+    text-align: center;
+}
+}
+@media (min-width:640px) and (max-width: 768px){
+.myslides h2 {
+    font-size: 45px;
+    left: 25%;
+    top: 67%;
+    text-align: center;
+}
+}
+
+
+@media (min-width:0px) and (max-width: 550px){
+.myslides h2 span {
+    font-size: 12px;
+}
+}
+@media (min-width:550px) and (max-width: 640px){
+.myslides h2 span {
+    font-size: 15px;
+    text-align: center;
+    }
+}
+@media (min-width:640px) and (max-width: 768px){
+.myslides h2 span {
+    font-size: 15px;
+    text-align: center;
+    }
+}
+@media (min-width:768px) and (max-width: 1140px){
+.myslides h2 span {
+    font-size: 13px;
+}
+}
+
+
+
+
+@media (min-width:0px) and (max-width: 375px){
+.myslides .p_img {
+    width: 300px;
+    height: 300px;
+    }
+}
+@media (min-width:375px) and (max-width: 550px){
+.myslides .p_img {
+    width: 300px;
+    height: 350px;
+    }
+}
+@media (min-width:550px) and (max-width: 640px){
+.myslides .p_img {
+    width: 300px;
+    height: 350px;
+    }
+}
+@media (min-width:640px) and (max-width: 768px){
+.myslides .p_img {
+    width: 300px;    height: 450px;
+    }
+}
+@media (min-width:768px) and (max-width: 900px){
+.myslides .p_img {
+    height: 350px;
+}
+}
+@media (min-width:900px) and (max-width: 1140px){
+.myslides .p_img {
+    height: 400px;
+}
+}
+@media (min-width:0px) and (max-width: 768px){
+.p_detail {
+    display: none;
+}
+}
+
+@media (min-width:0px) and (max-width: 900px){
+.p_detail h4 {
+    font-size: 28px;
+}
+}
+@media (min-width:0px) and (max-width: 900px){
+.p_detail p {
+    font-size: 15px;
+}
+}
+
+
 
 .card{
-  border: 2px solid darkslategray;
   text-align: center;
 }
 

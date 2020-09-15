@@ -23,9 +23,10 @@
 <section class="container-fluid pt-5 non text-center" style="text-transform:uppercase;">
 <h1>Contact Us</h1>
 <hr>
+
+
   
 </section>
-
 
 <!-------------------------TEXT CONTAINER-------------------->
   
@@ -47,6 +48,7 @@
     <div class="form-group col-md-6">
       <label for="inputPassword4">Email</label>
       <input type="password" class="form-control" id="inputemail" placeholder="Email">
+     
     </div>
   </div>
   <div class="form-row">

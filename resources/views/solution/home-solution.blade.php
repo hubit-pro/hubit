@@ -2,123 +2,143 @@
 <html>
 <head>
 	@include('includes/solutionhead')
-  <!-- Please dont edit this code-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131576038-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<link rel="stylesheet" type="text/css" href="css/solution/home-solution.css">
 
-  gtag('config', 'UA-131576038-1');
-  </script>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WT6FX7W');</script>
-<!-- End Google Tag Manager -->
-<!-- to this -->
-
-</head>
-<body>
-
-<!-- Dont edit this code-->
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WT6FX7W"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!-- to this -->
-
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-window.fbAsyncInit = function() {
-  FB.init({
-    xfbml            : true,
-    version          : 'v3.2'
-  });
-};
-
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=install_email
-  page_id="1872050236414372"
-  theme_color="#082941">
-</div>
-
-
-
+  </head>
+  <body style="zoom:80%">
 <!-----------------------NAVBAR------------------------------->
 	@include("includes/navsolution")
 <!-------------------------NAVBAR END--------------------------------->
 
 
-<!-----------------------------SLIDER----------------------->
-<section class="container-fluid p-0" style="position: relative;">
-<div id="MagicCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
-	<div class="carousel-inner" role="listbox">
-	<!-- <ol class="carousel-indicators">
-		<li data-target="#MagicCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#MagicCarousel" data-slide-to="1"></li>
-		<li data-target="#MagicCarousel" data-slide-to="2"></li>
-	</ol>
-	 -->
-	
-		
-				
-					<div class="carousel-item active">
-</div>
-				
-			
 
-	</div>
+<!-----------------------------SLIDER----------------------->
+
+<section class="container-fluid main-div">
+
+  <div class="container-fluid">
+  
+  
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+<!-- Indicators -->
+<ul class="carousel-indicators">
+  <li data-target="#demo" data-slide-to="0" class="active"></li>
+  <li data-target="#demo" data-slide-to="1"></li>
+  <li data-target="#demo" data-slide-to="2"></li>
+</ul>
+
+<!-- The slideshow -->
+<div class="carousel-inner">
+  <div class="carousel-item active">
+  <div class="overlay-layer"> 
+    
+<div class="slideshow-container ">
+
+<div class="contents first">
+<div class="myslides" style="display: block;">
+  <h2>
+   4+<br> Practical <br>Years OF <br>Experience
+   <span>In Technology Industry</span>
+  </h2>
+  <img src="img/solution1.png" class="p_img">
+  
+  <div class="p_detail">
+      <h4>Knowledge with Experience</h4>
+      <p>
+	  With qualified professionals and years of service in the industry, we take calculated approach in solving business problems with 100% return of investment guareented.
+      </p>
+      <a href="courses.html" id="banner-btn">Services</a>
+      <a href="#goto" id="banner-btn">Contact us</a>
+  </div>
 </div>
+
+</div>
+
+
+</div>
+</div>
+
+
+
+  </div>
+  <div class="carousel-item">
+    <div class="slideshow-container ">
+
+<div class="contents second">
+    <div class="myslides" style="display: block;" >
+  <h2>
+   All Round <br> Office<br>Support
+   <span>Best in Butwal</span>
+  </h2>
+  <img src="img/solution2.png" class="p_img">
+
+  <div class="p_detail">
+      <h4>Leading company in IT</h4>
+      <p>
+	  We are among the best IT Solutions company in butwal city.&amp; We primarily focus on office support and customer service.
+        </p>
+      <a href="courses.html" id="banner-btn">Services</a>
+      <a href="#goto" id="banner-btn">Contact us</a>
+  </div>
+</div>
+
+</div>
+</div>
+
+
+  </div>
+
+
+  <div class="carousel-item">
+    <div class="slideshow-container ">
+
+<div class="contents third ">
+    <div class="myslides" style="display: block;" >
+  <h2>
+	  
+DURABLE <br>& SUSTAINABLE<br>
+SOLUTIONS
+
+
+  
+   <span>WE SOLVE YOUR TECH PROBLEMS.</span>
+  </h2>
+  <img src="img/solution3.png" class="p_img">
+  <div class="p_detail">
+      <h4>Tested and Proven Solutions</h4>
+      <p>
+	  We provide economical & effective solutions for Surveillance/PBX/Biometric systems, Website Developement. We are here to provide our valuable clients new and effective technologies.
+      </p>
+      <a href="courses.html" id="banner-btn">Services</a>
+      <a href="#goto" id="banner-btn">Contact us</a>
+  </div>
+</div>
+
+  </div>
+</div>
+
+</div>
+</div>
+
+
+
+
+    <!-- Left and left controls -->
+  
+  </div>
+</div>
+
+
+<!--------------------------SLIDER END------------------------>
+</section>
 <!--------------------------SLIDER END------------------------>
 
 
 <!-------------------------TEXT CONTAINER-------------------->
-<section class="container-fluid" id="topper"><!--this id "topper" is the transparent box over the slider--->
 
 	
 
-	<div class="row pt-5 pl-5 pr-5 content1">
-		<div class="col-xl-3">
-			<h1>IT<br>SOLUTION</h1>
-		</div>
-		<div class="col-xl-3 list">
-			*Single 1MP Bullet Camera<br>
-			*Single 2.0MP AH Bullet Camera<br>
-			*2.0MP AHD Bullet Camera<br>
-			*1080 AHD Bullet Cam
-		</div>
-		<div class="col-xl-3 list">			
-			*8 Channel 4.0MP AHD DVR<br>
-			*4 Channel AHD/TVI/CVI/ANALOG<br>
-			*Attendence System<br>
-			*ZK Teco
-		</div>
-		<div class="col-xl-3 list">			
-			*Face Attendence<br>
-			*Intercom<br>
-			*PABX Call Recorder<br>
-			*Fire Extinguisher...more
-		</div>
-	</div>
-
-</section>
-
-</section>
-<!-------------------------TEXT CONTAINER END---------------->
 
 
 <!--------------------------PRODUCTS IN-DEMAND TOPIC------------------------------>
@@ -450,7 +470,9 @@ window.fbAsyncInit = function() {
 <script>
 	$('.carousel').carousel({
     cycle: true,
-    pause: "null"
+    pause: "true"
+     autoplayHoverPause:true,
+	
 })
 </script>
 

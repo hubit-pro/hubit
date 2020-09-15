@@ -1,39 +1,153 @@
 
 #head{
-    background-color: #343a40;
-    width: 100%;
-    text-transform: uppercase;
-  }
-  .nav-item:hover{
-    border: 1px solid white;
-    border-radius: 5px;
+	background-color: #51be78;
+	width: 100%;
+	text-transform: uppercase;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #00000003;
+	border-color: rgba(255, 255, 255, 0.63);
+	border-radius: .25rem;
+	margin-left: 20px;
+}
+#image{
+	width: 200px;
+	height: 80px;
+	
   }
   
-  .nav-item{
-      color: white;
-	font-size: 17.6px;
-
-      
-      
-      
+  #image img{
+	height: 100%;
+	width: 100%;
+	float: left !important;
   }
+  
+  
+
+  
+  .rib{ 
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: center;
+	font-size: 1rem;
+  }
+  
+  .non img{
+	height: 250px; 
+	width: 100%;
+  }
+
+#navitems:hover {
+
+	color: #ff9800;
+
+	
+	
+}
+
+.nav-item{
+	font-size: 17.6px;
+	font-weight: bolder;
+	display: flex;
+	flex-wrap: nowrap;
+	
+	
+}
+#navitems{
+	color: white;
+}
+.navbar-nav{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;	
+}
+.dropdown:hover>.dropdown-menu {
+	display: block;
+	background-color: #51be78 ;
+}
+
+  .dropdown-item {
+	  color: white !important;
+  }
+
+.dropdown-item:hover {
+	
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ff99009d !important;
+  
+
+  }
+  .shortcut{
+	  display: none;
+  }
+
+
+@media (min-width: 0) and (max-width: 570px) {
   .navbar-nav{
     width: 100%;
+  }
+  .nav-item{
+	  font-size: 12px;
+  }
+  .navbar-collapse{
     display: flex;
-    justify-content: flex-end;
-    
+	justify-content: flex-start;
   }
+   .dropdown{
+	  font-size: 12px !important;
+  }
+  #image{
+	width: 150px;
+	height: 80px;
+	margin-bottom: 20px;
+	margin-left: 36%;
+	}
+	
+.navbar-toggler {
+    font-size: 1.75rem;
+}
+
+.shortcut{
+	position: absolute;
+    border: none;
+	background-color: #ff760075;
+	height: 30px;
+	width: 120px;
+	font-size: 14px;
+	color: white !important;
+	font-weight: bold;
+}
+.online-admission-button{
+	top:20px;
+	padding: auto;
+}
+.ticket-support-button{
+	top: 60px;
+}
+.shortcut a{
+	text-decoration:none;
+	color:white;
+}
+.shortcut{
+	display: inline-block;
+}
   
-  @media (min-width: 0) and (max-width: 768px) {
-    .navbar-nav{
-      width: 100%;
-    }
-  }
-  
-  @media (min-width: 0) and (max-width: 768px) {
-    .navbar-collapse{
-      display: flex;
-      justify-content: flex-start;
-    }
-  }
+}
+
+@media (min-width: 0) and (max-width: 375px) {
+	#image{
+		margin-left: 35%;
+	}
+}
+	
+ 
+
+
+
   
