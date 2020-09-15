@@ -12,8 +12,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 </head>  
 <body  style="zoom:80%"> 
@@ -25,8 +26,8 @@
 
 <!-----------------------------SLIDER----------------------->
 
-
 <div class="container-fluid main-div">
+
   <div class="container-fluid">
   
   
@@ -42,14 +43,89 @@
 <!-- The slideshow -->
 <div class="carousel-inner">
   <div class="carousel-item active">
-    <img src="img/it.jpg" alt="Los Angeles" >
+  <div class="overlay-layer"> 
+    
+<div class="slideshow-container ">
+
+<div class="contents first">
+<div class="myslides" style="display: block;">
+  <h2>
+   100% <br> Practical <br>Training
+   <span>Industry Professional Instructors</span>
+  </h2>
+  <img src="img/training2.png" class="p_img">
+  
+  <div class="p_detail">
+      <h4>Quality Learning Environment</h4>
+      <p>
+        With 10+ professional instructors &amp; customized computer labs, we prioritise on providing students with optimized learning space.
+      </p>
+      <a href="courses.html" id="banner-btn">Courses</a>
+      <a href="#goto" id="banner-btn">Enroll Now</a>
+  </div>
+</div>
+
+</div>
+
+
+</div>
+</div>
+
+
+
   </div>
   <div class="carousel-item">
-    <img src="img/it1.jpg" alt="Chicago" >
+    <div class="slideshow-container ">
+
+<div class="contents second">
+    <div class="myslides" style="display: block;" >
+  <h2>
+   Networking <br> hardware <br> programming
+   <span>BASIC TO ADVANCED</span>
+  </h2>
+  <img src="img/training3.png" class="p_img">
+
+  <div class="p_detail">
+      <h4>Pathway for IT Professionals</h4>
+      <p>
+        IT Seminars, Bootcamps, Internships &amp; Workplacement oppurtunities helps students gaining valuable workplace experience at HUB IT.
+      </p>
+      <a href="courses.html" id="banner-btn">Courses</a>
+      <a href="#goto" id="banner-btn">Enroll Now</a>
   </div>
+</div>
+
+</div>
+</div>
+
+
+  </div>
+
+
   <div class="carousel-item">
-    <img src="img/it2.jpg" alt="New York" >
+    <div class="slideshow-container ">
+
+<div class="contents third ">
+    <div class="myslides" style="display: block;" >
+  <h2>
+   Accounting <br> Auditing <br>  &amp; office
+   <span>FOR MANAGEMENT STUDENTS</span>
+  </h2>
+  <img src="img/training1.png" class="p_img">
+  <div class="p_detail">
+      <h4>Best for Business Students</h4>
+      <p>
+        Our Mgmt. curriculum enhances students' report writing &amp; presentation skills along with real world accounting/banking competency.
+      </p>
+      <a href="courses.html" id="banner-btn">Courses</a>
+      <a href="#goto" id="banner-btn">Enroll Now</a>
   </div>
+</div>
+
+  </div>
+</div>
+
+</div>
 </div>
 
 
@@ -60,25 +136,9 @@
   </div>
 </div>
 
-<div class="container-fluid">
-<form action="/action_page.php" class="containers">
-    <h1>Login</h1>
-
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit" class="btn">Login</button>
-  </form>
-  </div>
-
-
-  </div>
 
 <!--------------------------SLIDER END------------------------>
-<div class="containter-fluid">
+<div class="containter-fluid mt-5 ">
   <div class="passion">
        <p id="txt-1">
           Our Amenities
@@ -138,13 +198,13 @@
 <!-------------------------TEXT CONTAINER-------------------->
 
 
-<div class="container-fluid our-alumini mt-5">
+<div class="container-fluid our-alumini" style="margin-top:150px;">
 <div class="row">
   <div class="column">
     <div class="card">
-      <p><i class="fa fa-user"></i></p>
-      <h3>11+</h3>
-      <p>Partners</p>
+      <p><i class="fas fa-building"></i></i></p>
+      <h3>31+</h3>
+      <p>Placement Partners</p>
     </div>
   </div>
 
@@ -166,9 +226,9 @@
   
   <div class="column">
     <div class="card">
-      <p><i class="fa fa-coffee"></i></p>
+      <p><i class="fas fa-user"></i></i></p>
       <h3>100+</h3>
-      <p>Meetings</p>
+      <p>Students</p>
     </div>
   </div>
 </div>
@@ -178,7 +238,7 @@
 
 
 
-<div class="container-fluid our-values text-center">
+<div class="container-fluid our-values text-center mt-5">
     <div class="row">
     <div class="col" >
         <h1>Our values</h1><hr>
@@ -243,44 +303,7 @@
 
 
 
-<div class="container-fluid px-3 px-sm-5 my-5 text-center">
-    <h1 class="mb-5 font-weight-bold" style="font-size:40px;">What Our Client Say <hr></h1>
-    <div class="owl-carousel owl-theme">
-        <div class="item show">
-            <div class="card border-0 py-3 px-4">
-                <div class="row justify-content-center"> <img src="https://i.imgur.com/gazoShk.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h4 class="mb-3 mt-2 font-weight-bold">Marielle Haag</h4>
-                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
-            </div>
-        </div>
-        <div class="item show">
-            <div class="card border-0 py-3 px-4">
-                <div class="row justify-content-center"> <img src="https://i.imgur.com/oW8Wpwi.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h4 class="mb-3 mt-2 font-weight-bold">Ximena Vegara</h4>
-                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
-            </div>
-        </div>
-        <div class="item show">
-            <div class="card border-0 py-3 px-4">
-                <div class="row justify-content-center"> <img src="https://i.imgur.com/ndQx2Rg.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h4 class="mb-3 mt-2 font-weight-bold">John Paul</h4>
-                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
-            </div>
-        </div>
-        <div class="item show">
-            <div class="card border-0 py-3 px-4">
-                <div class="row justify-content-center"> <img src="https://i.imgur.com/T5aOhwh.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h4 class="mb-3 mt-2 font-weight-bold">William Doe</h4>
-                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-<div class="container-fluid course">
+<div class="container-fluid course mt-5">
   <h1 > POpular COURSE</h1><hr>
   <div class="row">
     <div class="col">
@@ -349,8 +372,52 @@
 
 
 
+<div class="container-fluid px-3 px-sm-5 mt-5 text-center">
+    <h1 class="mb-5 font-weight-bold" style="font-size:40px;">Our Students Success Story <hr></h1>
+    <div class="owl-carousel owl-theme">
+        <div class="item show">
+            <div class="card border-0 py-3 px-4">
+                <div class="row justify-content-center"> <img src="https://i.imgur.com/gazoShk.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
+                <h4 class="mb-3 mt-2 font-weight-bold">Marielle Haag</h4>
+                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
+            </div>
+        </div>
+        <div class="item show">
+            <div class="card border-0 py-3 px-4">
+                <div class="row justify-content-center"> <img src="https://i.imgur.com/oW8Wpwi.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
+                <h4 class="mb-3 mt-2 font-weight-bold">Ximena Vegara</h4>
+                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
+            </div>
+        </div>
+        <div class="item show">
+            <div class="card border-0 py-3 px-4">
+                <div class="row justify-content-center"> <img src="https://i.imgur.com/ndQx2Rg.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
+                <h4 class="mb-3 mt-2 font-weight-bold">John Paul</h4>
+                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
+            </div>
+        </div>
+        <div class="item show">
+            <div class="card border-0 py-3 px-4">
+                <div class="row justify-content-center"> <img src="https://i.imgur.com/T5aOhwh.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
+                <h4 class="mb-3 mt-2 font-weight-bold">William Doe</h4>
+                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-<h1 class="landing-photo-gallery text-center " style="margin-top:100px;">our-patners
+
+
+
+
+
+
+
+
+
+
+
+<h1 class="landing-photo-gallery text-center " style="margin-top:150px;">our-patners
 <hr>
 </h1>
 <section class="container-fluid p-5">
@@ -430,31 +497,9 @@ jQuery(document).ready(function($) {
   });
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $(document).ready(function() {
 
 $('.owl-carousel').owlCarousel({
-  
-  
-
-    // autoplay:true,
-    // autoplayTimeout:2500,
-    // autoplayHoverPause:true
 mouseDrag:false,
 loop:true,
 margin:2,

@@ -1,18 +1,7 @@
 
-
 <!----------------------FOOTER------------------------------->
-<footer class="page-footer font-small unique-color-dark pt-3">
+<footer class="page-footer font-small unique-color-dark pt-3" >
 
-
-
-
-
-
-
-<footer>
-
-
-  
 <!-- Footer Links -->
 <div class="container-fluid  mt-5 " style="border-top:2px solid #51be78;">
 
@@ -20,7 +9,7 @@
 <div class="row mt-3">
 
   <!-- Grid column -->
-  <div class="col-md-2 products  ">
+  <div class="col-md-2 products">
 
     <!-- Content -->
     <h6 class="text-uppercase font-weight-bold mt-3 text-center ">Products</h6>

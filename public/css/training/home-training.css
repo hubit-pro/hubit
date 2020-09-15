@@ -1,31 +1,285 @@
 body{
   overflow-x: hidden;
 }
-
-.main-div{
-  height: 600px;
+.slideshow-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 85vh;
+  background-color: black;
 }
+.contents {
+  width: 100%;
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  background-color: rgb(93, 125, 192);
+}
+@media (min-width:0px) and (max-width: 1140px){
+.myslides h2 {
+    font-size: 35px;
+}
+}
+.myslides h2 {
+    font-family: orkney-med;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    line-height: 1;
+    position: absolute;
+    text-align: left;
+    top: 19%;
+    left: 28%;
+    z-index: 9;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
+}
+@media (min-width:0px) and (max-width: 1140px){
+.myslides h2 span {
+    font-size: 30px;
+}
+}
+.myslides h2 span {
+    font-family: orkney-reg;
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-right: 20px;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
+}
+
+
+
+@media (min-width:0px) and (max-width: 1140px){
+.myslides .p_img {
+    height: 400px;
+}
+}
+.myslides .p_img {
+    display: block;
+    position: relative;
+    left: 8%;
+    height: 500px;
+    z-index: 15;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-name: slideInRight;
+}
+.myslides img {
+    height: 30%;
+    z-index: 15;
+    padding-top: 5%;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-name: slideInRight;
+}
+
+
+.p_detail {
+  position: absolute;
+  text-align: left;
+  width: 350px;
+  top: 20%;
+  right: 10%;
+  z-index: 30;
+  width: 25%;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
+}
+.p_detail {
+  position: absolute;
+  text-align: left;
+  width: 350px;
+  top: 20%;
+  right: 10%;
+  z-index: 30;
+  width: 25%;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
+}
+.p_detail p {
+  font-size: 20px;
+  font-weight: lighter;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
+}
+
+.p_detail #banner-btn {
+  white-space: nowrap;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-family: 'Georgia';
+  text-decoration: none;
+  color: #cb0fa2;
+  border: thin solid white;
+  background-color: white;
+  padding: 4px 10px 4px 10px;
+  margin-right: 5px;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+}
+.p_detail h4 {
+  font-family: orkney-med;
+  font-size: 40px;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
+}
+
+
+@media (min-width:0px) and (max-width: 375px){
+.myslides h2 {
+    font-size: 28px;
+    left: 13%;
+    top: 67%;
+    text-align: center;
+}
+}
+@media (min-width:375px) and (max-width: 550px){
+.myslides h2 {
+    font-size: 35px;
+    left: 20%;
+    top: 67%;
+    text-align: center;
+}
+}
+@media (min-width:550px) and (max-width: 640px){
+.myslides h2 {
+    font-size: 45px;
+    left: 25%;
+    top: 67%;
+    text-align: center;
+}
+}
+@media (min-width:640px) and (max-width: 768px){
+.myslides h2 {
+    font-size: 45px;
+    left: 25%;
+    top: 67%;
+    text-align: center;
+}
+}
+
+
+@media (min-width:0px) and (max-width: 550px){
+.myslides h2 span {
+    font-size: 12px;
+}
+}
+@media (min-width:550px) and (max-width: 640px){
+.myslides h2 span {
+    font-size: 15px;
+    text-align: center;
+    }
+}
+@media (min-width:640px) and (max-width: 768px){
+.myslides h2 span {
+    font-size: 15px;
+    text-align: center;
+    }
+}
+@media (min-width:768px) and (max-width: 1140px){
+.myslides h2 span {
+    font-size: 13px;
+}
+}
+
+
+
+
+@media (min-width:0px) and (max-width: 375px){
+.myslides .p_img {
+    left: 15%;
+    height: 300px;
+    }
+}
+@media (min-width:375px) and (max-width: 550px){
+.myslides .p_img {
+    left: 15%;
+    height: 350px;
+    }
+}
+@media (min-width:550px) and (max-width: 640px){
+.myslides .p_img {
+    left: 25%;
+    height: 350px;
+    }
+}
+@media (min-width:640px) and (max-width: 768px){
+.myslides .p_img {
+    left: 25%;
+    height: 450px;
+    }
+}
+@media (min-width:768px) and (max-width: 900px){
+.myslides .p_img {
+    height: 350px;
+}
+}
+@media (min-width:900px) and (max-width: 1140px){
+.myslides .p_img {
+    height: 400px;
+}
+}
+@media (min-width:0px) and (max-width: 768px){
+.p_detail {
+    display: none;
+}
+}
+
+@media (min-width:0px) and (max-width: 900px){
+.p_detail h4 {
+    font-size: 28px;
+}
+}
+@media (min-width:0px) and (max-width: 900px){
+.p_detail p {
+    font-size: 15px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1{
   font-weight: bold !important;
   font-size: 30px !important;
   color: grey !important;
-  margin-top:50px;
+  margin-top:100px !important;
   text-transform: uppercase;
 }
 
-.carousel-inner{
-  height: 600px;
-  width: 100%;
-}
-.carousel-inner img {
-  width: 100%;
-  height: 100%;
-}
+
 
 /* Add styles to the form container */
 .containers {
   top: 300px;
-  right: 10vw;
   max-width:20vw;
   padding: 16px;
   background-color: white;
@@ -95,6 +349,9 @@ input[type=text]:focus, input[type=password]:focus {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
 } 
 
 .card-container .card {
@@ -147,7 +404,7 @@ body {
 }
 
 /* Responsive columns */
-@media screen and (max-width: 600px) {
+@media (min-width:0px) and (max-width: 600px) {
   .column {
     width: 100%;
     display: block;
@@ -164,21 +421,12 @@ body {
   color: white;
   font-size:20px;
 }
-
-.our-alumini.fa {font-size:70px;}
-.our-alumini.fas{font-size: 70px;}
-
-
 .our-values .row .col h1{
   text-align: center;
   margin: 100px 0px 0px 0px; 
   color: grey;
-  font-size: 40px;
- 
+  font-size: 40px; 
 }
-
-.our-values .row {
-} 
 .our-values .row .col-md-3 .content h4{
   padding-top: 15px;
   font-weight: bold;
@@ -325,7 +573,7 @@ height: 200px !important ;
 /* redy get started whole div */
 .connect{
   width: 100%;
-  height: 350px;
+  height: auto;
   background-color: #00a6e5;
   margin-top: 100px;
   text-align: center;
@@ -342,7 +590,6 @@ height: 200px !important ;
 .connect p{
   text-align: center;
   font-size: 20px;
-  padding: 20px 100px 0px 100px;
   font-weight: bold;
 }
 /* redy get started button */
