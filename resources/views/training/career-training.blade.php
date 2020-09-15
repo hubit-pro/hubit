@@ -15,7 +15,7 @@
 </div>
 
 
-<div class="container-fluid our-alumini">
+<div class="container-fluid our-alumini" data-aos="fade-up-left">
 	<div class="row">
 		<div class="col-md-3">
 			<div class="content">
@@ -56,12 +56,12 @@
 <div class="conatiner-fluid for-you">
 	<div class="container">
 <div class="row">
-	<div class="col">
+	<div class="col" data-aos="fade-left">
 		<img src="img/logo3.png">
 	</div>
 </div>
 
-	<div class="row">
+	<div class="row" data-aos="fade-right">
 		<div class="col">
 			<h1>For you, with you.<br> ALWAYS!</h1><br>
 			<p>There are many web design training institute, but none quite like IMI Academy. 
@@ -76,15 +76,15 @@
 </div>
 
 <div class="container-fluid benefits">
-	<div class="row one">
-		<div class="col">
+	<div class="row one" data-aos="fade-up-left">
+		<div class="col" >
 			<h1>Benefits</h1>
 			<p>We want to invest our time and expertise in our students<br>
 			 and want to see them succeed in life.</p>
 		</div>
 	</div>
 
-	<div class="row ">
+	<div class="row " data-aos="fade-up-right">
 		<div class="col-md-4">
 			<div class="card">
   <img class="card-img-top" src="https://imiacademy.com/wp-content/uploads/2018/11/imarket-600x400.jpg" alt="Card image cap">
@@ -278,6 +278,13 @@
 
 
 @include('includes/footer')
+
+<script>
+  AOS.init({
+     offset:100,
+    duration:500,
+  });
+</script>
 
 <script>
 	$('.carousel').carousel({

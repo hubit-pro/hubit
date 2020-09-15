@@ -1,6 +1,8 @@
 body{
   overflow-x: hidden;
 }
+
+
 .slideshow-container {
   background-repeat: no-repeat;
   background-size: cover;
@@ -351,7 +353,7 @@ input[type=text]:focus, input[type=password]:focus {
   width: 100%;
   animation-duration: 1.2s;
   animation-fill-mode: both;
-  animation-name: slideInRight;
+  
 } 
 
 .card-container .card {

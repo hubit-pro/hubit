@@ -4,6 +4,13 @@
 	@include("includes/traininghead")
   <link rel="stylesheet" type="text/css" href=" css/training/home-training.css" >
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script   href="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js" ></script>
+  <script   href="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js " ></script>
+  <script   href="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js " ></script>
+  <script   href=" https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" ></script>
+  
+  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
@@ -131,14 +138,14 @@
 
 
 
-    <!-- Left and right controls -->
+    <!-- Left and left controls -->
   
   </div>
 </div>
 
 
 <!--------------------------SLIDER END------------------------>
-<div class="containter-fluid mt-5 ">
+<div class="containter-fluid " >
   <div class="passion">
        <p id="txt-1">
           Our Amenities
@@ -149,43 +156,44 @@
 
 
 
-<div class="card-container" onclick="location.href='courses';">
-  <div class="card">
+<div class="card-container" onclick="location.href='courses';"  style="margin-bottom:50px;">
+  <div class="card" data-aos="fade-right">
     <div class="content-box">
       <h3>Projector Classrooms</h3>
+
     </div>
   </div>
-  <div class="card">
+  <div class="card"  data-aos="fade-right">
     <div class="content-box">
       <h3>Internet Labs</h3>
     </div>
   </div>
-  <div class="card">
+  <div class="card"  data-aos="fade-left">
     <div class="content-box">
       <h3>IT Seminars</h3>
     </div>
   </div>
-  <div class="card">
+  <div class="card"  data-aos="fade-left">
     <div class="content-box">
       <h3>Field Visits/Works</h3>
     </div>
   </div>
-  <div class="card">
+  <div class="card"  data-aos="fade-right">
     <div class="content-box">
       <h3>Experienced Instructors</h3>
     </div>
   </div>
-  <div class="card">
+  <div class="card"  data-aos="fade-right">
     <div class="content-box">
       <h3>Internships</h3>
     </div>
   </div>
-  <div class="card">
+  <div class="card"  data-aos="fade-left">
     <div class="content-box">
       <h3>Bootcamps</h3>
     </div>
   </div>
-  <div class="card">
+  <div class="card"  data-aos="fade-left">
     <div class="content-box">
       <h3>IT Workshops</h3>
     </div>
@@ -198,10 +206,10 @@
 <!-------------------------TEXT CONTAINER-------------------->
 
 
-<div class="container-fluid our-alumini" style="margin-top:150px;">
+<div class="container-fluid our-alumini">
 <div class="row">
   <div class="column">
-    <div class="card">
+    <div class="card" data-aos="flip-right">
       <p><i class="fas fa-building"></i></i></p>
       <h3>31+</h3>
       <p>Placement Partners</p>
@@ -209,7 +217,7 @@
   </div>
 
   <div class="column">
-    <div class="card">
+    <div class="card" data-aos="flip-left">
       <p><i class="fas fa-user-graduate"></i></p>
       <h3>1000+</h3>
       <p> Graduates</p>
@@ -217,7 +225,7 @@
   </div>
   
   <div class="column">
-    <div class="card">
+    <div class="card" data-aos="flip-right">
       <p><i class="fas fa-book-open"></i></p>
       <h3>200+</h3>
       <p>Courses</p>
@@ -225,7 +233,7 @@
   </div>
   
   <div class="column">
-    <div class="card">
+    <div class="card" data-aos="flip-left">
       <p><i class="fas fa-user"></i></i></p>
       <h3>100+</h3>
       <p>Students</p>
@@ -238,7 +246,7 @@
 
 
 
-<div class="container-fluid our-values text-center mt-5">
+<div class="container-fluid our-values text-center mt-5" data-aos="fade-in">
     <div class="row">
     <div class="col" >
         <h1>Our values</h1><hr>
@@ -567,6 +575,13 @@ $('.owl-item .show').parent().next().children('.item').addClass('next');
 
 </script>
 
+
+<script>
+  AOS.init({
+     offset:100,
+    duration:300,
+  });
+</script>
 
 </body>
 </html>
