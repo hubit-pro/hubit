@@ -135,6 +135,116 @@ SOLUTIONS
 <!--------------------------SLIDER END------------------------>
 
 
+<div class="containter-fluid "  >
+  <div class="passion">
+       <p id="txt-1">
+          Our Services
+      </p>
+      <hr >
+  </div>
+</div>
+
+
+
+<div class="card-container" onclick="location.href='courses';"  style="margin-bottom:50px;" data-aos="fade-right">
+  <div class="card" >
+    <div class="content-box">
+      <h3>Business IT Consultant</h3>
+
+    </div>
+  </div>
+  <div class="card"  >
+    <div class="content-box">
+      <h3>
+Facebook Boosting & Promotions
+
+	  </h3>
+    </div>
+  </div>
+  <div class="card"  >
+    <div class="content-box">
+      <h3>
+	  Website & Webhosting
+
+	  </h3>
+    </div>
+  </div>
+  <div class="card"  >
+    <div class="content-box">
+      <h3>
+	  Web/Mobile Applications
+
+	  </h3>
+    </div>
+  </div>
+  <div class="card" >
+    <div class="content-box">
+      <h3>
+	  Complete IT Support
+
+	  </h3>
+    </div>
+  </div>
+  <div class="card"  >
+    <div class="content-box">
+      <h3>
+	  Computer Hardware Supplier
+
+	  </h3>
+    </div>
+  </div>
+  <div class="card"  >
+    <div class="content-box">
+      <h3>
+	  Surveillance Systems (CCTV)
+
+	  </h3>
+    </div>
+  </div>
+  <div class="card"  >
+    <div class="content-box">
+      <h3> 
+	  Intercom (PBX) Systems
+
+	  </h3>
+    </div>
+  </div>
+  <div class="card"  >
+    <div class="content-box">
+      <h3>
+	  Biometric Attendance System
+
+	  </h3>
+    </div>
+  </div>
+  <div class="card"  >
+    <div class="content-box">
+      <h3>
+	  Fire Extinguishers
+
+	  </h3>
+    </div>
+  </div>
+  <div class="card"  >
+    <div class="content-box">
+      <h3>
+	  Business & Accounting Softwares
+
+	  </h3>
+    </div>
+  </div>
+  <div class="card"  >
+    <div class="content-box">
+      <h3>
+	  Repair and Maintainance
+
+	  </h3>
+    </div>
+  </div>
+  </div>
+
+
+
 <!-------------------------TEXT CONTAINER-------------------->
 
 	
