@@ -249,17 +249,13 @@
 </div>
 </div>
 
-
-
-
-
-<div class="container-fluid our-values text-center mt-5" data-aos="fade-in">
+<div class="container-fluid our-values text-center mt-5" >
     <div class="row">
     <div class="col" >
         <h1>Our values</h1><hr>
     </div>
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3"data-aos="flip-left">
         <img src="https://cdn01.alison-static.net/public/html/site/img/empowerment.png">
         <div class="content">
             <h4>Empowerment</h4>
@@ -269,7 +265,7 @@
                 </div>
          
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3"data-aos="flip-left">
         <img src="https://cdn01.alison-static.net/public/html/site/img/knowledge.png">
         <div class="content">
         <h4>Knowledge</h4>
@@ -281,7 +277,7 @@
                 </div>
 
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3"data-aos="flip-right">
             <img src="https://cdn01.alison-static.net/public/html/site/img/inclusivity.png" >
         <div class="content">
         <h4>Inclusivity</h4>
@@ -294,7 +290,7 @@
                 </div>
 
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3"data-aos="flip-right">
                 <img src="https://cdn01.alison-static.net/public/html/site/img/innovation.png" >
 
         <div class="content">
@@ -329,7 +325,7 @@
   
   
 
-     <div class="col-md-3"">
+     <div class="col-md-3">
         <div class="profile-card-4 text-center">
           <img src="img/course1.png" class="img img-responsive">
         <div class="profile-content">
@@ -376,7 +372,7 @@
 
      
 
-     <div class="col-md-3"">
+     <div class="col-md-3">
         <div class="profile-card-4 text-center">
           <img src="img/course2.png" class="img img-responsive">
         <div class="profile-content">
@@ -521,7 +517,7 @@
 
 
 
-   <div class="col-md-3"">
+   <div class="col-md-3">
       <div class="profile-card-4 text-center">
         <img src="img/course1.png" class="img img-responsive">
       <div class="profile-content">
@@ -568,7 +564,7 @@
 
    
 
-   <div class="col-md-3"">
+   <div class="col-md-3">
       <div class="profile-card-4 text-center">
         <img src="img/course2.png" class="img img-responsive">
       <div class="profile-content">
@@ -718,7 +714,7 @@
 
 
 
-   <div class="col-md-3"">
+   <div class="col-md-3">
       <div class="profile-card-4 text-center">
         <img src="img/course1.png" class="img img-responsive">
       <div class="profile-content">
@@ -765,7 +761,7 @@
 
    
 
-   <div class="col-md-3"">
+   <div class="col-md-3">
       <div class="profile-card-4 text-center">
         <img src="img/course2.png" class="img img-responsive">
       <div class="profile-content">
@@ -1115,8 +1111,8 @@ $('.owl-item .show').parent().next().children('.item').addClass('next');
 
 <script>
   AOS.init({
-     offset:100,
-    duration:300,
+     offset:1,
+    duration:10,
   });
 </script>
 
