@@ -321,7 +321,6 @@
 <div class="container-fluid course mt-5">
   <h1 > POpular COURSE</h1><hr>
 <div id="demo" class="carousel slide" data-ride="carousel">
-  
 <div class="carousel-inner">
   <div class="carousel-item active">
 
@@ -330,7 +329,7 @@
   
   
 
-     <div class="col-md-3">
+     <div class="col-md-3" data-aos="fade-right">
         <div class="profile-card-4 text-center">
           <img src="img/course1.png" class="img img-responsive">
         <div class="profile-content">
@@ -377,7 +376,7 @@
 
      
 
-     <div class="col-md-3">
+     <div class="col-md-3" data-aos="fade-right">
         <div class="profile-card-4 text-center">
           <img src="img/course2.png" class="img img-responsive">
         <div class="profile-content">
@@ -423,7 +422,7 @@
 
      
 
-     <div class="col-md-3">
+     <div class="col-md-3" data-aos="fade-left">
         <div class="profile-card-4 text-center">
           <img src="img/course3.png" class="img img-responsive">
         <div class="profile-content">
@@ -469,7 +468,7 @@
 
      
 
-     <div class="col-md-3">
+     <div class="col-md-3" data-aos="fade-left">
         <div class="profile-card-4 text-center">
           <img src="img/course4.png" class="img img-responsive">
         <div class="profile-content">
@@ -522,7 +521,7 @@
 
 
 
-   <div class="col-md-3">
+   <div class="col-md-3" data-aos="fade-right">
       <div class="profile-card-4 text-center">
         <img src="img/course1.png" class="img img-responsive">
       <div class="profile-content">
@@ -569,7 +568,7 @@
 
    
 
-   <div class="col-md-3">
+   <div class="col-md-3" data-aos="fade-right">
       <div class="profile-card-4 text-center">
         <img src="img/course2.png" class="img img-responsive">
       <div class="profile-content">
@@ -615,7 +614,7 @@
 
    
 
-   <div class="col-md-3">
+   <div class="col-md-3" data-aos="fade-left">
       <div class="profile-card-4 text-center">
         <img src="img/course3.png" class="img img-responsive">
       <div class="profile-content">
@@ -661,7 +660,7 @@
 
    
 
-   <div class="col-md-3">
+   <div class="col-md-3" data-aos="fade-left">
       <div class="profile-card-4 text-center">
         <img src="img/course4.png" class="img img-responsive">
       <div class="profile-content">
@@ -719,7 +718,7 @@
 
 
 
-   <div class="col-md-3">
+   <div class="col-md-3" data-aos="fade-right">
       <div class="profile-card-4 text-center">
         <img src="img/course1.png" class="img img-responsive">
       <div class="profile-content">
@@ -766,7 +765,7 @@
 
    
 
-   <div class="col-md-3">
+   <div class="col-md-3" data-aos="fade-right">
       <div class="profile-card-4 text-center">
         <img src="img/course2.png" class="img img-responsive">
       <div class="profile-content">
@@ -812,7 +811,7 @@
 
    
 
-   <div class="col-md-3">
+   <div class="col-md-3" data-aos="fade-left">
       <div class="profile-card-4 text-center">
         <img src="img/course3.png" class="img img-responsive">
       <div class="profile-content">
@@ -858,7 +857,7 @@
 
    
 
-   <div class="col-md-3">
+   <div class="col-md-3" data-aos="fade-left">
       <div class="profile-card-4 text-center">
         <img src="img/course4.png" class="img img-responsive">
       <div class="profile-content">
