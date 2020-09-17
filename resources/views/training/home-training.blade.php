@@ -212,49 +212,63 @@
 
 <!-------------------------TEXT CONTAINER-------------------->
 
+<section class="counter-section fix">
+        <div class="counter-overlay"></div>
+        <div class="container pt100 pb100">
+          <div class="row">
+          
+            <div class="col-md-3 col-sm-6">
+                <div class="currency-counter count-items">
+                    <i class="fa fa-rocket"></i>
+                    <span class="currency-count">1224</span>
+                    <h2>Designs Completed</h2>
+                </div>
+            </div>
+         
+            <div class="col-md-3 col-sm-6">
+                <div class="currency-counter count-items">
+                    <i class="fa fa-users"></i>
+                    <span class="currency-count">30</span>
+                    <h2>Team Member</h2>
+                </div>
+            </div>
+           
+            <div class="col-md-3 col-sm-6">
+                <div class="currency-counter count-items">
+                    <i class="fa fa-calendar"></i>
+                    <span class="currency-count">15</span>
+                    <h2>Years Experience</h2>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <div class="currency-counter count-items">
+                    <i class="fa fa-comment-o"></i>
+                    <span class="currency-count">530</span>
+                    <h2>Satisfied Customers</h2>
+                </div>
+            </div>
+          </div>
+		 
+        </div>
+    </section>
+    <script src="js1/jquery-2.1.4.min.js"></script>
+    <script src="js1/jquery.counterup.min.js"></script>
+    <script src="js1/waypoints.min.js"></script>
+    <script src="js/main.js"></script>
 
-<div class="container-fluid our-alumini">
-<div class="row">
-  <div class="column">
-    <div class="card" data-aos="flip-right">
-      <p><i class="fas fa-building"></i></i></p>
-      <h3>31+</h3>
-      <p>Placement Partners</p>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card" data-aos="flip-left">
-      <p><i class="fas fa-user-graduate"></i></p>
-      <h3>1000+</h3>
-      <p> Graduates</p>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card" data-aos="flip-right">
-      <p><i class="fas fa-book-open"></i></p>
-      <h3>200+</h3>
-      <p>Courses</p>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card" data-aos="flip-left">
-      <p><i class="fas fa-user"></i></i></p>
-      <h3>100+</h3>
-      <p>Students</p>
-    </div>
-  </div>
-</div>
-</div>
 
 
 
 
 
-<div class="container-fluid our-values text-center mt-5" data-aos="fade-in">
-    <div class="row">
+
+
+
+
+
+<div class="container-fluid our-values text-center mt-5">
+    <div class="row"  data-aos="fade-in">
     <div class="col" >
         <h1>Our values</h1><hr>
     </div>
@@ -329,7 +343,7 @@
   
   
 
-     <div class="col-md-3"">
+     <div class="col-md-3">
         <div class="profile-card-4 text-center">
           <img src="img/course1.png" class="img img-responsive">
         <div class="profile-content">
@@ -376,7 +390,7 @@
 
      
 
-     <div class="col-md-3"">
+     <div class="col-md-3">
         <div class="profile-card-4 text-center">
           <img src="img/course2.png" class="img img-responsive">
         <div class="profile-content">
@@ -521,7 +535,7 @@
 
 
 
-   <div class="col-md-3"">
+   <div class="col-md-3">
       <div class="profile-card-4 text-center">
         <img src="img/course1.png" class="img img-responsive">
       <div class="profile-content">
@@ -568,7 +582,7 @@
 
    
 
-   <div class="col-md-3"">
+   <div class="col-md-3">
       <div class="profile-card-4 text-center">
         <img src="img/course2.png" class="img img-responsive">
       <div class="profile-content">
@@ -718,7 +732,7 @@
 
 
 
-   <div class="col-md-3"">
+   <div class="col-md-3">
       <div class="profile-card-4 text-center">
         <img src="img/course1.png" class="img img-responsive">
       <div class="profile-content">
@@ -765,7 +779,7 @@
 
    
 
-   <div class="col-md-3"">
+   <div class="col-md-3">
       <div class="profile-card-4 text-center">
         <img src="img/course2.png" class="img img-responsive">
       <div class="profile-content">
@@ -917,39 +931,6 @@
 
 
 
-<div class="container-fluid px-3 px-sm-5 mt-5 text-center">
-    <h1 class="mb-5 font-weight-bold" style="font-size:40px;">Our Students Success Story <hr></h1>
-    <div class="owl-carousel owl-theme">
-        <div class="item show">
-            <div class="card border-0 py-3 px-4">
-                <div class="row justify-content-center"> <img src="https://i.imgur.com/gazoShk.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h4 class="mb-3 mt-2 font-weight-bold">Marielle Haag</h4>
-                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
-            </div>
-        </div>
-        <div class="item show">
-            <div class="card border-0 py-3 px-4">
-                <div class="row justify-content-center"> <img src="https://i.imgur.com/oW8Wpwi.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h4 class="mb-3 mt-2 font-weight-bold">Ximena Vegara</h4>
-                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
-            </div>
-        </div>
-        <div class="item show">
-            <div class="card border-0 py-3 px-4">
-                <div class="row justify-content-center"> <img src="https://i.imgur.com/ndQx2Rg.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h4 class="mb-3 mt-2 font-weight-bold">John Paul</h4>
-                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
-            </div>
-        </div>
-        <div class="item show">
-            <div class="card border-0 py-3 px-4">
-                <div class="row justify-content-center"> <img src="https://i.imgur.com/T5aOhwh.jpg" class="img-fluid profile-pic mb-4 mt-3"> </div>
-                <h4 class="mb-3 mt-2 font-weight-bold">William Doe</h4>
-                <p class="content mb-5 mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
@@ -1042,73 +1023,7 @@ jQuery(document).ready(function($) {
   });
 });
 
-$(document).ready(function() {
 
-$('.owl-carousel').owlCarousel({
-mouseDrag:false,
-loop:true,
-margin:2,
-nav:true,
-autoplay:true,
-autoplayTimeout:2000,
-autoplayHoverPause:true,
-responsive:{
-0:{
-items:1
-},
-600:{
-items:1
-},
-1000:{
-items:3
-}
-}
-});
-
-$('.owl-prev').click(function() {
-$active = $('.owl-item .item.show');
-$('.owl-item .item.show').removeClass('show');
-$('.owl-item .item').removeClass('next');
-$('.owl-item .item').removeClass('prev');
-$active.addClass('next');
-if($active.is('.first')) {
-$('.owl-item .last').addClass('show');
-$('.first').addClass('next');
-$('.owl-item .last').parent().prev().children('.item').addClass('prev');
-}
-else {
-$active.parent().prev().children('.item').addClass('show');
-if($active.parent().prev().children('.item').is('.first')) {
-$('.owl-item .last').addClass('prev');
-}
-else {
-$('.owl-item .show').parent().prev().children('.item').addClass('prev');
-}
-}
-});
-
-$('.owl-next').click(function() {
-$active = $('.owl-item .item.show');
-$('.owl-item .item.show').removeClass('show');
-$('.owl-item .item').removeClass('next');
-$('.owl-item .item').removeClass('prev');
-$active.addClass('prev');
-if($active.is('.last')) {
-$('.owl-item .first').addClass('show');
-$('.owl-item .first').parent().next().children('.item').addClass('prev');
-}
-else {
-$active.parent().next().children('.item').addClass('show');
-if($active.parent().next().children('.item').is('.last')) {
-$('.owl-item .first').addClass('next');
-}
-else {
-$('.owl-item .show').parent().next().children('.item').addClass('next');
-}
-}
-});
-
-});
 
 </script>
 
