@@ -42,7 +42,7 @@ body{
   background-position: center;
   position: relative;
   color: white;
-  background-color: rgb(93, 125, 192);
+  background-color: rgb(55, 81, 126);
 }
 @media (min-width:0px) and (max-width: 1140px){
 .myslides h2 {
@@ -546,18 +546,15 @@ height: 200px !important ;
   margin: 10px !important;
   display: inline-block !important;
 }
-
 .course h1{
   text-align: center;
   margin-top: 50px;
 }
-
 .ourpatners h1{
   text-align: center;
   font-weight: bold;
   margin: 20px;
 }
-
 .ourpatners .card .item{
   height: 10vw;
   width: 10vw;
@@ -566,35 +563,22 @@ height: 200px !important ;
   height: 100%;
   width: 100%;
   margin-left: 50px;
-
 }
-
-
-
-
 .inner
 {
 	width:200px;
 	height: 200px;
     margin: 10px;
     display: inline-block;
-    
 }
 .inner img {
     border-radius: 10%;
 	height: 100%;
 	width: 100%;
-	
-    
 }
-
  marquee{
     animation:awards 5sec infinite ;
 } 
-
-
-
-
 /* redy get started whole div */
 .connect{
   width: 100%;

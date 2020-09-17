@@ -470,7 +470,7 @@ SOLUTIONS
 <script>
 	$('.carousel').carousel({
     cycle: true,
-    pause: "true"
+    pause: "true",
      autoplayHoverPause:true,
 	
 })

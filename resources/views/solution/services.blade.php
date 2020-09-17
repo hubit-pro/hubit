@@ -54,9 +54,6 @@ window.fbAsyncInit = function() {
   page_id="1872050236414372"
   theme_color="#082941">
 </div>
-
-
-
 <!-----------------------NAVBAR------------------------------->
 	@include("includes/navsolution")
   
@@ -67,22 +64,15 @@ window.fbAsyncInit = function() {
 <section class="container-fluid p-0 non" style="position: relative;">
 
   <img src="img/train.jpg">
-
-
 <!-------------------------TEXT CONTAINER-------------------->
   <section class="container-fluid" id="topper"><!--this id "topper" is the transparent box over the slider--->
-
     <div class="row pt-5 pb-4 rib">
-  
-
     <div class="row">
       <div class="col-xl-12 text-center" style="color: white;">
         <h3>Solution-->Services</h3>
       </div>
     </div>
-
   </section>
-
 </section>
 <!-------------------------TEXT CONTAINER END---------------->
 
@@ -325,29 +315,14 @@ window.fbAsyncInit = function() {
 
         </div>
         <!--------------end----------------->
-
-
         </div>
     </div>
 </section>
-
-
-
-
-
-
-
-
 <!-- <footer> -->
-
 @include('includes.footer')
-
 <!-- </footer>  -->
-
-
 <script src="js/miss.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery-css3-animation-queue.js"></script>
-
 </body>
 </html>

@@ -2,54 +2,6 @@ body{
     overflow-x: hidden;
 }
 /* 
-#head{
-  background-color: #082941;
-  width: 100%;
-}
-
-.top-header{
-	height:25px; 
-	width:100%;
-	background-color:#19dded73;
-	color: #082941;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-  }
-  .icon-social{
-		  color: #082941;
-		  padding-left: 5px;
-
-  }
-
-.nav-item:hover{
-  border: 1px solid white;
-  border-radius: 5px;
-}
-
-.nav-item{
-	color: white;
-	font-size: 17.6px;
-	
-	
-}
-.navbar-nav{
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-@media (min-width: 0) and (max-width: 768px) {
-  .navbar-nav{
-    width: 100%;
-  }
-}
-
-@media (min-width: 0) and (max-width: 768px) {
-  .navbar-collapse{
-    display: flex;
-    justify-content: flex-start;
-  }
-} */
-
 
 #image{
   width: 200px;

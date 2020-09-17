@@ -154,10 +154,8 @@ in the process we share some timeless moments, some of those are captured in pho
         <img src="img/s.jpg">
     </div>
     <h2 >Er. Hari Banjade</h2>
-     <p>We are always trying to better the expereince the student get from our institution by providing them better consultation and facilities. HUB IT primarily focuses on sharpening students skills with internship and job oppurtunities.</p>                    
-                      
+     <p>We are always trying to better the expereince the student get from our institution by providing them better consultation and facilities. HUB IT primarily focuses on sharpening students skills with internship and job oppurtunities.</p>                                
     </div>
-      
     </div>
     <div class="carousel-item">
     <div class="inactive">
@@ -237,17 +235,9 @@ in the process we share some timeless moments, some of those are captured in pho
     <div class="item1">
        <img src="img/we.jpg" class="img-fluid" alt="12">
 </div>
-  
 </div>  
-
-
-
-
 </section>
-
-
 <!------------------------------------CLIENTS END--------------->
-
 <!-- <maps -->
 <div class="container-fluid mt-5" style="height: 400px;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.8774174336154!2d83.46041401456496!3d27.690183332853923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3996868839e2a553%3A0x1194302b35728cbf!2sHUB%20IT%20TRAINING%20%26%20SOLUTION%20(Computer%20Institute)!5e0!3m2!1sen!2snp!4v1597749941627!5m2!1sen!2snp" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
