@@ -262,9 +262,69 @@ body{
 
 
 
-.card{
+
+
+
+
+
+
+#txt-1 {
+  color: grey;
+  font-size: 30px;
   text-align: center;
+  padding-top: 10vh;
+  text-transform: uppercase;
+  font-weight: bold;
 }
+
+
+.card-container {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  
+} 
+
+.card-container .card {
+  border-radius: 10px;
+  border: .25px solid #ffff;
+  width: 320px;
+  margin: 20px;
+  padding: 20px 20px;
+  background: #fcfcfc;
+  box-shadow: 10px 10px 15px #e3e3e3, -10px -10px 15px #ffffff;
+}
+.card-container .card .content-box {
+  position: relative;
+  text-align: center;
+  margin-top: 5px;
+}
+.card-container .card .content-box h3 {
+  color: #4caf93;
+  font-weight: 500;
+  font-size: 1.7em;
+  font-family: orkney-reg;
+}
+.card-container .card:hover {
+  
+  font-size:13px;
+
+
+}
+
+
+
+
+
+
+
+
 
 @media (min-width: 430px) and (max-width: 768px) {
   .cardo .col-xl-2{

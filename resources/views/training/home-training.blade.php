@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	@include("includes/traininghead")
+
+  @include("includes/traininghead")
+  <style>
+
+
+
+  </style>
   <link rel="stylesheet" type="text/css" href=" css/training/home-training.css" >
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script   href="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js" ></script>
@@ -198,6 +204,7 @@
       <h3>IT Workshops</h3>
     </div>
   </div>
+  
 </div>
 
 
@@ -313,64 +320,595 @@
 
 <div class="container-fluid course mt-5">
   <h1 > POpular COURSE</h1><hr>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  
+<div class="carousel-inner">
+  <div class="carousel-item active">
+
   <div class="row">
-    <div class="col">
-<div class="card" >
-  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title font-weight-bold">Web Design</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Enroll Now</a>
-  </div>
-</div>
-</div>
 
-<div class="col">
-<div class="card" >
-  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title font-weight-bold">Graphics Design</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Enroll Now</a>
-  </div>
-</div>
-</div>
+  
+  
 
-<div class="col">
-<div class="card" >
-  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title font-weight-bold">Python</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Enroll Now</a>
-  </div>
-</div>
-</div>
-
-<div class="col">
-<div class="card" >
-  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title font-weight-bold">Accounting Package</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Enroll Now</a>
-  </div>
-</div>
-</div>
-
-<div class="col">
-<div class="card" >
-  <img class="card-img-top" src="img/about1.png" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title font-weight-bold">Hardware</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Enroll Now</a>
-  </div>
-</div>
-</div>
+     <div class="col-md-3">
+        <div class="profile-card-4 text-center">
+          <img src="img/course1.png" class="img img-responsive">
+        <div class="profile-content">
+            <div class="profile-name"> 
+                <!-- <p>@johndoedesigner</p> -->
+            </div>
+            <div class="profile-description">
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p></div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>STUDENTS</p>
+                        <h4>130</h4></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>CLASSES / DAY</p>
+                        <h4>3</h4></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>GRADUATES</p>
+                        <h4>168</h4></div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-2">
+                <div class="col">
+                    <div class="profile-overview p-0">
+                        <button>Enroll now</button>
+                </div>
+                </div>
+                <div class="col">
+                    <div class="profile-overview p-0">
+                        <button>View Details</button>
+                </div>
+                </div>
+         </div>
+        </div>
+     </div>
 
 
 
+
+     
+
+     <div class="col-md-3">
+        <div class="profile-card-4 text-center">
+          <img src="img/course2.png" class="img img-responsive">
+        <div class="profile-content">
+            <div class="profile-name">
+                <!-- <p>@johndoedesigner</p> -->
+            </div>
+            <div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>STUDENTS</p>
+                        <h4>130</h4></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>CLASSES / DAY</p>
+                        <h4>3</h4></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>GRADUATES</p>
+                        <h4>168</h4></div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-2">
+                <div class="col">
+                    <div class="profile-overview p-0">
+                        <button>Enroll now</button>
+                </div>
+                </div>
+                <div class="col">
+                    <div class="profile-overview p-0">
+                        <button>View Details</button>
+                </div>
+                </div>
+         </div>
+        </div>
+     </div>
+
+
+
+
+     
+
+     <div class="col-md-3">
+        <div class="profile-card-4 text-center">
+          <img src="img/course3.png" class="img img-responsive">
+        <div class="profile-content">
+            <div class="profile-name">
+                <!-- <p>@johndoedesigner</p> -->
+            </div>
+            <div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>STUDENTS</p>
+                        <h4>130</h4></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>CLASSES / DAY</p>
+                        <h4>3</h4></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>GRADUATES</p>
+                        <h4>168</h4></div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-2">
+                <div class="col">
+                    <div class="profile-overview p-0">
+                        <button>Enroll now</button>
+                </div>
+                </div>
+                <div class="col">
+                    <div class="profile-overview p-0">
+                        <button>View Details</button>
+                </div>
+                </div>
+         </div>
+        </div>
+     </div>
+
+
+
+
+     
+
+     <div class="col-md-3">
+        <div class="profile-card-4 text-center">
+          <img src="img/course4.png" class="img img-responsive">
+        <div class="profile-content">
+            <div class="profile-name">
+                <!-- <p>@johndoedesigner</p> -->
+            </div>
+            <div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>STUDENTS</p>
+                        <h4>130</h4></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>CLASSES / DAY</p>
+                        <h4>3</h4></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="profile-overview">
+                        <p>GRADUATES</p>
+                        <h4>168</h4></div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-2">
+                <div class="col">
+                    <div class="profile-overview p-0">
+                        <button>Enroll now</button>
+                </div>
+                </div>
+                <div class="col">
+                    <div class="profile-overview p-0">
+                        <button>View Details</button>
+                </div>
+                </div>
+         </div>
+        </div>
+     </div>
+
+</div>
+</div>
+
+
+
+<div class="carousel-item">
+
+<div class="row">
+
+
+
+
+   <div class="col-md-3">
+      <div class="profile-card-4 text-center">
+        <img src="img/course1.png" class="img img-responsive">
+      <div class="profile-content">
+          <div class="profile-name"> 
+              <!-- <p>@johndoedesigner</p> -->
+          </div>
+          <div class="profile-description">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p></div>
+          <div class="row">
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>STUDENTS</p>
+                      <h4>130</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>CLASSES / DAY</p>
+                      <h4>3</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>GRADUATES</p>
+                      <h4>168</h4></div>
+              </div>
+          </div>
+      </div>
+      <div class="row m-2">
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>Enroll now</button>
+              </div>
+              </div>
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>View Details</button>
+              </div>
+              </div>
+       </div>
+      </div>
+   </div>
+
+
+
+
+   
+
+   <div class="col-md-3">
+      <div class="profile-card-4 text-center">
+        <img src="img/course2.png" class="img img-responsive">
+      <div class="profile-content">
+          <div class="profile-name">
+              <!-- <p>@johndoedesigner</p> -->
+          </div>
+          <div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+          <div class="row">
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>STUDENTS</p>
+                      <h4>130</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>CLASSES / DAY</p>
+                      <h4>3</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>GRADUATES</p>
+                      <h4>168</h4></div>
+              </div>
+          </div>
+      </div>
+      <div class="row m-2">
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>Enroll now</button>
+              </div>
+              </div>
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>View Details</button>
+              </div>
+              </div>
+       </div>
+      </div>
+   </div>
+
+
+
+
+   
+
+   <div class="col-md-3">
+      <div class="profile-card-4 text-center">
+        <img src="img/course3.png" class="img img-responsive">
+      <div class="profile-content">
+          <div class="profile-name">
+              <!-- <p>@johndoedesigner</p> -->
+          </div>
+          <div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+          <div class="row">
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>STUDENTS</p>
+                      <h4>130</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>CLASSES / DAY</p>
+                      <h4>3</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>GRADUATES</p>
+                      <h4>168</h4></div>
+              </div>
+          </div>
+      </div>
+      <div class="row m-2">
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>Enroll now</button>
+              </div>
+              </div>
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>View Details</button>
+              </div>
+              </div>
+       </div>
+      </div>
+   </div>
+
+
+
+
+   
+
+   <div class="col-md-3">
+      <div class="profile-card-4 text-center">
+        <img src="img/course4.png" class="img img-responsive">
+      <div class="profile-content">
+          <div class="profile-name">
+              <!-- <p>@johndoedesigner</p> -->
+          </div>
+          <div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+          <div class="row">
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>STUDENTS</p>
+                      <h4>130</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>CLASSES / DAY</p>
+                      <h4>3</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>GRADUATES</p>
+                      <h4>168</h4></div>
+              </div>
+          </div>
+      </div>
+      <div class="row m-2">
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>Enroll now</button>
+              </div>
+              </div>
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>View Details</button>
+              </div>
+              </div>
+       </div>
+      </div>
+   </div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="carousel-item ">
+
+<div class="row">
+
+
+
+
+   <div class="col-md-3">
+      <div class="profile-card-4 text-center">
+        <img src="img/course1.png" class="img img-responsive">
+      <div class="profile-content">
+          <div class="profile-name"> 
+              <!-- <p>@johndoedesigner</p> -->
+          </div>
+          <div class="profile-description">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p></div>
+          <div class="row">
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>STUDENTS</p>
+                      <h4>130</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>CLASSES / DAY</p>
+                      <h4>3</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>GRADUATES</p>
+                      <h4>168</h4></div>
+              </div>
+          </div>
+      </div>
+      <div class="row m-2">
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>Enroll now</button>
+              </div>
+              </div>
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>View Details</button>
+              </div>
+              </div>
+       </div>
+      </div>
+   </div>
+
+
+
+
+   
+
+   <div class="col-md-3">
+      <div class="profile-card-4 text-center">
+        <img src="img/course2.png" class="img img-responsive">
+      <div class="profile-content">
+          <div class="profile-name">
+              <!-- <p>@johndoedesigner</p> -->
+          </div>
+          <div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+          <div class="row">
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>STUDENTS</p>
+                      <h4>130</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>CLASSES / DAY</p>
+                      <h4>3</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>GRADUATES</p>
+                      <h4>168</h4></div>
+              </div>
+          </div>
+      </div>
+      <div class="row m-2">
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>Enroll now</button>
+              </div>
+              </div>
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>View Details</button>
+              </div>
+              </div>
+       </div>
+      </div>
+   </div>
+
+
+
+
+   
+
+   <div class="col-md-3">
+      <div class="profile-card-4 text-center">
+        <img src="img/course3.png" class="img img-responsive">
+      <div class="profile-content">
+          <div class="profile-name">
+              <!-- <p>@johndoedesigner</p> -->
+          </div>
+          <div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+          <div class="row">
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>STUDENTS</p>
+                      <h4>130</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>CLASSES / DAY</p>
+                      <h4>3</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>GRADUATES</p>
+                      <h4>168</h4></div>
+              </div>
+          </div>
+      </div>
+      <div class="row m-2">
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>Enroll now</button>
+              </div>
+              </div>
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>View Details</button>
+              </div>
+              </div>
+       </div>
+      </div>
+   </div>
+
+
+
+
+   
+
+   <div class="col-md-3">
+      <div class="profile-card-4 text-center">
+        <img src="img/course4.png" class="img img-responsive">
+      <div class="profile-content">
+          <div class="profile-name">
+              <!-- <p>@johndoedesigner</p> -->
+          </div>
+          <div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+          <div class="row">
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>STUDENTS</p>
+                      <h4>130</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>CLASSES / DAY</p>
+                      <h4>3</h4></div>
+              </div>
+              <div class="col-xs-4">
+                  <div class="profile-overview">
+                      <p>GRADUATES</p>
+                      <h4>168</h4></div>
+              </div>
+          </div>
+      </div>
+      <div class="row m-2">
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>Enroll now</button>
+              </div>
+              </div>
+              <div class="col">
+                  <div class="profile-overview p-0">
+                      <button>View Details</button>
+              </div>
+              </div>
+       </div>
+      </div>
+   </div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+</div>
 </div>
 </div>
 
