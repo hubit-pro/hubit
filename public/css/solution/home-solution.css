@@ -23,7 +23,7 @@ body{
   background-position: center;
   position: relative;
   color: white;
-  background-color: rgb(93, 125, 192);
+  background-color: rgb(254 88 36)
 }
 @media (min-width:0px) and (max-width: 1140px){
 .myslides h2 {
@@ -259,15 +259,6 @@ body{
     font-size: 15px;
 }
 }
-
-
-
-
-
-
-
-
-
 #txt-1 {
   color: grey;
   font-size: 30px;
