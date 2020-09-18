@@ -13,8 +13,7 @@
 <link rel="stylesheet" type="text/css" href="unicat/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="unicat/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="unicat/plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="unicat/styles/courses.css">
-<link rel="stylesheet" type="text/css" href="unicat/styles/courses_responsive.css">
+<link rel="stylesheet" type="text/css" href="css/training/course-training.css">
 </head>
 <body>
 <div class="container-fluid p-0" style="zoom:80% !important">

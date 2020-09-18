@@ -903,6 +903,9 @@
   <div class="container">
     <div class="heading white-heading">
       Testimonial
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, vel. 
+        Deserunt at cum molestiae assumenda, amet, 
+        ipsa iusto inventore porro eos quae facere cupiditate nam harum. Ratione nemo inventore nam!</span>
     </div>
     <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button
      thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">             
@@ -955,7 +958,7 @@
 
 <!------------------------OUR PATNER START -------------------->
 <section class="container-fluid p-5">  
-  <h1 class="landing-photo-gallery text-center " style="margin-top:150px;">our-patners<hr></h1>
+  <h1 class="text-center " style="margin-top:150px;">our-patners<hr></h1>
   <div class="slick marquee">
     <div class="slick-slide">
       <div class="inner">
