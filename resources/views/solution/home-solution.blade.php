@@ -585,10 +585,6 @@ Facebook Boosting & Promotions
 	
 })
 </script>
-
-
-
-
 <script src="js/miss.js"></script>
 
 </body>

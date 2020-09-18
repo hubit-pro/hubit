@@ -1,8 +1,5 @@
 html{
-
     padding: 0px 25px 25px 25px;
-
-    
     }
   
 footer {
@@ -34,7 +31,6 @@ h6{
     margin:0px !important;
     padding:0px !important;
 }
-
 #footer-list li a{
     color: black;
     text-align: center;

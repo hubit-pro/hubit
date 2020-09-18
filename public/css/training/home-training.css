@@ -425,7 +425,77 @@ color: #ffaf53;
   text-align: center;
   margin-top: 50px;
 }
+<<<<<<< HEAD
 /* single whole card onf popular course */
+=======
+.ourpatners h1{
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+}
+.ourpatners .card .item{
+  height: 10vw;
+  width: 10vw;
+}
+.ourpatners .card .item img{
+  height: 100%;
+  width: 100%;
+  margin-left: 50px;
+}
+.inner
+{
+	width:200px;
+	height: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+.inner img {
+    border-radius: 10%;
+	height: 100%;
+	width: 100%;
+}
+ marquee{
+    animation:awards 5sec infinite ;
+} 
+/* redy get started whole div */
+.connect{
+  /* background-image: url('https://lh3.googleusercontent.com/proxy/Uwex8VaARq2kkaA8_gnb95Bfl-8D8L6ks5qiW5_Odm-dN-dvS72jVPXnMA_UBiIeWyeG5IS_FGSoepLpNcBS0i9st6BLxJb371xIZL_b_oocqt2E0lNQSWoD5ac34zeBiVIr6KBsAsG59irAFFNDOYKrQ9MZm8CCIY0_JqhHIsB5rEkzHgRD'); */
+  width: 100%;
+  height: auto;
+  background-color: rgb(133 50 78);
+  margin-top: 100px;
+  text-align: center;
+}
+/* redy get started heading */
+
+.connect h2{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 50px 0px 0px 0px;
+}
+/* redy get started paragraph */
+
+.connect p{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* redy get started button */
+
+.connect button{
+  width: 200px;
+  font-size: 25px;
+  height: 80px;
+  margin-top: 40px;
+  background-color: rgba(0,128,128, 0.6);
+}
+.connect button:hover{
+background-color: grey;
+}
+
+>>>>>>> da089e783a67b23fc78e2273b4de71b7ab5952ba
 .profile-card-4 {
   max-width: 300px;
   background-color: #FFF;
