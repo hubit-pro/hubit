@@ -229,25 +229,41 @@
 <!------------------------OUR VALUES START-------------------->
 
 <div class="container-fluid our-values text-center mt-5" >
+  
   <div class="row">
+  
     <div class="col" >
       <h1>Our values</h1><hr>
     </div>
-    <div class="row">
-      <div class="col-md-3"data-aos="flip-left">
-       <img src="https://cdn01.alison-static.net/public/html/site/img/empowerment.png">
-        <div class="content">
-          <h4>Empowerment</h4>
-          <p>We are driven by our belief in the power of free education and skills training to change
-            people’s lives for the better and are passionate about providing an
-            overall learning experience that meets their needs and helps them to achieve life goals.
-          </p>
+    <div class="row m-5">
+    
+      <div class="col-md-3">   
+      <div class="counter-overlay">          
+        </div> 
+        <div class="card">  
+                 
+          <div class="card_img">
+           <img src="https://cdn01.alison-static.net/public/html/site/img/empowerment.png">
+         </div>
+          <div class="content">
+           <h4>Empowerment</h4>
+            <p>We are driven by our belief in the power of free education and skills training to change
+              people’s lives for the better and are passionate about providing an
+              overall learning experience that meets their needs and helps them to achieve life goals.
+            </p>
+          </div>
         </div>         
       </div>
 
 
-      <div class="col-md-3"data-aos="flip-left">
+      <div class="col-md-3 ">
+      <div class="counter-overlay">          
+        </div> 
+        <div class="card">  
+                 
+          <div class="card_img">
         <img src="https://cdn01.alison-static.net/public/html/site/img/knowledge.png">
+        </div>
         <div class="content">
          <h4>Knowledge</h4>
           <p>We are experts in the field of online education and are rigorous in 
@@ -255,11 +271,18 @@
             outcomes we have promised.
           </p>
         </div>
+        </div>
       </div>
 
 
-      <div class="col-md-3"data-aos="flip-right">
+      <div class="col-md-3">
+      <div class="counter-overlay">          
+        </div> 
+        <div class="card">  
+                 
+          <div class="card_img">
         <img src="https://cdn01.alison-static.net/public/html/site/img/inclusivity.png" >
+          </div>
         <div class="content">
           <h4>Inclusivity</h4>
           <p>We are inspired by the UN Declaration that “everyone is entitled
@@ -268,11 +291,18 @@
             to access.
           </p>
         </div>
+        </div>
       </div>
 
 
-      <div class="col-md-3"data-aos="flip-right">
+      <div class="col-md-3">
+      <div class="counter-overlay">          
+        </div> 
+        <div class="card">  
+                 
+          <div class="card_img">
         <img src="https://cdn01.alison-static.net/public/html/site/img/innovation.png" >
+          </div>
         <div class="content">
           <h4>Innovation</h4>
           <p>We will not be constrained by what already exists but will lead
@@ -280,7 +310,8 @@
             entrepreneurial and we understand and embrace the pioneering spirit that
             motivates other entrepreneurs.
           </p>
-        </div>            
+        </div>         
+        </div>   
       </div>
     </div>
   </div>

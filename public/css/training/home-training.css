@@ -1,6 +1,6 @@
 body{
   overflow-x: hidden;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Old Standard TT', serif !important;
 }
 /* Add styles to the form container */
 .containers {
@@ -392,30 +392,51 @@ color: #ffaf53;
 
 
 /* --------------------------------OUR VALUES START--------------------------------- */
-/* our values whole div backgroung image */
-.our-values{
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSxmf1Mw06M8MFI8CWGcm8F2G_uOhbDw_s1JA&usqp=CAU');
-  
+.counter-overlay {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background: rgba(204, 28, 151, 0.438);
+  border-radius: 10px;
+
+  }
+  .our-values .card {
+    background-color: rgba(128, 128, 128, 0);
+    border: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+  }
+.our-values .col-md-3{
+  margin-top: 30px;
+
+
 }
 /* our values heading */
 .our-values .row .col h1{
   text-align: center;
   /* margin: 100px 0px 0px 0px;  */
   margin-top: 40px! important;
-  color: grey;
+  color: white;
   font-size: 40px; 
 }
 /* our values content heading */
 .our-values .row .col-md-3 .content h4{
   padding-top: 15px;
   font-weight: bold;
+  font-size: 24px;
 }
 /* our values content paragraph */
 .our-values .row .col-md-3 .content p{
   padding: 10px 20px 20px 20px;
-  color: grey;
-}
+  color: white;
+  font-size: 15px;
 
+}
+.our-values .card {
+  padding: 10px 0px 0px 0px;
+ 
+}
 /* --------------------------------OUR VALUES END--------------------------------- */
 
 
@@ -425,77 +446,8 @@ color: #ffaf53;
   text-align: center;
   margin-top: 50px;
 }
-<<<<<<< HEAD
-/* single whole card onf popular course */
-=======
-.ourpatners h1{
-  text-align: center;
-  font-weight: bold;
-  margin: 20px;
-}
-.ourpatners .card .item{
-  height: 10vw;
-  width: 10vw;
-}
-.ourpatners .card .item img{
-  height: 100%;
-  width: 100%;
-  margin-left: 50px;
-}
-.inner
-{
-	width:200px;
-	height: 200px;
-    margin: 10px;
-    display: inline-block;
-}
-.inner img {
-    border-radius: 10%;
-	height: 100%;
-	width: 100%;
-}
- marquee{
-    animation:awards 5sec infinite ;
-} 
-/* redy get started whole div */
-.connect{
-  /* background-image: url('https://lh3.googleusercontent.com/proxy/Uwex8VaARq2kkaA8_gnb95Bfl-8D8L6ks5qiW5_Odm-dN-dvS72jVPXnMA_UBiIeWyeG5IS_FGSoepLpNcBS0i9st6BLxJb371xIZL_b_oocqt2E0lNQSWoD5ac34zeBiVIr6KBsAsG59irAFFNDOYKrQ9MZm8CCIY0_JqhHIsB5rEkzHgRD'); */
-  width: 100%;
-  height: auto;
-  background-color: rgb(133 50 78);
-  margin-top: 100px;
-  text-align: center;
-}
-/* redy get started heading */
 
-.connect h2{
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  padding: 50px 0px 0px 0px;
-}
-/* redy get started paragraph */
 
-.connect p{
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  font-weight: 600;
-}
-/* redy get started button */
-
-.connect button{
-  width: 200px;
-  font-size: 25px;
-  height: 80px;
-  margin-top: 40px;
-  background-color: rgba(0,128,128, 0.6);
-}
-.connect button:hover{
-background-color: grey;
-}
-
->>>>>>> da089e783a67b23fc78e2273b4de71b7ab5952ba
 .profile-card-4 {
   max-width: 300px;
   background-color: #FFF;

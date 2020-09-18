@@ -61,6 +61,7 @@
   <link rel="stylesheet" type="text/css" href="css/navtraining.css">  
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" type="text/css" href="css/top-header.css">
   <link rel="stylesheet" type="text/css" href="css/training/navtraining.css">
