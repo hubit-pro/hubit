@@ -7,15 +7,15 @@ footer {
     color:black;
 
 }
-.header{
+ footer .header{
     text-align: center;
 }
-h6{
-    color: #ff9800;
+footer h6{
+    color: #ff9800 !important;
 
 }
-.icon{
-    color: #ff9800; 
+footer .icon{
+    color: #ff9800 !important; 
     }
 .icon{
     font-size: 30px;
