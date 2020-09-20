@@ -4,6 +4,11 @@
 	width: 100%;
 	text-transform: uppercase;
 }
+@media (min-width: 768px){
+.navbar {
+    border-radius: 4px;
+}
+}
 .navbar-toggler {
     padding: .25rem .75rem;
     font-size: 1.25rem;
