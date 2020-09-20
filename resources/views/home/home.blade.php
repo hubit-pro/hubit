@@ -51,7 +51,7 @@
         <div class="col-xl-9 text-justify">
               <p><strong>HUB IT GROUP PVT LTD.</strong> is the best IT Company to provide best IT Training and IT Solution in town since 2017 . We put ourselves in the shoes of your target audience and try to adopt their preferences, perceptions and behaviour . By providing best IT Suport we give POWER to your business and by providing best IT Training we give WINGS to your dreams .</p>
               
-            </div>
+          </div>
              
   </div>
   <div class="go-to-page">
@@ -145,7 +145,6 @@ in the process we share some timeless moments, some of those are captured in pho
     <li data-target="#carouselExampleIndicators"  data-slide-to="1" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
    
-
   </ol>
   <div class="carousel-inners ">
     <div class="carousel-item active">
