@@ -123,7 +123,7 @@
 
 
 <!-- card-container start -->
-<div class="card-container" onclick="location.href='courses';"  style="margin-bottom:50px;">
+<div class="card-container" onclick="location.href='courses';">
   <div class="card" data-aos="fade-right">
     <div class="content-box">
       <h3>Projector Classrooms</h3>
@@ -177,9 +177,9 @@
 
 <!-------------------------COUNTER START-------------------->
 
-<section class="counter-section fix">
+<section class="counter-section fix m-5">
   <div class="counter-overlay"></div>
-  <div class="container pt100 pb100">
+  <div class="container-fluid pb-5 pt-5">
     <div class="row">
           
       <div class="col-md-3 col-sm-6">
@@ -930,7 +930,7 @@
 <!------------------------TESTIMONIALS START-------------------->
 
 
-<section class="testimonial text-center">
+<section class="testimonial text-center m-5">
   <div class="container">
     <div class="heading white-heading">
       Testimonial
@@ -939,7 +939,7 @@
         ipsa iusto inventore porro eos quae facere cupiditate nam harum. Ratione nemo inventore nam!</span>
     </div>
     <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button
-     thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">             
+     thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="6000" data-duration="2000">             
      <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <div class="testimonial4_slide">
@@ -1033,8 +1033,6 @@
   <button type="submit" class="btn btn-primary mb-2  ">Hire now</button> 
 </div>
 <!------------------------READY TO GET STARTED END -------------------->
-
-
 
 
 <!-- footer -->

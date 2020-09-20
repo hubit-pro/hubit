@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 body{
   overflow-x: hidden;
-  font-family: 'Old Standard TT', serif !important;
+  font-family: 'Titillium Web', sans-serif !important;
 }
 /* Add styles to the form container */
 .containers {
@@ -275,14 +276,12 @@ h1{
 
 /* container whole div  */
 .card-container {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSxmf1Mw06M8MFI8CWGcm8F2G_uOhbDw_s1JA&usqp=CAU');
   cursor: pointer;
   position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;
   animation-duration: 1.2s;
   animation-fill-mode: both;
   
@@ -296,7 +295,7 @@ h1{
   margin: 20px;
   padding: 20px 20px;
   background: #fcfcfc;
-  box-shadow: 10px 10px 15px #e3e3e3, -10px -10px 15px #ffffff;
+  box-shadow: 5px 5px 5px #e3e3e3, -5px -5px 5px #ffffff;
 }
 /* single card contents div */
 
@@ -338,6 +337,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 position: relative;
 background-size: cover;
+height: auto  ;
 }
 /* layer above counter section */
 
@@ -345,7 +345,8 @@ background-size: cover;
 position: absolute;
 width: 100%;
 height: 100%;
-background: rgba(0,0,0,0.89);
+background:#974930a8;
+
 }
 /* counter section counting items */
 
@@ -353,12 +354,13 @@ background: rgba(0,0,0,0.89);
 text-align: center;
 padding: 50px 20px;
 border-radius: 100%;
-border-bottom: 3px dotted #666;
-border-top: 3px dotted #666;
+font-size: 100px;
 }
 /* counter section counting items i hover */
 .count-items:hover.count-items i{
-color: #ffaf53
+color: #cb0fa2;
+font-size: 100px;
+
 }
 /* counter section counting items h2 hover */
 .count-items:hover.count-items h2{
@@ -367,7 +369,7 @@ color: #f35b68
 /* counter section counting items i */
 .count-items i {
 color: #f35b68;
-font-size: 36px;
+font-size: 50px;
 }
 /* counter section counting items span */
 .count-items span {
@@ -379,7 +381,7 @@ font-weight: 700;
 }
 /* counter section counting items h2 */
 .count-items h2 {
-font-size: 16px;
+font-size: 25px;
 color: #ffaf53;
 }
 /* counter section whole div */
@@ -392,7 +394,7 @@ color: #ffaf53;
 
 
 /* --------------------------------OUR VALUES START--------------------------------- */
-.counter-overlay {
+.our-values .counter-overlay {
   position: absolute;
   width: 90%;
   height: 100%;
@@ -407,11 +409,10 @@ color: #ffaf53;
     height: 100%;
     width: 100%;
   }
-.our-values .col-md-3{
-  margin-top: 30px;
+  .our-values .col-md-3{
+    margin-top: 30px;
+  }
 
-
-}
 /* our values heading */
 .our-values .row .col h1{
   text-align: center;
@@ -810,11 +811,10 @@ padding-bottom:50px;
 /* redy get started whole div */
 .connect{
   background-image: url('https://lh3.googleusercontent.com/proxy/Uwex8VaARq2kkaA8_gnb95Bfl-8D8L6ks5qiW5_Odm-dN-dvS72jVPXnMA_UBiIeWyeG5IS_FGSoepLpNcBS0i9st6BLxJb371xIZL_b_oocqt2E0lNQSWoD5ac34zeBiVIr6KBsAsG59irAFFNDOYKrQ9MZm8CCIY0_JqhHIsB5rEkzHgRD');
-  width: 100%;
   height: auto;
   background-color: rgb(133 50 78);
-  margin-top: 100px;
   text-align: center;
+  width: 97%;
 }
 /* redy get started heading */
 
