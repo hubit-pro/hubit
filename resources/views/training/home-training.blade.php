@@ -423,8 +423,6 @@
             </div>
           </div>     
 
-
-
           <div class="col-md-3">
            <div class="profile-card-4 text-center">
              <img src="img/course3.png" class="img img-responsive">

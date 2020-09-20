@@ -53,6 +53,7 @@
 
 .nav-item{
 	font-size: 17.6px;
+	padding: 10px;
 	font-weight: bolder;
 	display: flex;
 	flex-wrap: nowrap;
