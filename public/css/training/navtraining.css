@@ -42,24 +42,15 @@
 	height: 250px; 
 	width: 100%;
   }
-
 #navitems:hover {
-
-	color: #ff9800;
-
-	
-	
+	color: #ff9800;	
 }
 
 .nav-item{
 	font-size: 17.6px;
-	padding: 10px;
 	font-weight: bolder;
 	display: flex;
-	flex-wrap: nowrap;
-	padding-left: 20px;
-	
-	
+	flex-wrap: nowrap;	
 }
 #navitems{
 	color: white;

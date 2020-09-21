@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 body{
   overflow-x: hidden;
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Old Standard TT', serif !important;
 }
 /* Add styles to the form container */
 .containers {
@@ -121,14 +120,12 @@ h1{
   animation-duration: 1.2s;
   animation-fill-mode: both;
   animation-name: slideInRight;
-  margin-bottom: 30px;
 }
 /* contents side-details  enroll and course button  */
 .p_detail #banner-btn {
-  border: 2px outset #cb0fa2 !important;
   white-space: nowrap;
   margin-bottom: 20px;
-  font-size: 23px;
+  font-size: 25px;
   font-family: 'Georgia';
   text-decoration: none;
   color: #cb0fa2;
@@ -139,11 +136,6 @@ h1{
   animation-duration: 1.2s;
   animation-fill-mode: both;
   animation-name: fadeInUp;
-  border-radius: 5px;
-}
-.p_detail #banner-btn :hover {
-  border: 1px inset grey !important;
-
 }
 /* slideshow mobile view css */
 @media (min-width:0px) and (max-width: 1140px){
@@ -283,12 +275,14 @@ h1{
 
 /* container whole div  */
 .card-container {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSxmf1Mw06M8MFI8CWGcm8F2G_uOhbDw_s1JA&usqp=CAU');
   cursor: pointer;
   position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
   animation-duration: 1.2s;
   animation-fill-mode: both;
   
@@ -302,7 +296,7 @@ h1{
   margin: 20px;
   padding: 20px 20px;
   background: #fcfcfc;
-  box-shadow: 5px 5px 5px #e3e3e3, -5px -5px 5px #ffffff;
+  box-shadow: 10px 10px 15px #e3e3e3, -10px -10px 15px #ffffff;
 }
 /* single card contents div */
 
@@ -342,9 +336,9 @@ h1{
 background: url(../../img/bg.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
+
 position: relative;
 background-size: cover;
-height: auto  ;
 }
 /* layer above counter section */
 
@@ -360,13 +354,12 @@ background: #974930a8;
 text-align: center;
 padding: 50px 20px;
 border-radius: 100%;
-font-size: 100px;
+border-bottom: 3px dotted #666;
+border-top: 3px dotted #666;
 }
 /* counter section counting items i hover */
 .count-items:hover.count-items i{
-color: #cb0fa2;
-font-size: 70px;
-
+color: #ffaf53
 }
 /* counter section counting items h2 hover */
 .count-items:hover.count-items h2{
@@ -375,7 +368,7 @@ color: #f35b68
 /* counter section counting items i */
 .count-items i {
 color: #f35b68;
-font-size: 50px;
+font-size: 36px;
 }
 /* counter section counting items span */
 .count-items span {
@@ -387,7 +380,7 @@ font-weight: 700;
 }
 /* counter section counting items h2 */
 .count-items h2 {
-font-size: 25px;
+font-size: 16px;
 color: #ffaf53;
 }
 /* counter section whole div */
@@ -416,10 +409,11 @@ color: #ffaf53;
     height: 100%;
     width: 100%;
   }
-  .our-values .col-md-3{
-    margin-top: 30px;
-  }
+.our-values .col-md-3{
+  margin-top: 30px;
 
+
+}
 /* our values heading */
 .our-values .row .col h1{
   text-align: center;
@@ -821,8 +815,8 @@ padding-bottom:50px;
   width: 100%;
   height: auto;
   background-color: rgb(133 50 78);
+  margin-top: 100px;
   text-align: center;
-  width: 97%;
 }
 /* redy get started heading */
 

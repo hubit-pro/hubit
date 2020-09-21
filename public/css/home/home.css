@@ -17,7 +17,7 @@ body{
 #topper{
 	top: 0px;
     position: absolute;
-    background-color: #3D155F;
+	background-color: #000000ad;;
     width: 98%;
     height: 550px;
 }
