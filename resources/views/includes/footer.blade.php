@@ -1,8 +1,8 @@
 
 <!----------------------FOOTER------------------------------->
-<footer class="page-footer font-small unique-color-dark pt-3" >  
+<footer class="page-footer font-small unique-color-dark pt-3">  
 <!-- Footer Links -->
-<div class="container-fluid  mt-5 "style="border-top:2px solid #51be78;">
+<div class="container-fluid  mt-5 ">
 
 <!-- Grid row -->
 <div class="row mt-3" >
@@ -11,7 +11,7 @@
   <div class="col-md-2 products">
     <!-- Content -->
     <h6 class="text-uppercase font-weight-bold mt-3 text-center ">Products</h6>
-    <hr class="  mt-0 d-inline-block mx-auto" style="width: 100% !important; background-color:white;">
+    <hr class="  mt-0 d-inline-block mx-auto" style="width: 100% !important;">
     <ul  style="list-style: none; font-size:12px;" id="footer-list">
     <li><a href="products"> CCTV camera</a></li>
     <li><a href="products"> Printers</a></li>
@@ -29,7 +29,7 @@
     </div>
     <div class="col-md-2 services">
     <h6 class="text-uppercase font-weight-bold mt-3 text-center  ">Services</h6>
-    <hr class="  mt-0 d-inline-block mx-auto" style="width: 100% !important; background-color:white;">
+    <hr class="  mt-0 d-inline-block mx-auto" style="width: 100% !important;">
     </ul>
     <ul style="list-style: none;  font-size:12px;" id="footer-list">
     <li><a href="products"> Biometric software</a></li>
@@ -52,7 +52,7 @@
   <div class="col-md-4 ittraining  text-center ">
     <!-- Links -->
     <h6 class="text-uppercase font-weight-bold mt-3 text-center"> IT Training</h6>
-    <hr class="mt-0 d-inline-block mx-auto" style="width: 100% !important; background-color:white;">
+    <hr class="mt-0 d-inline-block mx-auto" style="width: 100% !important;">
     <div class="row">
     <ul  class="col-md-4 "style="list-style: none;  font-size:12px;" id="footer-list">
     <li><a  href="course">Office Package</a></li>
@@ -101,7 +101,7 @@
   <div class="col-md-1   text-center link" >
     <!-- Links -->
     <h6 class="text-uppercase font-weight-bold mt-3 text-ce nter">Links</h6>
-    <hr class=" mt-0 d-inline-block mx-auto" style="width: 80%; background-color:white;">
+    <hr class=" mt-0 d-inline-block mx-auto" style="width: 80%;">
     <ul  class="link-footer" style="list-style: none; " id="footer-list">
       <li><a href="home">Home Page</a></li>
       <li><a  href="home-solution">IT Solution</a></li>
@@ -123,8 +123,8 @@
   <div class="col-md-3 p-0 contact ">
     <!-- Links -->
 <h6 class="text-uppercase font-weight-bold mt-3 text-center">Contact</h6>
-    <hr class="mt-0 d-inline-block mx-auto" style="width: 100% !important; background-color:white;">
-<ul  style="list-style: none;  font-weight:bolder" class="footer-contact" >
+    <hr class="mt-0 d-inline-block mx-auto" style="width: 100% !important;">
+<ul  style="list-style: none;"  class="footer-contact" >
 <li style="font-size:13px;" >
       <i class="fa fa-home m-1" ></i> Tinkune-Milanchowk , Butwal</li>
       <li style="font-size:13px;">
@@ -162,7 +162,7 @@
       </div>
      </div>
 <!-- Copyright -->
-<div class="footer-copyright text-center py-3" style="background-color:#51be78;height:50px;">© 2018 Copyright: <strong style="color: #a0047d;">HUB IT GROUP PVT LTD.</strong></div>
+<div class="footer-copyright text-center py-3"  style="background-color:#a0047d;height:50px; color:white !important;">© 2018 Copyright: <strong>HUB IT GROUP PVT LTD.</strong></div>
 <!-- Copyright -->
 </footer>
 <!-- Footer -->

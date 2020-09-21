@@ -50,7 +50,13 @@
 	font-size: 17.6px;
 	font-weight: bolder;
 	display: flex;
+<<<<<<< HEAD
 	flex-wrap: nowrap;	
+=======
+	flex-wrap: nowrap;
+	
+	
+>>>>>>> 07b2d37e25849c61e6bc93679da9123e46cd88ff
 }
 #navitems{
 	color: white;

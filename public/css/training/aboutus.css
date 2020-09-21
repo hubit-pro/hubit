@@ -1,10 +1,7 @@
 .body{
     overflow-x: hidden;
 }
-hr{
-    height: 3px;
-    background-color: #ff9800;
-}
+
 
 .banner{
     height: 500px;

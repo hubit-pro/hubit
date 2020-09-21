@@ -25,7 +25,7 @@ body{
     
   }
   /* hub it group pvt ltd boder bottom */
-  hr{
+   .non hr{
     background-color: #ffca07;
     height: 2px;
     width: 20%;
