@@ -16,7 +16,7 @@
 <link rel="stylesheet" type="text/css" href="css/training/course-training.css">
 </head>
 <body>
-@include('includes/navtraining')
+@include('includes/navtraining') 
 
 <div class="super_container">
 

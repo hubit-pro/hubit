@@ -9,7 +9,7 @@
     <title>Customs Hackathones</title>
     @include('includes/traininghead')
 </head>
-<body  style="zoom:80%">
+<body>
 @include('includes/navtraining')
 
 <!-- banner whole div start -->
@@ -18,9 +18,10 @@
 <div class="container-fluid text-center header">
   
 <h1><strong>CUSTOM HACKATHONS</h1>
-<p>Building a custom hackathon with Startup Institute gives you the ability to 
+<p>Building a custom hackathon with Startup Institute gives you the ability to
   inject new ideas, tackle complex challenges, and energize your team by working with a
-   cross-functional team of highly vetted students, or bring our well-tested methodologies to host your own internal event.
+   cross-functional team of highly vetted students, or bring our well-tested methodologies to host
+    your own internal event.
 </p>
   <button type="sumbit">GET STARTED</button>
   </div>
@@ -30,7 +31,7 @@
 
 <!-- custome hackathones content start  -->
 
-<div class="row custom-hackathons m-0">
+<div class="row custom-hackathons">
     <div class="col-md-7">
 <div class="heading">
 

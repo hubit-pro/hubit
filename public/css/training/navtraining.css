@@ -3,6 +3,7 @@
 	background-color: #a0047d;
 	width: 100%;
 	text-transform: uppercase;
+	border-radius: 4px;
 }
 .navbar-toggler {
     padding: .25rem .75rem;
@@ -54,6 +55,9 @@
 }
 #navitems{
 	color: white;
+	padding-left: 10px !important;
+	padding-right: 0px !important;
+
 }
 .navbar-nav{
 	width: 100%;
@@ -67,6 +71,7 @@
 
   .dropdown-item {
 	  color: white !important;
+	  font-size: 12px;
   }
 
 .dropdown-item:hover {

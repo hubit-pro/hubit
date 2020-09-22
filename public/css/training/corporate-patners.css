@@ -5,12 +5,12 @@ body{
 }
 /* tap-banner whole div with image on background */
 .banner{
-    height: 45vw;
-    width: 100%;
+    height: 450px;
     background-image: url("../../img/corporate-partners.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0px 2% 0px 2%;
 }
 
 /* content and opacity div */
@@ -22,7 +22,7 @@ body{
 /* Bulding talent for growth h1 css */
 .header h1{
     text-align: center !important;
-    font-size: 5vw;
+    font-size: 40px;
     font-family: 'Oswald', sans-serif;
     padding-top: 5%;
 }
@@ -30,7 +30,7 @@ body{
 
 .header p{
    
-    font-size: 2.5vw;
+    font-size: 25px;
     font-family: 'Oswald', sans-serif;
 
 
@@ -38,12 +38,12 @@ body{
 /* banner button css */
 .banner button{
     border: none;
-    width: 20vw;
-    height: 5vw;
+    width: 300px;
+    height: 70px;
     background-color: #ff9800;
     font-weight: bold;
     color: white;
-    font-size: 1.7vw;
+    font-size: 20px;
 }
 /* banner button hover css */
 .banner button:hover{
@@ -53,10 +53,9 @@ body{
 .corporate-patners{
     margin-top: 4%;
     margin-bottom:4% ;
-    width: 100%;
+    width: 96% !important;
     background-color: #00a6e5;
-    margin: 0px;
-    width: 100%;
+    margin:0px 2% 0px 2% !important;
 
 }
 /* corporate-patners all content div */
@@ -70,7 +69,7 @@ body{
 .corporate-patners .col-md-7 .heading h2{
     margin-bottom: 3%;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 30px;
     margin-top: 10%;
     color: white;
     
@@ -78,7 +77,7 @@ body{
 /* corporate-patners list css */
 
 .corporate-patners .col-md-7 .heading ul li{
-    font-size: 1.6vw;
+    font-size: 17px;
     font-weight: bold;
     text-align: left;
     color: white;
@@ -165,8 +164,8 @@ body{
 
 /* redy get started whole div */
 .connect{
-    width: 100%;
-    height: 350px;
+    width: 96% !important;
+    height: auto;
     background-color: #00a6e5;
     margin-top: 100px;
     text-align: center;
@@ -177,6 +176,7 @@ body{
     text-align: center;
     font-weight: bold;
     padding: 50px 0px 0px 0px;
+    font-size:25px ;
 }
 /* redy get started paragraph */
 
@@ -189,10 +189,10 @@ body{
 /* redy get started button */
 
 .connect button{
-    width: 200px;
-    font-size: 25px;
-    height: 80px;
-    margin-top: 50px;
+    width: 150px;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 20px;
     background-color: black;
     border: none;
 }

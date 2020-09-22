@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/training/exam.css">
     @include('includes/traininghead')
 </head>
-<body  style="zoom:80%">
+<body>
 @include('includes/navtraining')
 <div class="container-fluid banner">
 <div class="row">

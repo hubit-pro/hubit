@@ -30,7 +30,7 @@
   </div> 
 </div>
 
-<nav class="navbar navbar-expand-sm  sticky-top m-0" id="head" style="position:sticky; ">
+<nav class="navbar navbar-expand-sm  sticky-top m-0 p-2" id="head" style="position:sticky; ">
 
 <div class="container" id="image">
 <a href="home"><img src="img/logo4.png"></a></div>
@@ -44,7 +44,7 @@
 </button>
 
 
-<div class="collapse navbar-collapse" id="collapsibleNavbar">
+<div class="collapse navbar-collapse p-0" id="collapsibleNavbar">
   <ul class="navbar-nav">
 
       <li class="nav-item">

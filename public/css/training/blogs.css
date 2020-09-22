@@ -11,7 +11,7 @@ html {
 
 body {
   line-height: 1.7;
-  color: gray;
+  color: gray; 
   font-weight: 300;
  }
 /* 
@@ -114,9 +114,9 @@ h1, h2, h3, h4, h5,
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 7em 0; } }
+      padding: 3em 0; } }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 2em 0; }
 
 .site-section-heading {
   padding-bottom: 20px;
@@ -1223,10 +1223,11 @@ h1, h2, h3, h4, h5,
 .custom-pagination {
   padding: 0;
   margin: 0;
-  font-size: .89rem;
+  font-size: 1rem;
   color: #000; }
   .custom-pagination li {
-    display: inline-block; }
+    display: inline-block;
+   }
     .custom-pagination li a {
       padding: 10px 10px;
       display: inline-block;
@@ -1234,7 +1235,9 @@ h1, h2, h3, h4, h5,
       .custom-pagination li a:hover {
         color: #000; }
     .custom-pagination li.active a {
-      color: #000; }
+      color: #000;
+      padding: 10px 10px;
+      display: inline-block; }
 
 .form-control {
   margin-right: 10px;

@@ -9,7 +9,7 @@
     <title>Corporate Patners</title>
     @include('includes/traininghead')
 </head>
-<body style="zoom:80%">
+<body>
 @include('includes/navtraining')
 <!-- banner whole div start -->
 <div class="banner">
@@ -28,7 +28,7 @@
 
 <!-- corporate patners content start -->
 
-<div class="row corporate-patners m-0">
+<div class="row corporate-patners">
     <div class="col-md-7">
 <div class="heading">
 
@@ -129,7 +129,7 @@ CORPORATE NETWORK:</h2>
 
 
 <div class="container-fluid our-patners">
-<h1>SOME OF OUR STUDENTS HAVE LANDED HERE:</h1>
+<h2 style="text-align:center; margin:50px">SOME OF OUR STUDENTS HAVE LANDED HERE:</h2>
 
   <div class="row">
     <div class="col-md-2">

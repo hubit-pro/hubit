@@ -5,12 +5,12 @@ body{
 }
 /* tap-banner whole div with image on background */
 .banner{
-    height: 45vw;
-    width: 100%;
+    height: 450px;
     background-image: url("../../img/customes-hackathones.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0px 2% 0px 2%;
 }
 
 /* content and opacity div */
@@ -18,11 +18,12 @@ body{
     background-color: white;
     height: 100%;
     opacity: 0.7;
+    padding:0px 100px 0px 100px;
 }
 /* customs hackathones h1 css */
 .header h1{
     text-align: center !important;
-    font-size: 5vw;
+    font-size: 40px;
     font-family: 'Oswald', sans-serif;
     padding-top: 5%;
 }
@@ -30,7 +31,7 @@ body{
 
 .header p{
    
-    font-size: 2.5vw;
+    font-size: 25px;
     font-family: 'Oswald', sans-serif;
 
 
@@ -38,12 +39,12 @@ body{
 /* banner button css */
 .banner button{
     border: none;
-    width: 20vw;
-    height: 5vw;
+    width: 200px;
+    height: 60px;
     background-color: #ff9800;
     font-weight: bold;
     color: white;
-    font-size: 1.7vw;
+    font-size: 20px;
 }
 /* banner button hover css */
 .banner button:hover{
@@ -53,10 +54,10 @@ body{
 .custom-hackathons{
     margin-top: 4%;
     margin-bottom:4% ;
-    width: 100%;
+    width: 96%;
     background-color: #00a6e5;
     margin: 0px;
-    width: 100%;
+    margin: 0px 2% 0px 2% !important;
 
 }
 /* custom-hackathons all content div */
@@ -70,7 +71,7 @@ body{
 .custom-hackathons .col-md-7 .heading h2{
     margin-bottom: 3%;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 30px;
     margin-top: 10%;
     color: white;
     
@@ -78,7 +79,7 @@ body{
 /* custom-hackathons list css */
 
 .custom-hackathons .col-md-7 .heading ul li{
-    font-size: 1.6vw;
+    font-size: 17px;
     font-weight: bold;
     text-align: left;
     color: white;
@@ -140,6 +141,7 @@ body{
 .how-it-works h1{
     margin:100px 0px 20px 0px;
     font-weight: bold;
+    font-size: 30px;
 
 }
   /* how it works first heading */
@@ -147,6 +149,7 @@ body{
 .how-it-works h3{
     margin-bottom: 60px;
     font-weight: bold;
+    font-size: 20px;
 }
   /* how it works first whole row */
 
@@ -164,12 +167,14 @@ body{
 
 .how-it-works .row .col-md-4 .card{
     border: none;
+    font-size: 15px;
 }
 
 /* cohorts whole div */
 .cohorts{
     height: auto;
     background-color: #d3d3d3;
+    width: 96% !important;
 
 }
 /* cohorts heading */
@@ -178,6 +183,7 @@ body{
     text-align: center;
     font-weight: bold;
     padding-top: 30px;
+    font-size: 25px;
 }
 /* cohorts whole row */
 
@@ -195,8 +201,8 @@ body{
 
 /* redy get started whole div */
 .connect{
-    width: 100%;
-    height: 350px;
+    width: 96% !important;
+    height: auto;
     background-color: #ffd941;
     margin-top: 100px;
     text-align: center;
@@ -206,26 +212,26 @@ body{
 .connect h2{
     text-align: center;
     font-weight: bold; 
-    padding: 50px 0px 0px 0px;
-    font-size: 2.3vw;
+    padding: 20px 0px 0px 0px;
+    font-size: 25px;
 }
 /* redy get started paragraph */
 
 .connect p{
     text-align: center;
-    font-size: 2vw;
-    padding: 20px 100px 0px 100px;
+    font-size: 20px;
+    padding: 0px 100px 0px 100px;
     font-weight: bold;
 }
 /* redy get started button */
 
 .connect button{
-    width: 250px;
+    width: 200px;
     font-size: 25px;
-    height: 80px;
+    height: 5;
     background-color: black;
     border: none;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 
@@ -236,3 +242,30 @@ body{
     }
 
 }
+
+@media (min-width:0px) and (max-width:500px){
+    .header h1{
+        font-size:30px ;
+    }
+    .header p{
+        font-size: 20px;
+    }
+    .banner button{
+        width: 200px;
+        font-size: 20px;
+    }
+    .connect p{
+        padding: 0px;
+    
+    }
+.banner .header{
+    padding: 0px;
+}
+
+.cohorts .row{
+    margin: 20px 0px 0px 0px;
+
+}
+        
+    }
+    

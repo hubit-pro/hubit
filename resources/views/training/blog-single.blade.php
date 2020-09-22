@@ -36,10 +36,8 @@
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-<div class="container-fluid" style="zoom:80%;">
 
   @include('includes/navtraining')
-  </div>
 
   <div class="site-wrap">
 
@@ -364,10 +362,8 @@
 
   <script src="js1/main.js"></script>
 
-  <div class="container-fluid" style="zoom:80%;">
 
   @include('includes/footer')
-  </div>
 
 </body>
 

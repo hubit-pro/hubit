@@ -4,7 +4,7 @@
 	@include('includes/traininghead')
  
 
-<body  style="zoom:80%">
+<body>
 <!-----------------------NAVBAR------------------------------->
 @include("includes/navtraining")
 <link rel="stylesheet" type="text/css" href="css/training/library.css">

@@ -9,10 +9,30 @@
 @include('includes/traininghead')
 <body>
 @include('includes/navtraining')
-<div class="container-fluid banner">
-	<img src="img/career-banner.jpg"><hr>
-	
+<div class="conatiner-fluid for-you">
+	<div class="container">
+<div class="row">
+	<div class="col" data-aos="fade-left">
+        <div class="hubit-img text-center">
+        <img src="img/logo3.png">
+        </div>
+	</div>
 </div>
+
+	<div class="row" data-aos="fade-right">
+		<div class="col">
+			<h1>For you, with you.<br> ALWAYS!</h1><br>
+			<p>There are many web design training institute, but none quite like IMI Academy. 
+				We’ve been around for over 10 years in this industry but you wouldn’t guess it from the energy
+				 in the place. Along the way, we always strive for and always work for the betterment and
+				  bright future of our students. We prepare them tough enough for every challenge
+				   which may come in their life.</p>
+		</div>
+	</div>
+	</div>
+
+</div>
+
 
 
 <div class="container-fluid our-alumini" data-aos="fade-up-left">
@@ -53,27 +73,7 @@
 
 
 
-<div class="conatiner-fluid for-you">
-	<div class="container">
-<div class="row">
-	<div class="col" data-aos="fade-left">
-		<img src="img/logo3.png">
-	</div>
-</div>
 
-	<div class="row" data-aos="fade-right">
-		<div class="col">
-			<h1>For you, with you.<br> ALWAYS!</h1><br>
-			<p>There are many web design training institute, but none quite like IMI Academy. 
-				We’ve been around for over 10 years in this industry but you wouldn’t guess it from the energy
-				 in the place. Along the way, we always strive for and always work for the betterment and
-				  bright future of our students. We prepare them tough enough for every challenge
-				   which may come in their life.</p>
-		</div>
-	</div>
-	</div>
-
-</div>
 
 <div class="container-fluid benefits">
 	<div class="row one" data-aos="fade-up-left">
