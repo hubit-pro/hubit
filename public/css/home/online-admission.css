@@ -100,12 +100,15 @@ b{
     border: none;
     height: 30px;
     margin-right: 100px;
+    
 }
 
 
 /* <forms div/ */
 .form-groups{
     display:inline-block;
+    
+
 }
 /* <sub course of hardware options */
 #otherFieldDiv{

@@ -5,10 +5,6 @@
 <title>Contact</title>
 <link rel="stylesheet" type="text/css" href="css/home/contact.css">
 <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap" rel="stylesheet">
-
-
-
-
 </head>
 <body  style="zoom:80%">
    
@@ -20,13 +16,18 @@
 
 
 <!--------------------------NON-SLIDER----------------------->
-<section class="container-fluid pt-5 non text-center" style="text-transform:uppercase;">
+
+
+
+
+
+
+
+
+<!-- <section class="container-fluid pt-5 non text-center" style="text-transform:uppercase;">
 <h1>Contact Us</h1>
 <hr>
-
-
-  
-</section>
+</section> -->
 
 <!-------------------------TEXT CONTAINER-------------------->
   
@@ -36,10 +37,10 @@
 
 <!------------------------DETAILS END---------------------->
 <div class="container mt-5 mb-5" id="contact-form">
-<div class="row ">
-<div class="col-md-7 mt-3 mb-5">
+  <div class="row ">
+  <div class="col-md-7 mt-3 mb-5">
   <h4 style="text-align:center; margin-bottom:20px; font-weight:bold;">Enquiry</h4>
-<form>
+  <form>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputname">Name</label>
@@ -71,7 +72,7 @@
 
 
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <label for="exampleFormControlTextarea1">Message</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
 
@@ -137,14 +138,15 @@
 </div>
 
 
+
+
+
 <!------------------------------------MAP---------------------------->
 <div class="container-fluid" style="height: 300px;">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.8742753767083!2d83.46012671453796!3d27.690280432849796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39968662a25d8b87%3A0xd99439204a831c46!2sHUB+IT+WORKGROUP!5e0!3m2!1sen!2snp!4v1542103565521" width="100%;" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div><br>
+
 <!-----------------------------------MAP END------------------------->
-
-
-
 
     <!-- <footer> -->
 

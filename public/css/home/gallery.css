@@ -64,7 +64,7 @@ div.content {
   }
   /* <Onclick image on te gallery  */
   
-  .embed-responsive img{
+  .embed-responsive iframe{
     height:100%;
     width:100%;
   }
@@ -97,11 +97,6 @@ div.content {
    display: block;
    transition: .5s ease;
    backface-visibility: hidden;
-   
-   
-   
-  
-  
   }
   
   .hover .img-fluid{
