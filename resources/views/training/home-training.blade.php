@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>  
-<body  style="zoom:80%"> 
+<body>  
 <!-----------------------NAVBAR------------------------------->
 @include('includes/navtraining')
 <!-------------------------NAVBAR END--------------------------------->
@@ -177,7 +177,7 @@
 
 <!-------------------------COUNTER START-------------------->
 
-<section class="counter-section fix m-5">
+<section class="counter-section fix ">
   <div class="counter-overlay"></div>
   <div class="container-fluid pb-5 pt-5">
     <div class="row">

@@ -4,7 +4,7 @@
 
 
 .banner{
-    height: 500px;
+    height: 400px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@
 
 
 
-.why-us h1{
+.why-us h2{
     color: #a0047d;
     
 }
@@ -28,7 +28,7 @@
     margin: 50px ;
 }
 .why-us .row .col-md-4 hr{
-    width: 120px;
+    width: 100px;
     height: 3px;
     background-color: #ff9800;
     float: left;
@@ -36,16 +36,17 @@
 }
 
 .why-us .row .col-md-8 p{
-    font-size: 20px;
+    font-size: 17px;
 }
 
 
 .our-values .row .col h1{
     text-align: center;
-    margin: 100px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     color: grey;
     border-bottom: 2px solid #ff9800;
     display: inline-block;
+    font-size: 30px;
    
 }
 
@@ -55,25 +56,28 @@
 .our-values .row .col-md-3 .content h4{
     padding-top: 15px;
     font-weight: bold;
+    font-size: 20px;
 }
 .our-values .row .col-md-3 .content p{
-    padding: 10px 20px 20px 20px;
+    padding: 10px;
     color: grey;
+    font-size: 15px;
 }
 .our-vision{
     background-color: #002130;
     color: white;
 }
 .our-vision .row .col-md-8 .moto{
-    margin: 50px ;
+    margin: 20px ;
 }
 .our-vision .row .col-md-8 .moto h1{
     color: #ff9800;
     font-weight: bold;
     padding-bottom: 20px;
+    font-size: 30px;
 }
 .our-vision .row .col-md-8 .moto p{
-    font-size: 20px;
+    font-size: 17px;
 }
 .our-vision .row .col-md-4 .image{
     height: 100%;
@@ -96,15 +100,16 @@
     margin: 0px 0px 50px 0px;
     padding: 0px 0px 0px 20px;
     color: rgb(30, 28, 59);
+    font-size: 30px;
 }
 .objectives .row .col p{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
     padding: 5px;
 }
 .objectives .row .col ul li{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
     padding: 5px;
     text-align: left !important;
 
@@ -121,15 +126,16 @@
     margin: 0px 0px 50px 0px;
     padding: 0px 0px 0px 20px;
     color: rgb(30, 28, 59);
+    font-size: 30px;
 }
 .why .row .col p{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
     padding: 5px;
 }
 .why .row .col ul li{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
     padding: 5px;
     text-align: left !important;
 
@@ -148,6 +154,8 @@
     text-align: center;
     margin: 100px 0px 0px 0px;
     color: grey;
+    font-size: 30px;
+
 }
 .testimonials .container-fluid h1 hr{
     display:block;
@@ -166,10 +174,10 @@ border:1px solid #ECECEC;
 }
 #customers-testimonials .shadow-effect p {
     font-family: inherit;
-    font-size: 17px;
+    font-size: 13px;
     line-height: 1.5;
     margin: 0 0 17px 0;
-    font-weight: 300;
+    font-weight: bold;
 }
 .testimonial-name {
     margin: -17px auto 0;
@@ -181,6 +189,7 @@ border:1px solid #ECECEC;
     text-align: center;
     color: #fff;
     box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+    font-size: 12px;
 }
 #customers-testimonials .item {
     text-align: center;

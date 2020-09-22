@@ -9,7 +9,7 @@
     <title>Corporate Training</title>
     @include('includes/traininghead')
 </head>
-<body  style="zoom:80%">
+<body>
 @include('includes/navtraining')
 <!-- top banner div start -->
 <div class="banner">
@@ -30,7 +30,7 @@ Let us help you to develop and retain top talent,<br> oviding employees with the
 
 <!-- create a culture div content start -->
 
-<div class="row create-a-culture m-0">
+<div class="row create-a-culture">
     <div class="col-md-7">
 <div class="heading">
 
@@ -40,9 +40,9 @@ WHERE INNOVATION THRIVES</h2>
 <h3 style="white-space: pre-wrap;">Talent development is our core expertise</h3>
     
      <li><p>
-     Retain top performers by keeping them engaged and expanding their skill sets. <br>&nbsp;</p></li>
+     Retain top performers by keeping them engaged and expanding their skill sets. &nbsp;</p></li>
 
-     <li><p>Develop employees with the newest technology and state-of-the-art training.<br>&nbsp;</p></li>
+     <li><p>Develop employees with the newest technology and state-of-the-art training.&nbsp;</p></li>
 
      <li><p>Our partner companies provide thousands of proof points.&nbsp;</p></li>
 

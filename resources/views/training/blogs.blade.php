@@ -34,9 +34,9 @@
 
 	<body>
 <!-----------------------NAVBAR------------------------------->
-<div class="container-fluid" style="zoom:80%;">
+
 	@include("includes/navtraining")
-  </div>
+  
 <!-------------------------NAVBAR END--------------------------------->
 
  
@@ -74,22 +74,9 @@
                 <li class="active">
                   <a href="blogs" class="nav-link text-left">Home</a>
                 </li>
-                <li>
-                  <a href="categories" class="nav-link text-left">Categories</a>
-                </li>
-                <li>
-                  <a href="categories" class="nav-link text-left">Politics</a>
-                </li>
-                <li>
-                  <a href="categories" class="nav-link text-left">Business</a>
-                </li>
-                <li>
-                    <a href="categories" class="nav-link text-left">Health</a>
-                </li>
+                
                 <li><a href="categories" class="nav-link text-left">Design</a></li>
-                <li>
-                  <a href="categories" class="nav-link text-left">Sport</a>
-                </li>
+                
                 <li><a href="contact-blog" class="nav-link text-left">Contact</a></li>
               </ul>                                                                                                                                                                                                                                                                                         
             </nav>
@@ -150,7 +137,7 @@
   
 
     <div class="site-section">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-lg-8">
             <div class="row">
@@ -172,40 +159,70 @@
                   </div>
                 </div>
               </div>
+
               <div class="col-md-6">
-                <div class="post-entry-2 d-flex bg-light">
-                  <div class="thumbnail" style="background-image: url('img/img_v_1.jpg')"></div>
-                  <div class="contents">
-                    <h2><a href="blog-single">News Needs to Meet Its Audiences Where They Are</a></h2>
-                    <div class="post-meta">
-                      <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
-                      <span class="date-read">Jun 14 <span class="mx-1">&bullet;</span> 3 min read <span class="icon-star2"></span></span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="post-entry-2 d-flex">
-                  <div class="thumbnail" style="background-image: url('img/img_v_2.jpg')"></div>
-                  <div class="contents">
-                    <h2><a href="blog-single">News Needs to Meet Its Audiences Where They Are</a></h2>
-                    <div class="post-meta">
-                      <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
-                      <span class="date-read">Jun 14 <span class="mx-1">&bullet;</span> 3 min read <span class="icon-star2"></span></span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="post-entry-2 d-flex">
-                  <div class="thumbnail" style="background-image: url('img/img_v_3.jpg')"></div>
-                  <div class="contents">
-                    <h2><a href="blog-single">News Needs to Meet Its Audiences Where They Are</a></h2>
-                    <div class="post-meta">
-                      <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
-                      <span class="date-read">Jun 14 <span class="mx-1">&bullet;</span> 3 min read <span class="icon-star2"></span></span>
-                    </div>
+                <div class="post-entry-1">
+                  <a href="post-single.html"><img src="img/img_h_1.jpg" alt="Image" class="img-fluid"></a>
+                  <h2><a href="blog-single">News Needs to Meet Its Audiences Where They Are</a></h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
+                  <div class="post-meta">
+                    <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
+                    <span class="date-read">Jun 14 <span class="mx-1">&bullet;</span> 3 min read <span class="icon-star2"></span></span>
                   </div>
                 </div>
               </div>
+
+              <div class="col-md-6">
+                <div class="post-entry-1">
+                  <a href="post-single.html"><img src="img/img_h_1.jpg" alt="Image" class="img-fluid"></a>
+                  <h2><a href="blog-single">News Needs to Meet Its Audiences Where They Are</a></h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
+                  <div class="post-meta">
+                    <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
+                    <span class="date-read">Jun 14 <span class="mx-1">&bullet;</span> 3 min read <span class="icon-star2"></span></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="post-entry-1">
+                  <a href="post-single.html"><img src="img/img_h_1.jpg" alt="Image" class="img-fluid"></a>
+                  <h2><a href="blog-single">News Needs to Meet Its Audiences Where They Are</a></h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
+                  <div class="post-meta">
+                    <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
+                    <span class="date-read">Jun 14 <span class="mx-1">&bullet;</span> 3 min read <span class="icon-star2"></span></span>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6">
+                <div class="post-entry-1">
+                  <a href="post-single.html"><img src="img/img_h_1.jpg" alt="Image" class="img-fluid"></a>
+                  <h2><a href="blog-single">News Needs to Meet Its Audiences Where They Are</a></h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
+                  <div class="post-meta">
+                    <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
+                    <span class="date-read">Jun 14 <span class="mx-1">&bullet;</span> 3 min read <span class="icon-star2"></span></span>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6">
+                <div class="post-entry-1">
+                  <a href="post-single.html"><img src="img/img_h_1.jpg" alt="Image" class="img-fluid"></a>
+                  <h2><a href="blog-single">News Needs to Meet Its Audiences Where They Are</a></h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi temporibus praesentium neque, voluptatum quam quibusdam.</p>
+                  <div class="post-meta">
+                    <span class="d-block"><a href="#">Dave Rogers</a> in <a href="#">News</a></span>
+                    <span class="date-read">Jun 14 <span class="mx-1">&bullet;</span> 3 min read <span class="icon-star2"></span></span>
+                  </div>
+                </div>
+              </div>
+              
+            
             </div>
           </div>
           <div class="col-lg-4">
@@ -261,13 +278,44 @@
               <a href="#" class="more">See All Trends <span class="icon-keyboard_arrow_right"></span></a>
             </p>
 
+            <div class="site-section subscribe bg-light">
+      <div class="container">
+        <form action="#" class="row align-items-center">
+          <div class="col-md-12 mr-auto">
+            <h2>Newsletter Subcribe</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis aspernatur ut at quae omnis pariatur obcaecati possimus nisi ea iste!</p>
+          </div>
+          <div class="col-md-12 ml-auto">
+            <div class="d-flex">
+              <input type="email" class="form-control" placeholder="Enter your email">
+              <button type="submit" class="btn btn-secondary" ><span class="icon-paper-plane"></span></button>
+            </div>
+          </div>
+        </form>
+      </div> 
+
+          </div>          
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row m-5">
+          <div class="col-lg-12">
+            <ul class="custom-pagination list-unstyled">
+              <li><a href="#">1</a></li>
+              <li class="active">2</li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
     <!-- END section -->
 
-    <div class="py-0">
+    <!-- <div class="py-0">
       <div class="container">
         <div class="half-post-entry d-block d-lg-flex bg-light">
           <div class="img-bg" style="background-image: url('img/big_img_1.jpg')"></div>
@@ -497,7 +545,7 @@
             </div>
           </div>
         </form>
-      </div>
+      </div> -->
     </div>
 
 
@@ -534,10 +582,8 @@
 
 
     <!-- <footer> -->
-    <div class="container-fluid" style="zoom:80%;">
 
     @include('includes.footer')
-    </div>
 
 <!-- </footer>  -->
 
