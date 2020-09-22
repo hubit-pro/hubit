@@ -7,7 +7,7 @@
     @include("includes/traininghead")
     <link rel="stylesheet" type="text/css" href="css/training/aboutus.css">
 </head>
-<body  style="zoom:80%">
+<body>
 @include("includes/navtraining")
 <div class="container-fluid banner ">
   <img src=" img/about-us-banner.jpg">
@@ -17,7 +17,7 @@
 <div class="container-fluid why-us">
 <div class="row">
 <div class="col-md-4" data-aos="fade-right">
-<h1>HUBIT History</h1>
+<h2>HUBIT History</h2> 
 <hr>
  
 

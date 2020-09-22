@@ -16,9 +16,7 @@
 <link rel="stylesheet" type="text/css" href="css/training/course-training.css">
 </head>
 <body>
-<div class="container-fluid p-0" style="zoom:80% !important">
 @include('includes/navtraining')
-</div>
 
 <div class="super_container">
 
@@ -27,8 +25,8 @@
 	
 	
 	<!-- Home -->
-
-	<div class="home">
+ 
+	<!-- <div class="home">
 		<div class="breadcrumbs_container">
 			<div class="container">
 				<div class="row">
@@ -43,7 +41,7 @@
 				</div>
 			</div>
 		</div>			
-	</div>
+	</div> -->
 
 	<!-- Courses -->
 
@@ -428,9 +426,7 @@
 
 	
 </div>
-<div class="container-fluid p-0" style="zoom:80% !important">
 @include('includes/footer')
-</div>
 
 
 <script src="unicat/js/jquery-3.2.1.min.js"></script>

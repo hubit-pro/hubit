@@ -14,8 +14,8 @@
 	margin-left: 20px;
 }
 #image{
-	width: 200px;
-	height: 80px;
+	width: 100px;
+	height: 70px;
 	
   }
   
@@ -47,16 +47,10 @@
 }
 
 .nav-item{
-	font-size: 17.6px;
+	font-size: 14px;
 	font-weight: bolder;
 	display: flex;
-<<<<<<< HEAD
 	flex-wrap: nowrap;	
-=======
-	flex-wrap: nowrap;
-	
-	
->>>>>>> 07b2d37e25849c61e6bc93679da9123e46cd88ff
 }
 #navitems{
 	color: white;
