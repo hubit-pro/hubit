@@ -1,9 +1,6 @@
 body{
   overflow-x: hidden;
   font-family: 'Mulish', sans-serif;
-
-
-
 }
 
 
@@ -23,7 +20,7 @@ body{
   background-position: center;
   position: relative;
   color: white;
-  background-color: rgb(254 88 36)
+  background-color:#c5191970;
 }
 @media (min-width:0px) and (max-width: 1140px){
 .myslides h2 {
@@ -129,8 +126,8 @@ body{
 .p_detail #banner-btn {
   white-space: nowrap;
   margin-bottom: 20px;
-  font-size: 25px;
-  font-family: 'Georgia';
+  font-size: 30px;
+  font-family: 'helvetica';
   text-decoration: none;
   color: #cb0fa2;
   border: thin solid white;
@@ -297,7 +294,7 @@ body{
   margin-top: 5px;
 }
 .card-container .card .content-box h3 {
-  color: #4caf93;
+  color: #cb0fa2;
   font-weight: 500;
   font-size: 1.7em;
   font-family: orkney-reg;

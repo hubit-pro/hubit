@@ -96,10 +96,10 @@ b{
 }
 /* whole course div */
 .Course{
-    width: 500px ;
+    /* width: -100px ; */
     border: none;
     height: 30px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     
 }
 
@@ -107,6 +107,7 @@ b{
 /* <forms div/ */
 .form-groups{
     display:inline-block;
+    
     
 
 }
