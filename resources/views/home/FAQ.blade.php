@@ -7,7 +7,7 @@
     @include('includes/homehead')
     <title>Privacy</title>
 </head>
-<body  style="zoom:80%">
+<body>
 @include('includes/navhome')
 <div class="conatiner-fluid banner">
     <h1>How can we help you ?</h1>

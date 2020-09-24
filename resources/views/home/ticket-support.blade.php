@@ -25,7 +25,7 @@
     
     <title>Ticket-support</title>
 </head>
-<body  style="zoom:80%;" >
+<body>
 @include('includes/navhome')  
 
 

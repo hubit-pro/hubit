@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="css/home/contact.css">
 <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap" rel="stylesheet">
 </head>
-<body  style="zoom:80%">
+<body>
    
 
 <!-----------------------NAVBAR------------------------------->

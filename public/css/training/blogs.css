@@ -1224,7 +1224,7 @@ h1, h2, h3, h4, h5,
   padding: 0;
   margin: 0;
   font-size: 1rem;
-  color: #000; }
+   }
   .custom-pagination li {
     display: inline-block;
    }
@@ -1233,9 +1233,9 @@ h1, h2, h3, h4, h5,
       display: inline-block;
       color: #b3b3b3; }
       .custom-pagination li a:hover {
-        color: #000; }
+        color: #a0047d; }
     .custom-pagination li.active a {
-      color: #000;
+      color: #a0047d;
       padding: 10px 10px;
       display: inline-block; }
 

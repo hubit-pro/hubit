@@ -8,7 +8,7 @@
     
     <title>Our Clients</title>
 </head>
-<body  style="zoom:80%">
+<body>
   <!------------------------ navbar------------------ -->
 @include('includes/navhome')
 

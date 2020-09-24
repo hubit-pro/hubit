@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@0;1&display=swap');
+
 body{
 	overflow-x: hidden;
+	font-family: 'Titillium Web', sans-serif !important;
 }
 /* top header css is on top-header.css */
 /* navbar css is on navhome.css */
 #MagicCarousel .carousel-inner{
-	height: 600px;
-	margin-top: 0px;
+	height: 450px;
 }
 #MagicCarousel .carousel-inner .carousel-item{
-	height: 550px;
+	height: 500px;
 }
 #MagicCarousel .carousel-inner img{
 	height: 100%;
@@ -20,7 +22,7 @@ body{
     position: absolute;
 	background-color: #3a150aa3;
     width: 98%;
-    height: 550px;
+    height: 450px;
 }
 /* green color background opacity */
 

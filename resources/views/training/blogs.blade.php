@@ -301,7 +301,7 @@
 
 
 
-    <div class="row m-5">
+    <div class="row m-5 text-center">
           <div class="col-lg-12">
             <ul class="custom-pagination list-unstyled">
               <li><a href="#">1</a></li>
