@@ -4,10 +4,10 @@ body{
 /* top header css is on top-header.css */
 /* navbar css is on navhome.css */
 #MagicCarousel .carousel-inner{
-	height: 600px;
+	height: 450px;
 }
 #MagicCarousel .carousel-inner .carousel-item{
-	height: 550px;
+	height: 500px;
 }
 #MagicCarousel .carousel-inner img{
 	height: 100%;
@@ -19,7 +19,7 @@ body{
     position: absolute;
 	background-color: #000000ad;;
     width: 98%;
-    height: 550px;
+    height: 450px;
 }
 /* green color background opacity */
 
