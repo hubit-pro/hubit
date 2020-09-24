@@ -7,7 +7,7 @@
     @include('includes/homehead')
     <title>Privacy</title>
 </head>
-<body  style="zoom:80%">
+<body>
 @include('includes/navhome')
 <div class="privacy">
 Terms and Conditions – Broadway Infosys Nepal Pvt. Ltd.

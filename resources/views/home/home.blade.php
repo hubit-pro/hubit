@@ -16,7 +16,7 @@
 @include("includes/navhome")
 <!-------------------------NAVBAR END--------------------------------->
 <!-----------------------------SLIDER----------------------->
-<section class="container-fluid p-0 mt-2 pl-3 pr-3" style="position: relative;">
+<section class="container-fluid p-0 mt-0 pl-3 pr-3" style="position: relative;">
      <div id="MagicCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
 
   <div class="carousel-inner" role="listbox">
@@ -144,7 +144,6 @@ in the process we share some timeless moments, some of those are captured in pho
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators"  data-slide-to="1" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-   
   </ol>
   <div class="carousel-inners ">
     <div class="carousel-item active">
@@ -200,42 +199,22 @@ in the process we share some timeless moments, some of those are captured in pho
 
 <!-----------------------CLIENTS START-------------------------------->
 
-<div class="owl-carousel ">
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-       </div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-       </div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
+<div class="owl-carousel">
+        <div class="item1">
+        <img src="img/download.png" class="img-fluid" alt="12">
+    </div>
+        <div class="item1">
+        <img src="img/download (1).png" class="img-fluid" alt="12">
+          </div>
+        <div class="item1">
+        <img src="img/the-classic-view-everest.jpg" class="img-fluid" alt="12">
+    </div>
+        <div class="item1">
+        <img src="img/5c417287d95a9.jpg" class="img-fluid" alt="12">
+    </div>
+    
 </div>  
-</section>
+
 <!------------------------------------CLIENTS END--------------->
 <!-- <maps -->
 <div class="container-fluid mt-5" style="height: 400px;">

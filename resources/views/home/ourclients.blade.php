@@ -8,7 +8,7 @@
     
     <title>Our Clients</title>
 </head>
-<body  style="zoom:80%">
+<body>
   <!------------------------ navbar------------------ -->
 @include('includes/navhome')
 
@@ -55,10 +55,7 @@
           <div class="modal-body mb-0 p-0">
 
             <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <img class="embed-responsive-item" src="img/s.jpg" allowfullscreen>
-                
-              
-
+              <iframe class="embed-responsive-item" src="img/s.jpg"  allowfullscreen></iframe>
             </div>
 
           </div>
@@ -121,7 +118,7 @@
           <div class="modal-body mb-0 p-0">
 
             <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <img class="embed-responsive-item" src="img/birajan.jpg" allowfullscreen></img>
+              <iframe class="embed-responsive-item" src="img/birajan.jpg" allowfullscreen></iframe>
             </div>
 
           </div>
@@ -183,7 +180,7 @@
           <div class="modal-body mb-0 p-0">
 
             <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <img class="embed-responsive-item" src="img/hari.jpg" allowfullscreen></img>
+              <iframe class="embed-responsive-item" src="img/hari.jpg" allowfullscreen></iframe>
             </div>
 
           </div>
@@ -246,7 +243,7 @@
           <div class="modal-body mb-0 p-0">
 
             <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <img class="embed-responsive-item" src="img/lara.jpg" allowfullscreen></img>
+              <iframe class="embed-responsive-item" src="img/lara.jpg" allowfullscreen></iframe>
             </div>
 
           </div>
@@ -306,7 +303,7 @@
           <div class="modal-body mb-0 p-0">
 
             <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <img class="embed-responsive-item" src="img/sam.jpg" allowfullscreen></img>
+              <iframe class="embed-responsive-item" src="img/sam.jpg" allowfullscreen></iframe>
             </div>
 
           </div>
@@ -369,7 +366,7 @@
           <div class="modal-body mb-0 p-0">
 
             <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <img class="embed-responsive-item" src="img/per1.jpeg" allowfullscreen></img>
+              <iframe class="embed-responsive-item" src="img/per1.jpeg" allowfullscreen></iframe>
             </div>
 
           </div>
@@ -430,7 +427,7 @@
           <div class="modal-body mb-0 p-0">
 
             <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <img class="embed-responsive-item" src="img/per.jpg" allowfullscreen></img>
+              <iframe class="embed-responsive-item" src="img/per.jpg" allowfullscreen></iframe>
             </div>
 
           </div>
@@ -493,7 +490,7 @@
           <div class="modal-body mb-0 p-0">
 
             <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-              <img class="embed-responsive-item" src="img/pac.jpg" allowfullscreen></img>
+              <iframe class="embed-responsive-item" src="img/pac.jpg" allowfullscreen></iframe>
             </div>
 
           </div>

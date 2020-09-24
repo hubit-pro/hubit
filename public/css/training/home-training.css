@@ -309,10 +309,10 @@ h1{
 /* single card contents div h3 */
 
 .card-container .card .content-box h3 {
-  color: #4caf93;
+  color: #a0047d;
   font-weight: 500;
   font-size: 1.5em;
-  font-family: orkney-reg;
+  font-family: 'helvetica';
 }
 /* single card contents div hover */
 

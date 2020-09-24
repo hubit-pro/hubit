@@ -96,16 +96,20 @@ b{
 }
 /* whole course div */
 .Course{
-    width: 500px ;
+    /* width: -100px ; */
     border: none;
     height: 30px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
+    
 }
 
 
 /* <forms div/ */
 .form-groups{
     display:inline-block;
+    
+    
+
 }
 /* <sub course of hardware options */
 #otherFieldDiv{

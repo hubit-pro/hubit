@@ -18,7 +18,7 @@ body{
 #topper h3{
 	color: white; 
     margin-top:100px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 /* About hubit text */
@@ -27,18 +27,39 @@ body{
     padding-bottom: 5px;
     color: #ff9800;
 }
+.text{
+    font-size: 20px;
+    font-weight: 500;
+}
 .text-justify h5{
     color: #ff9800;
-    
+    margin-left: 100px; 
+}
+.text-justify p{
+    margin-left: 100px; 
+    margin-right: 50px;
 }
 
 /* rotating image of about us */
+
 .solution img{
 	height: 140px;
 	width: 140px;
 	border-radius: 100px;
 	border: 2px dashed black;
 	transition: 2s;
+}
+#img1{
+    margin-left: -100px;
+}
+#img2{
+    margin-right: -150px;
+}
+#img3{
+    margin-left: -100px;
+}
+#img4{
+    margin-right: -150px;
 }
 /* animation of image */
 .solution{
@@ -131,9 +152,9 @@ button:focus {
 }
 
 hr{
-    background-color:#ff9800;
+    /* background-color:#ff9800; */
     width: 30%;
-    height: 3px;
+    /* height: 0.5px; */
     
 }
 /*-------------------certificate-------------------------------  */
