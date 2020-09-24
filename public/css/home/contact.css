@@ -10,8 +10,8 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 .form-group{
-  font-size:25px;
-  color: gray;
+  /* font-size:20px;
+  color: gray; */
 }
 
 
@@ -20,7 +20,7 @@ body{
 /* Enquiery text  */
 .col-md-7 h4{
   /* font-family: 'Lemonada', cursive; */
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 800;
 
 
@@ -35,14 +35,14 @@ body{
 hr{
   /* background-color: #ffca07; */
   /* height: 2px; */
-  width: 20%;
+  width: 18%;
 }
 
 /* contact information text div */
 .contact-information{
   text-align: center;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   color: white;
   margin-top:10px ;
@@ -60,7 +60,7 @@ hr{
   text-align: center;
   border-bottom: 1px solid #fff;
   color: white;
-  font-weight: 700;
+  font-weight: 400;
     padding-bottom: 10px;
     margin-bottom: 15px;
    
@@ -70,7 +70,7 @@ hr{
   list-style: none;
 }
 .information {
-  font-size: 16px;
+  font-size: 13px;
   color: #c9efff;
   font-weight: bold;
   line-height: 2rem;

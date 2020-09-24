@@ -43,11 +43,11 @@
   <form>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputname">Name</label>
+      <label for="inputname"></label>
       <input type="email" class="form-control" id="inputname" placeholder="Name">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPassword4">Email</label>
+      <label for="inputPassword4"></label>
       <input type="password" class="form-control" id="inputemail" placeholder="Email">
      
     </div>
@@ -55,16 +55,16 @@
   <div class="form-row">
 
   <div class="form-group col-md-6">   
-    <label for="inputAddress">Mobile Number</label>
+    <label for="inputAddress"></label>
     <input type="text" class="form-control" id="input number" placeholder="Number">
   </div>
   <div class="form-group col-md-6">
-    <label for="inputAddress2">Courses</label>
+    <label for="inputAddress2"></label>
     <input type="text" class="form-control" id="inputAddress2" placeholder="Course">
   </div>
 </div>
 <div class="form-group">
-<label for="inputAddress">Address </label>
+<label for="inputAddress"> </label>
 <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
 </div>
 
@@ -72,8 +72,8 @@
 
 
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <label for="exampleFormControlTextarea1"></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"placeholder="message"></textarea>
   </div>
 
   

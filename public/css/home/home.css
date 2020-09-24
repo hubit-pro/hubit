@@ -64,7 +64,7 @@ body{
   .track {
 	position: absolute;
 	white-space: nowrap;
-	margin-top: 90px;
+	/* margin-top: 90px; */
 	display: flex;
 	animation: marquee 32s linear infinite;
   }
