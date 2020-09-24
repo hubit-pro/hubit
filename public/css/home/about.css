@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@0;1&display=swap');
+
 body{
     overflow-x: hidden;
+  font-family: 'Titillium Web', sans-serif !important;
+
 }
 
 
@@ -26,9 +30,10 @@ body{
 	border-bottom: 2px solid silver;
     padding-bottom: 5px;
     color: #ff9800;
+    font-size: 30px;
 }
 .text{
-    font-size: 20px;
+    font-size:17px;
     font-weight: 500;
 }
 .text-justify h5{
@@ -38,6 +43,7 @@ body{
 .text-justify p{
     margin-left: 100px; 
     margin-right: 50px;
+    font-size: 15px;
 }
 
 /* rotating image of about us */

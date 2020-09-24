@@ -19,7 +19,7 @@ body{
   padding: 20px;
   text-decoration: none;
   text-align:center;
-  font-size:1.5vw;
+  font-size:17px;
 
 }
  
@@ -81,7 +81,7 @@ div.content {
   }
   .banner p{
     text-align: center;
-	font-size: 1.5vw;
+	font-size: 17px;
 	margin-bottom: 4%;
 	font-family: 'Kanit', sans-serif;
 

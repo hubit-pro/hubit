@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"  style="zoom:0.8 !important;">
-<head>
+<html lang="en">
+  <head>
     
     @include('includes/homehead')
 	<title>Online-Admission</title>
@@ -11,7 +11,7 @@
     <title>Online-Admission</title>
 </head>
 <body>
-@include('includes/navhome')
+@include('includes/navhome') 
 
 <div class="container ">
 
