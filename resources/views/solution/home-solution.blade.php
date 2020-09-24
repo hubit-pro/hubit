@@ -150,15 +150,11 @@ SOLUTIONS
   <div class="card" >
     <div class="content-box">
       <h3>Business IT Consultant</h3>
-
     </div>
   </div>
   <div class="card"  >
     <div class="content-box">
-      <h3>
-Facebook Boosting & Promotions
-
-	  </h3>
+      <h3>Facebook Boosting & Promotions</h3>
     </div>
   </div>
   <div class="card"  >

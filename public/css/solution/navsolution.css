@@ -38,20 +38,14 @@
   }
 
 #navitems:hover {
-
-	color: #ff9800;
-
-	
-	
+	color: #ff9800;	
 }
 
 .nav-item{
 	font-size: 17.6px;
 	font-weight: bolder;
 	display: flex;
-	flex-wrap: nowrap;
-	
-	
+	flex-wrap: nowrap;	
 }
 #navitems{
 	color: white;
@@ -69,19 +63,13 @@
   .dropdown-item {
 	  color: white !important;
   }
-
 .dropdown-item:hover {
-	
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #ff99009d !important;
-  
-
   }
   .shortcut{
 	  display: none;
   }
-
-
 @media (min-width: 0) and (max-width: 570px) {
   .navbar-nav{
     width: 100%;
@@ -102,11 +90,9 @@
 	margin-bottom: 20px;
 	margin-left: 36%;
 	}
-	
 .navbar-toggler {
     font-size: 1.75rem;
 }
-
 .shortcut{
 	position: absolute;
     border: none;
@@ -131,7 +117,6 @@
 .shortcut{
 	display: inline-block;
 }
-  
 }
 
 @media (min-width: 0) and (max-width: 375px) {
