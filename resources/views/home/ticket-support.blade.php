@@ -38,7 +38,7 @@
   
 <div class="row mb-5">
   
-    <div class="col-md-5  ">
+    <div class="col new-ticket">
       <p> If you are new to our services please, Fill the Form Below For Support</p>
 <h3>CREATE NEW TICKET</h3>
 
@@ -147,7 +147,7 @@
         </div>
             </div>
 
-            <div class="col-md-5 solution-div">
+            <div class="col solution-div">
             <div id="login">
       <p> If you are Regular customer of our store  please , log in for support</p>
        

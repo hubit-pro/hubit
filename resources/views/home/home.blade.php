@@ -256,12 +256,23 @@ in the process we share some timeless moments, some of those are captured in pho
 <script type="text/javascript">
 	var owl = $('.owl-carousel');
 	owl.owlCarousel({
-    items:5,
     loop:true,
     margin:0,
     autoplay:true,
     autoplayTimeout:2000,
-    autoplayHoverPause:true
+    autoplayHoverPause:true,
+    responsive:{
+0:{
+items:3
+},
+600:{
+items:3
+},
+1000:{
+items:5
+}
+}
+
 });
 </script>
 <script src="js/miss.js"></script>

@@ -34,9 +34,9 @@
 
     <div class="col-xl-4">
       
-      <div class="container contact-form">
+      <div class=" contact-form">
       <div class="vacancy">
-        <img src="img/vac3.jpg">
+        <img src="img/vac3.jpg"> 
         
         </div>
         <form method="post">
@@ -78,15 +78,23 @@
                   </select>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group ">
                   <select type="text" name="txtField" class="form-control" required="">
                     <option value="">Field</option>
                     <option value="">IT</option>
                     <option value="">Management</option>
                   </select>
                 </div>
+                <div class="wrapper">
+                   <div class="file-upload">
+                   <input type="file"  class="form-control-file" id="exampleFormControlFile1">
+                   <span>UPLODE YOUR CV:</span>
+                    <i class="fa fa-arrow-up p-3"></i>
+                     </div>
+                </div>
 
-                <div class="form-group">
+
+                <div class="form-group mt-3">
                     <input type="text" name="txtExp" class="form-control" placeholder="Your Work Experience *" required="" />
                 </div>
 

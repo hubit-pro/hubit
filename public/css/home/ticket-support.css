@@ -20,18 +20,22 @@ width: 30%;
 }
 
 /* ticket support form div */ 
-#border .row .col-md-5{
+#border .row .new-ticket{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 60px;
+    margin: 50px;
 }
-#border .row .col-md-5 p{
+#border .row .solution-div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px;
+}
+#border .row .col p{
     text-align: center;
     padding: 10px;
     font-weight: bold;
     color:#ff9800 ;
 }
 /* ticket support heading of form */
-#border .col-md-5 h3{
+#border .col h3{
     text-align:center; 
     margin:10px;
 }

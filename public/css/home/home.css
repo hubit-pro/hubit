@@ -304,7 +304,7 @@ margin: -20px;
 		height:270px !important;
 	}
 	.item1{
-		height: 50px;
+		height: 100px;
 	}
 	.item1 img{
 		height: 100%;
@@ -327,7 +327,7 @@ margin: -20px;
 	}
 	#box img{
 			height:100px ;
-			width: 100px;
+			width: 100%;
 			display: inline-block;
 	}
 	.content1 p{
