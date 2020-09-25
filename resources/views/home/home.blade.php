@@ -202,6 +202,30 @@ in the process we share some timeless moments, some of those are captured in pho
 
 <div class="owl-carousel ">
     <div class="item1">
+       <img src="img/5c417287d95a9.jpg" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
+       <img src="img/download (1).png" class="img-fluid" alt="12">
+       </div>
+    <div class="item1">
+       <img src="img/download.png" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
+       <img src="img/the-classic-view-everest.jpg" class="img-fluid" alt="12">
+</div>
+    <!-- <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div> -->
+    <!-- <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
        <img src="img/we.jpg" class="img-fluid" alt="12">
 </div>
     <div class="item1">
@@ -209,31 +233,7 @@ in the process we share some timeless moments, some of those are captured in pho
        </div>
     <div class="item1">
        <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-       </div>
-    <div class="item1">
-       <img src="img/we.jpg" class="img-fluid" alt="12">
-</div>
+</div> -->
 </div>  
 </section>
 <!------------------------------------CLIENTS END--------------->

@@ -75,10 +75,27 @@ div.content {
   .banner{
     background-color:#ff9800b8;
     height: 250px;
-    width: 97%;
+    width: 100%;
     color: white;
-    
   }
+
+#client{
+  background-image: url('https://homebusinessmag.com/wp-content/uploads/2018/04/Depositphotos_151249562_m-2015.jpg');
+  height:250px;
+  background-size: cover;
+  color: black;
+  background-repeat: no-repeat;
+  /* width:100vh; */
+}
+.counter-overlay {
+  position: absolute;
+  width: 96.2% !important;
+  height: 250px;
+  background: #974930a8;
+  }
+
+  
+
   .banner p{
     text-align: center;
 	font-size: 17px;
@@ -120,27 +137,32 @@ div.content {
   .hover:hover .img-fluid {
    opacity: 0.3;
   }
-  
   .hover:hover .middle {
    opacity: 1;
   }
-  
-  
-  
-  
   /* text written on hover */
   .text{
    position:absolute;
-   
    font-weight:bolder;
-   
-  
   }
- 
   @media only screen and (max-width: 600px) {
     .col-md-6{
       text-align:center;
   
     }
+    .container-fluid h1{
+      padding-top: 0px;
+    }
+    .banner{
+      height: auto;
+    }
+    .banner p{
+      font-size: 15px;
+    }
+    .counter-overlay{
+      width:86% !important;
+    }
+    
+
   
   }

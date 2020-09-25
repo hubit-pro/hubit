@@ -14,8 +14,8 @@
 
   <!------------------------ navbar------------------ -->
 
-
-<div class="container-fluid text-center banner">
+<div class = "counter-overlay"></div>
+<div class="container-fluid text-center banner" id = "client">
   <h1>Our Clients</h1>
   <p> <i class="fas fa-quote-left mr-3" style="color:red ;"></i>We are continuously improving our service deliverables, 
     working methodologies and injecting new technologies 
@@ -30,10 +30,13 @@
 <div class="col-md-2">
 
 <div class="sidebar">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a class="active" href="#home">Clients</a>
+  <a href="#news">Hardware</a>
+  <a href="#contact">Software</a>
+  <a href="#about">Networking</a>
+  <a href="#about">Web development</a>
+  <a href="#about">Graphic design</a>
+
 </div>
 </div>
 
@@ -541,7 +544,7 @@
 </div>
 </div>
 </div>
-<nav aria-label="Page navigation example " style="margin-top:50px; margin-left:50%;">
+<nav aria-label="Page navigation example " style="margin:auto; text-align:center">
   <ul class="pagination">
     <li class="page-item"><a class="page-link" href="#">Previous</a></li>
     <li class="page-item"><a class="page-link" href="#">1</a></li>
