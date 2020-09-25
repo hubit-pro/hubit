@@ -209,6 +209,17 @@ hr{
     .desktop-view{
         display: none !important;
     }
+    .text-justify h5{
+        /* color: #ff9800; */
+        margin-left: 0px; 
+    }
+    .text-justify p{
+        margin-left: 0px; 
+        margin-right: 0px;
+        font-size: 15px;
+    }
+    
+
     
 }
 
