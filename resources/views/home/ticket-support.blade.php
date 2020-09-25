@@ -122,12 +122,8 @@
       <option>Yipee</option>
       <option>Hoorah</option>
     </select>
-  </div>
+  </div>  
   
-  
-  
-
-              
                 <div class="form-group">
                       <label for="exampleFormControlFile1">ATTACHMENT</label>
                       <input type="file" class="no-border-file" id="exampleFormControlFile1">
