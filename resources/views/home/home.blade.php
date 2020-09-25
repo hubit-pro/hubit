@@ -16,13 +16,10 @@
 @include("includes/navhome")
 <!-------------------------NAVBAR END--------------------------------->
 <!-----------------------------SLIDER----------------------->
-<section class="container-fluid p-0 mt-0 pl-3 pr-3">
-
+<section class="container-fluid p-0 " style="position: relative; padding-left:1% !important; padding-right:1% !important;">
      <div id="MagicCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
 
-
   <div class="carousel-inner" role="listbox">
-<div class="counter-overlay"></div>
     
     <div class="carousel-item active">
       <img class="d-block w-100" src="img/set1.jpg" alt="first image">
@@ -41,11 +38,11 @@
 
 
 <!-------------------------TEXT CONTAINER-------------------->
-<section class="container-fluid"><!--this id "topper" is the transparent box over the slider--->
+<section class="container-fluid"id="topper"><!--this id "topper" is the transparent box over the slider--->
 
   
 
-  <!-- <div class="row content1">
+  <div class="row content1">
         <div class="col-xl-3">
               <h1>HUB IT<br>GROUP PVT LTD.</h1>
               <h6>Enabling the Innovative Age</h6>
@@ -65,11 +62,11 @@
     <div class="col-xl-12 text-center">
       <a class="button" href="home-solution"><button type="button" class="btn lin" class="button">IT SOLUTION</button></a>
       <a class="button" href="home-training"><button type="button" class="btn lin" class="button">IT TRAINING</button></a>
-    </div> -->
+    </div>
 
 <!-------------marquee repeat start-------------------------------------- -->
 
-<!-- <div class="marquee">
+<div class="marquee">
   <div class="track">
     <div class="content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notice: Web Design and Developement classes will start from Thursday, 21st December. 
       All other classes will start from Sunday, 24th December. 
@@ -83,9 +80,11 @@
     </div> 
     
   </div>
-</div> -->
+</div>
 <!--------------------marquee repeat end--------------------------------------------- -->
+</section>
 
+</section>
 <!-------------------------TEXT CONTAINER END---------------->
 
 
@@ -145,6 +144,7 @@ in the process we share some timeless moments, some of those are captured in pho
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators"  data-slide-to="1" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+   
   </ol>
   <div class="carousel-inners ">
     <div class="carousel-item active">
@@ -200,22 +200,42 @@ in the process we share some timeless moments, some of those are captured in pho
 
 <!-----------------------CLIENTS START-------------------------------->
 
-<div class="owl-carousel">
-        <div class="item1">
-        <img src="img/download.png" class="img-fluid" alt="12">
-    </div>
-        <div class="item1">
-        <img src="img/download (1).png" class="img-fluid" alt="12">
-          </div>
-        <div class="item1">
-        <img src="img/the-classic-view-everest.jpg" class="img-fluid" alt="12">
-    </div>
-        <div class="item1">
-        <img src="img/5c417287d95a9.jpg" class="img-fluid" alt="12">
-    </div>
-    
+<div class="owl-carousel ">
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+       </div>
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div>
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+       </div>
+    <div class="item1">
+       <img src="img/we.jpg" class="img-fluid" alt="12">
+</div>
 </div>  
-
+</section>
 <!------------------------------------CLIENTS END--------------->
 <!-- <maps -->
 <div class="container-fluid mt-5" style="height: 400px;">

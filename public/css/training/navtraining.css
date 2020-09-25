@@ -138,11 +138,7 @@
   
 }
 
-@media (min-width: 0) and (max-width: 375px) {
-	#image{
-		margin-left: 35%;
-	}
-}
+
 @media (min-width: 0) and (max-width: 768px) {
 	.nav-item{
 
@@ -153,6 +149,16 @@
 }
 
 
+}
+@media (min-width: 0) and (max-width: 500px) {
+	#image{
+		margin-left: 45%;
+	}
+	#image{
+		width: 70px;
+		height: 70px;
+		
+	  }
 }
 	
  
