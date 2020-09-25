@@ -138,16 +138,22 @@
   
 }
 
-@media (min-width: 0) and (max-width: 375px) {
+@media (min-width: 0) and (max-width: 500px) {
 	#image{
-		margin-left: 35%;
+		margin-left: 45%;
 	}
+	#image{
+		width: 70px;
+		height: 70px;
+		
+	  }
 }
 @media (min-width: 0) and (max-width: 768px) {
 	.nav-item{
 
 	font-size: 12px;
 }
+
 .navbar-nav {
     margin: 4.5px 0px !important;
 }

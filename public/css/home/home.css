@@ -17,12 +17,16 @@ body{
 	width: 100%;
 }
 /* green color background opacity */
-.counter-overlay {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: #974930a8;
-	}
+#topper{
+	top: 0px;
+    position: absolute;
+	background-color: #3a150aa3;
+    width: 98%;
+	height: 450px;
+	left:0px;
+	right: 0px;
+
+}
 /* green color background opacity */
 
 /* company name , discription and go to page */
@@ -50,21 +54,20 @@ body{
 	width: 100%;
 	height: 30px;
 	background-color: white;
-	margin-top:50px;
 	opacity: 0.7;
 }
 /*  marquee setting for multi time (repeat)*/
   .marquee {
-	position: relative;
+	position: absolute;
 	width: 120vw;
 	max-width: 100%;
-	height: 200px;
+	height: 30px;
 	overflow-x: hidden;
+	margin-top: 90px;
   }
   .track {
 	position: absolute;
 	white-space: nowrap;
-	/* margin-top: 90px; */
 	display: flex;
 	animation: marquee 32s linear infinite;
   }
@@ -205,10 +208,9 @@ margin: -20px;
   /* <message from the board  carousel-item */
 .carousel-inners .carousel-item{
 	background-color: #e2d7d7; 
-	height:auto; 
+	height:380px; 
 	width:100% ;
-	padding-top:50px;
-	padding-bottom: 50px;
+    padding-top:50px;
 }
 	/* <our clients  carousel-item image div */
 .item1{
@@ -216,10 +218,10 @@ margin: -20px;
   }
 	/* <ourclients  carousel-item image */
 .item1 img{
-	height: 150px;
+	height: 170px;
 	 border-radius: 50%; 
 	 border: 3px solid silver;
-	 width: 150px !important;
+	 width: 170px !important;
   }
 	/* Our clients carousel item div*/
 .our-clients .item1{
@@ -231,18 +233,20 @@ margin: -20px;
 	width:25%;
    }
    @media (min-width: 0px) and (max-width: 1024px) {
-	#topper{
-		height: 600px;
-		width:92%;
-	  }
+	.links{
+		padding-top: 0px;
+	}
 	  body{
 		overflow-x: hidden;
 	}
 	.content1 h1{
 		text-align: center;
+		font-size: 25px;
 	  }
 	.content1 h6{
 		text-align: center;
+		font-size: 17px;
+
 	}
 	.notice-section {	
 		width: 100%;
@@ -320,10 +324,6 @@ margin: -20px;
 	}
     .item1{
 			display: block;
-	}
-
-	.quotes-moments{
-		font-size: 10px;
 	}
 	#box img{
 			height:100px ;
