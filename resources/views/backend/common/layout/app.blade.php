@@ -31,8 +31,8 @@
         <link rel="stylesheet" href="{{asset('backend/css/themes.css')}}">
         <script src="{{asset('backend/js/vendor/modernizr.min.js')}}"></script>
         
-        <link rel="stylesheet" type="text/css" href="{{ asset('dist/sweetalert.css') }}">
-        <link href="{{asset('css/plugins/toastr/toastr.min.css')}}" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{{ asset('backend/dist/sweetalert.css') }}">
+        <link href="{{asset('backend/css/plugins/toastr/toastr.min.css')}}" rel="stylesheet">
 
 
 
@@ -177,9 +177,9 @@
         <script src="{{asset('backend/js/app.js')}}"></script>
 
 
-        <script src="{{asset('dist/sweetalert.min.js')}}"></script>
+        <script src="{{asset('backend/dist/sweetalert.min.js')}}"></script>
 
-        <script src="{{asset('js/plugins/toastr/toastr.min.js')}}"></script>
+        <script src="{{asset('backend/js/plugins/toastr/toastr.min.js')}}"></script>
         <script>
             document.addEventListener("DOMContentLoaded", function(event) {
 

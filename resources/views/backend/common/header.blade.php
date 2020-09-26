@@ -60,7 +60,7 @@
                                             Settings
                                         </a>
 
-                                        <a href="{{-- {{route('admin.logout')}} --}}"><i class="fa fa-ban fa-fw pull-right"></i> Logout</a>
+                                        <a href="{{route('admin.logout')}}"><i class="fa fa-ban fa-fw pull-right"></i> Logout</a>
                                     </li>
                                 </ul>
                             </li>
