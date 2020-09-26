@@ -33,6 +33,7 @@
         
         <link rel="stylesheet" type="text/css" href="{{ asset('backend/dist/sweetalert.css') }}">
         <link href="{{asset('backend/css/plugins/toastr/toastr.min.css')}}" rel="stylesheet">
+        <link href="{{asset('backend/css/plugins/switchery/switchery.css')}}" rel="stylesheet">
 
 
 

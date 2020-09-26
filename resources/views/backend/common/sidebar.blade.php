@@ -14,19 +14,10 @@
             <div class="sidebar-section sidebar-user clearfix sidebar-nav-mini-hide">
                 <div class="sidebar-user-avatar">
                     <a href="{{route('admin.dashboard')}}">
-                    {{-- @if(isset(Auth::guard('admin')->user()->adminDetail))
-                        @if(isset(Auth::guard('admin')->user()->adminDetail->image))
-                            <img src="{{asset('images/uploads/'. Auth::guard('admin')->user()->adminDetail->image)}}">
-                        @else
-                            <img src="{{asset('img/placeholders/avatars/avatar2.jpg')}}" alt="avatar">
-                        @endif
-                     @else
-                        <img src="{{asset('img/placeholders/avatars/avatar2.jpg')}}" alt="avatar">
-                        @endif --}}
                         <img src="{{asset('img/logo.jpg')}}">
                     </a>
                 </div>
-                <div class="sidebar-user-name">{{-- {{Auth::guard('admin')->user()->userName}} --}}</div>
+                <div class="sidebar-user-name">{{Auth::guard('admin')->user()->userName}}</div>
                 <div class="sidebar-user-links">
                     <a href="javascript:;" data-toggle="tooltip" data-placement="bottom" title="Profile"><i class="gi gi-user"></i></a>
                     <a href="javascript:;" data-toggle="tooltip" data-placement="bottom" title="Messages"><i class="gi gi-envelope"></i></a>
@@ -71,6 +62,12 @@
                         <li>
                             <a href="">Article</a>
                         </li>
+                    </ul>
+                </li>
+                 <li>
+                    <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-show_big_thumbnails sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">More</span></a>
+                    <ul>
+                        <li><a href="{{route('admin.aboutus.index')}}">About Us</a></li>
                     </ul>
                 </li>
                 
