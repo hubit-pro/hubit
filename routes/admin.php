@@ -8,4 +8,5 @@ Route::prefix('admin')->name('admin.')->namespace('Backend\Auth')->group(functio
 	Route::get('login','LoginController@showLoginForm')->name('login.form');
 	Route::post('login','LoginController@login')->name('login.submit');
 	Route::get('logout','LoginController@logout')->name('logout');
+	Route::put('changePassword/{slug}', 'ChangePasswordController@update')->name('changePassword.update');
 });

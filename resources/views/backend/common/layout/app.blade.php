@@ -112,7 +112,7 @@
 
                     <!-- Modal Body -->
                     <div class="modal-body">
-                        <form action="{{-- {{route('admin.changePassword.update', Auth::guard('admin')->user()->slug)}} --}}" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;" id="changePasswordForm">
+                        <form action="{{route('admin.changePassword.update', Auth::guard('admin')->user()->slug)}}" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;" id="changePasswordForm">
                             @csrf
                             {{method_field('PUT')}}
                             <fieldset>
@@ -120,7 +120,7 @@
                                     <label class="col-md-4 control-label">Username</label>
                                     <div class="col-md-8">
                                         <input type="text" id="userName" name="userName" class=
-                                        "form-control" value="{{-- {{Auth::guard('admin')->user()->userName}} --}}">
+                                        "form-control" value="{{Auth::guard('admin')->user()->userName}}">
                                         <p class="userName_error" id="category_error"></p>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@
                                     <label class="col-md-4 control-label" for="user-settings-email">Email</label>
                                     <div class="col-md-8">
                                         <p class="email_error" id="category_error"></p>
-                                        <input type="email" id="user-settings-email" name="email" class="form-control" value="{{-- {{Auth::guard('admin')->user()->email}} --}}" disabled=""><input type="hidden" id="user-settings-email" name="email" class="form-control" value="{{-- {{Auth::guard('admin')->user()->email}} --}}">
+                                        <input type="email" id="user-settings-email" name="email" class="form-control" value="{{Auth::guard('admin')->user()->email}}" disabled=""><input type="hidden" id="user-settings-email" name="email" class="form-control" value="{{Auth::guard('admin')->user()->email}}">
                                     </div>
                                 </div>
                              </fieldset>
@@ -213,6 +213,7 @@
                 success: function (data, status) {
 
                     if(data.error){
+                        toastr.error(data.error);
                         return;
                     }
 
@@ -221,10 +222,15 @@
                 },
                 error: function (xhr, status, error) {
                     var err = JSON.parse(xhr.responseText);
+                    $('.userName_error').empty();
                     $('.userName_error').append(err.errors.userName);
+                    $('.email_error').empty();
                     $('.email_error').append(err.errors.email);
+                    $('.old_password_error').empty();
                     $('.old_password_error').append(err.errors.old_password);
+                    $('.password_error').empty();
                     $('.password_error').append(err.errors.password);
+                    $('.confirm_password_error').empty();
                     $('.confirm_password_error').append(err.errors.confirm_password);
                 }
             });
