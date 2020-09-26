@@ -32,16 +32,13 @@
                             <!-- END Template Options -->
                         </ul>
                         <!-- END Left Header Navigation -->
-
-                    
-
                         <!-- Right Header Navigation -->
                         <ul class="nav navbar-nav-custom pull-right">
 
                             <!-- User Dropdown -->
                             <li class="dropdown">
                                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                                    <img src="{{-- @if(isset(Auth::guard('admin')->user()->adminDetail)){{asset('images/uploads/'. Auth::guard('admin')->user()->adminDetail->image)}}@endif --}}">{{-- {{Auth::guard('admin')->user()->userName}} --}} <i class="fa fa-angle-down"></i>
+                                    <img src="{{asset('img/logo.jpg')}}{{-- @if(isset(Auth::guard('admin')->user()->adminDetail)){{asset('images/uploads/'. Auth::guard('admin')->user()->adminDetail->image)}}@endif --}}">{{-- {{Auth::guard('admin')->user()->userName}} --}} <i class="fa fa-angle-down"></i>
                                 </a>
                                 <ul class="dropdown-menu dropdown-custom dropdown-menu-right">
                                     <li class="dropdown-header text-center">Account</li>
@@ -54,7 +51,7 @@
                                        
                                             <i class="fa fa-user fa-fw pull-right"></i>
                                             Profile
-                                        </a>
+                                        {{-- </a> --}}
                                         <a href="#modal-user-settings" data-toggle="modal">
                                             <i class="fa fa-cog fa-fw pull-right"></i>
                                             Settings

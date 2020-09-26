@@ -5,7 +5,8 @@
         <div class="sidebar-content">
             <!-- Brand -->
             <a href="{{route('admin.dashboard')}}" class="sidebar-brand">
-                <img src="{{asset('images/logo_top.png')}}" class="logo_main" alt="" style="width: 122px;">
+                <strong style="margin-left: 40px;">HUB IT</strong>
+                {{-- <img src="{{asset('images/logo_top.png')}}" class="logo_main" alt="" style="width: 122px;"> --}}
             </a>
             <!-- END Brand -->
 
@@ -22,6 +23,7 @@
                      @else
                         <img src="{{asset('img/placeholders/avatars/avatar2.jpg')}}" alt="avatar">
                         @endif --}}
+                        <img src="{{asset('img/logo.jpg')}}">
                     </a>
                 </div>
                 <div class="sidebar-user-name">{{-- {{Auth::guard('admin')->user()->userName}} --}}</div>
@@ -29,7 +31,7 @@
                     <a href="javascript:;" data-toggle="tooltip" data-placement="bottom" title="Profile"><i class="gi gi-user"></i></a>
                     <a href="javascript:;" data-toggle="tooltip" data-placement="bottom" title="Messages"><i class="gi gi-envelope"></i></a>
                     <a href="javascript:void(0)" class="enable-tooltip" data-placement="bottom" title="Settings" onclick="$('#modal-user-settings').modal('show');"><i class="gi gi-cogwheel"></i></a>
-                    <a href="{{-- {{route('admin.logout')}} --}}" data-toggle="tooltip" data-placement="bottom" title="Logout"><i class="gi gi-exit"></i></a>
+                    <a href="{{route('admin.logout')}}" data-toggle="tooltip" data-placement="bottom" title="Logout"><i class="gi gi-exit"></i></a>
                 </div>
             </div>
             <!-- END User Info -->
