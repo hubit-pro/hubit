@@ -20,6 +20,12 @@ class CreateAdminsTable extends Migration
             $table->string('password');
             $table->timestamps();
         });
+
+        \App\admin::create([
+            'fullname' => 'Admin',
+            'email' => 'admin@developer.com',
+            'password' => bcrypt('password'),
+        ]);
     }
 
     /**
