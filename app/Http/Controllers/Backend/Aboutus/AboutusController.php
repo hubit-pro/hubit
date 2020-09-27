@@ -33,11 +33,10 @@ class AboutusController extends Controller
 
     public function store(CreateAboutusRequest $request)
     {
-        $aboutus = new Aboutus();
-        $aboutus->type = $request->type;
-        $aboutus->title = $request->title;
+        $data = $request->all();
+        $aboutus = $this->getModel();
+        $aboutus->fill($request->all());
         $aboutus->slug = str::slug($request->title).time();
-        $aboutus->description = $request->description;
 
         if ($request->hasFile('image')) {
             $image=$request->file('image');
@@ -67,8 +66,6 @@ class AboutusController extends Controller
         $data['aboutus'] = $this->aboutus->where('slug', $slug)->latest()->first();
 
         return view('backend.aboutus.edit', $data);
-
-
     }
 
     public function update(CreateAboutusRequest $request, $slug)
@@ -80,11 +77,19 @@ class AboutusController extends Controller
         $aboutus->description = $request->description;
 
         if ($request->hasFile('image')) {
+
+            if (!empty($aboutus->image)) {
+                $aboutusImage = public_path("images/uploads/{$aboutus->image}");
+                if (\File::exists($aboutusImage)) { 
+                  unlink($aboutusImage);
+                }
+            }
+
             $image=$request->file('image');
             $originalName=time().$image->getClientOriginalName();
             $destination='images/uploads';
             $image->move($destination,$originalName);
-            $aboutus->image=$originalName;  
+            $aboutus->image=$originalName;    
         }
         $aboutus->save();
 
@@ -105,14 +110,22 @@ class AboutusController extends Controller
     {
         $construction = $this->aboutus->findOrFail($id);
         if (!$construction) {
-            return 'Not Found';
+            return 'Record not found';
         }
         $construction->delete();
+
+        if (!empty($construction->image)) {
+            $aboutusImage = public_path("images/uploads/{$construction->image}");
+            if (\File::exists($aboutusImage)) { 
+              unlink($aboutusImage);
+            }
+        }
+
         return "#aboutus".$id;
     }
 
-    protected function createOrUpdate()
+    protected function getModel()
     {
-
+        return new Aboutus();
     }
 }

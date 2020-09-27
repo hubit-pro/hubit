@@ -4,8 +4,10 @@
         <div class="col-md-6">
             <select name="type" class="form-control">
                 <option value="">Select Type</option>
-                <option value="Main" @if(isset($aboutus) && ($aboutus->type == 'Main')) selected @endif>Main</option>
-                <option value="Sub" @if(isset($aboutus) && ($aboutus->type == 'Sub')) selected @endif>Sub</option>
+                <option value="Aboutus" @if(isset($aboutus) && ($aboutus->type == 'Aboutus')) selected @endif>Aboutus</option>
+                <option value="Target" @if(isset($aboutus) && ($aboutus->type == 'Target')) selected @endif>Target</option>
+                <option value="CertificateOrAward" @if(isset($aboutus) && ($aboutus->type == 'CertificateOrAward')) selected @endif>CertificateOrAward</option>
+                <option value="Vacancy" @if(isset($aboutus) && ($aboutus->type == 'Vacancy')) selected @endif>Vacancy</option>
             </select>
              @if($errors->has('type')) <p style="color: red;">{{ $errors->first('type')}}</p> @endif
         </div>
