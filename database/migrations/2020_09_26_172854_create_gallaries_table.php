@@ -27,6 +27,7 @@ class CreateGallariesTable extends Migration
 
             $table->foreign('gallary_category_id')->references('id')->on('gallary_categories')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('gallary_sub_category_id')->references('id')->on('gallary_sub_categories')->onDelete('cascade')->onUpdate('cascade');
+            // dsk
         });
     }
 
