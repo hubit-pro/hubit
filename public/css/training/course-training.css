@@ -1820,6 +1820,9 @@ section
 	{
 		top: 0px;
 	}
+	.courses_search_input{
+		padding-left: 0px;
+	}
 }
 
 /************

@@ -74,7 +74,7 @@ body{
   .track .content , .content2{
 	  color: crimson;
 	  background-color: white;
-	  font-size:18px ;
+	  font-size:15px ;
   }
   @keyframes marquee {
 	from { transform: translateX(0); }

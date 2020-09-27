@@ -235,3 +235,23 @@ display: inline-block;
     transition: all 250ms ease-out 0s;
     width: 20px;
 }
+
+@media only screen and (max-width: 767px){
+   
+    .why-us .row{
+        margin: 10px;
+    }
+    .our-values .row{
+        padding: 10px;
+    }
+    .why{
+        padding: 10px;
+    }
+    .objectives{
+        padding: 10px;
+    }
+    #customers-testimonials .item {
+        padding: 10px;
+    }
+
+}
