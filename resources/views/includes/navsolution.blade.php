@@ -87,10 +87,6 @@
 
       
       <li class="nav-item">
-        <a class="nav-link"  href="online-admission" id="navitems">online-Admission</a>
-      </li>
-      
-      <li class="nav-item">
         <a class="nav-link" href="ticket-support" id="navitems">Ticket support</a>
       </li>
 

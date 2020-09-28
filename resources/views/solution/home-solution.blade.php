@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/solution/home-solution.css">
 
   </head>
-  <body style="zoom:80%">
+  <body>
 <!-----------------------NAVBAR------------------------------->
 	@include("includes/navsolution")
 <!-------------------------NAVBAR END--------------------------------->
