@@ -20,6 +20,7 @@ body{
   background-position: center;
   position: relative;
   color: white;
+  /* background-color:#c5191970; */
   background-color:#c5191970;
 }
 @media (min-width:0px) and (max-width: 1140px){
