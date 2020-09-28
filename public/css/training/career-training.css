@@ -179,6 +179,23 @@ body{
 .benefits .one{
     margin-top: 250px;
 }
+.for-you .row .col .hubit-img{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+.for-you .row .col .hubit-img img{
+    /* height: 50%; */
+    width: 200px;
+}
+.for-you .row  .first{
+    height:200px;
+}
+.for-you .row  .second{
+    height: 400px;
+}
+
+
 }
 
 

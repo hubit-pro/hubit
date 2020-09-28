@@ -115,6 +115,9 @@ html {
     .col-md-10{
         width: 80% !important;
     }
+    #sidebar a{
+      font-size:2.5vw;
+    }
 }
 
 
