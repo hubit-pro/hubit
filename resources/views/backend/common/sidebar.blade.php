@@ -46,6 +46,15 @@
                 {{-- @endif --}}
 
                  <li>
+                    <a href="javascript:;" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-certificate sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Gallary</span></a>
+                    <ul>
+                        <li><a href="{{route('admin.gallary_category.index')}}">Category</a></li>
+                        <li><a href="{{route('admin.gallary_sub_category.index')}}">Sub Category</a></li>
+                        <li><a href="{{route('admin.gallary.index')}}">Gallary</a></li>
+                    </ul>
+                </li>
+
+                 <li>
                     <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-certificate sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">News</span></a>
                     <ul>
                         <li>

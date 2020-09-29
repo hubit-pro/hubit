@@ -19,6 +19,11 @@ class CreateGallariesTable extends Migration
             $table->unsignedBigInteger('gallary_sub_category_id');
             $table->string('name');
             $table->string('slug')->unique();
+            $table->string('email')->nullable();
+            $table->string('phoneNumber')->nullable();
+            $table->string('companyName')->nullable();
+            $table->string('location')->nullable();
+            $table->longtext('clientSpeech')->nullable();
             $table->longtext('description')->nullable();
             $table->integer('status')->default(1);
             $table->unsignedBigInteger('creater')->nullable();
