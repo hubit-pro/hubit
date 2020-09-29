@@ -21,8 +21,14 @@
                 <thead>
                     <tr>
                         <th >SN</th>
-                        <th>Title</th>
-                        <th>Type</th>
+                        <th>Category</th>
+                        <th>Sub Category</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Company Name</th>
+                        <th>Location</th>
+                        <th>Client Speech</th>
                         <th>Description</th>
                         <th>Image</th>
                         <th>status</th>
@@ -33,8 +39,14 @@
                     @forelse($gallaries as  $key=>$n)
                     <tr id="gallary{{$n->id}}">
                         <td>{{++$key}}</td>
-                        <td>{{$n->title}}</td>
-                        <td>{{$n->type}}</td>
+                        <td>@if($n->category){{$n->category->title}}@endif</td>
+                        <td>@if($n->subCategory){{$n->subCategory->title}}@endif</td>
+                        <td>{{$n->name}}</td>
+                        <td>{{$n->email}}</td>
+                        <td>{{$n->phoneNumber}}</td>
+                        <td>{{$n->companyName}}</td>
+                        <td>{{$n->location}}</td>
+                        <td>{!! $n->cleintSpeech !!}</td>
                         <td>{!! $n->description !!}</td>
                         <td><img src="{{asset('images/uploads/'. $n->image)}}" style="height: 100px; width: 200px;"></td>
                         <td><input @if($n->status == '1') checked="checked" @endif type="checkbox" name="status" data-id="{{$n->id}}" data-status="{{$n->status}}"  class="status-switch"></td>

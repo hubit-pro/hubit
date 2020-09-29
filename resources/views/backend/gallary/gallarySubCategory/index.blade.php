@@ -35,8 +35,8 @@
                         <td><input @if($subCategory->status == '1') checked="checked" @endif type="checkbox" name="status" data-id="{{$subCategory->id}}" data-status="{{$subCategory->status}}"  class="status-switch"></td>
                         <td>
                             <div class="btn-group">
-                                <a href="javascript:void(0)" url="{{route('gallary_sub_category.edit', $subCategory->id)}}" data-toggle="tooltip" title="Edit" class="btn btn-xs btn-default edit" data-subCategory="{{$subCategory}}"><i class="fa fa-pencil"></i></a>
-                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger remove_button" url="{{route('gallary_sub_category.destroy', $subCategory->id)}}"><i class="fa fa-times"></i></a>
+                                <a href="javascript:void(0)" url="{{route('admin.gallary_sub_category.edit', $subCategory->id)}}" data-toggle="tooltip" title="Edit" class="btn btn-xs btn-default edit" data-subCategory="{{$subCategory}}"><i class="fa fa-pencil"></i></a>
+                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger remove_button" url="{{route('admin.gallary_sub_category.destroy', $subCategory->id)}}"><i class="fa fa-times"></i></a>
                             </div>
                         </td>
                     </tr>
@@ -56,7 +56,7 @@
 
             <!-- Modal Body -->
             <div class="modal-body">
-                <form action="{{route('gallary_sub_category.store')}}" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;"  id="addForm">
+                <form action="{{route('admin.gallary_sub_category.store')}}" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;"  id="addForm">
                     @csrf
                     <fieldset>
                         <legend>Add Sub Category</legend>
@@ -188,7 +188,7 @@
                     console.log('test12');
                     var chk = '1';
                 } 
-            $.post('{{route('change.gallary.sub.category.status')}}',{'_token':'{{csrf_token()}}',sub_category_id:subCategoryId, status:chk}, function(){
+            $.post('{{route('admin.change.gallary.sub.category.status')}}',{'_token':'{{csrf_token()}}',sub_category_id:subCategoryId, status:chk}, function(){
 
                 toastr.success('status changed successfully');
             });

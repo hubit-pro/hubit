@@ -36,8 +36,8 @@
                         <td><input @if($category->status == '1') checked="checked" @endif type="checkbox" name="status" data-id="{{$category->id}}" data-status="{{$category->status}}"  class="status-switch"></td>
                         <td>
                             <div class="btn-group">
-                                <a href="javascript:void(0)" url="{{route('gallary_category.edit', $category->id)}}" data-toggle="tooltip" title="Edit" class="btn btn-xs btn-default edit" data-category="{{$category}}"><i class="fa fa-pencil"></i></a>
-                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger remove_button" url="{{route('gallary_category.destroy', $category->id)}}"><i class="fa fa-times"></i></a>
+                                <a href="javascript:void(0)" url="{{route('admin.gallary_category.edit', $category->id)}}" data-toggle="tooltip" title="Edit" class="btn btn-xs btn-default edit" data-category="{{$category}}"><i class="fa fa-pencil"></i></a>
+                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger remove_button" url="{{route('admin.gallary_category.destroy', $category->id)}}"><i class="fa fa-times"></i></a>
                             </div>
                         </td>
                     </tr>
@@ -57,7 +57,7 @@
 
             <!-- Modal Body -->
             <div class="modal-body">
-                <form action="{{route('gallary_category.store')}}" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;"  id="addForm">
+                <form action="{{route('admin.gallary_category.store')}}" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;"  id="addForm">
                     @csrf
                     <fieldset>
                         <legend>Add Category</legend>
@@ -166,7 +166,7 @@
                     console.log('test12');
                     var chk = '1';
                 } 
-            $.post('{{route('change.gallary.category.status')}}',{'_token':'{{csrf_token()}}',category_id:categoryId, status:chk}, function(){
+            $.post('{{route('admin.change.gallary.category.status')}}',{'_token':'{{csrf_token()}}',category_id:categoryId, status:chk}, function(){
 
                 toastr.success('status changed successfully');
             });

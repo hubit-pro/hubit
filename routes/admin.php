@@ -24,4 +24,5 @@ Route::namespace('Backend\Gallary')->name('admin.')->group(function(){
 	Route::post('gallary_sub_category_changeStatus', 'GallarySubCategoryController@changeStatus')->name('change.gallary.sub.category.status');
 	Route::resource('gallary', 'GallaryController');
 	Route::post('gallary_changeStatus', 'GallaryController@changeStatus')->name('change.gallary.status');
+	Route::post('gallalry-sub-category', 'GallaryController@subCategory')->name('gallary.sub.category');
 });

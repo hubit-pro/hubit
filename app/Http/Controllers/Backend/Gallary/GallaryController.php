@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Backend\Gallary;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-// use App\Http\Requests\CreategallaryRequest;
-// use App\Http\Requests\UpdategallaryRequest;
+use App\Http\Requests\CreateGallaryRequest;
+use App\Http\Requests\UpdateGallaryRequest;
 use App\Models\Gallary;
 use App\Models\GallaryCategory;
 use App\Models\GallarySubCategory;
@@ -29,29 +29,32 @@ class GallaryController extends Controller
     public function index()
     {
         $data['gallaries'] = $this->gallary->get();
-        $data['gallaryCategories'] = $this->gallaryCategory->get();
-        $data['gallarySubCategories'] = $this->gallarySubCategory->get();
+
         return view('backend.gallary.index', $data);
     }
 
     public function create()
     {
-        return view('backend.gallary.create');
+        $data['gallaryCategories'] = $this->gallaryCategory->get();
+        $data['gallarySubCategories'] = $this->gallarySubCategory->get();
+
+        return view('backend.gallary.create', $data);
     }
 
-    public function store(Request $request)
+    public function store(CreateGallaryRequest $request)
     {
         $data = $request->all();
         $gallary = $this->getModel();
         $gallary->fill($request->all());
-        $gallary->slug = str::slug($request->title).time();
+        $gallary->slug = str::slug($request->name).time();
+        $gallary->creater = Auth::guard('admin')->user()->id;
 
         if ($request->hasFile('image')) {
-            $image=$request->file('image');
-            $originalName=time().$image->getClientOriginalName();
-            $destination='images/uploads';
-            $image->move($destination,$originalName);
-            $gallary->image=$originalName;  
+            // $image=$request->file('image');
+            // $originalName=time().$image->getClientOriginalName();
+            // $destination='images/uploads';
+            // $image->move($destination,$originalName);
+            // $gallary->image=$originalName;  
         }
         $gallary->save();
 
@@ -78,28 +81,28 @@ class GallaryController extends Controller
         return view('backend.gallary.edit', $data);
     }
 
-    public function update(CreategallaryRequest $request, $slug)
+    public function update(UpdateGallaryRequest $request, $slug)
     {
+        $data = $request->all();
         $gallary = $this->gallary->where('slug', $slug)->first();
-        $gallary->type = $request->type;
-        $gallary->title = $request->title;
-        $gallary->slug = str::slug($request->title).time();
-        $gallary->description = $request->description;
+        $gallary->fill($request->all());
+        $gallary->slug = str::slug($request->name).time();
+        $gallary->updater = Auth::guard('admin')->user()->id;
 
         if ($request->hasFile('image')) {
 
-            if (!empty($gallary->image)) {
-                $gallaryImage = public_path("images/uploads/{$gallary->image}");
-                if (\File::exists($gallaryImage)) { 
-                  unlink($gallaryImage);
-                }
-            }
+            // if (!empty($gallary->image)) {
+            //     $gallaryImage = public_path("images/uploads/{$gallary->image}");
+            //     if (\File::exists($gallaryImage)) { 
+            //       unlink($gallaryImage);
+            //     }
+            // }
 
-            $image=$request->file('image');
-            $originalName=time().$image->getClientOriginalName();
-            $destination='images/uploads';
-            $image->move($destination,$originalName);
-            $gallary->image=$originalName;    
+            // $image=$request->file('image');
+            // $originalName=time().$image->getClientOriginalName();
+            // $destination='images/uploads';
+            // $image->move($destination,$originalName);
+            // $gallary->image=$originalName;    
         }
         $gallary->save();
 
@@ -125,13 +128,19 @@ class GallaryController extends Controller
         $construction->delete();
 
         if (!empty($construction->image)) {
-            $gallaryImage = public_path("images/uploads/{$construction->image}");
-            if (\File::exists($gallaryImage)) { 
-              unlink($gallaryImage);
-            }
+            // $gallaryImage = public_path("images/uploads/{$construction->image}");
+            // if (\File::exists($gallaryImage)) { 
+            //   unlink($gallaryImage);
+            // }
         }
 
         return "#gallary".$id;
+    }
+
+    public function subCategory(Request $request)
+    {
+        $data = $this->gallarySubCategory->where('gallary_category_id', $request->category_id)->where('status', true)->get();
+        return $data;
     }
 
     protected function getModel()
