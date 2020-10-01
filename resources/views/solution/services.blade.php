@@ -9,7 +9,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-131576038-1');
   </script>
   <!-- Google Tag Manager -->
@@ -20,7 +19,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WT6FX7W');</script>
 <!-- End Google Tag Manager -->
 <!-- to this -->
-
 </head>
 <body>
 <!-- Dont edit this code-->
@@ -79,7 +77,7 @@ window.fbAsyncInit = function() {
 <!--------------------------0UR AMENITIES TOPIC------------------------------>
 <section class="container-fluid p-5 text-center" style="background-color: white;">
   <div class="row">
-    <div class="col-xl-12" style="color: darkslategray; border-bottom: 1px solid #082941;">
+    <div class="col-xl-12" style="color:gray; border-bottom: 1px solid #082941;">
       <h4>SCOPE OF OUR SERVICES</h4>
     </div>
   </div>
@@ -227,8 +225,7 @@ window.fbAsyncInit = function() {
                 <div class="cmt-cont-child animated standby slideInLeft" data-delay="500">
                   <p>Overview: A computer network is a system in which multiple computers are connected to each other to share information and resources.Key Aspects of this technology create files and store them in one computer, access those files from the other computer(s) connected over the network and also connect a printer, scanner, or a fax machine to one computer within the network and let other computers of the network use the machines available over network. <strong><i>Benefits of this technology to your organization:</i></strong><br>*<i>File and Data sharing</i><br>*<i>Hardware & Resource sharing</i><br>*<i>Internet Access Sharing</i><br>*<i>Data Security and management</i></p>
                 </div>
-            </div>
-
+</div>
             <div class="col-xl-3 p-4 cmt-cont-img animated standby slideInRight" data-delay="500" id="cmt-cont-img7">
               <img style="height: 150px; width: 100%;" src="img/image10.png">
             </div>
