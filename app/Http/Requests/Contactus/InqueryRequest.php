@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Requests;
+namespace App\Http\Requests\Contactus;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class UpdateAboutusRequest extends FormRequest
+class InqueryRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.

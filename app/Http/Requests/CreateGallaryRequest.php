@@ -33,7 +33,7 @@ class CreateGallaryRequest extends FormRequest
             'location' => 'required|max:255',
             'clientSpeech' => 'nullable|min:5',
             'description' => 'nullable|min:5',
-            'image' => 'nullable||mimes:jpg,jpeg,png',
+            'image' => 'nullable|mimes:jpg,jpeg,png',
         ];
     }
 }

@@ -26,3 +26,15 @@ Route::namespace('Backend\Gallary')->name('admin.')->group(function(){
 	Route::post('gallary_changeStatus', 'GallaryController@changeStatus')->name('change.gallary.status');
 	Route::post('gallalry-sub-category', 'GallaryController@subCategory')->name('gallary.sub.category');
 });
+
+Route::namespace('Backend\Contactus')->name('admin.')->group(function(){
+	Route::resource('contactus', 'ContactusController');
+	Route::post('contactus_changeStatus', 'ContactusController@changeStatus')->name('change.contactus.status');
+});
+Route::namespace('Backend\Product')->name('admin.')->group(function(){
+	Route::resource('product_category', 'ProductCategoryController');
+	Route::post('product_category_changeStatus', 'ProductCategoryController@changeStatus')->name('change.product.category.status');
+	Route::resource('product', 'ProductController');
+	Route::post('product_changeStatus', 'ProductController@changeStatus')->name('change.product.status');
+
+});

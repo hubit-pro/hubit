@@ -66,17 +66,17 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-certificate sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Article</span></a>
+                    <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-certificate sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Product</span></a>
                     <ul>
-                        <li>
-                            <a href="">Article</a>
-                        </li>
+                        <li><a href="{{route('admin.product_category.index')}}">Product Category</a></li>
+                        <li><a href="{{route('admin.product.index')}}">Product</a></li>
                     </ul>
                 </li>
                  <li>
                     <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-show_big_thumbnails sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">More</span></a>
                     <ul>
-                        <li><a href="{{route('admin.aboutus.index')}}">About Us</a></li>
+                        <li><a href="{{route('admin.aboutus.index')}}">Pages</a></li>
+                        <li><a href="{{route('admin.contactus.index')}}">Contact us</a></li>
                     </ul>
                 </li>
                 

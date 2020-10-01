@@ -6,15 +6,13 @@
             color: red;
         }
     </style>
-    {{-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
-    <link href="{{asset('css/plugins/switchery/switchery.css')}}" rel="stylesheet"> --}}
 @endpush
 @section('content')
 
 <div id="page-content">
     <div class="block full">
         <div class="block-title">
-            <h2><strong>Gallary</strong> Category</h2>
+            <h2><strong>Product</strong> Category</h2>
             <h2 style="float: right;"><button class="btn btn-primary" onclick="$('#show_modal').modal('show');">ADD</button></h2>
         <br><br>
         </div>
@@ -30,14 +28,14 @@
                 </thead>
                 <tbody id="tableData">
                     @forelse($categories as  $key=>$category)
-                    <tr id="gallaryCategory{{$category->id}}">
+                    <tr id="productCategory{{$category->id}}">
                         <td>{{++$key}}</td>
                         <td>{{$category->title}}</td>
                         <td><input @if($category->status == '1') checked="checked" @endif type="checkbox" name="status" data-id="{{$category->id}}" data-status="{{$category->status}}"  class="status-switch"></td>
                         <td>
                             <div class="btn-group">
-                                <a href="javascript:void(0)" url="{{route('admin.gallary_category.edit', $category->id)}}" data-toggle="tooltip" title="Edit" class="btn btn-xs btn-default edit" data-category="{{$category}}"><i class="fa fa-pencil"></i></a>
-                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger remove_button" url="{{route('admin.gallary_category.destroy', $category->id)}}"><i class="fa fa-times"></i></a>
+                                <a href="javascript:void(0)" url="{{route('admin.product_category.edit', $category->id)}}" data-toggle="tooltip" title="Edit" class="btn btn-xs btn-default edit" data-category="{{$category}}"><i class="fa fa-pencil"></i></a>
+                                <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger remove_button" url="{{route('admin.product_category.destroy', $category->id)}}"><i class="fa fa-times"></i></a>
                             </div>
                         </td>
                     </tr>
@@ -57,7 +55,7 @@
 
             <!-- Modal Body -->
             <div class="modal-body">
-                <form action="{{route('admin.gallary_category.store')}}" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;"  id="addForm">
+                <form action="{{route('admin.product_category.store')}}" method="post" enctype="multipart/form-data" class="form-horizontal form-bordered" onsubmit="return false;"  id="addForm">
                     @csrf
                     <fieldset>
                         <legend>Add Category</legend>
@@ -166,7 +164,7 @@
                     console.log('test12');
                     var chk = '1';
                 } 
-            $.post('{{route('admin.change.gallary.category.status')}}',{'_token':'{{csrf_token()}}',category_id:categoryId, status:chk}, function(){
+            $.post('{{route('admin.change.product.category.status')}}',{'_token':'{{csrf_token()}}',category_id:categoryId, status:chk}, function(){
 
                 toastr.success('status changed successfully');
             });
@@ -212,7 +210,7 @@
                 $('#editModal').find('#'+index).val(val);
             });
 
-            $('#editForm').attr('action','/gallary_category/'+category.id);
+            $('#editForm').attr('action','/product_category/'+category.id);
             $('#editModal').modal('show');
         });
     </script>
