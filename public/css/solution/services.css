@@ -2,20 +2,14 @@ body{
     overflow-x: hidden;
 }
 /* 
-
-
-
 #image{
   width: 200px;
   height: 80px;
 }
-
 #image img{
   height: 100%;
   width: 100%;
 }
-
-
 @media (min-width: 0) and (max-width: 768px) {
   #image{
   width: 150px;
@@ -23,7 +17,6 @@ body{
   margin-right: 50px;
   }
 }
-
 .rib{ 
   color: white;
   font-weight: bold;
@@ -33,12 +26,10 @@ body{
   text-align: center;
   font-size: 1rem;
 }
-
 .non img{
   height: 250px; 
   width: 100%;
 }
-
 #topper{
   top: 0px; 
   background-color: rgba(0,0,0,0.5);
@@ -46,14 +37,18 @@ body{
   width: 100%;
   height: 250px;
 }
-
 /*-----------veaw-pot1-------*/
-
-
-
-
-
-#veaw-pot{
+h5{
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: -60px;
+}
+h4{
+  color:#ef4d25bd; 
+  font-weight: bold;
+  font-size: 30px;
+}
+/* #veaw-pot{
     height: auto;
     width:100%;
     padding: 0px;
@@ -67,9 +62,6 @@ body{
   justify-content: center;
     align-items: center
 }
-
-
-
 /*.cmt-cont-img{
   width: 35%;
   height: 200px;
@@ -78,11 +70,7 @@ body{
     background-size: 100% 100%;   
   background-repeat: no-repeat;
 }*/
-
-
-
-
-.flex2{
+/* .flex2{
   width: 100%;
   padding: 30px 100px;
   display: flex;
@@ -90,25 +78,21 @@ body{
   justify-content: center;
     align-items: center
 }
-
-
 .animated.standby {
   -webkit-animation: none !important;
   -o-animation: none !important;
   animation: none !important;
   visibility: hidden;
 }
-
 button{
   cursor: pointer;
   background-color: #343a40;
   color: white;
 }
-
 .gofgof{
   height: 150px;
   margin-top: -10px;
 }
 .fun{
   height: 200px;
-}
+}  */
