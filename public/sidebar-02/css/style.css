@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- :root {
+:root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -8144,7 +8144,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #f8b739; }
+  color: #866ec7; }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
@@ -8203,32 +8203,29 @@ h1, h2, h3, h4, h5,
   outline: none !important;
   border: none; }
 
-.line {
-  width: 100%;
-  height: 1px;
-  border-bottom: 1px dashed #ddd;
-  margin: 40px 0; }
-
 .wrapper {
   width: 100%; }
 
 #sidebar {
-  min-width: 300px;
-  max-width: 300px;
-  background: #1d1919;
+  min-width: 250px;
+  max-width: 250px;
+  background: #866ec7;
   color: #fff;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+  position: relative; }
+  #sidebar .h6 {
+    color: #fff; }
   #sidebar.active {
-    margin-left: -300px; }
-  #sidebar .logo {
-    display: block;
-    width: 120px;
-    height: 120px;
-    margin: 0 auto; }
-    #sidebar .logo span {
-      display: block; }
+    margin-left: -250px; }
+    #sidebar.active .custom-menu {
+      margin-right: -50px; }
+  #sidebar h1 {
+    margin-bottom: 20px;
+    font-weight: 700; }
+    #sidebar h1 .logo {
+      color: #fff; }
   #sidebar ul.components {
     padding: 0; }
   #sidebar ul li {
@@ -8243,15 +8240,42 @@ h1, h2, h3, h4, h5,
       color: rgba(255, 255, 255, 0.8);
       border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
       #sidebar ul li a:hover {
-        color: #f8b739; }
+        color: #fff; }
     #sidebar ul li.active > a {
       background: transparent;
-      color: #f8b739; }
+      color: #fff; }
   @media (max-width: 991.98px) {
     #sidebar {
-      margin-left: -300px; }
+      margin-left: -250px; }
       #sidebar.active {
-        margin-left: 0; } }
+        margin-left: 0; }
+      #sidebar .custom-menu {
+        margin-right: -50px !important;
+        top: 10px !important; } }
+  #sidebar .custom-menu {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin-right: -20px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+    @media (prefers-reduced-motion: reduce) {
+      #sidebar .custom-menu {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none; } }
+    #sidebar .custom-menu .btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%; }
+      #sidebar .custom-menu .btn.btn-primary {
+        background: #6749b9;
+        border-color: #6749b9; }
+        #sidebar .custom-menu .btn.btn-primary:hover, #sidebar .custom-menu .btn.btn-primary:focus {
+          background: #6749b9 !important;
+          border-color: #6749b9 !important; }
 
 a[data-toggle="collapse"] {
   position: relative; }
@@ -8278,113 +8302,35 @@ a[data-toggle="collapse"] {
   transition: all 0.3s; }
 
 .btn.btn-primary {
-  background: #f8b739;
-  border-color: #f8b739; }
+  background: #866ec7;
+  border-color: #866ec7; }
   .btn.btn-primary:hover, .btn.btn-primary:focus {
-    background: #f8b739 !important;
-    border-color: #f8b739 !important; }
+    background: #866ec7 !important;
+    border-color: #866ec7 !important; }
 
 .footer p {
   color: rgba(255, 255, 255, 0.5); }
 
-
-
-
-
-
-/* login form css start */
-
-/* login form card */
-.user_card {
-    height: 500px;
-    width: 450px;
-    margin-top: auto;
-    margin-bottom: auto;
-    background: #f39c12;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 5px;
-
-}
-/* login form logo div */
-
-.brand_logo_container {
-    position: absolute;
-    height: 170px;
-    width: 170px;
-    top: -75px;
-    border-radius: 50%;
-    background: #60a3bc;
-    padding: 10px;
-    text-align: center;
-}
-/* login form logo image */
-
-.brand_logo {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 2px solid white;
-}
-/* login form div */
-
-.form_container {
-    margin-top: 100px;
-}
-/* login form login btn */
-
-.login_btn {
-    width: 100%;
-    background: #c0392b !important;
-    color: white !important;
-}
-/* login form login btn */
-
-.login_btn:focus {
-    box-shadow: none !important;
-    outline: 0px !important;
-}
-/* login form login btn div */
-
-.login_container {
-    padding: 0 2rem;
-}
-/* login form input */
-
-.input-group-text {
-    background: #c0392b !important;
-    color: white !important;
-    border: 0 !important;
-    border-radius: 0.25rem 0 0 0.25rem !important;
-}
-/* login form input */
-
-.input_user,
-.input_pass:focus {
-    box-shadow: none !important;
-    outline: 0px !important;
-}
-/* login form checkbox */
-
-.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #c0392b !important;
-}
-/* login form forget your password */
-
-.mt-4 a{
-    color: crimson !important;
-
-}
-/* login form allsection */
-section{
-    display:none;
-
-}
-/* login form css end */
-
+.form-control {
+  height: 40px !important;
+  background: #fff;
+  color: #000;
+  font-size: 13px;
+  border-radius: 4px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: transparent; }
+  .form-control:focus, .form-control:active {
+    border-color: #000; }
+  .form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.3); }
+  .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.3); }
+  .form-control:-ms-input-placeholder {
+    /* IE 0+ */
+    color: rgba(0, 0, 0, 0.3); }
+  .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.3); }
