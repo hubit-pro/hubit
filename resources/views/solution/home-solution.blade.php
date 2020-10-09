@@ -11,25 +11,16 @@
 	<!-----------------------NAVBAR------------------------------->
 	@include("includes/navsolution")
 	<!-------------------------NAVBAR END--------------------------------->
-
-
-
 	<!-----------------------------SLIDER----------------------->
-
 	<section class="container-fluid main-div">
-
 		<div class="container-fluid">
-
-
 			<div id="demo" class="carousel slide" data-ride="carousel">
-
 				<!-- Indicators -->
 				<ul class="carousel-indicators">
 					<li data-target="#demo" data-slide-to="0" class="active"></li>
 					<li data-target="#demo" data-slide-to="1"></li>
 					<li data-target="#demo" data-slide-to="2"></li>
 				</ul>
-
 				<!-- The slideshow -->
 				<div class="carousel-inner">
 					<div class="carousel-item active">
@@ -54,19 +45,12 @@
 											<a href="#goto" id="banner-btn">Contact us</a>
 										</div>
 									</div>
-
 								</div>
-
-
 							</div>
 						</div>
-
-
-
 					</div>
 					<div class="carousel-item">
 						<div class="slideshow-container ">
-
 							<div class="contents second">
 								<div class="myslides" style="display: block;">
 									<h2>
@@ -87,23 +71,14 @@
 
 							</div>
 						</div>
-
-
 					</div>
-
-
 					<div class="carousel-item">
 						<div class="slideshow-container ">
-
 							<div class="contents third ">
 								<div class="myslides" style="display: block;">
 									<h2>
-
 										DURABLE <br>& SUSTAINABLE<br>
 										SOLUTIONS
-
-
-
 										<span>WE SOLVE YOUR TECH PROBLEMS.</span>
 									</h2>
 									<img src="img/solution3.png" class="p_img">
@@ -126,13 +101,9 @@
 
 			</div>
 		</div>
-
-
 		<!--------------------------SLIDER END------------------------>
 	</section>
 	<!--------------------------SLIDER END------------------------>
-
-
 	<div class="containter-fluid ">
 		<div class="passion">
 			<p id="txt-1">
@@ -141,9 +112,6 @@
 			<hr>
 		</div>
 	</div>
-
-
-
 	<div class="card-container" onclick="location.href='courses';" style="margin-bottom:50px;" data-aos="fade-right">
 		<div class="card">
 			<div class="content-box">

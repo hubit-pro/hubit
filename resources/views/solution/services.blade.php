@@ -63,13 +63,14 @@ window.fbAsyncInit = function() {
 <!--------------------------NON-SLIDER----------------------->
 <section class="container-fluid p-0 non" style="position: relative;">
 
-  <img src="img/train.jpg">
+<img src="img/516010.jpg">
+
 <!-------------------------TEXT CONTAINER-------------------->
   <section class="container-fluid" id="topper"><!--this id "topper" is the transparent box over the slider--->
     <div class="row pt-5 pb-4 rib">
     <div class="row">
-      <div class="col-xl-12 text-center" style="color: white;">
-        <h3>Solution-->Services</h3>
+      <div class="col-xl-12 text-center" style="color:crimson;margin:20px">
+        <h3>Our Services</h3>
       </div>
     </div>
   </section>

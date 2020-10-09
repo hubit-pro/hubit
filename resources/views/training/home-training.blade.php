@@ -363,12 +363,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>Enroll now</button>
+                    <a href = "enroll"><button>Enroll now</button></a>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <a href = "details"><button>View Details</button></a>
                   </div>
                 </div>
               </div>
@@ -411,7 +411,7 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                  <a href = "enroll"><button>Enroll now</button></a>
                   </div>
                 </div>
                 <div class="col">
@@ -457,7 +457,7 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                  <a href = "enroll"><button>Enroll now</button></a>
                   </div>
                 </div>
                 <div class="col">
@@ -505,7 +505,7 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                  <a href = "enroll"><button>Enroll now</button></a>
                   </div>
                 </div>
                 <div class="col">
@@ -558,7 +558,7 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>Enroll now</button>
+                  <a href = "enroll"><button>Enroll now</button></a>
                   </div>
                 </div>
                 <div class="col">
@@ -606,7 +606,7 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                  <a href = "enroll"><button>Enroll now</button></a>
                   </div>
                 </div>
                 <div class="col">
@@ -654,7 +654,7 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                  <a href = "enroll"><button>Enroll now</button></a>
                   </div>
                 </div>
                 <div class="col">
@@ -702,7 +702,7 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                  <a href = "enroll"><button>Enroll now</button></a>
                   </div>
                 </div>
                 <div class="col">
@@ -756,7 +756,7 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>Enroll now</button>
+                  <a href = "enroll"><button>Enroll now</button></a>
                   </div>
                 </div>
                 <div class="col">
@@ -804,7 +804,7 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                  <a href = "enroll"><button>Enroll now</button></a>
                   </div>
                 </div>
                 <div class="col">
@@ -852,7 +852,7 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                  <a href = "enroll"><button>Enroll now</button></a>
                   </div>
                 </div>
                 <div class="col">
@@ -900,7 +900,7 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                  <a href = "enroll"><button>Enroll now</button></a>
                   </div>
                 </div>
                 <div class="col">

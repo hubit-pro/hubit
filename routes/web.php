@@ -100,6 +100,7 @@ Route::get('career-training', function () {
 Route::get('courses', function () {
     return view('training/course-training');
 });
+
 Route::get('business-services', function () {
     return view('training/business-services');
 });
@@ -135,6 +136,12 @@ Route::get('categories', function () {
 });
 Route::get('course-details', function () {
     return view('training/course-details');
+});
+Route::get('enroll', function () {
+    return view('training/enroll');
+});
+Route::get('details', function () {
+    return view('training/details');
 });
 
 
