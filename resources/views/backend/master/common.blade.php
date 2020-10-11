@@ -4,10 +4,12 @@
         <div class="col-md-6">
             <select name="type" class="form-control">
                 <option value="">Select Type</option>
-                <option value="Aboutus" @if(isset($aboutus) && ($aboutus->type == 'Aboutus')) selected @endif>Aboutus</option>
-                <option value="Target" @if(isset($aboutus) && ($aboutus->type == 'Target')) selected @endif>Target</option>
-                <option value="CertificateOrAward" @if(isset($aboutus) && ($aboutus->type == 'CertificateOrAward')) selected @endif>CertificateOrAward</option>
-                <option value="Vacancy" @if(isset($aboutus) && ($aboutus->type == 'Vacancy')) selected @endif>Vacancy</option>
+                <option value="Aboutus" @if(isset($master) && ($master->type == 'master')) selected @endif>master</option>
+                <option value="Target" @if(isset($master) && ($master->type == 'Target')) selected @endif>Target(Mission)</option>
+                <option value="CertificateOrAward" @if(isset($master) && ($master->type == 'CertificateOrAward')) selected @endif>CertificateOrAward</option>
+                <option value="Vacancy" @if(isset($master) && ($master->type == 'Vacancy')) selected @endif>Vacancy</option>
+                <option value="Service" @if(isset($master) && ($master->type == 'Service')) selected @endif>Service</option>
+                <option value="Blog" @if(isset($master) && ($master->type == 'Blog')) selected @endif>Blog</option>
             </select>
              @if($errors->has('type')) <p style="color: red;">{{ $errors->first('type')}}</p> @endif
         </div>
@@ -15,14 +17,14 @@
     <div class="form-group">
         <label class="col-md-2 control-label" >Title</label>
         <div class="col-md-6">
-            <input type="text" name="title" class="form-control" value="@if(isset($aboutus)){{$aboutus->title}}@else{{old('title')}}@endif" placeholder="title">
+            <input type="text" name="title" class="form-control" value="@if(isset($master)){{$master->title}}@else{{old('title')}}@endif" placeholder="title">
             @if($errors->has('title')) <p style="color: red;">{{ $errors->first('title')}}</p> @endif
         </div>
     </div>
     <div class="form-group">
         <label class="col-md-2 control-label" >Description </label>
         <div class="col-md-6">
-            <textarea class="form-control ckeditor" placeholder="Content here" name="description" id="editor1" >@if(isset($aboutus)) {!! $aboutus->description !!} @else{{old('description')}}@endif</textarea>
+            <textarea class="form-control ckeditor" placeholder="Content here" name="description" id="editor1" >@if(isset($master)) {!! $master->description !!} @else{{old('description')}}@endif</textarea>
 
             @if($errors->has('description')) <p style="color: red;">{{ $errors->first('description')}}</p> @endif
         </div>
@@ -31,8 +33,8 @@
         <label class="col-md-2 control-label" >Image</label>
         <div class="col-md-6">
             <input type="file" name="image" class="form-control">
-             @if(isset($aboutus))
-                <img src="{{asset('images/uploads/'. $aboutus->image)}}" style="max-width: 200px; max-height: 200px;">  
+             @if(isset($master))
+                <img src="{{asset('images/uploads/'. $master->image)}}" style="max-width: 200px; max-height: 200px;">  
             @endif
             @if($errors->has('image')) <p style="color: red;">{{ $errors->first('image')}}</p> @endif
         </div>
@@ -42,7 +44,7 @@
     <div class="col-md-6 col-md-offset-2">
         <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-arrow-right"></i> Submit</button>
         <button type="reset" class="btn btn-sm btn-warning"><i class="fa fa-repeat"></i> Reset</button>
-        <a href="{{route('admin.aboutus.index')}}" class="btn btn-sm btn-info">Back</a>
+        <a href="{{route('admin.master.index')}}" class="btn btn-sm btn-info">Back</a>
     </div>
 </div>
 @push('scripts')

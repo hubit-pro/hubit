@@ -36,10 +36,10 @@
                 </li>
                 {{-- @if(Auth::guard('admin')->user()->role == 1) --}}
                 <li>
-                    <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-certificate sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Manager</span></a>
+                    <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-certificate sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Student</span></a>
                     <ul>
                         <li>
-                            <a href="">Managers</a>
+                            <a href="{{route('admin.student.index')}}">Students</a>
                         </li>
                     </ul>
                 </li>
@@ -55,13 +55,13 @@
                 </li>
 
                  <li>
-                    <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-certificate sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">News</span></a>
+                    <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-certificate sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Course</span></a>
                     <ul>
                         <li>
-                            <a href="">News Category</a>
+                            <a href="{{route('admin.course_category.index')}}">Course Category</a>
                         </li>
                         <li>
-                            <a href="">News</a>
+                            <a href="{{route('admin.course.index')}}">Course</a>
                         </li>
                     </ul>
                 </li>
@@ -75,8 +75,9 @@
                  <li>
                     <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-show_big_thumbnails sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">More</span></a>
                     <ul>
-                        <li><a href="{{route('admin.aboutus.index')}}">Pages</a></li>
+                        <li><a href="{{route('admin.master.index')}}">Master</a></li>
                         <li><a href="{{route('admin.contactus.index')}}">Contact us</a></li>
+                        <li><a href="{{route('admin.image.index')}}">Image</a></li>
                     </ul>
                 </li>
                 

@@ -7,13 +7,12 @@
 <div class="block">
     <!-- Form Validation Example Title -->
     <div class="block-title">
-        <h2><strong>About Us</strong> Create</h2>
-        
+        <h2><strong>Image</strong> Edit</h2>
     </div>
-   
-    <form id="form-validation" action="{{route('admin.aboutus.store')}}" method="post" class="form-horizontal form-bordered" enctype='multipart/form-data'>
+    <form id="form-validation" action="{{route('admin.image.update',$image->slug)}}" method="post" class="form-horizontal form-bordered" enctype='multipart/form-data'>
         @csrf
-        @include('backend.aboutus.common')
+        {{method_field('PUT')}}
+        @include('backend.image.common')
     </form>
   
 </div>
@@ -24,5 +23,3 @@
 
 
 @endsection
-
-

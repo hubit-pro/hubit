@@ -11,10 +11,10 @@ Route::prefix('admin')->name('admin.')->namespace('Backend\Auth')->group(functio
 	Route::put('changePassword/{slug}', 'ChangePasswordController@update')->name('changePassword.update');
 });
 
-//aboutus
-Route::namespace('Backend\Aboutus')->name('admin.')->group(function(){
-	Route::resource('aboutus', 'AboutusController');
-	Route::post('aboutus_changeStatus', 'AboutusController@changeStatus')->name('change.aboutus.status');
+//master
+Route::namespace('Backend\Master')->name('admin.')->group(function(){
+	Route::resource('master', 'MasterController');
+	Route::post('master_changeStatus', 'MasterController@changeStatus')->name('change.master.status');
 });
 
 Route::namespace('Backend\Gallary')->name('admin.')->group(function(){
@@ -36,5 +36,21 @@ Route::namespace('Backend\Product')->name('admin.')->group(function(){
 	Route::post('product_category_changeStatus', 'ProductCategoryController@changeStatus')->name('change.product.category.status');
 	Route::resource('product', 'ProductController');
 	Route::post('product_changeStatus', 'ProductController@changeStatus')->name('change.product.status');
+
+});
+Route::namespace('Backend\Course')->name('admin.')->group(function(){
+	Route::resource('course_category', 'CourseCategoryController');
+	Route::post('course_category_changeStatus', 'CourseCategoryController@changeStatus')->name('change.course.category.status');
+	Route::resource('course', 'CourseController');
+	Route::post('course_changeStatus', 'CourseController@changeStatus')->name('change.course.status');
+
+});
+Route::namespace('Backend\Student')->name('admin.')->group(function(){
+	Route::resource('student', 'StudentController');
+	Route::post('student_changeStatus', 'StudentController@changeStatus')->name('change.student.status');
+});
+Route::namespace('Backend\Image')->name('admin.')->group(function(){
+	Route::resource('image', 'ImageController');
+	Route::post('image_changeStatus', 'ImageController@changeStatus')->name('change.image.status');
 
 });

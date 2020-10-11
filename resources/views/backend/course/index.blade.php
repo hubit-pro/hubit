@@ -11,8 +11,8 @@
 <div id="page-content">
     <div class="block full">
         <div class="block-title">
-            <h2><strong>About Us</strong> List</h2>
-            <h2 style="float: right;"><a href="{{route('admin.aboutus.create')}}" class="btn btn-primary">ADD About Us</a></h2>
+            <h2><strong>Course</strong> List</h2>
+            <h2 style="float: right;"><a href="{{route('admin.course.create')}}" class="btn btn-primary">ADD Course</a></h2>
         <br><br>
         
         </div>
@@ -21,29 +21,29 @@
                 <thead>
                     <tr>
                         <th >SN</th>
+                        <th>Category</th>
                         <th>Title</th>
-                        <th>Type</th>
-                        <th>Description</th>
-                        <th>Image</th>
+                        <th>Lecturer</th>
+                        <th>Student</th>
+                        <th>Fee</th>
                         <th>status</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody id="tableData">
-                    @forelse($aboutuses as  $key=>$n)
-                    <tr id="aboutus{{$n->id}}">
+                    @forelse($courses as  $key=>$course)
+                    <tr id="course{{$course->id}}">
                         <td>{{++$key}}</td>
-                        <td>{{$n->title}}</td>
-                        <td>{{$n->type}}</td>
-                        <td>{!! $n->description !!}</td>
-                        <td><img src="{{asset('images/uploads/'. $n->image)}}" style="height: 100px; width: 200px;"></td>
-                        <td><input @if($n->status == '1') checked="checked" @endif type="checkbox" name="status" data-id="{{$n->id}}" data-status="{{$n->status}}"  class="status-switch"></td>
+                        <td>@if($course->courseCategory){{$course->courseCategory->title}}@endif</td>
+                        <td>{{$course->title}}</td>
+                        <td>{{$course->lecturer}}</td>
+                        <td>{{$course->noOfStudent}}</td>
+                        <td>{{$course->fee}}</td>
+                        <td><input @if($course->status == '1') checked="checked" @endif type="checkbox" name="status" data-id="{{$course->id}}" data-status="{{$course->status}}"  class="status-switch"></td>
                         <td>
                             <div class="btn-group">
-                                <a href="{{route('admin.aboutus.edit', $n->slug)}}" data-toggle="tooltip" title="Edit" class="btn btn-xs btn-default edit"><i class="fa fa-pencil"></i></a>
-                                @if(Auth::guard('admin')->user()->role == 1)
-                                  <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger remove_button" url="{{route('admin.aboutus.destroy', $n->id)}}"><i class="fa fa-times"></i></a>
-                                @endif
+                                <a href="{{route('admin.course.edit', $course->slug)}}" data-toggle="tooltip" title="Edit" class="btn btn-xs btn-default edit"><i class="fa fa-pencil"></i></a>
+                                  <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger remove_button" url="{{route('admin.course.destroy', $course->id)}}"><i class="fa fa-times"></i></a>
                             </div>
                         </td>
                     </tr>
@@ -103,7 +103,7 @@
                  }else{
                     var chk = '1';
                 } 
-            $.post('{{route('admin.change.aboutus.status')}}',{'_token':'{{csrf_token()}}',news_id:newsId, status:chk}, function(){
+            $.post('{{route('admin.change.course.status')}}',{'_token':'{{csrf_token()}}',news_id:newsId, status:chk}, function(){
 
                 toastr.success('status changed successfully');
             });

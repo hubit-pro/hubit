@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAboutusesTable extends Migration
+class CreateCoursesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,16 +13,23 @@ class CreateAboutusesTable extends Migration
      */
     public function up()
     {
-        Schema::create('aboutuses', function (Blueprint $table) {
+        Schema::create('courses', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('course_category_id');
             $table->string('title');
             $table->string('slug')->unique();
+            $table->string('lecturer')->nullable();
             $table->longtext('description')->nullable();
             $table->string('image')->nullable();
+            $table->string('noOfStudent')->nullable();
+            $table->string('rating')->nullable();
+            $table->string('strikFee')->nullable();
+            $table->string('fee')->nullable();
             $table->integer('status')->default(1);
-            $table->string('type')->nullable();
             $table->unsignedBigInteger('creater')->nullable();
             $table->unsignedBigInteger('updater')->nullable();
+
+            $table->foreign('course_category_id')->references('id')->on('course_categories')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }
@@ -34,6 +41,6 @@ class CreateAboutusesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('aboutuses');
+        Schema::dropIfExists('courses');
     }
 }
