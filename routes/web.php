@@ -13,18 +13,25 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
+Route::name('frontend.')->namespace('Frontend')->group(function(){
+    Route::get('/','Homecontroller@index')->name('index');
+    Route::get('/home','Homecontroller@index')->name('index');
+});
+
+Route::name('frontend.')->namespace('Frontend\ItSolution')->group(function(){
+    Route::get('it-solution','Homecontroller@index')->name('index');
+});
+Route::name('frontend.')->namespace('Frontend\ItTraining')->group(function(){
+    Route::get('it-training','Homecontroller@index')->name('index');
+});
+Route::prefix('f1')->name('frontend.')->namespace('Frontend\Aboutus')->group(function(){
+    Route::get('aboutus', 'AboutusController@index')->name('aboutus');
+});
+
+
+// Route::get('home', function () {
+//     return view('home/home');
 // });
-
-Route::get('/', function () {
-    return view('home/home');
-});
-
-
-Route::get('home', function () {
-    return view('home/home');
-});
 Route::get('career', function () {
     return view('home/career');
 });

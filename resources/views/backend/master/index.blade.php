@@ -14,7 +14,6 @@
             <h2><strong>Master</strong> List</h2>
             <h2 style="float: right;"><a href="{{route('admin.master.create')}}" class="btn btn-primary">ADD Master</a></h2>
         <br><br>
-        
         </div>
         <div class="table-responsive">
             <table id="example" class="table table-vcenter table-condensed table-bordered">
@@ -34,7 +33,7 @@
                     <tr id="master{{$n->id}}">
                         <td>{{++$key}}</td>
                         <td>{{$n->title}}</td>
-                        <td>{{$n->type}}</td>
+                        <td>{{$n->page_type}}</td>
                         <td>{!! $n->description !!}</td>
                         <td><img src="{{asset('images/uploads/'. $n->image)}}" style="height: 100px; width: 200px;"></td>
                         <td><input @if($n->status == '1') checked="checked" @endif type="checkbox" name="status" data-id="{{$n->id}}" data-status="{{$n->status}}"  class="status-switch"></td>

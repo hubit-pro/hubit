@@ -4,12 +4,13 @@
         <div class="col-md-6">
             <select name="type" class="form-control">
                 <option value="">Select Type</option>
-                <option value="Aboutus" @if(isset($master) && ($master->type == 'master')) selected @endif>master</option>
-                <option value="Target" @if(isset($master) && ($master->type == 'Target')) selected @endif>Target(Mission)</option>
-                <option value="CertificateOrAward" @if(isset($master) && ($master->type == 'CertificateOrAward')) selected @endif>CertificateOrAward</option>
-                <option value="Vacancy" @if(isset($master) && ($master->type == 'Vacancy')) selected @endif>Vacancy</option>
-                <option value="Service" @if(isset($master) && ($master->type == 'Service')) selected @endif>Service</option>
-                <option value="Blog" @if(isset($master) && ($master->type == 'Blog')) selected @endif>Blog</option>
+                <option value="1" @if(isset($master) && ($master->type == 1)) selected @endif>Aboutus(Main)</option>
+                <option value="2" @if(isset($master) && ($master->type == 2)) selected @endif>Aboutus</option>
+                <option value="3" @if(isset($master) && ($master->type == 3)) selected @endif>Target(Mission)</option>
+                <option value="4" @if(isset($master) && ($master->type == 4)) selected @endif>CertificateOrAward</option>
+                <option value="5" @if(isset($master) && ($master->type == 5)) selected @endif>Vacancy</option>
+                <option value="6" @if(isset($master) && ($master->type == 6)) selected @endif>Service</option>
+                <option value="7" @if(isset($master) && ($master->type == 7)) selected @endif>Blog</option>
             </select>
              @if($errors->has('type')) <p style="color: red;">{{ $errors->first('type')}}</p> @endif
         </div>

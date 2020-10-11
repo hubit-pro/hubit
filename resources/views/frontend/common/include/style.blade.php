@@ -58,17 +58,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+  <link href="{{asset('your-path-to-fontawesome/css/fontawesome.css')}}" rel="stylesheet">
+  <link href="{{asset('your-path-to-fontawesome/css/brands.css')}}" rel="stylesheet">
+  <link href="{{asset('your-path-to-fontawesome/css/solid.css')}}" rel="stylesheet">
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <link rel="stylesheet" type="text/css" href="{{asset('css/top-header.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('css/home/navhome.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('css/footer.css')}}">
 
-
-
-
-
-
-  
+  <link rel="stylesheet" type="text/css" href="{{asset('css/home/home.css')}}" media>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
