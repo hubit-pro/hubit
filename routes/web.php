@@ -19,10 +19,10 @@ Route::name('frontend.')->namespace('Frontend')->group(function(){
 });
 
 Route::name('frontend.')->namespace('Frontend\ItSolution')->group(function(){
-    Route::get('it-solution','Homecontroller@index')->name('index');
+    Route::get('it-solution','Homecontroller@index')->name('it-solution');
 });
 Route::name('frontend.')->namespace('Frontend\ItTraining')->group(function(){
-    Route::get('it-training','Homecontroller@index')->name('index');
+    Route::get('it-training','Homecontroller@index')->name('it-training');
 });
 Route::prefix('f1')->name('frontend.')->namespace('Frontend\Aboutus')->group(function(){
     Route::get('aboutus', 'AboutusController@index')->name('aboutus');

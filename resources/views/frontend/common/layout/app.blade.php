@@ -3,6 +3,7 @@
 <head>
   @include('frontend.common.include.style')
   <title>Best IT Training In Butwal Nepal</title>
+  @stack('style')
   
 </head>
 	

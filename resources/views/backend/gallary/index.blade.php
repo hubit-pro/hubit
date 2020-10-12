@@ -28,8 +28,6 @@
                         <th>Phone</th>
                         <th>Company Name</th>
                         <th>Location</th>
-                        <th>Client Speech</th>
-                        <th>Description</th>
                         <th>Image</th>
                         <th>status</th>
                         <th>Actions</th>
@@ -46,8 +44,6 @@
                         <td>{{$n->phoneNumber}}</td>
                         <td>{{$n->companyName}}</td>
                         <td>{{$n->location}}</td>
-                        <td>{!! $n->cleintSpeech !!}</td>
-                        <td>{!! $n->description !!}</td>
                         <td><img src="{{asset('images/uploads/'. $n->image)}}" style="height: 100px; width: 200px;"></td>
                         <td><input @if($n->status == '1') checked="checked" @endif type="checkbox" name="status" data-id="{{$n->id}}" data-status="{{$n->status}}"  class="status-switch"></td>
                         <td>

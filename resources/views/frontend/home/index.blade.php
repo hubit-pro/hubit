@@ -1,5 +1,11 @@
 @extends('frontend.common.layout.app')
 @section('title', '')
+@push('style')
+  <link rel="stylesheet" type="text/css" href="{{asset('css/home/home.css')}}" media>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+@endpush
 @section('content')
 
 <!-----------------------------SLIDER----------------------->

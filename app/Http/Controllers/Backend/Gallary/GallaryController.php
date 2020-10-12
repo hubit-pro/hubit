@@ -50,11 +50,11 @@ class GallaryController extends Controller
         $gallary->creater = Auth::guard('admin')->user()->id;
 
         if ($request->hasFile('image')) {
-            // $image=$request->file('image');
-            // $originalName=time().$image->getClientOriginalName();
-            // $destination='images/uploads';
-            // $image->move($destination,$originalName);
-            // $gallary->image=$originalName;  
+            $image=$request->file('image');
+            $originalName=time().$image->getClientOriginalName();
+            $destination='images/uploads';
+            $image->move($destination,$originalName);
+            $gallary->image=$originalName;  
         }
         $gallary->save();
 
@@ -91,18 +91,18 @@ class GallaryController extends Controller
 
         if ($request->hasFile('image')) {
 
-            // if (!empty($gallary->image)) {
-            //     $gallaryImage = public_path("images/uploads/{$gallary->image}");
-            //     if (\File::exists($gallaryImage)) { 
-            //       unlink($gallaryImage);
-            //     }
-            // }
+            if (!empty($gallary->image)) {
+                $gallaryImage = public_path("images/uploads/{$gallary->image}");
+                if (\File::exists($gallaryImage)) { 
+                  unlink($gallaryImage);
+                }
+            }
 
-            // $image=$request->file('image');
-            // $originalName=time().$image->getClientOriginalName();
-            // $destination='images/uploads';
-            // $image->move($destination,$originalName);
-            // $gallary->image=$originalName;    
+            $image=$request->file('image');
+            $originalName=time().$image->getClientOriginalName();
+            $destination='images/uploads';
+            $image->move($destination,$originalName);
+            $gallary->image=$originalName;    
         }
         $gallary->save();
 
