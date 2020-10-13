@@ -27,6 +27,12 @@ Route::name('frontend.')->namespace('Frontend\ItTraining')->group(function(){
 Route::prefix('f1')->name('frontend.')->namespace('Frontend\Aboutus')->group(function(){
     Route::get('aboutus', 'AboutusController@index')->name('aboutus');
 });
+Route::prefix('f1')->name('frontend.')->namespace('Frontend\Gallary')->group(function(){
+    Route::get('gallary_category/{slug}', 'GallaryController@index')->name('gallary_category');
+});
+Route::prefix('f1')->name('frontend.')->namespace('Frontend\Career')->group(function(){
+    Route::get('career', 'CareerController@index')->name('career');
+});
 
 
 // Route::get('home', function () {
@@ -36,12 +42,12 @@ Route::get('career', function () {
     return view('home/career');
 });
 
-Route::get('about', function () {
-    return view('home/about');
-});
-Route::get('gallery', function () {
-    return view('home/gallery');
-});
+// Route::get('about', function () {
+//     return view('home/about');
+// });
+// Route::get('gallery', function () {
+//     return view('home/gallery');
+// });
 Route::get('contact', function () {
     return view('home/contact');
 });
@@ -50,17 +56,17 @@ Route::get('online-admission', function () {
 });
 
 
-Route::get('ourclients', function () {
-    return view('home/ourclients');
-});
+// Route::get('ourclients', function () {
+//     return view('home/ourclients');
+// });
 
-Route::get('ourmembers', function () {
-    return view('home/ourmembers');
-});
+// Route::get('ourmembers', function () {
+//     return view('home/ourmembers');
+// });
 
-Route::get('ourpatners', function () {
-    return view('home/ourpatners');
-});
+// Route::get('ourpatners', function () {
+//     return view('home/ourpatners');
+// });
 
 Route::get('ourprojects', function () {
     return view('home/ourprojects');

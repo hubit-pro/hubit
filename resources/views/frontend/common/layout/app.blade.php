@@ -18,5 +18,6 @@
     @include('frontend.common.include.footer')
 <!-- </footer>  -->
 @include('frontend.common.include.script')
+@stack('script')
 </body>
 </html>

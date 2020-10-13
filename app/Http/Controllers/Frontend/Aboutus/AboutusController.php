@@ -24,7 +24,6 @@ class AboutusController extends Controller
     	$data['aboutuses'] = $this->master->type(Master::aboutus)->take(4)->get();
     	$data['clientSpeeches'] = $this->gallary->where('status', true)->latest()->get();
     	$data['certificates'] = $this->master->type(Master::certificate)->get();
-    	// dd($data);
 
     	return view('frontend.aboutus.index', $data);
     }

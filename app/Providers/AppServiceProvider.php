@@ -4,6 +4,8 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use App\Models\Master;
+use App\Models\GallaryCategory;
+use App\Models\GallarySubCategory;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -22,10 +24,14 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot(Master $master)
+    public function boot(Master $master, GallaryCategory $gallaryCategory, GallarySubCategory $gallarySubCategory)
     {
-        // view()->composer('*', function($aboutusMainView){
-        //     $aboutusMainView->with('aboutusMain', Master::where('status', true)->where('type', Master::aboutusMain)->latest()->get());
-        // });
+
+        view()->composer('*', function($gallaryCategoryView){
+            $gallaryCategoryView->with('globalGallaryCategories', GallaryCategory::where('status', true)->get());
+        });
+        view()->composer('*', function($gallarySubCategoryView){
+            $gallarySubCategoryView->with('globalGallarySubCategories', GallarySubCategory::where('status', true)->get());
+        });
     }
 }

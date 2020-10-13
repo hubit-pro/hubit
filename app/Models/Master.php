@@ -14,6 +14,7 @@ class Master extends Model
 	const vacancy = 5;
 	const service = 6;
 	const blog = 7;
+    const career = 8;
 
 	const aboutusMainName = 'Aboutus(main)';
 	const aboutusName = 'Aboutus';

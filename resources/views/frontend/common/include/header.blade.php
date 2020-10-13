@@ -57,34 +57,18 @@
 
       
       <li class="nav-item">
-        <a class="nav-link" href="career" id="navitems">career</a>
+        <a class="nav-link" href="{{route('frontend.career')}}" id="navitems">career</a>
       </li>
-
-
       <li class="dropdown nav-item"style="height:40px;" >
-        <a class="nav-link" id="navitems">
-        gallery
-        </a>
+        <a class="nav-link" id="navitems">gallery</a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="ourmembers" >Our Team</a></li>
-          <li><a class="dropdown-item" href="ourworks" >Our Training Moments</a></li>
-          <li><a class="dropdown-item" href="ourpatners" >Our Patners</a></li>
-          <li><a class="dropdown-item" href="ourclients" >Our Clients</a></li>
-
-
+          @if(isset($globalGallaryCategories))
+          @foreach($globalGallaryCategories as $key => $globalGallaryCategory)
+            <li><a class="dropdown-item" href="{{route('frontend.gallary_category', $globalGallaryCategory->slug)}}" >{{ $globalGallaryCategory->title}}</a></li>
+          @endforeach
+          @endif
         </ul>
-</li>
-
-
-      
-      
-
-
-<!--       
-      <li class="nav-item">
-        <a class="nav-link"  href="gallery">gallery</a>
-      </li> -->
-
+      </li>
       
       <li class="nav-item">
         <a class="nav-link"  href="online-admission" id="navitems">online-Admission</a>
