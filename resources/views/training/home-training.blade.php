@@ -24,7 +24,6 @@
 <!-------------------------NAVBAR END--------------------------------->
 
 <!-----------------------------SLIDER----------------------->
-
 <div class="container-fluid main-div">
   <div class="container-fluid">  
     <div id="demo" class="carousel slide" data-ride="carousel">
@@ -79,8 +78,6 @@
           </div>
         </div>
         <!-- second slider end -->
-
-
 
         <!-- third slider -->
         <div class="carousel-item">
