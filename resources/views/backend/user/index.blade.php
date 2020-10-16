@@ -11,8 +11,8 @@
 <div id="page-content">
     <div class="block full">
         <div class="block-title">
-            <h2><strong>Student</strong> List</h2>
-            <h2 style="float: right;"><a href="{{route('admin.student.create')}}" class="btn btn-primary">ADD Student</a></h2>
+            <h2><strong>User</strong> List</h2>
+            <h2 style="float: right;"><a href="{{route('admin.user.create')}}" class="btn btn-primary">ADD User</a></h2>
         <br><br>
         
         </div>
@@ -24,22 +24,24 @@
                         <th>Full Name</th>
                         <th>User Name</th>
                         <th>Email</th>
+                        <th>User Type</th>
                         <th>status</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody id="tableData">
-                    @forelse($students as  $key=>$student)
-                    <tr id="student{{$student->id}}">
+                    @forelse($users as  $key=>$user)
+                    <tr id="user{{$user->id}}">
                         <td>{{++$key}}</td>
-                        <td>{{$student->fullName}}</td>
-                        <td>{{$student->userName}}</td>
-                        <td>{{$student->email}}</td>
-                        <td><input @if($student->status == '1') checked="checked" @endif type="checkbox" name="status" data-id="{{$student->id}}" data-status="{{$student->status}}"  class="status-switch"></td>
+                        <td>{{$user->fullName}}</td>
+                        <td>{{$user->userName}}</td>
+                        <td>{{$user->email}}</td>
+                        <td>{{$user->user_type}}</td>
+                        <td><input @if($user->status == '1') checked="checked" @endif type="checkbox" name="status" data-id="{{$user->id}}" data-status="{{$user->status}}"  class="status-switch"></td>
                         <td>
                             <div class="btn-group">
-                                <a href="{{route('admin.student.edit', $student->slug)}}" data-toggle="tooltip" title="Edit" class="btn btn-xs btn-default edit"><i class="fa fa-pencil"></i></a>
-                                  <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger remove_button" url="{{route('admin.student.destroy', $student->id)}}"><i class="fa fa-times"></i></a>
+                                <a href="{{route('admin.user.edit', $user->slug)}}" data-toggle="tooltip" title="Edit" class="btn btn-xs btn-default edit"><i class="fa fa-pencil"></i></a>
+                                  <a href="javascript:void(0)" data-toggle="tooltip" title="Delete" class="btn btn-xs btn-danger remove_button" url="{{route('admin.user.destroy', $user->id)}}"><i class="fa fa-times"></i></a>
                             </div>
                         </td>
                     </tr>
@@ -99,7 +101,7 @@
                  }else{
                     var chk = '1';
                 } 
-            $.post('{{route('admin.change.student.status')}}',{'_token':'{{csrf_token()}}',news_id:newsId, status:chk}, function(){
+            $.post('{{route('admin.change.user.status')}}',{'_token':'{{csrf_token()}}',news_id:newsId, status:chk}, function(){
 
                 toastr.success('status changed successfully');
             });

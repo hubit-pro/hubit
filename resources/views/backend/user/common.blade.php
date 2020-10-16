@@ -1,22 +1,34 @@
 <fieldset>
     <div class="form-group">
+        <label class="col-md-2 control-label" >User Type </label>
+        <div class="col-md-6">
+            <select name="role" class="form-control">
+                <option value="">Select User role</option>
+                <option value="1" @if(isset($user) && ($user->role == 1)) selected @endif>User</option>
+                <option value="2" @if(isset($user) && ($user->role == 2)) selected @endif>Staff</option>
+                <option value="3" @if(isset($user) && ($user->role == 3)) selected @endif>Company</option>
+            </select>
+             @if($errors->has('role')) <p style="color: red;">{{ $errors->first('role')}}</p> @endif
+        </div>
+    </div>
+    <div class="form-group">
         <label class="col-md-2 control-label" >Full Name</label>
         <div class="col-md-6">
-            <input type="text" name="fullName" class="form-control" value="@if(isset($student)){{$student->fullName}}@else{{old('fullName')}}@endif" placeholder="full name">
+            <input type="text" name="fullName" class="form-control" value="@if(isset($user)){{$user->fullName}}@else{{old('fullName')}}@endif" placeholder="full name">
             @if($errors->has('fullName')) <p style="color: red;">{{ $errors->first('fullName')}}</p> @endif
         </div>
     </div>
     <div class="form-group">
         <label class="col-md-2 control-label" >User Name</label>
         <div class="col-md-6">
-            <input type="text" name="userName" class="form-control" value="@if(isset($student)){{$student->userName}}@else{{old('userName')}}@endif" placeholder="username">
+            <input type="text" name="userName" class="form-control" value="@if(isset($user)){{$user->userName}}@else{{old('userName')}}@endif" placeholder="username">
             @if($errors->has('userName')) <p style="color: red;">{{ $errors->first('userName')}}</p> @endif
         </div>
     </div>
     <div class="form-group">
         <label class="col-md-2 control-label" >Email</label>
         <div class="col-md-6">
-            <input type="email" name="email" class="form-control" value="@if(isset($student)){{$student->email}}@else{{old('email')}}@endif" placeholder="email">
+            <input type="email" name="email" class="form-control" value="@if(isset($user)){{$user->email}}@else{{old('email')}}@endif" placeholder="email">
             @if($errors->has('email')) <p style="color: red;">{{ $errors->first('email')}}</p> @endif
         </div>
     </div>
@@ -39,7 +51,7 @@
     <div class="col-md-6 col-md-offset-2">
         <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-arrow-right"></i> Submit</button>
         <button type="reset" class="btn btn-sm btn-warning"><i class="fa fa-repeat"></i> Reset</button>
-        <a href="{{route('admin.student.index')}}" class="btn btn-sm btn-info">Back</a>
+        <a href="{{route('admin.user.index')}}" class="btn btn-sm btn-info">Back</a>
     </div>
 </div>
 @push('scripts')

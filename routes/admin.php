@@ -45,9 +45,10 @@ Route::namespace('Backend\Course')->name('admin.')->group(function(){
 	Route::post('course_changeStatus', 'CourseController@changeStatus')->name('change.course.status');
 
 });
-Route::namespace('Backend\Student')->name('admin.')->group(function(){
-	Route::resource('student', 'StudentController');
-	Route::post('student_changeStatus', 'StudentController@changeStatus')->name('change.student.status');
+
+Route::namespace('Backend\User')->name('admin.')->group(function(){
+	Route::resource('user', 'UserController');
+	Route::post('user_changeStatus', 'UserController@changeStatus')->name('change.user.status');
 });
 Route::namespace('Backend\Image')->name('admin.')->group(function(){
 	Route::resource('image', 'ImageController');
