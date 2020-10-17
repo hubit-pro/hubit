@@ -610,7 +610,7 @@ window.fbAsyncInit = function() {
 
 <script src="js/miss.js"></script>
 
-<script src="js/gal.js"></script>
+
 
 
 </body>

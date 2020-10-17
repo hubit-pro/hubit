@@ -45,8 +45,8 @@
       </div>
       <div class="row links">
         <div class="col-xl-12 text-center">
-          <a class="button" href="home-solution"><button type="button" class="btn lin" class="button">IT SOLUTION</button></a>
-          <a class="button" href="home-training"><button type="button" class="btn lin" class="button">IT TRAINING</button></a>
+          <a class="button" href="{{route('frontend.it-solution')}}"><button type="button" class="btn lin" class="button">IT SOLUTION</button></a>
+          <a class="button" href="{{route('frontend.it-training')}}"><button type="button" class="btn lin" class="button">IT TRAINING</button></a>
         </div>
         <!-------------marquee repeat start-------------------------------------- -->
         <div class="marquee">

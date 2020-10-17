@@ -2,7 +2,8 @@
 <html>
 <head>
 	@include('includes/solutionhead')
-	<link rel="stylesheet" type="text/css" href="css/solution/home-solution.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/solution/home-solution.css')}}">
+	@stack('style')
 
   </head>
   <body style="zoom:80%">
@@ -24,6 +25,7 @@
 })
 </script>
 <script src="{{asset('js/miss.js')}}"></script>
+@stack('script')
 
 </body>
 </html>
