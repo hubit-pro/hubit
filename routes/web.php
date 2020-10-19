@@ -18,12 +18,6 @@ Route::name('frontend.')->namespace('Frontend')->group(function(){
     Route::get('/home','Homecontroller@index')->name('index');
 });
 
-Route::name('frontend.')->namespace('Frontend\ItSolution')->group(function(){
-    Route::get('it-solution','Homecontroller@index')->name('it-solution');
-});
-Route::name('frontend.')->namespace('Frontend\ItTraining')->group(function(){
-    Route::get('it-training','Homecontroller@index')->name('it-training');
-});
 Route::prefix('f1')->name('frontend.')->namespace('Frontend\Aboutus')->group(function(){
     Route::get('aboutus', 'AboutusController@index')->name('aboutus');
 });
@@ -32,6 +26,22 @@ Route::prefix('f1')->name('frontend.')->namespace('Frontend\Gallary')->group(fun
 });
 Route::prefix('f1')->name('frontend.')->namespace('Frontend\Career')->group(function(){
     Route::get('career', 'CareerController@index')->name('career');
+});
+
+//for solution
+Route::name('frontend.')->namespace('Frontend\ItSolution')->group(function(){
+    Route::get('it-solution','Homecontroller@index')->name('it-solution');
+});
+Route::prefix('f1')->name('frontend.')->namespace('Frontend\Product')->group(function(){
+    Route::get('products', 'ProductController@index')->name('product');
+});
+Route::prefix('f1')->name('frontend.')->namespace('Frontend\Service')->group(function(){
+    Route::get('services', 'ServiceController@index')->name('service');
+});
+
+//for training
+Route::name('frontend.')->namespace('Frontend\ItTraining')->group(function(){
+    Route::get('it-training','Homecontroller@index')->name('it-training');
 });
 
 
@@ -163,9 +173,9 @@ Route::get('home-solution', function () {
 Route::get('products', function () {
     return view('solution/products');
 });
-Route::get('services', function () {
-    return view('solution/services');
-});
+// Route::get('services', function () {
+//     return view('solution/services');
+// });
 Route::get('login', function () {
     return view('admin-panel/login');
 });

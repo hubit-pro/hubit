@@ -36,10 +36,10 @@
                 </li>
                 {{-- @if(Auth::guard('admin')->user()->role == 1) --}}
                 <li>
-                    <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-certificate sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Student</span></a>
+                    <a href="#" class="sidebar-nav-menu"><i class="fa fa-angle-left sidebar-nav-indicator sidebar-nav-mini-hide"></i><i class="gi gi-certificate sidebar-nav-icon"></i><span class="sidebar-nav-mini-hide">Users</span></a>
                     <ul>
                         <li>
-                            <a href="{{route('admin.student.index')}}">Students</a>
+                            <a href="{{route('admin.user.index')}}">Users</a>
                         </li>
                     </ul>
                 </li>

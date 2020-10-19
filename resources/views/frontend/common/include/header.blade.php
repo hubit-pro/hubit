@@ -33,7 +33,7 @@
 <nav class="navbar navbar-expand-sm  sticky-top " id="head" style="position:sticky; ">
 
 <div class="container" id="image">
-<a href="home"><img src="{{asset('img/logo4.png')}}"></a></div>
+<a href="{{route('frontend.index')}}"><img src="{{asset('img/logo4.png')}}"></a></div>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 <i class="fas fa-bars"></i>
@@ -71,16 +71,16 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link"  href="online-admission" id="navitems">online-Admission</a>
+        <a class="nav-link"  href="{{url('online-admission')}}" id="navitems">online-Admission</a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="ticket-support" id="navitems">Ticket support</a>
+        <a class="nav-link" href="{{url('ticket-support')}}" id="navitems">Ticket support</a>
       </li>
 
 
       <li class="nav-item">
-        <a class="nav-link" href="contact" id="navitems">Contact Us</a>
+        <a class="nav-link" href="{{url('contact')}}" id="navitems">Contact Us</a>
       </li> 
 
    
