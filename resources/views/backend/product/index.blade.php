@@ -4,6 +4,7 @@
         #category_error {
             color: red;
         }
+        
     </style>
 @endpush
 @section('content')

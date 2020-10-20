@@ -40,34 +40,7 @@
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">HTML</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu">
                 <li>
-                    <a href="h1">H1</a>
-                </li>
-                <li>
-                    <a href="#">GRID</a>
-                </li>
-                <li>
-                    <a href="#">DIV</a>
-                </li>
-                <li>
-                    <a href="h1">H1</a>
-                </li>
-                <li>
-                    <a href="#">GRID</a>
-                </li>
-                <li>
-                    <a href="#">DIV</a>
-                </li>
-                <li>
-                    <a href="h1">H1</a>
-                </li>
-                <li>
-                    <a href="#">GRID</a>
-                </li>
-                <li>
-                    <a href="#">DIV</a>
-                </li>
-                <li>
-                    <a href="h1">H1</a>
+                    <a href="#">H1</a>
                 </li>
                 <li>
                     <a href="#">GRID</a>
@@ -81,24 +54,6 @@
 	          <li>
               <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">CSS</a>
               <ul class="collapse list-unstyled" id="pageSubmenu">
-                <li>
-                    <a href="#">Page 1</a>
-                </li>
-                <li>
-                    <a href="#">Page 2</a>
-                </li>
-                <li>
-                    <a href="#">Page 3</a>
-                </li>
-                <li>
-                    <a href="#">Page 1</a>
-                </li>
-                <li>
-                    <a href="#">Page 2</a>
-                </li>
-                <li>
-                    <a href="#">Page 3</a>
-                </li>
                 <li>
                     <a href="#">Page 1</a>
                 </li>
@@ -148,7 +103,7 @@
           </div>
         </nav>
 
-        <h2 class="mb-4">Sidebar #01</h2>
+        <h2 class="mb-4">h1</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>

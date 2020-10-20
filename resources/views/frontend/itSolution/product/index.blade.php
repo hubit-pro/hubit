@@ -5,6 +5,8 @@
   <link rel="stylesheet" type="text/css" href="{{asset('css/top-header.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('css/solution/navsolution.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('css/footer.css')}}">
+  <link rel="stylesheet" type="text/css" href="css/solution/product.css">
+
 @endpush
 @section('content')
 
@@ -12,8 +14,8 @@
 <!--------------------------NON-SLIDER----------------------->
 <section class="container-fluid p-0 non" style="position: relative;">
 
-  <img src="{{asset('img/train.jpg')}}">
-
+  <!-- <img src="{{asset('img/train.jpg')}}"> -->
+<!--  -->
 
 <!-------------------------TEXT CONTAINER-------------------->
   <section class="container-fluid" id="topper"><!--this id "topper" is the transparent box over the slider--->

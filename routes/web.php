@@ -160,6 +160,9 @@ Route::get('categories', function () {
 Route::get('course-details', function () {
     return view('training/course-details');
 });
+Route::get('h1', function () {
+    return view('training/librarysingle');
+});
 
 
 
