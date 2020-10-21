@@ -20,100 +20,38 @@
         <span>SAtkar</span>
 
 				<div class="p-4 pt-5">
-        <ul class="list-unstyled components mb-5">
+        <ul class="list-unstyled  course mb-5">
 	          <li class="active">
 	            <a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">COURSE</a>
 	            <ul class="collapse list-unstyled" id="homeSubmenu1">
+                <li class="active">
+	            <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">webdesign</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu2">
+                <li class="active">
+	            <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">html</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu3">
                 <li>
-                    <a href="#">WEB DESIGN</a>
+                    <a href="h1">head</a>
                 </li>
+               
+               </ul>
+               <a href="#homeSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">css</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu4">
                 <li>
-                    <a href="#">GRAPHICS DESIGN</a>
+                    <a href="h1">background</a>
                 </li>
-                
-	            </ul>
-	          </li>
-	          <ul>
+               
+               </ul>
+               <a href="#homeSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Javascript</a>
+	            <ul class="collapse list-unstyled" id="homeSubmenu5">
+                <li>
+                    <a href="h1">if else</a>
+                </li>
+               
+               </ul>
 </ul>
-	        <ul class="list-unstyled components mb-5">
-	          <li class="active">
-	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">HTML</a>
-	            <ul class="collapse list-unstyled" id="homeSubmenu">
-                <li>
-                    <a href="h1">H1</a>
-                </li>
-                <li>
-                    <a href="#">GRID</a>
-                </li>
-                <li>
-                    <a href="#">DIV</a>
-                </li>
-                <li>
-                    <a href="h1">H1</a>
-                </li>
-                <li>
-                    <a href="#">GRID</a>
-                </li>
-                <li>
-                    <a href="#">DIV</a>
-                </li>
-                <li>
-                    <a href="h1">H1</a>
-                </li>
-                <li>
-                    <a href="#">GRID</a>
-                </li>
-                <li>
-                    <a href="#">DIV</a>
-                </li>
-                <li>
-                    <a href="h1">H1</a>
-                </li>
-                <li>
-                    <a href="#">GRID</a>
-                </li>
-                <li>
-                    <a href="#">DIV</a>
-                </li>
-	            </ul>
-	          </li>
-	          
-	          <li>
-              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">CSS</a>
-              <ul class="collapse list-unstyled" id="pageSubmenu">
-                <li>
-                    <a href="#">Page 1</a>
-                </li>
-                <li>
-                    <a href="#">Page 2</a>
-                </li>
-                <li>
-                    <a href="#">Page 3</a>
-                </li>
-                <li>
-                    <a href="#">Page 1</a>
-                </li>
-                <li>
-                    <a href="#">Page 2</a>
-                </li>
-                <li>
-                    <a href="#">Page 3</a>
-                </li>
-                <li>
-                    <a href="#">Page 1</a>
-                </li>
-                <li>
-                    <a href="#">Page 2</a>
-                </li>
-                <li>
-                    <a href="#">Page 3</a>
-                </li>
-              </ul>
-	          </li>
-	          
-	        </ul>
-
-	       
+	      
+            </ul>
 
 	      </div>
     	</nav>
@@ -148,9 +86,13 @@
           </div>
         </nav>
 
-        <h2 class="mb-4">Sidebar #01</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="mb-4">HUBIT TRAINING AND LIBRARY</h2>
+        <p>sectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     <div class="text-center">
+       <button class="books-btn">OUR FREE BOOKS</button>
+       </div>
+     
       </div>
 		</div>
 

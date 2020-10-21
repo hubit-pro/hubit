@@ -8238,6 +8238,7 @@ h1, h2, h3, h4, h5,
   height: 200px;
 }
 
+
     #sidebar  span {
       display: block;
     text-align: center; }
@@ -8288,6 +8289,23 @@ a[data-toggle="collapse"] {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s; }
+
+  #content .books-btn{
+    border: none;
+    height: 60px;
+    background-color: var(--green);
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+  }
+  #content .books-btn:hover{
+    background-color:rgba(0, 128, 0, 0.555);
+  }
+
 
 .btn.btn-primary {
   background: #f8b739;
