@@ -271,7 +271,7 @@
 
 						<!-- Categories -->
 						<div class="sidebar_section">
-							<div class="sidebar_section_title text-center .bg-sucess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Send us Enquiry</div>
+							<div class="sidebar_section_title text-center">&nbsp;&nbsp;Send us Enquiry</div>
 							<div class="sidebar_categories">
 								<ul>
 									<li><input type="text" placeholder="Your full name" style="width: 100%; border:none;" required></li>

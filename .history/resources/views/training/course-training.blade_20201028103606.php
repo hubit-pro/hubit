@@ -271,14 +271,14 @@
 
 						<!-- Categories -->
 						<div class="sidebar_section">
-							<div class="sidebar_section_title text-center .bg-sucess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Send us Enquiry</div>
+							<div class="sidebar_section_title center">Send us Enquiry</div>
 							<div class="sidebar_categories">
 								<ul>
-									<li><input type="text" placeholder="Your full name" style="width: 100%; border:none;" required></li>
-									<li><input type="email" placeholder="Your email" style="width: 100%; border:none;" required></li>
-									<li><input type="tel" placeholder="Your mobile No." style="width: 100%; border:none;" required></li>
-									<li><input type="text" placeholder="Your enquiry" style="width: 100%; border:none;" required></li>
-									<li><input type="submit" value="Send" style="width: 100%; border:none;"></li>
+									<li><a href="#">Art & Design</a></li>
+									<li><a href="#">Business</a></li>
+									<li><a href="#">IT & Software</a></li>
+									<li><a href="#">Languages</a></li>
+									<li><a href="#">Programming</a></li>
 								</ul>
 							</div>
 						</div>
