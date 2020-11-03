@@ -31,23 +31,35 @@
     <!-------------------------TEXT CONTAINER-------------------->
     <section class="container-fluid"id="topper">
       <!--this id "topper" is the transparent box over the slider--->
-      <div class="row content1">
-        <div class="col-xl-3">
-          <h1>HUB IT<br>GROUP PVT LTD.</h1>
-          <h6>Enabling the Innovative Age</h6>
+      <div class="row content1 text-center">
+        <div class="col-xl-12">
+          <h1>HUB ITGROUP PVT LTD.</h1>
+          
         </div>
-        <div class="col-xl-9 text-justify">
-          <p><strong>HUB IT GROUP PVT LTD.</strong> is the best IT Company to provide best IT Training and IT Solution in town since 2017 . We put ourselves in the shoes of your target audience and try to adopt their preferences, perceptions and behaviour . By providing best IT Suport we give POWER to your business and by providing best IT Training we give WINGS to your dreams .</p>
+        <div class="col-xl-12 text-justify text-center">
+          <p>We power your business with comprehensive IT Support and 
+          run quality IT training classes synchronized with latest technologies and trends.</p>
         </div>       
       </div>
       <div class="go-to-page">
         <h2>Visit our services</h2>
       </div>
-      <div class="row links">
+      <div class="row links p-0">
+      <div class="line-between"></div>
+     
         <div class="col-xl-12 text-center">
+        
+
           <a class="button" href="{{route('frontend.it-solution')}}"><button type="button" class="btn lin" class="button">IT SOLUTION</button></a>
           <a class="button" href="{{route('frontend.it-training')}}"><button type="button" class="btn lin" class="button">IT TRAINING</button></a>
+        
         </div>
+        <div class="col text-right"style="color:white; " >Our services:<br>Surveillance(CCTV), Attendance(thumb/card/face) & PABX Systems,<br>
+Website develpoment/Web Hosting, Fire Extinguishers<br>
+Computer Networking, ERP Softwares</div>
+        <div class="col" style="color:white;"  style="float:left !important;"> Quality Classes:<br>Complete Office & Accounting Training Package, Graphics Desigining,<br>
+Hardware/Networking (Basic/Chip Level/CCNA), Ethical Hacking<br>
+Full Stack Web Developement, Multimedia/Animation.</div>
         <!-------------marquee repeat start-------------------------------------- -->
         <div class="marquee">
           <div class="track">
