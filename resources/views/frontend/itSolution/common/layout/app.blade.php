@@ -6,7 +6,7 @@
 	@stack('style')
 
   </head>
-  <body style="zoom:80%">
+  <body>
 <!-----------------------NAVBAR------------------------------->
 	@include('frontend.itSolution.common.include.nav')
 <!-------------------------NAVBAR END--------------------------------->

@@ -5,38 +5,17 @@
   <link rel="stylesheet" type="text/css" href="{{asset('css/top-header.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('css/solution/navsolution.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('css/footer.css')}}">
-  <link rel="stylesheet" type="text/css" href="css/solution/product.css">
+  <link rel="stylesheet" type="text/css" href="{{asset('css/solution/products.css')}}">
+  
 
 @endpush
 @section('content')
 
 
-<!--------------------------NON-SLIDER----------------------->
-<section class="container-fluid p-0 non" style="position: relative;">
-
-  <!-- <img src="{{asset('img/train.jpg')}}"> -->
-<!--  -->
-
-<!-------------------------TEXT CONTAINER-------------------->
-  <section class="container-fluid" id="topper"><!--this id "topper" is the transparent box over the slider--->
-
-    <div class="row pt-5 pb-4 rib">
-   
-
-    <div class="row">
-      <div class="col-xl-12 text-center" style="color: white;">
-        <h3>Solution-->Product</h3>
-      </div>
-    </div>
-
-  </section>
-
-</section>
-<!-------------------------TEXT CONTAINER END---------------->
 
 
 <!-- -----------------GALLERY START-------------->
-<section class="container-fluid p-5">
+<section class="container-fluid">
   <div class="row">
 
 <!------------tabs start---------->
@@ -53,22 +32,28 @@
     </div>
 <!------------tabs end---------->
 
+
 <!------------camera start---------->
-    <div class="col-xl-12 panel" >
-      <div class="row">
+    <div class="col-xl-12 panel " >
+      <div class="row ">
 		@if(isset($products))
 		@foreach($products as $key => $product)
-	        <div class="col-xl-3 p-1 gallen product product-{{$product->product_category_id}}">
+	        <div class="col-xl-2 m-2  text-center p-1 gallen product product-{{$product->product_category_id}}">
 	        @foreach($product->images as $key => $image)
 	        	@if($key == 0)
-		          <img src="{{asset('images/uploads/'. $image->image)}}" height="200px">
+		          <img src="{{asset('images/uploads/'. $image->image)}}" height="150px">
 		         @endif
 	         @endforeach
 	         <div class="ingallen">
 	             <p><ins>{{$product->title}}</ins></p>
 	             {!! $product->description !!}
-	         </div>
-	        </div>
+			 </div>
+			 
+			<button class="btn col">Buy Now</button>
+			<button class="btn col">Add to cart</button>
+			
+			 
+			</div>
 	    @endforeach
 	    @endif
       </div>
@@ -81,22 +66,7 @@
 
 @endsection
 
-@push('script')
-<script src="{{asset('js/gal.js')}}"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131576038-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-131576038-1');
-  </script>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WT6FX7W');</script>
+@push('script')l'
 
 
 <script type="text/javascript">

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@0;1&display=swap');
+
+body{
+	overflow-x: hidden;
+	font-family: 'Titillium Web', sans-serif !important;
+  }
+
+  .panel .gallen{
+	  border: 2px solid grey;
+	  border-radius: 10px;
+	  height: 300px;
+  }
+  .ingallen{
+	  
+	  border-radius: 10px;
+	  font-size: 12px;
+  }
+  .ingallen p{
+	margin: 0 !important;
+
+
+  }
+  .ingallen p ins{
+	  list-style: none;
+	  font-size: 18px;
+	  color: #ff9800;
+	  
+  }
+  .btn{
+	  border: none;
+	  background-color: rgb(99, 141, 20) !important;	  
+	  width: 100px;
+	  height: 30px;
+	  color: white;
+	  font-size: 15px;
+	  margin-top: 10px;
+	  
+  }
+  
+  

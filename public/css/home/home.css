@@ -432,6 +432,18 @@ margin: -20px;
 }
 
 
+@media (min-width: 0px) and (max-width: 767px) {
+	.links .line-between{
+		display: none;
+	}
+	.links .col{
+		display: none;
+	}
+	.marquee{
+		margin-top: 150px;
+	}
+}
+
 
 
 
