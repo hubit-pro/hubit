@@ -19,7 +19,7 @@
   <div class="row">
 
 <!------------tabs start---------->
-    <div class="col-xl-12 tabs">
+    <div class="col-xl-2 tabs">
       <div class="row click">
       	@if(isset($product_categories))
 	      	@foreach($product_categories as $key => $category)
@@ -34,14 +34,14 @@
 
 
 <!------------camera start---------->
-    <div class="col-xl-12 panel " >
+    <div class="col-xl-10 panel " >
       <div class="row ">
 		@if(isset($products))
 		@foreach($products as $key => $product)
-	        <div class="col-xl-2 m-2  text-center p-1 gallen product product-{{$product->product_category_id}}">
+	        <div class="col-xl-3 m-2  text-center p-1 gallen product product-{{$product->product_category_id}}">
 	        @foreach($product->images as $key => $image)
 	        	@if($key == 0)
-		          <img src="{{asset('images/uploads/'. $image->image)}}" height="150px">
+		          <img src="{{asset('images/uploads/'. $image->image)}}" height="120px">
 		         @endif
 	         @endforeach
 	         <div class="ingallen">

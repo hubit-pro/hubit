@@ -8,7 +8,6 @@ body{
   .panel .gallen{
 	  border: 2px solid grey;
 	  border-radius: 10px;
-	  height: 300px;
   }
   .ingallen{
 	  
@@ -36,5 +35,23 @@ body{
 	  margin-top: 10px;
 	  
   }
-  
+  ins{
+	  text-decoration: none;
+  }
+  .click a{
+	  color: white;
+  }
+  .click{
+	  background-color: gray;
+	  margin-top: 20px;
+	  border-radius: 4px;
+	  display:block;
+  }
+  .click h6{
+	text-align: center;
+
+
+
+  }
+
   
