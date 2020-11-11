@@ -143,6 +143,9 @@ Route::get('enroll', function () {
 Route::get('details', function () {
     return view('training/details');
 });
+Route::get('detail', function () {
+    return view('training/coursepage');
+});
 
 
 

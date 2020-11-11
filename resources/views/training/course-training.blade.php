@@ -50,26 +50,25 @@
 			<div class="row">
 
 				<!-- Courses Main Content -->
-				<div class="col-lg-8">
+				<div class="col-lg-12">
 					<div class="courses_search_container">
 						<form action="#" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
-							<input type="search" list="brow" class="courses_search_input" placeholder="Search Courses" required="required">
 							
-                                      <datalist id="brow">
-                                          <option value="Internet Explorer">
-                                          <option value="Firefox">
-                                          <option value="Chrome">
-                                          <option value="Opera">
-                                          <option value="Safari">
-                                        </datalist>  
-
 							<select id="courses_search_select" class="courses_search_select courses_search_input">
 								<option>All Categories</option>
 								<option>Category</option>
 								<option>Category</option>
 								<option>Category</option>
 							</select>
-							<button action="submit" class="courses_search_button ml-auto">search now</button>
+							<input type="search" list="brow" class="courses_search_input" placeholder="Search Courses" required="required">
+                                      <datalist id="brow">
+                                          <option value="Web development">
+                                          <option value="App development">
+                                          <option value="Graphic design">
+                                          <option value="IT training">
+                                          <option value="Networking">
+                                        </datalist>  
+								<button action="submit" class="courses_search_button ml-auto">search now</button>
 						</form>
 					</div>
 					<div class="courses_container">
@@ -78,15 +77,16 @@
 							<!-- Course -->
 							<div class="col-lg-6 course_col">
 								<div class="course">
-									<div class="course_image"><img src="unicat/images/course_4.jpg" alt=""></div>
+									<!-- <div class="course_image"><img src="img/webdevelopment.jpg" alt="" class="src"></div> -->
 									<div class="course_body">
-										<h3 class="course_title"><a href="course-details">Software Training</a></h3>
+										<h3 class="course_title"><a href="course-details">Web development</a></h3>
 										<div class="course_teacher">Mr. John Taylor</div>
 										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
+											<p>Web Development Training in Butwal, Nepal</p>
 										</div>
+										<button action="submit" class="courses_search ml-auto">View details</button>
 									</div>
-									<div class="course_footer">
+									<!-- <div class="course_footer">
 										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
 											<div class="course_info">
 												<i class="fa fa-graduation-cap" aria-hidden="true"></i>
@@ -98,22 +98,22 @@
 											</div>
 											<div class="course_price ml-auto">$130</div>
 										</div>
-									</div>
+									</div> -->
 								</div>
 							</div>
-
 							<!-- Course -->
 							<div class="col-lg-6 course_col">
 								<div class="course">
-									<div class="course_image"><img src="unicat/images/course_5.jpg" alt=""></div>
+									<!-- <div class="course_image"><img src="img/mobile-app-development.jpg" alt=""></div> -->
 									<div class="course_body">
-										<h3 class="course_title"><a href="course-details">Developing Mobile Apps</a></h3>
+										<h3 class="course_title"><a href="course-details">App development</a></h3>
 										<div class="course_teacher">Ms. Lucius</div>
 										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
+											<p>Android App Development Training in Butwal, Nepal</p>
 										</div>
+										<button action="submit" class="courses_search ml-auto">View details</button>
 									</div>
-									<div class="course_footer">
+									<!-- <div class="course_footer">
 										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
 											<div class="course_info">
 												<i class="fa fa-graduation-cap" aria-hidden="true"></i>
@@ -125,22 +125,22 @@
 											</div>
 											<div class="course_price ml-auto">Free</div>
 										</div>
-									</div>
+									</div> -->
 								</div>
 							</div>
-
 							<!-- Course -->
 							<div class="col-lg-6 course_col">
 								<div class="course">
-									<div class="course_image"><img src="unicat/images/course_6.jpg" alt=""></div>
+									<!-- <div class="course_image"><img src="img/graphic.jpg" alt=""></div> -->
 									<div class="course_body">
-										<h3 class="course_title"><a href="course-details">Starting a Startup</a></h3>
+										<h3 class="course_title"><a href="course-details">Graphic design</a></h3>
 										<div class="course_teacher">Mr. Charles</div>
 										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
+											<p>Graphic Design Training in Butwal, Nepal</p>
 										</div>
+										<button action="submit" class="courses_search ml-auto">View details</button>
 									</div>
-									<div class="course_footer">
+									<!-- <div class="course_footer">
 										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
 											<div class="course_info">
 												<i class="fa fa-graduation-cap" aria-hidden="true"></i>
@@ -152,22 +152,22 @@
 											</div>
 											<div class="course_price ml-auto"><span>$320</span>$220</div>
 										</div>
-									</div>
+									</div> -->
 								</div>
 							</div>
-
 							<!-- Course -->
 							<div class="col-lg-6 course_col">
 								<div class="course">
-									<div class="course_image"><img src="unicat/images/course_7.jpg" alt=""></div>
+									<!-- <div class="course_image"><img src="img/cyber_topic_63.jpg" alt=""></div> -->
 									<div class="course_body">
-										<h3 class="course_title"><a href="course-details">Learn Basic German Fast</a></h3>
+										<h3 class="course_title"><a href="course-details">Networking</a></h3>
 										<div class="course_teacher">Mr. John Taylor</div>
 										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
+											<p>Networking Training in Butwal, Nepal</p>
 										</div>
+										<button action="submit" class="courses_search ml-auto">View details</button>
 									</div>
-									<div class="course_footer">
+									<!-- <div class="course_footer">
 										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
 											<div class="course_info">
 												<i class="fa fa-graduation-cap" aria-hidden="true"></i>
@@ -179,22 +179,22 @@
 											</div>
 											<div class="course_price ml-auto">$130</div>
 										</div>
-									</div>
+									</div> -->
 								</div>
 							</div>
-
 							<!-- Course -->
 							<div class="col-lg-6 course_col">
 								<div class="course">
-									<div class="course_image"><img src="unicat/images/course_8.jpg" alt=""></div>
+									<!-- <div class="course_image"><img src="img/it3.jpg" alt=""></div> -->
 									<div class="course_body">
-										<h3 class="course_title"><a href="course-details">Business Groud Up</a></h3>
+										<h3 class="course_title"><a href="course-details">IT training</a></h3>
 										<div class="course_teacher">Ms. Lucius</div>
 										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
+											<p>IT Training in Butwal, Nepal</p>
 										</div>
+										<button action="submit" class="courses_search ml-auto">View details</button>
 									</div>
-									<div class="course_footer">
+									<!-- <div class="course_footer">
 										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
 											<div class="course_info">
 												<i class="fa fa-graduation-cap" aria-hidden="true"></i>
@@ -206,22 +206,22 @@
 											</div>
 											<div class="course_price ml-auto">Free</div>
 										</div>
-									</div>
+									</div> -->
 								</div>
 							</div>
-
 							<!-- Course -->
 							<div class="col-lg-6 course_col">
 								<div class="course">
-									<div class="course_image"><img src="unicat/images/course_9.jpg" alt=""></div>
+									<!-- <div class="course_image"><img src="img/it3.jpg" alt=""></div> -->
 									<div class="course_body">
-										<h3 class="course_title"><a href="course-details">Java Technology</a></h3>
+										<h3 class="course_title"><a href="course-details">Software training</a></h3>
 										<div class="course_teacher">Mr. Charles</div>
 										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
+											<p>Software Training in Butwal, Nepal</p>
 										</div>
+										<button action="submit" class="courses_search ml-auto">View details</button>
 									</div>
-									<div class="course_footer">
+									<!-- <div class="course_footer">
 										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
 											<div class="course_info">
 												<i class="fa fa-graduation-cap" aria-hidden="true"></i>
@@ -233,12 +233,12 @@
 											</div>
 											<div class="course_price ml-auto"><span>$320</span>$220</div>
 										</div>
-									</div>
+									</div> -->
 								</div>
 							</div>
-
 						</div>
-						<div class="row pagination_row">
+						
+						<!-- <div class="row pagination_row">
 							<div class="col">
 								<div class="pagination_container d-flex flex-row align-items-center justify-content-start">
 									<ul class="pagination_list">
@@ -261,16 +261,16 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 
 				<!-- Courses Sidebar -->
-				<div class="col-lg-4">
-					<div class="sidebar">
+				<!-- <div class="col-lg-4">
+					<div class="sidebar"> -->
 
 						<!-- Categories -->
-						<div class="sidebar_section">
+						<!-- <div class="sidebar_section">
 							<div class="sidebar_section_title">Categories</div>
 							<div class="sidebar_categories">
 								<ul>
@@ -281,33 +281,33 @@
 									<li><a href="#">Programming</a></li>
 								</ul>
 							</div>
-						</div>
+						</div> -->
 
 						<!-- Latest Course -->
-						<div class="sidebar_section">
+						<!-- <div class="sidebar_section">
 							<div class="sidebar_section_title">Latest Courses</div>
-							<div class="sidebar_latest">
+							<div class="sidebar_latest"> -->
 
 								<!-- Latest Course -->
-								<div class="latest d-flex flex-row align-items-start justify-content-start">
+								<!-- <div class="latest d-flex flex-row align-items-start justify-content-start">
 									<div class="latest_image"><div><img src="unicat/images/latest_1.jpg" alt=""></div></div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="course-details">How to Design a Logo a Beginners Course</a></div>
 										<div class="latest_price">Free</div>
 									</div>
-								</div>
+								</div> -->
 
 								<!-- Latest Course -->
-								<div class="latest d-flex flex-row align-items-start justify-content-start">
+								<!-- <div class="latest d-flex flex-row align-items-start justify-content-start">
 									<div class="latest_image"><div><img src="unicat/images/latest_2.jpg" alt=""></div></div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="course-details">Photography for Beginners Masterclass</a></div>
 										<div class="latest_price">$170</div>
 									</div>
-								</div>
+								</div> -->
 
 								<!-- Latest Course -->
-								<div class="latest d-flex flex-row align-items-start justify-content-start">
+								<!-- <div class="latest d-flex flex-row align-items-start justify-content-start">
 									<div class="latest_image"><div><img src="unicat/images/latest_3.jpg" alt=""></div></div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="course-details">The Secrets of Body Language</a></div>
@@ -316,10 +316,10 @@
 								</div>
 
 							</div>
-						</div>
+						</div> -->
 
 						<!-- Gallery -->
-						<div class="sidebar_section">
+						<!-- <div class="sidebar_section">
 							<div class="sidebar_section_title">Instagram</div>
 							<div class="sidebar_gallery">
 								<ul class="gallery_items d-flex flex-row align-items-start justify-content-between flex-wrap">
@@ -361,10 +361,10 @@
 									</li>
 								</ul>
 							</div>
-						</div>
+						</div> -->
 
 						<!-- Tags -->
-						<div class="sidebar_section">
+						<!-- <div class="sidebar_section">
 							<div class="sidebar_section_title">Tags</div>
 							<div class="sidebar_tags">
 								<ul class="tags_list">
@@ -376,10 +376,10 @@
 									<li><a href="#">startup</a></li>
 								</ul>
 							</div>
-						</div>
+						</div> -->
 
 						<!-- Banner -->
-						<div class="sidebar_section">
+						<!-- <div class="sidebar_section">
 							<div class="sidebar_banner d-flex flex-column align-items-center justify-content-center text-center">
 								<div class="sidebar_banner_background" style="background-image:url(unicat/images/banner_1.jpg)"></div>
 								<div class="sidebar_banner_overlay"></div>
@@ -388,7 +388,7 @@
 									<div class="banner_button"><a href="#">download now</a></div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -397,21 +397,21 @@
 
 	<!-- Newsletter -->
 
-	<div class="newsletter">
+	<!-- <div class="newsletter">
 		<div class="newsletter_background parallax-window" data-parallax="scroll" data-image-src="unicat/images/newsletter.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
 
-						<!-- Newsletter Content -->
-						<div class="newsletter_content text-lg-left text-center">
+						Newsletter Content -->
+						<!-- <div class="newsletter_content text-lg-left text-center">
 							<div class="newsletter_title">sign up for news and offers</div>
 							<div class="newsletter_subtitle">Subcribe to lastest smartphones news & great deals we offer</div>
-						</div>
+						</div> -->
 
 						<!-- Newsletter Form -->
-						<div class="newsletter_form_container ml-lg-auto">
+						<!-- <div class="newsletter_form_container ml-lg-auto">
 							<form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
 								<input type="email" class="newsletter_input" placeholder="Your Email" required="required">
 								<button type="submit" class="newsletter_button">subscribe</button>
@@ -422,7 +422,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	
 </div>

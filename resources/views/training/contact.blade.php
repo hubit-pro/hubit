@@ -6,9 +6,6 @@
 <link rel="stylesheet" type="text/css" href="css/training/contact.css">
 <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap" rel="stylesheet">
 
-
-
-
 </head>
 <body>
    

@@ -48,7 +48,7 @@
                   <h4>Quality Learning Environment</h4>
                   <p>With 10+ professional instructors &amp; customized computer labs, we prioritise on 
                   providing students with optimized learning space.</p>      
-                  <a href="courses.html" id="banner-btn">Courses</a>
+                  <a href="coursepage" id="banner-btn">Courses</a>
                   <a href="#goto" id="banner-btn">Enroll Now</a>
                 </div>
               </div>

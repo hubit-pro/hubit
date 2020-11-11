@@ -166,7 +166,7 @@
         </div>
     </div>
 </div>
-<button type="submit"class="btn">Enquiry <i class="fas fa-paper-plane"></i></button>
+<button type="submit"class="btn">Enroll now<i class="fas fa-paper-plane"></i></button>
 <!-- <footer> -->
 
 @include('includes.footer')
