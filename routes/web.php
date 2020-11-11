@@ -13,46 +13,61 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
+Route::name('frontend.')->namespace('Frontend')->group(function(){
+    Route::get('/','Homecontroller@index')->name('index');
+    Route::get('/home','Homecontroller@index')->name('index');
+});
+Route::prefix('f1')->name('frontend.')->namespace('Frontend\Aboutus')->group(function(){
+    Route::get('aboutus', 'AboutusController@index')->name('aboutus');
+});
+Route::prefix('f1')->name('frontend.')->namespace('Frontend\Gallary')->group(function(){
+    Route::get('gallary_category/{slug}', 'GallaryController@index')->name('gallary_category');
+});
+Route::prefix('f1')->name('frontend.')->namespace('Frontend\Career')->group(function(){
+    Route::get('career', 'CareerController@index')->name('career');
+});
+//for solution
+Route::name('frontend.')->namespace('Frontend\ItSolution')->group(function(){
+    Route::get('it-solution','Homecontroller@index')->name('it-solution');
+});
+Route::prefix('f1')->name('frontend.')->namespace('Frontend\Product')->group(function(){
+    Route::get('products', 'ProductController@index')->name('product');
+});
+Route::prefix('f1')->name('frontend.')->namespace('Frontend\Service')->group(function(){
+    Route::get('services', 'ServiceController@index')->name('service');
+});
+//for training
+Route::name('frontend.')->namespace('Frontend\ItTraining')->group(function(){
+    Route::get('it-training','Homecontroller@index')->name('it-training');
+});
+// Route::get('home', function () {
+//     return view('home/home');
 // });
-
-Route::get('/', function () {
-    return view('home/home');
-});
-
-Route::get('home', function () {
-    return view('home/home');
-});
 Route::get('career', function () {
     return view('home/career');
 });
-
-Route::get('about', function () {
-    return view('home/about');
-});
-Route::get('gallery', function () {
-    return view('home/gallery');
-});
+// Route::get('about', function () {
+//     return view('home/about');
+// });
+// Route::get('gallery', function () {
+//     return view('home/gallery');
+// });
 Route::get('contact', function () {
     return view('home/contact');
 });
 Route::get('online-admission', function () {
     return view('home/online-admission');
 });
+// Route::get('ourclients', function () {
+//     return view('home/ourclients');
+// });
+// Route::get('ourmembers', function () {
+//     return view('home/ourmembers');
+// });
 
-
-Route::get('ourclients', function () {
-    return view('home/ourclients');
-});
-
-Route::get('ourmembers', function () {
-    return view('home/ourmembers');
-});
-
-Route::get('ourpatners', function () {
-    return view('home/ourpatners');
-});
+// Route::get('ourpatners', function () {
+//     return view('home/ourpatners');
+// });
 
 Route::get('ourprojects', function () {
     return view('home/ourprojects');
@@ -137,14 +152,8 @@ Route::get('categories', function () {
 Route::get('course-details', function () {
     return view('training/course-details');
 });
-Route::get('enroll', function () {
-    return view('training/enroll');
-});
-Route::get('details', function () {
-    return view('training/details');
-});
-Route::get('detail', function () {
-    return view('training/coursepage');
+Route::get('h1', function () {
+    return view('training/librarysingle');
 });
 
 
@@ -159,9 +168,9 @@ Route::get('home-solution', function () {
 Route::get('products', function () {
     return view('solution/products');
 });
-Route::get('services', function () {
-    return view('solution/services');
-});
+// Route::get('services', function () {
+//     return view('solution/services');
+// });
 Route::get('login', function () {
     return view('admin-panel/login');
 });
@@ -172,22 +181,4 @@ Route::get('log-admin', function () {
     return view('admin-panel/log-admin');
 });
 Route::view('login','login');
-Route::post('login','admincontroller@index');
-Route::get('home-admin', function () {
-    return view('admin-panel/home-admin');
-});
-Route::get('home-admin/',
-function(){
-    if(!session()->has('data'))
-    {
-        return redirect ('log-admin');
-    }
-        return view('admin-panel/home-admin');
-});
-Route::get('/logout', function()
-{
-    session()->forget('data');
-    return redirect('log-admin');
-});
-// admin panel route end
 

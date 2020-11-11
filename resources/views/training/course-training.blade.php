@@ -270,15 +270,20 @@
 					<div class="sidebar"> -->
 
 						<!-- Categories -->
+<<<<<<< HEAD
 						<!-- <div class="sidebar_section">
 							<div class="sidebar_section_title">Categories</div>
+=======
+						<div class="sidebar_section">
+							<div class="sidebar_section_title text-center .bg-sucess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Send us Enquiry</div>
+>>>>>>> 04276c717f26f05f2459925fdc202445ca65a1d9
 							<div class="sidebar_categories">
 								<ul>
-									<li><a href="#">Art & Design</a></li>
-									<li><a href="#">Business</a></li>
-									<li><a href="#">IT & Software</a></li>
-									<li><a href="#">Languages</a></li>
-									<li><a href="#">Programming</a></li>
+									<li><input type="text" placeholder="Your full name" style="width: 100%; border:none;" required></li>
+									<li><input type="email" placeholder="Your email" style="width: 100%; border:none;" required></li>
+									<li><input type="tel" placeholder="Your mobile No." style="width: 100%; border:none;" required></li>
+									<li><input type="text" placeholder="Your enquiry" style="width: 100%; border:none;" required></li>
+									<li><input type="submit" value="Send" style="width: 100%; border:none;"></li>
 								</ul>
 							</div>
 						</div> -->

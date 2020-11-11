@@ -1020,10 +1020,7 @@ section
 	width: 100%;
 	height: 51px;
 }
-.sidebar_categories ul li:not(:last-of-type)
-{
-	border-bottom: solid 1px #e5e5e5;
-}
+
 .sidebar_categories ul li a
 {
 	display: block;
