@@ -31,10 +31,36 @@
       </div>
     </div>
 <!------------tabs end----------> 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400|Roboto:400,100,300,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>   					
+
+<div class="product-item">
+  <!--Ribbon-->
+      <div class="ribbon-wrapper">
+      <div class="ribbon"> sale </div>
+    </div>
+ <!--//Ribbon-->
+    <img src="../../../img/prin1.jpg" alt="">
+    						<a href="#" class="product-item__name">HP color printer </a>
+  <div class="product-item__description">
+    
+      <span></span>
+     
+    
+  </div>
+  
+    						<div class="product-item__price">
+    							<a href="#" class="btn btn--buy">BUY NOW</a>
+    							<div class="price">
+              <a href="#" class="delivery">best price</a>
+                    <span>17000<span class="rouble">RS</span></span></div>
+
+    						</div>
+    					</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 
 <!------------camera start---------->
-    <div class="col-xl-10 panel " >   
+    <!-- <div class="col-xl-10 panel " >   
       <div class="row ">
 		@if(isset($products))
 		@foreach($products as $key => $product)
@@ -58,7 +84,7 @@
 	    @endif
       </div>
     </div>
-
+ -->
 
   </div>
 </section>
@@ -84,5 +110,29 @@
 		$product.hide()
 		$('.product-'+categoryId).show()
 	})
+</script>
+
+<script>
+	vw = $(window).outerWidth();
+
+$('#cart').click(flip);
+
+if (vw > 768) {
+ $('.card').hover(
+function() {
+  $('.description').toggleClass('show');
+  $('.image-wrapper').toggleClass('shrink');
+}
+) 
+}
+
+function flip() {
+  $('#cart').addClass('flipped');
+  $('#cart').addClass('added');
+  $('.backside').addClass('show');
+  $('.front').addClass('hide');
+}
+
+// Image taken from 1924 - http://www.1924.us/post/110067977427
 </script>
 @endpush
