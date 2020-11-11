@@ -33,7 +33,13 @@
 <!------------tabs end----------> 
 
 
-<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400|Roboto:400,100,300,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>   					
+<div class="col-xl-10 " >   
+      <div class="row ">
+		@if(isset($products))
+		@foreach($products as $key => $product)
+	        <div class="col-xl-3 m-2  text-center p-1 gallen product product-{{$product->product_category_id}}">
+	        @foreach($product->images as $key => $image)
+	        	@if($key == 0)   					
 
 <div class="product-item">
   <!--Ribbon-->
@@ -41,24 +47,33 @@
       <div class="ribbon"> sale </div>
     </div>
  <!--//Ribbon-->
-    <img src="../../../img/prin1.jpg" alt="">
-    						<a href="#" class="product-item__name">HP color printer </a>
-  <div class="product-item__description">
-    
-      <span></span>
-     
+	<img src="{{asset('images/uploads/'. $image->image)}}" alt="">
+	@endif
+	@endforeach
+	<a href="#" class="product-item__name">{{$product->title}} </a>
+	
+   <div class="product-item__description">    
+      <span>  {!! $product->description !!}	  </span>  
     
   </div>
   
     						<div class="product-item__price">
     							<a href="#" class="btn btn--buy">BUY NOW</a>
     							<div class="price">
-              <a href="#" class="delivery">best price</a>
-                    <span>17000<span class="rouble">RS</span></span></div>
+              <a href="#" class="delivery">Best price</a>
+                    <span  class="rouble">Rs<span>17000</span></span></div>
 
     						</div>
     					</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+</div>
 
+
+
+
+@endforeach
+	    @endif
+</div>
+</div>
 <!------------camera start---------->
     <!-- <div class="col-xl-10 panel " >   
       <div class="row ">
