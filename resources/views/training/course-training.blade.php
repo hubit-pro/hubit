@@ -50,7 +50,7 @@
 			<div class="row">
 
 				<!-- Courses Main Content -->
-				<div class="col-lg-12">
+				<div class="col-lg-9">
 					<div class="courses_search_container">
 						<form action="#" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
 							
@@ -270,13 +270,10 @@
 					<div class="sidebar"> -->
 
 						<!-- Categories -->
-<<<<<<< HEAD
-						<!-- <div class="sidebar_section">
-							<div class="sidebar_section_title">Categories</div>
-=======
+				<div class="col-lg-3">
+
 						<div class="sidebar_section">
 							<div class="sidebar_section_title text-center .bg-sucess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Send us Enquiry</div>
->>>>>>> 04276c717f26f05f2459925fdc202445ca65a1d9
 							<div class="sidebar_categories">
 								<ul>
 									<li><input type="text" placeholder="Your full name" style="width: 100%; border:none;" required></li>
@@ -286,7 +283,8 @@
 									<li><input type="submit" value="Send" style="width: 100%; border:none;"></li>
 								</ul>
 							</div>
-						</div> -->
+						</div>
+</div>
 
 						<!-- Latest Course -->
 						<!-- <div class="sidebar_section">
