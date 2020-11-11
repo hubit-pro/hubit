@@ -59,8 +59,50 @@ body {
   text-align: left;
   background-color: #fff; }
 
+<<<<<<< HEAD
+  }
+/* library second nav ul li */
+  
+  #secondnav ul li {
+    float: left;
+  }
+/* library second nav ul li a */
+  
+  #secondnav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+  }
+/* library second nav ul li a hover */
+  
+  #secondnav ul li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+/* library content:end */
+
+/* library column mobile view css */
+@media (min-width:0px) and (max-width:768px){
+    .col-md-2{
+        width: 20% !important;
+    }
+    .col-md-10{
+        width: 80% !important;
+    }
+    #sidebar a{
+      font-size:2.5vw;
+    }
+}
+=======
 [tabindex="-1"]:focus {
   outline: 0 !important; }
+>>>>>>> 7444c27073183a5611757c75046468b22fface91
 
 hr {
   -webkit-box-sizing: content-box;

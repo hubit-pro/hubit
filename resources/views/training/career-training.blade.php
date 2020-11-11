@@ -12,7 +12,7 @@
 <div class="conatiner-fluid for-you">
 	<div class="container">
 <div class="row">
-	<div class="col" data-aos="fade-left">
+	<div class="col first" data-aos="fade-left">
         <div class="hubit-img text-center">
         <img src="img/logo3.png">
         </div>
@@ -20,7 +20,7 @@
 </div>
 
 	<div class="row" data-aos="fade-right">
-		<div class="col">
+		<div class="col second">
 			<h1>For you, with you.<br> ALWAYS!</h1><br>
 			<p>There are many web design training institute, but none quite like IMI Academy. 
 				We’ve been around for over 10 years in this industry but you wouldn’t guess it from the energy

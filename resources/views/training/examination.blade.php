@@ -22,7 +22,7 @@
 </div>
 
 
-<div class="conatiner-fluid form ml-5 mr-5">
+<div class="conatiner-fluid form">
    <h1>LOOK RESULTS ONLINE</h1>
 <div class="input-group  row mb-3">
     <div class="col">

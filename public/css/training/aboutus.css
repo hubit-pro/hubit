@@ -138,32 +138,17 @@
     font-size: 17px;
     padding: 5px;
     text-align: left !important;
-
-
-
-
 }
-
-
-
-
-
-
-
 .testimonials .container-fluid h1{
     text-align: center;
     margin: 100px 0px 0px 0px;
     color: grey;
     font-size: 30px;
-
 }
 .testimonials .container-fluid h1 hr{
     display:block;
-    width: 200px;
-  
+    width: 200px; 
 }
-
-
 .shadow-effect {
     background: #fff;
     padding: 20px;
@@ -235,9 +220,7 @@ display: inline-block;
     transition: all 250ms ease-out 0s;
     width: 20px;
 }
-
-@media only screen and (max-width: 767px){
-   
+@media only screen and (max-width: 767px){  
     .why-us .row{
         margin: 10px;
     }

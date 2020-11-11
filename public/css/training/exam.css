@@ -60,5 +60,30 @@ body{
 
 }
 
+@media (min-width:0px) and (max-width:768px){
+  .banner .row{
+    padding: 0px!important;
+    margin: 0px!important;
+  }
+  .form{
+    padding: 0px;
+  }
+  .form button{
+    margin: 0px;
+    width: 120px;
+  }
+  .banner{
+    height: 400px;
+  }
+  .banner .row .col h1{
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .banner .row .col .image{
+    height: 100px;
+  }
+  
+}
+
 
 
