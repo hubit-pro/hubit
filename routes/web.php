@@ -43,6 +43,10 @@ Route::prefix('f1')->name('frontend.')->namespace('Frontend\Service')->group(fun
 Route::name('frontend.')->namespace('Frontend\ItTraining')->group(function(){
     Route::get('it-training','Homecontroller@index')->name('it-training');
 });
+Route::prefix('f1')->name('frontend.')->namespace('Frontend\Course')->group(function(){
+    Route::get('courses', 'CourseController@index')->name('course');
+    Route::get('course_details/{slug}', 'CourseController@details')->name('course.details');
+});
 
 
 // Route::get('home', function () {

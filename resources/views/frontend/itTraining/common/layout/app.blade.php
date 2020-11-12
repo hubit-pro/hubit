@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title>@yield('title')</title>
 <head>
 
   @include('frontend.itTraining.common.include.header')
@@ -16,6 +17,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+@stack('style')
 
 </head>  
 <body>  
@@ -68,6 +70,8 @@ jQuery(document).ready(function($) {
     duration:10,
   });
 </script>
+
+@stack('script')
 
 </body>
 </html>
