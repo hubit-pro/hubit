@@ -5,6 +5,71 @@ body{
 	font-family: 'Titillium Web', sans-serif !important;
   }
 
+
+.title{
+  color: #a0047d;
+  margin-top: 30px;
+}
+.searchbar{
+  background-color:rgba(128, 128, 128, 0.301);
+  border-radius: 5px;
+  height: 80px;
+}
+    .searchbox{
+      position: relative;
+      display: inline-block;
+      margin:0px 200px 40px 200px;
+      
+    }
+    .searchbox input:focus {
+      outline: none; /*by default,input shows an outline on focus */
+    }
+    .searchbox input{
+      z-index: 0;
+      margin-top: 8%;
+      width: 250%;
+      height: 40px;
+      background:#f1f3f4;
+      border-radius: 25px;
+      border: 2px solid #f1f3f4;
+    }
+    form{
+      display:inline-block;
+    }
+  #closeid{
+    display: none;
+  }
+   .fa-search{
+       position: absolute;
+       top:55%;
+       left:5%;
+       color:#8e99a4;
+   }
+   .close{
+          position: absolute;
+          top:50%;
+          right:-160%;
+          color:#8e99a4;
+          border: none;
+          padding: 0;
+   }
+   .search{
+    color:#8e99a4;
+    font-weight: 400; 
+    padding-left: 50px;
+    font-size: 18px;
+    z-index: 3;
+    
+   }
+   .fa-times{
+       position: absolute;
+    top:30%;
+    right:5%;  
+   }
+
+
+
+
   .panel .gallen{
 	  border: 2px solid grey;
 	  border-radius: 10px;
@@ -40,11 +105,21 @@ body{
   }
   .click h6{
 	text-align: center;
+}
+.tabs{
+  border-right: 2px solid rgba(128, 128, 128, 0.356);
+}
+.card-link-secondary{
+  font-size: 15px;
+  line-height: 35px;
+  color:#394264;
+  font-weight: bold;
+}
+.card-link-secondary:hover{
+  color: #cc324b;
+  text-decoration: none;
+}
 
-
-
-
-  }
 
  
 
@@ -62,15 +137,15 @@ body{
 
 .product-item{
 	/* height: 330px; */
-	width: 260px;
+	width: 240px;
 	border: 2px solid #f1f1f0;
 	text-align: center;
 	padding: 15px;
   position: relative;
 }
 .product-item img{
-	height: 200px;
-	width: 200px;
+	height: 100px;
+	width: 100px;
 }
 
 .product-item__name{
@@ -78,7 +153,8 @@ body{
   color: #394264;
   text-decoration: none;
   font-size: 17px;
-  padding: 5px 0 25px 0;    
+  padding: 10px 0 5px 0;  
+  font-weight: bold;  
 }
 
 .btn--buy:hover{
@@ -86,7 +162,7 @@ body{
 }
 
 .price span{
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   color: red;
 }
@@ -95,7 +171,7 @@ body{
 	display: block;
 	background-color: #fcb150;
 	font-family: "Roboto Condensed", sans-serif;
-	font-size: 16px;
+	font-size: 13px;
 	width: 100px;
 	text-align: center;
 	padding: 8px 0;
@@ -150,24 +226,16 @@ a.btn{
   box-shadow:         5px 2px 3px rgba(229,229,229,0.9);*/
 }
 
-.product-item ul{
-  text-align: left;
-  font-size: 18px;
-  line-height: 18px;
-  color: #338dc9;
-}
 
-.product-item li span{
-  color: #34363d;
-  font-size: 14px;
-}
+
 
 .delivery{
   font-size: 14px;
   color: #888888;
-  margin: 0 0 5px 20px;
   display: block;
 }
 .product-item__description{
-	font-size: 16px;
+  font-size: 13px;
+  height: 45px;
+  overflow: hidden;
 }
