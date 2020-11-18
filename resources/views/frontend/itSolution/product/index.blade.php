@@ -78,7 +78,7 @@
          <div class="col p-0 m-0">
              <div class="card m-0 p-0">
                  <article class="filter-group">
-                     <header class="card-header"> <a href="#" data-toggle="collapse" data-target="#collapse_aside1" data-abc="true" aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
+                     <header class="card-header" data-toggle="collapse" data-target="#collapse_aside1" data-abc="true"> <a href="#"  aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
                              <h6 class="title">Categories </h6>
                          </a> </header>
                      <div class="filter-content collapse" id="collapse_aside1" style="">
@@ -96,20 +96,20 @@
                      </div>
                  </article>
                  <article class="filter-group">
-                     <header class="card-header"> <a href="#" data-toggle="collapse" data-target="#collapse_aside2" data-abc="true" aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
+                     <header class="card-header"  data-toggle="collapse" data-target="#collapse_aside2" data-abc="true"> <a href="#" aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
                              <h6 class="title">Price </h6>
                          </a> </header>
                      <div class="filter-content collapse" id="collapse_aside2" style="">
                          <div class="card-body"> <input type="range" class="custom-range" min="0" max="100" name="">
                              <div class="form-row">
                                  <div class="form-group col-md-6"> <label>Min</label> <input class="form-control" placeholder="$0" type="number"> </div>
-                                 <div class="form-group text-right col-md-6"> <label>Max</label> <input class="form-control" placeholder="$1,0000" type="number"> </div>
+                                 <div class="form-group text-right col-md-6"> <label>Max</label> <input class="form-control" placeholder="$100" type="number"> </div>
                              </div> <a href="#" class="highlight-button btn btn-medium button xs-margin-bottom-five" data-abc="true">Apply Now</a>
                          </div>
                      </div>
                  </article>
                  <article class="filter-group">
-                     <header class="card-header"> <a href="#" data-toggle="collapse" data-target="#collapse_aside3" data-abc="true" aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
+                     <header class="card-header" data-toggle="collapse" data-target="#collapse_aside3" data-abc="true"> <a href="#"  aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
                              <h6 class="title">Size </h6>
                          </a> </header>
                      <div class="filter-content collapse" id="collapse_aside3" style="">
@@ -117,7 +117,7 @@
                      </div>
                  </article>
                  <article class="filter-group">
-                     <header class="card-header"> <a href="#" data-toggle="collapse" data-target="#collapse_aside4" data-abc="true" class="collapsed" aria-expanded="false"> <i class="icon-control fa fa-chevron-down"></i>
+                     <header class="card-header"  data-toggle="collapse" data-target="#collapse_aside4" data-abc="true"> <a href="#" class="collapsed" aria-expanded="false"> <i class="icon-control fa fa-chevron-down"></i>
                              <h6 class="title">Rating </h6>
                          </a> </header>
                      <div class="filter-content collapse" id="collapse_aside4" style="">
