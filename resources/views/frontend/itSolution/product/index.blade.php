@@ -18,12 +18,12 @@
 <section class="container-fluid mt-1 searchbar" >
 <div class="row">
 	<div class="col-md-2 store">
-		<h4><strong><a href="products">HUBIT STORE</a></strong></h4>
+		<a href="products">IT STORE</a>
 	</div>
-	<div class="col-md-7">
+	<div class="col-md-6">
 <div class="searchbox animated zoomIn">
                 <form method="get">
-                    <input oninput="triggercross(this.value)" type="text" placeholder="search" id="search" name="search"
+                    <input oninput="triggercross(this.value)" type="text" placeholder="Search our products and brands " autocomplete="on" id="search" name="search"
                         class="search"><i class="fas fa-search"></i>
                     <button onclick="close1()" id="closeid" type="reset" class="close">
                         <i class="fas fa-times"></i>
@@ -33,9 +33,9 @@
 
 			</div>
             </div>
-            
-            <div class="col-md-1 compare-btn"><button>Compare(0)</button></div>
-            <div class="col-md-2 compare-btn"><button>0 Item(s)</button></div>
+            <div class="col-md-4 m-0 p-0 searchbar-img">
+                <img src="../../img/per1.jpg">
+            </div>
 
 			</div>
 </section>
