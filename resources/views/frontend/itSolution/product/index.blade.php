@@ -17,10 +17,10 @@
 
 <section class="container-fluid mt-1 searchbar" >
 <div class="row">
-	<div class="col-md-2 title">
+	<div class="col-md-2 store">
 		<h4><strong><a href="products">HUBIT STORE</a></strong></h4>
 	</div>
-	<div class="col-md-10">
+	<div class="col-md-7">
 <div class="searchbox animated zoomIn">
                 <form method="get">
                     <input oninput="triggercross(this.value)" type="text" placeholder="search" id="search" name="search"
@@ -32,7 +32,11 @@
                 </form>
 
 			</div>
-			</div>
+            </div>
+            
+            <div class="col-md-1 compare-btn"><button>Compare(0)</button></div>
+            <div class="col-md-2 compare-btn"><button>0 Item(s)</button></div>
+
 			</div>
 </section>
 
@@ -41,61 +45,34 @@
   <div class="row">
 
 <!------------tabs start---------->
-    <div class="col-xl-2 tabs mt-3 m-0 p-0">
-      <!-- <div class="row click">
-      	@if(isset($product_categories))
-	      	@foreach($product_categories as $key => $category)
-	        <div class="col-xl-2 p-2">
-	          <a href="javascript:;" class="tab product-category" data-category-id="{{$category->id}}" ><h6>{{$category->title}}</h6></a>
-	        </div>
-	        @endforeach
-        @endif
-	  </div> -->
-	  
-
-<!-- Section: Categories -->
-
-<!-- <section class="container-fluid" style=" border-bottom: 1px solid rgba(128, 128, 128, 0.356);">
-<h5>Catagories</h5>
-
-  @if(isset($product_categories))
-	      	@foreach($product_categories as $key => $category)
-  <div class="text-muted small text-uppercase">
-	          <a href="javascript:;" class="tab product-category card-link-secondary" data-category-id="{{$category->id}}" ><p>{{$category->title}}</p></a>
-
-	@endforeach
-        @endif
-	 -->
-
-<!-- Section: Categories -->
+    <div class="col-xl-2 tabs mt-3 m-0 p-0">  
 
 <!-- </section> -->
-
-
-
  <div class="container-fluid">
      <div class="row d-flex justify-content-center">
          <div class="col p-0 m-0">
-             <div class="card m-0 p-0">
-                 <article class="filter-group">
+             <div class="card m-1">
+                 <div class="filter-group">
                      <header class="card-header" data-toggle="collapse" data-target="#collapse_aside1" data-abc="true"> <a href="#"  aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
-                             <h6 class="title">Categories </h6>
+                             <h6 class="title"><a href="products">CATAGORIES</a></h6>
                          </a> </header>
                      <div class="filter-content collapse" id="collapse_aside1" style="">
-                         <div class="card-body">
+                         <div class="card-body p-0">
                              <ul class="list-menu">
                              @if(isset($product_categories))
 	      	@foreach($product_categories as $key => $category)
   <div class="text-muted small text-uppercase">
-	          <a href="javascript:;" class="tab product-category card-link-secondary" data-category-id="{{$category->id}}" ><p>{{$category->title}}</p></a>
+              <a href="javascript:;" class="tab product-category card-link-secondary"
+               data-category-id="{{$category->id}}" >{{$category->title}}             
+              </a>
+              </div>
 
 	@endforeach
-        @endif
-                             </ul>
+        @endif              </ul>
                          </div>
                      </div>
-                 </article>
-                 <article class="filter-group">
+                 </div>
+                 <!-- <article class="filter-group">
                      <header class="card-header"  data-toggle="collapse" data-target="#collapse_aside2" data-abc="true"> <a href="#" aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
                              <h6 class="title">Price </h6>
                          </a> </header>
@@ -131,7 +108,7 @@
                                  <div class="custom-control-label">Not good</div>
                              </label> </div>
                      </div>
-                 </article>
+                 </article> -->
              </div>
          </div>
      </div>
