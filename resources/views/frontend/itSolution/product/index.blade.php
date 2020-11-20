@@ -8,6 +8,8 @@
   <link rel="stylesheet" type="text/css" href="{{asset('css/solution/products.css')}}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 <script src="https://kit.fontawesome.com/ebfafc2eb8.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
 
   
 
@@ -54,21 +56,42 @@
              <div class="card m-1">
                  <div class="filter-group">
                      <header class="card-header" data-toggle="collapse" data-target="#collapse_aside1" data-abc="true"> <a href="#"  aria-expanded="false" class="collapsed"> <i class="icon-control fa fa-chevron-down"></i>
-                             <h6 class="title"><a href="products">CATAGORIES</a></h6>
+                             <h6 class="title"><a>CATAGORIES</a></h6>
                          </a> </header>
                      <div class="filter-content collapse" id="collapse_aside1" style="">
                          <div class="card-body p-0">
-                             <ul class="list-menu">
+                             <ul class="list-menu " class="category_menu">
                              @if(isset($product_categories))
 	      	@foreach($product_categories as $key => $category)
   <div class="text-muted small text-uppercase">
-              <a href="javascript:;" class="tab product-category card-link-secondary"
+              <a href="javascript:;" class="tab product-category card-link-secondary"data-toggle="collapse" data-abc="true" data-target="#collapse_aside2"
                data-category-id="{{$category->id}}" >{{$category->title}}             
+    <span class="fa fa-arrow-right"></span>
               </a>
+              <ul class="right_sliding collapse" id="collapse_aside2">
+  <li>
+    <a href="#">Women1</a>
+  </li>
+  <li>
+    <a href="#">Women1</a>
+  </li>
+  <li>
+    <a href="#">Women1</a>
+  </li>
+  <li>
+    <a href="#">Women1</a>
+  </li>
+  <li>
+    <a href="#">Women1</a>
+  </li>
+  </ul>
               </div>
 
 	@endforeach
         @endif              </ul>
+
+
+
                          </div>
                      </div>
                  </div>

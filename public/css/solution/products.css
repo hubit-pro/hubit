@@ -416,3 +416,60 @@ a.btn{
   height: 45px;
   overflow: hidden;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.category_menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+/* .category_menu > li {
+  border-bottom: 1px solid;
+  float: left;
+  padding: 9px 10px;
+  width: 100%;
+  position:relative;
+} */
+.right_sliding {
+  background-color: white;
+  color: black;
+  list-style: none;
+  text-align: left;
+  padding: 0px !important;
+
+
+
+
+}
+.right_sliding li {
+  margin: 10px;
+}
+
+/* .category_menu li a {
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+} */
+.fa.fa-arrow-right {
+  float: right;
+  font-size: 10px;
+  margin: 7px 0 0;
+}
+/* 
+.small:hover > .right_sliding{
+display:block;} */
