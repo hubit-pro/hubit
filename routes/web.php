@@ -162,6 +162,10 @@ Route::get('h1', function () {
 Route::get('contact-solutions', function () {
     return view('solution/contact-solutions');
 });
+
+Route::get('subproduct', function () {
+    return view('solution/subproduct');
+});
 Route::get('home-solution', function () {
     return view('solution/home-solution');
 });

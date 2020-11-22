@@ -158,10 +158,10 @@
       <div class="ribbon"> sale </div>
     </div>
  <!--//Ribbon-->
-	<img src="{{asset('images/uploads/'. $image->image)}}" alt="">
+	<img src="{{asset('images/uploads/'. $image->image)}}" alt="" href="subproduct">
 	@endif
 	@endforeach
-	<a href="#" class="product-item__name">{{$product->title}} </a>
+	<a href="subproduct" class="product-item__name">{{$product->title}} </a>
 	
    <div class="product-item__description">    
       <span>  {!! $product->description !!}	</span>  
@@ -186,6 +186,29 @@
 
 
   </div>
+  
+
+</section>
+<section class="container-fluid text-center">
+<nav aria-label="Page navigation example ">
+  <ul class="pagination  " style="margin:50px 50% 0px 50%;">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+  </ul>
+</nav>
 </section>
 <!-- -----------------GALLERY END-------------->
 
