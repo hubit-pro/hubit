@@ -60,7 +60,7 @@
    All Round <br> Office<br>Support
    <span>Best in Butwal</span>
   </h2>
-  <img src="img/solution2.png" class="p_img">
+  <img src="img/solution2.png" class="p_img" style="height:250px;"> 
 
   <div class="p_detail">
       <h4>Leading company in IT</h4>
@@ -142,13 +142,13 @@ SOLUTIONS
     </div>
   </div>
   <div class="card"  >
-    <div class="content-box">
+    <div class="content-box">  
       <h3>Facebook Boosting & Promotions</h3>
     </div>
   </div>
   <div class="card"  >
     <div class="content-box">
-      <h3>
+      <h3> 
 	  Website & Webhosting
 
 	  </h3>
@@ -247,8 +247,137 @@ SOLUTIONS
 <!------------------------PRODUCTS IN-DEMAND TOIPIC END---------------------------->
 
 <!------------------------PRODUCTS START------------------->
-<section class="container-fluid pb-5 pr-5" style="background-color: white;">
-	<div class="row">
+<section class="container-fluid pb-5" style="background-color: white;">
+
+
+
+
+<div class="row ">
+		
+	        <div class="col-md-3 m-2  text-center p-1 gallen product">
+	       
+<div class="product-item">
+  <!--Ribbon-->
+      <div class="ribbon-wrapper">
+      <div class="ribbon"> sale </div>
+    </div>
+ <!--//Ribbon-->
+	<img src="../../img/per.jpg" alt="" href="subproduct">
+	
+	<a href="subproduct" class="product-item__name"> printer</a>
+	
+   <div class="product-item__description">    
+      <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Est minima esse quasi neque ea molestiae. Deleniti suscipit, quo ipsa cupiditate dolorem veritatis 
+	  perspiciatis, impedit expedita quibusdam, obcaecati totam doloremque. Neque?</span>  
+    
+  </div>
+  <div class="product-item__price">
+    <a href="#" class="btn btn--buy">BUY NOW</a>
+    <div class="price">
+    <a href="#" class="delivery">Best price</a>
+     <span  class="rouble">Rs<span>17000</span></span></div>
+    </div>
+ </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+</div>
+
+
+<div class="col-md-3 m-2  text-center p-1 gallen product">
+	       
+		   <div class="product-item">
+			 <!--Ribbon-->
+				 <div class="ribbon-wrapper">
+				 <div class="ribbon"> sale </div>
+			   </div>
+			<!--//Ribbon-->
+			   <img src="../../img/per.jpg" alt="" href="subproduct">
+			   
+			   <a href="subproduct" class="product-item__name"> mouse</a>
+			   
+			  <div class="product-item__description">    
+				 <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus ab quas repellendus facere, tempore quidem inventore eligendi, 
+				 voluptatem odit consectetur totam minus ullam animi minima, cupiditate commodi dolorum cumque! </span>  
+			   
+			 </div>
+			 <div class="product-item__price">
+			   <a href="#" class="btn btn--buy">BUY NOW</a>
+			   <div class="price">
+			   <a href="#" class="delivery">Best price</a>
+				<span  class="rouble">Rs<span>17000</span></span></div>
+			   </div>
+			</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+		   </div>
+
+
+
+		   <div class="col-md-3 m-2  text-center p-1 gallen product">
+	       
+		   <div class="product-item">
+			 <!--Ribbon-->
+				 <div class="ribbon-wrapper">
+				 <div class="ribbon"> sale </div>
+			   </div>
+			<!--//Ribbon-->
+			   <img src="../../img/per.jpg" alt="" href="subproduct">
+			   
+			   <a href="subproduct" class="product-item__name"> cctv camera</a>
+			   
+			  <div class="product-item__description">    
+				 <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ex eaque suscipit reiciendis et, atque consectetur
+				  recusandae numquam sed corrupti! Beatae quos iure vitae sed sapiente porro officiis neque corporis? </span>  
+			   
+			 </div>
+			 <div class="product-item__price">
+			   <a href="#" class="btn btn--buy">BUY NOW</a>
+			   <div class="price">
+			   <a href="#" class="delivery">Best price</a>
+				<span  class="rouble">Rs<span>17000</span></span></div>
+			   </div>
+			</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+		   </div>
+
+
+
+		   <div class="col-md-3 m-2  text-center p-1 gallen product">
+	       
+		   <div class="product-item">
+			 <!--Ribbon-->
+				 <div class="ribbon-wrapper">
+				 <div class="ribbon"> sale </div>
+			   </div>
+			<!--//Ribbon-->
+			   <img src="../../img/per.jpg" alt="" href="subproduct">
+			   
+			   <a href="subproduct" class="product-item__name"> Printer</a>
+			   
+			  <div class="product-item__description">    
+				 <span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, fugiat esse dolorum optio recusandae, dignissimos sapiente, laudantium 
+				 amet doloribus suscipit quibusdam! Enim aliquam fuga at quibusdam possimus ipsam dolore laborum! </span>  
+			   
+			 </div>
+			 <div class="product-item__price">
+			   <a href="#" class="btn btn--buy">BUY NOW</a>
+			   <div class="price">
+			   <a href="#" class="delivery">Best price</a>
+				<span  class="rouble">Rs<span>17000</span></span></div>
+			   </div>
+			</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+		   </div>
+		   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <div class="row">
 		<div class="col-xl-3 text-center">
 			<div class="row">
 				<div class="col-xl-12">
@@ -293,7 +422,7 @@ SOLUTIONS
 			</div>
 		</div>
 
-	</div>
+	</div> -->
 </section>
 <!------------------------PRODUCTS END--------------------->
 
