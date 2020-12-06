@@ -22,8 +22,8 @@
 	<div class="row" data-aos="fade-right">
 		<div class="col second">
 			<h1>For you, with you.<br> ALWAYS!</h1><br>
-			<p>There are many web design training institute, but none quite like IMI Academy. 
-				We’ve been around for over 10 years in this industry but you wouldn’t guess it from the energy
+			<p>There are many  training institute, but none quite like HUB I.T TRAINING. 
+				We’ve been around for over 5 years in this industry but you wouldn’t guess it from the energy
 				 in the place. Along the way, we always strive for and always work for the betterment and
 				  bright future of our students. We prepare them tough enough for every challenge
 				   which may come in their life.</p>
@@ -40,29 +40,29 @@
 		<div class="col-md-3">
 			<div class="content">
 				<img src="https://labanepal.com/assets/front/images/svg/graduation-hat.svg">
-				<div class="stat-number" data-n="200">
-                  <span class="Single">0</span>
+				<div class="stat-number" data-n="3000">
+                  <span class="Single">800</span>
                 </div>
 			</div>
 		</div>
 		<div class="col-md-3">
 			<div class="content">
 				<img src="https://labanepal.com/assets/front/images/svg/connection.svg">
-                <div class="stat-number" data-n="60">0</div>
+                <div class="stat-number" data-n="60+">60+</div>
 
 			</div>
 		</div>
 		<div class="col-md-3">
 			<div class="content">
 				<img src="https://labanepal.com/assets/front/images/svg/university-lecture.svg">
-                <div class="stat-number" data-n="10">0</div>
+                <div class="stat-number" data-n="56">56</div>
 
 			</div>
 		</div>
 		<div class="col-md-3">
 			<div class="content">
 				<img src="https://labanepal.com/assets/front/images/svg/open-book.svg">
-                <div class="stat-number" data-n="10000">10000</div>
+                <div class="stat-number" data-n="10000">3500</div>
 
 			</div>
 		</div>
