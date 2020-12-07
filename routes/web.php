@@ -46,9 +46,9 @@ Route::name('frontend.')->namespace('Frontend\ItTraining')->group(function(){
 Route::get('career', function () {
     return view('home/career');
 });
-// Route::get('about', function () {
-//     return view('home/about');
-// });
+Route::get('about', function () {
+    return view('home/about');
+});
 // Route::get('gallery', function () {
 //     return view('home/gallery');
 // });

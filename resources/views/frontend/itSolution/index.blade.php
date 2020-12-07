@@ -239,8 +239,8 @@ SOLUTIONS
 <!--------------------------PRODUCTS IN-DEMAND TOPIC------------------------------>
 <section class="container-fluid p-5 text-center" style="background-color: white;">
 	<div class="row">
-		<div class="col-xl-12" style="color: darkslategray; border-bottom: 1px solid #082941;">
-			<h4>PRODUCTS HIGHLY IN-DEMAND</h4>
+		<div class="col-xl-12" style="color:gray; border-bottom: 1px solid rgba(0,0,0,.1);">
+			<h4 style="font-weight:bold; font-size:20px;">PRODUCTS HIGHLY IN-DEMAND</h4>
 		</div>
 	</div>
 </section>
@@ -431,8 +431,8 @@ SOLUTIONS
 <!--------------------------PROJECT TOPIC START------------------------>
 <section class="container-fluid p-5 text-center" style="background-color: white;">
 	<div class="row">
-		<div class="col-xl-12" style="color: darkslategray; border-bottom: 1px solid #082941;">
-			<h4>OUR WEB PROJECTS</h4>
+		<div class="col-xl-12" style="color: gray; border-bottom: 1px solid rgba(0,0,0,.1);">
+			<h4 style="font-weight:bold; font-size:20px;">OUR WEB PROJECTS</h4>
 		</div>
 	</div>
 </section>

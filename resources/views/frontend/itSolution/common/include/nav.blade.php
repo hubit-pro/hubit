@@ -61,7 +61,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  href="{{url('online-admission')}}" id="navitems">online-Admission</a>
+          <a class="nav-link"  href="{{url('online-admission')}}" id="navitems">About us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{url('ticket-support')}}" id="navitems">Ticket support</a>
