@@ -7,16 +7,17 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Unicat project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="unicat/styles/bootstrap4/bootstrap.min.css">
-<link href="unicat/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="unicat/plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="unicat/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="unicat/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="unicat/plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="css/training/course-details.css">
+<link rel="stylesheet" type="text/css" href="{{asset('unicat/styles/bootstrap4/bootstrap.min.css')}}">
+<link href="{{asset('unicat/plugins/font-awesome-4.7.0/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+<link href="{{asset('unicat/plugins/colorbox/colorbox.css')}}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{{asset('unicat/plugins/OwlCarousel2-2.2.1/owl.carousel.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('unicat/plugins/OwlCarousel2-2.2.1/owl.theme.default.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('unicat/plugins/OwlCarousel2-2.2.1/animate.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('css/training/course-details.css')}}">
 </head>
 <body>
-@include('includes/navtraining')
+{{-- @include('includes/navtraining') --}}
+@include('frontend.itTraining.common.include.nav')
 
 <div class="super_container">
 
@@ -52,25 +53,25 @@
 				<div class="col-lg-8">
 					
 					<div class="course_container">
-						<div class="course_title">Software Training</div>
+						<div class="course_title">{{$course->title}}</div>
 						<div class="course_info d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
 
 							<!-- Course Info Item -->
 							<div class="course_info_item">
 								<div class="course_info_title">Teacher:</div>
-								<div class="course_info_text"><a href="#">Jacke Masito</a></div>
+								<div class="course_info_text"><a href="#">{{$course->lecturer}}</a></div>
 							</div>
 
 							<!-- Course Info Item -->
 							<div class="course_info_item">
 								<div class="course_info_title">Reviews:</div>
-								<div class="rating_r rating_r_4"><i></i><i></i><i></i><i></i><i></i></div>
+								<div class="rating_r rating_r_{{$course->rating}}"><i></i><i></i><i></i><i></i><i></i></div>
 							</div>
 
 							<!-- Course Info Item -->
 							<div class="course_info_item">
 								<div class="course_info_title">Categories:</div>
-								<div class="course_info_text"><a href="#">Languages</a></div>
+								<div class="course_info_text"><a href="#">@if(isset($course->courseCategory)){{$course->courseCategory->title}}@endif</a></div>
 							</div>
 
 						</div>
@@ -89,12 +90,12 @@
 
 								<!-- Description -->
 								<div class="tab_panel active">
-									<div class="tab_panel_title">Software Training</div>
+									<div class="tab_panel_title">{{$course->title}}</div>
 									<div class="tab_panel_content">
 										<div class="tab_panel_text">
-											<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosquad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Lorem Ipsn gravida nibh vel velit auctor aliquet. Class aptent taciti sociosquad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+											{{$course->description}}
 										</div>
-										<div class="tab_panel_section">
+										{{-- <div class="tab_panel_section">
 											<div class="tab_panel_subtitle">Requirements</div>
 											<ul class="tab_panel_bullets">
 												<li>Lorem Ipsn gravida nibh vel velit auctor aliquet. Class aptent taciti sociosquad litora torquent.</li>
@@ -108,7 +109,7 @@
 											<div class="tab_panel_text">
 												<p>This course is intended for anyone interested in learning to master his or her own body.This course is aimed at beginners, so no previous experience with hand balancing skillts is necessary Aenean viverra tincidunt nibh, in imperdiet nunc. Suspendisse eu ante pretium, consectetur leo at, congue quam. Nullam hendrerit porta ante vitae tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
 											</div>
-										</div>
+										</div> --}}
 										<div class="tab_panel_faq">
 											<div class="tab_panel_title">FAQ</div>
 
@@ -258,9 +259,9 @@
 									<!-- Rating -->
 									<div class="review_rating_container">
 										<div class="review_rating">
-											<div class="review_rating_num">4.5</div>
+											<div class="review_rating_num">{{$course->rating}}</div>
 											<div class="review_rating_stars">
-												<div class="rating_r rating_r_4"><i></i><i></i><i></i><i></i><i></i></div>
+												<div class="rating_r rating_r_{{$course->rating}}"><i></i><i></i><i></i><i></i><i></i></div>
 											</div>
 											<div class="review_rating_text">(28 Ratings)</div>
 										</div>
@@ -358,7 +359,7 @@
 						<div class="sidebar_section">
 							<div class="sidebar_section_title">Course Feature</div>
 							<div class="sidebar_feature">
-								<div class="course_price">$180</div>
+								<div class="course_price">@if($course->fee) ${{$course->fee}} @else Free @endif</div>
 
 								<!-- Features -->
 								<div class="feature_list">
@@ -404,8 +405,8 @@
 								<div class="teacher_title_container d-flex flex-row align-items-center justify-content-start">
 									<div class="teacher_image"><img src="unicat/images/teacher.jpg" alt=""></div>
 									<div class="teacher_title">
-										<div class="teacher_name"><a href="#">Jacke Masito</a></div>
-										<div class="teacher_position">Marketing & Management</div>
+										<div class="teacher_name"><a href="#">{{$course->lecturer}}</a></div>
+										{{-- <div class="teacher_position">Marketing & Management</div> --}}
 									</div>
 								</div>
 								<div class="teacher_meta_container">
@@ -437,32 +438,17 @@
 							<div class="sidebar_latest">
 
 								<!-- Latest Course -->
-								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="unicat/images/latest_1.jpg" alt=""></div></div>
-									<div class="latest_content">
-										<div class="latest_title"><a href="course.html">How to Design a Logo a Beginners Course</a></div>
-										<div class="latest_price">Free</div>
-									</div>
-								</div>
-
-								<!-- Latest Course -->
-								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="unicat/images/latest_2.jpg" alt=""></div></div>
-									<div class="latest_content">
-										<div class="latest_title"><a href="course.html">Photography for Beginners Masterclass</a></div>
-										<div class="latest_price">$170</div>
-									</div>
-								</div>
-
-								<!-- Latest Course -->
-								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="unicat/images/latest_3.jpg" alt=""></div></div>
-									<div class="latest_content">
-										<div class="latest_title"><a href="course.html">The Secrets of Body Language</a></div>
-										<div class="latest_price">$220</div>
-									</div>
-								</div>
-
+								@if(isset($latestCourses))
+										@foreach($latestCourses as $key => $latestCourse)
+											<div class="latest d-flex flex-row align-items-start justify-content-start">
+												<div class="latest_image"><div><img src="{{asset('images/uploads/'. $latestCourse->image)}}" alt=""></div></div>
+												<div class="latest_content">
+													<div class="latest_title"><a href="{{route('frontend.course.details', $course->slug)}}">{{ $latestCourse->title }}</a></div>
+													@if($latestCourse->fee) <div class="latest_price">${{ $latestCourse->fee }}</div> @else <div class="latest_price">Free</div> @endif
+												</div>
+											</div>
+										@endforeach
+									@endif
 							</div>
 						</div>
 
@@ -504,13 +490,13 @@
 	
 </div>
 @include('includes/footer')
-<script src="unicat/js/jquery-3.2.1.min.js"></script>
-<script src="unicat/styles/bootstrap4/popper.js"></script>
-<script src="unicat/styles/bootstrap4/bootstrap.min.js"></script>
-<script src="unicat/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="unicat/plugins/easing/easing.js"></script>
-<script src="unicat/plugins/parallax-js-master/parallax.min.js"></script>
-<script src="unicat/plugins/colorbox/jquery.colorbox-min.js"></script>
-<script src="unicat/js/course.js"></script>
+<script src="{{asset('unicat/js/jquery-3.2.1.min.js')}}"></script>
+<script src="{{asset('unicat/styles/bootstrap4/popper.js')}}"></script>
+<script src="{{asset('unicat/styles/bootstrap4/bootstrap.min.js')}}"></script>
+<script src="{{asset('unicat/plugins/OwlCarousel2-2.2.1/owl.carousel.js')}}"></script>
+<script src="{{asset('unicat/plugins/easing/easing.js')}}"></script>
+<script src="{{asset('unicat/plugins/parallax-js-master/parallax.min.js')}}"></script>
+<script src="{{asset('unicat/plugins/colorbox/jquery.colorbox-min.js')}}"></script>
+<script src="{{asset('unicat/js/course.js')}}"></script>
 </body>
 </html>

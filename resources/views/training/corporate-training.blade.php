@@ -10,7 +10,8 @@
     @include('includes/traininghead')
 </head>
 <body>
-@include('includes/navtraining')
+{{-- @include('includes/navtraining') --}}
+@include('frontend.itTraining.common.include.nav')
 <!-- top banner div start -->
 <div class="banner">
     

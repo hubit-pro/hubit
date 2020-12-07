@@ -20,7 +20,8 @@
 </head>  
 <body>  
 <!-----------------------NAVBAR------------------------------->
-@include('includes/navtraining')
+{{-- @include('includes/navtraining') --}}
+@include('frontend.itTraining.common.include.nav')
 <!-------------------------NAVBAR END--------------------------------->
 
 <!-----------------------------SLIDER----------------------->

@@ -16,7 +16,8 @@
 <link rel="stylesheet" type="text/css" href="css/training/course-details.css">
 </head>
 <body>
-@include('includes/navtraining')
+{{-- @include('includes/navtraining') --}}
+@include('frontend.itTraining.common.include.nav')
 
 <div class="super_container">
 

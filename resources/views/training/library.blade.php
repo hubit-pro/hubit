@@ -6,7 +6,8 @@
 
 <body>
 <!-----------------------NAVBAR------------------------------->
-@include("includes/navtraining")
+{{-- @include("includes/navtraining") --}}
+@include('frontend.itTraining.common.include.nav')
 <link rel="stylesheet" type="text/css" href="css/training/library.css">
  
 <!-------------------------NAVBAR END--------------------------------->

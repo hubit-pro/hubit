@@ -58,7 +58,8 @@ window.fbAsyncInit = function() {
 
 
 <!-----------------------NAVBAR------------------------------->
-@include("includes/navsolution")
+{{-- @include("includes/navsolution") --}}
+@include('frontend.itSolution.common.include.nav')
  
 <!-------------------------NAVBAR END--------------------------------->
 

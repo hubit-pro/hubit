@@ -14,7 +14,8 @@
    
 
 <!-----------------------NAVBAR------------------------------->
-@include('includes/navtraining')
+{{-- @include('includes/navtraining') --}}
+@include('frontend.itTraining.common.include.nav')
  
 <!-------------------------NAVBAR END--------------------------------->
 

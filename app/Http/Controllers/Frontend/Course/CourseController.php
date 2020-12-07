@@ -30,6 +30,8 @@ class CourseController extends Controller
     public function details($slug)
     {
     	$data['course'] = $this->course->where('slug', $slug)->first();
+        $data['latestCourses'] = $this->course->where('status', true)->latest()->take(3)->get();
+        // dd($data);
 
     	return view('frontend.itTraining.course.detail', $data);
     }

@@ -8,7 +8,8 @@
 </head>
 @include('includes/traininghead')
 <body>
-@include('includes/navtraining')
+{{-- @include('includes/navtraining') --}}
+@include('frontend.itTraining.common.include.nav')
 <div class="conatiner-fluid for-you">
 	<div class="container">
 <div class="row">

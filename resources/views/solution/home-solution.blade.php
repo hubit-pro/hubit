@@ -7,7 +7,8 @@
   </head>
   <body style="zoom:80%">
 <!-----------------------NAVBAR------------------------------->
-	@include("includes/navsolution")
+	{{-- @include("includes/navsolution") --}}
+	@include('frontend.itSolution.common.include.nav')
 <!-------------------------NAVBAR END--------------------------------->
 
 
