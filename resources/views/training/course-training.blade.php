@@ -16,9 +16,14 @@
 <link rel="stylesheet" type="text/css" href="css/training/course-training.css">
 </head>
 <body>
+<<<<<<< HEAD
 @include('includes/navtraining') 
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 
+=======
+{{-- @include('includes/navtraining')  --}}
+@include('frontend.itTraining.common.include.nav')
+>>>>>>> 5554cf4c4c86480dddae5cee48a141c39af88d53
 
 <div class="super_container">
 

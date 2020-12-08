@@ -52,7 +52,7 @@
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="{{url('courses')}}" id="navitems">Courses</a>
+        <a class="nav-link" href="{{route('frontend.course')}}" id="navitems">Courses</a>
       </li>
 
       <li class="nav-item">

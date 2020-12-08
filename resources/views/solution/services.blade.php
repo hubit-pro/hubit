@@ -55,7 +55,8 @@ window.fbAsyncInit = function() {
   theme_color="#082941">
 </div>
 <!-----------------------NAVBAR------------------------------->
-	@include("includes/navsolution")
+	{{-- @include("includes/navsolution") --}}
+  @include('frontend.itSolution.common.include.nav')
   
 <!-------------------------NAVBAR END--------------------------------->
 

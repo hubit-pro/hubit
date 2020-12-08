@@ -37,7 +37,8 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-  @include('includes/navtraining')
+  {{-- @include('includes/navtraining') --}}
+  @include('frontend.itTraining.common.include.nav')
 
   <div class="site-wrap">
 

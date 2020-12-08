@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="css/training/aboutus.css">
 </head>
 <body>
-@include("includes/navtraining")
+{{-- @include("includes/navtraining") --}}
+@include('frontend.itTraining.common.include.nav')
 <div class="container-fluid banner ">
   <img src=" img/about-us-banner.jpg">
     

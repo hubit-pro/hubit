@@ -43,8 +43,8 @@
     <div class="form-group">
         <label class="col-md-2 control-label" >Strike Fee</label>
         <div class="col-md-6">
-            <input type="text" name="strikeFee" class="form-control" value="@if(isset($course)){{$course->strikeFee}}@else{{old('strikeFee')}}@endif" placeholder="strike fee (like before discount)">
-            @if($errors->has('strikeFee')) <p style="color: red;">{{ $errors->first('strikeFee')}}</p> @endif
+            <input type="text" name="strikFee" class="form-control" value="@if(isset($course)){{$course->strikFee}}@else{{old('strikFee')}}@endif" placeholder="strike fee (like before discount)">
+            @if($errors->has('strikFee')) <p style="color: red;">{{ $errors->first('strikFee')}}</p> @endif
         </div>
     </div>
     <div class="form-group">

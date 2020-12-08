@@ -38,11 +38,12 @@ Route::namespace('Backend\Product')->name('admin.')->group(function(){
 	Route::post('product_changeStatus', 'ProductController@changeStatus')->name('change.product.status');
 
 });
-Route::namespace('Backend\Course')->name('admin.')->group(function(){
-	Route::resource('course_category', 'CourseCategoryController');
-	Route::post('course_category_changeStatus', 'CourseCategoryController@changeStatus')->name('change.course.category.status');
-	Route::resource('course', 'CourseController');
-	Route::post('course_changeStatus', 'CourseController@changeStatus')->name('change.course.status');
+Route::namespace('Backend')->name('admin.')->group(function(){
+	Route::resource('course_category', 'Course\CourseCategoryController');
+	Route::post('course_category_changeStatus', 'Course\CourseCategoryController@changeStatus')->name('change.course.category.status');
+	Route::resource('course', 'Course\CourseController');
+	Route::post('course_changeStatus', 'Course\CourseController@changeStatus')->name('change.course.status');
+	Route::resource('curriculum', 'Curriculum\CurriculumController');
 
 });
 

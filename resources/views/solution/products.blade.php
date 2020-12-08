@@ -11,7 +11,8 @@ uqLWDIQiduydylignwf;oqwhf/w;of.wbfss
 
 
 <!-----------------------NAVBAR------------------------------->
-@include("includes/navsolution")
+{{-- @include("includes/navsolution") --}}
+@include('frontend.itSolution.common.include.nav')
  
 <!-------------------------NAVBAR END--------------------------------->
 A:ONCao.cfyo8fy

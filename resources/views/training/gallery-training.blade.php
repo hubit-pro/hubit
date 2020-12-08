@@ -58,7 +58,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-----------------------NAVBAR------------------------------->
-	@include("includes/navtraining")
+	{{-- @include("includes/navtraining") --}}
+  @include('frontend.itTraining.common.include.nav')
   
 <!-------------------------NAVBAR END--------------------------------->
 
