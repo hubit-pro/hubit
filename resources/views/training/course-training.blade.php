@@ -17,6 +17,8 @@
 </head>
 <body>
 @include('includes/navtraining') 
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
 
 <div class="super_container">
 
@@ -46,11 +48,12 @@
 	<!-- Courses -->
 
 	<div class="courses">
+
 		<div class="container">
 			<div class="row">
 
 				<!-- Courses Main Content -->
-				<div class="col-lg-9">
+				<div class="container-fluid">
 					<div class="courses_search_container">
 						<form action="#" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
 							
@@ -75,16 +78,20 @@
 						<div class="row courses_row">
 							
 							<!-- Course -->
-							<div class="col-lg-6 course_col">
+							<div class="col-lg-3 course_col">
 								<div class="course">
-									<!-- <div class="course_image"><img src="img/webdevelopment.jpg" alt="" class="src"></div> -->
+									<div class="course_image"><img src="img/course1.jpg" alt="" class="src"></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="course-details">Web development</a></h3>
 										<div class="course_teacher">Mr. John Taylor</div>
 										<div class="course_text">
 											<p>Web Development Training in Butwal, Nepal</p>
 										</div>
-										<button action="submit" class="courses_search ml-auto">View details</button>
+										<div class="row">
+										<button  href="course-details" class="courses_search mt-2 ml-4  ">View details</button>
+										<button  href="online-admission" class="courses_search mt-2 ml-4">Enroll now</button>
+
+										</div>
 									</div>
 									<!-- <div class="course_footer">
 										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
@@ -101,17 +108,21 @@
 									</div> -->
 								</div>
 							</div>
-							<!-- Course -->
-							<div class="col-lg-6 course_col">
+							<!-- Course --> 
+							<div class="col-lg-3 course_col">
 								<div class="course">
-									<!-- <div class="course_image"><img src="img/mobile-app-development.jpg" alt=""></div> -->
+									<div class="course_image"><img src="img/course2.png" alt=""></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="course-details">App development</a></h3>
 										<div class="course_teacher">Ms. Lucius</div>
 										<div class="course_text">
 											<p>Android App Development Training in Butwal, Nepal</p>
 										</div>
-										<button action="submit" class="courses_search ml-auto">View details</button>
+										<div class="row">
+										<button  href="course-details" class="courses_search mt-2 ml-4  ">View details</button>
+										<button  href="online-admission" class="courses_search mt-2 ml-4">Enroll now</button>
+
+										</div>
 									</div>
 									<!-- <div class="course_footer">
 										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
@@ -129,16 +140,20 @@
 								</div>
 							</div>
 							<!-- Course -->
-							<div class="col-lg-6 course_col">
+							<div class="col-lg-3 course_col">
 								<div class="course">
-									<!-- <div class="course_image"><img src="img/graphic.jpg" alt=""></div> -->
+									<div class="course_image"><img src="img/course3.png" alt=""></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="course-details">Graphic design</a></h3>
 										<div class="course_teacher">Mr. Charles</div>
 										<div class="course_text">
 											<p>Graphic Design Training in Butwal, Nepal</p>
 										</div>
-										<button action="submit" class="courses_search ml-auto">View details</button>
+										<div class="row">
+										<button  href="course-details" class="courses_search mt-2 ml-4  ">View details</button>
+										<button  href="online-admission" class="courses_search mt-2 ml-4">Enroll now</button>
+
+										</div>
 									</div>
 									<!-- <div class="course_footer">
 										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
@@ -156,16 +171,20 @@
 								</div>
 							</div>
 							<!-- Course -->
-							<div class="col-lg-6 course_col">
+							<div class="col-lg-3 course_col">
 								<div class="course">
-									<!-- <div class="course_image"><img src="img/cyber_topic_63.jpg" alt=""></div> -->
+									<div class="course_image"><img src="img/course4.png" alt=""></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="course-details">Networking</a></h3>
 										<div class="course_teacher">Mr. John Taylor</div>
 										<div class="course_text">
 											<p>Networking Training in Butwal, Nepal</p>
 										</div>
-										<button action="submit" class="courses_search ml-auto">View details</button>
+										<div class="row">
+										<button  href="course-details" class="courses_search mt-2 ml-4  ">View details</button>
+										<button  href="online-admission" class="courses_search mt-2 ml-4">Enroll now</button>
+
+										</div>
 									</div>
 									<!-- <div class="course_footer">
 										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
@@ -183,16 +202,20 @@
 								</div>
 							</div>
 							<!-- Course -->
-							<div class="col-lg-6 course_col">
+							<div class="col-lg-3 course_col">
 								<div class="course">
-									<!-- <div class="course_image"><img src="img/it3.jpg" alt=""></div> -->
+									<div class="course_image"><img src="img/course2.png" alt=""></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="course-details">IT training</a></h3>
 										<div class="course_teacher">Ms. Lucius</div>
 										<div class="course_text">
 											<p>IT Training in Butwal, Nepal</p>
 										</div>
-										<button action="submit" class="courses_search ml-auto">View details</button>
+										<div class="row">
+										<button  href="course-details" class="courses_search mt-2 ml-4  ">View details</button>
+										<button  href="online-admission" class="courses_search mt-2 ml-4">Enroll now</button>
+
+										</div>
 									</div>
 									<!-- <div class="course_footer">
 										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
@@ -210,16 +233,20 @@
 								</div>
 							</div>
 							<!-- Course -->
-							<div class="col-lg-6 course_col">
+							<div class="col-lg-3 course_col">
 								<div class="course">
-									<!-- <div class="course_image"><img src="img/it3.jpg" alt=""></div> -->
+									<div class="course_image"><img src="img/course1.png" alt=""></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="course-details">Software training</a></h3>
 										<div class="course_teacher">Mr. Charles</div>
 										<div class="course_text">
 											<p>Software Training in Butwal, Nepal</p>
 										</div>
-										<button action="submit" class="courses_search ml-auto">View details</button>
+										<div class="row">
+										<button  href="course-details" class="courses_search mt-2 ml-4  ">View details</button>
+										<button  href="online-admission" class="courses_search mt-2 ml-4">Enroll now</button>
+
+										</div>
 									</div>
 									<!-- <div class="course_footer">
 										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
@@ -238,39 +265,16 @@
 							</div>
 						</div>
 						
-						<!-- <div class="row pagination_row">
-							<div class="col">
-								<div class="pagination_container d-flex flex-row align-items-center justify-content-start">
-									<ul class="pagination_list">
-										<li class="active"><a href="#">1</a></li>
-										<li><a href="#">2</a></li>
-										<li><a href="#">3</a></li>
-										<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
-									</ul>
-									<div class="courses_show_container ml-auto clearfix">
-										<div class="courses_show_text">Showing <span class="courses_showing">1-6</span> of <span class="courses_total">26</span> results:</div>
-										<div class="courses_show_content">
-											<span>Show: </span>
-											<select id="courses_show_select" class="courses_show_select">
-												<option>06</option>
-												<option>12</option>
-												<option>24</option>
-												<option>36</option>
-											</select>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div> -->
+						
 					</div>
 				</div>
 
 				<!-- Courses Sidebar -->
-				<!-- <div class="col-lg-4">
+				<!-- <div class="col-lg-3">
 					<div class="sidebar"> -->
 
 						<!-- Categories -->
-				<div class="col-lg-3">
+				<!-- <div class="col-lg-3">
 
 						<div class="sidebar_section">
 							<div class="sidebar_section_title text-center .bg-sucess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Send us Enquiry</div>
@@ -284,152 +288,55 @@
 								</ul>
 							</div>
 						</div>
-</div>
+</div>-->
 
-						<!-- Latest Course -->
-						<!-- <div class="sidebar_section">
-							<div class="sidebar_section_title">Latest Courses</div>
-							<div class="sidebar_latest"> -->
-
-								<!-- Latest Course -->
-								<!-- <div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="unicat/images/latest_1.jpg" alt=""></div></div>
-									<div class="latest_content">
-										<div class="latest_title"><a href="course-details">How to Design a Logo a Beginners Course</a></div>
-										<div class="latest_price">Free</div>
-									</div>
-								</div> -->
-
-								<!-- Latest Course -->
-								<!-- <div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="unicat/images/latest_2.jpg" alt=""></div></div>
-									<div class="latest_content">
-										<div class="latest_title"><a href="course-details">Photography for Beginners Masterclass</a></div>
-										<div class="latest_price">$170</div>
-									</div>
-								</div> -->
-
-								<!-- Latest Course -->
-								<!-- <div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="unicat/images/latest_3.jpg" alt=""></div></div>
-									<div class="latest_content">
-										<div class="latest_title"><a href="course-details">The Secrets of Body Language</a></div>
-										<div class="latest_price">$220</div>
-									</div>
-								</div>
-
-							</div>
-						</div> -->
-
-						<!-- Gallery -->
-						<!-- <div class="sidebar_section">
-							<div class="sidebar_section_title">Instagram</div>
-							<div class="sidebar_gallery">
-								<ul class="gallery_items d-flex flex-row align-items-start justify-content-between flex-wrap">
-									<li class="gallery_item">
-										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="unicat/images/gallery_1_large.jpg">
-											<img src="unicat/images/gallery_1.jpg" alt="">
-										</a>
-									</li>
-									<li class="gallery_item">
-										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="unicat/images/gallery_2_large.jpg">
-											<img src="unicat/images/gallery_2.jpg" alt="">
-										</a>
-									</li>
-									<li class="gallery_item">
-										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="unicat/images/gallery_3_large.jpg">
-											<img src="unicat/images/gallery_3.jpg" alt="">
-										</a>
-									</li>
-									<li class="gallery_item">
-										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="unicat/images/gallery_4_large.jpg">
-											<img src="unicat/images/gallery_4.jpg" alt="">
-										</a>
-									</li>
-									<li class="gallery_item">
-										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="unicat/images/gallery_5_large.jpg">
-											<img src="unicat/images/gallery_5.jpg" alt="">
-										</a>
-									</li>
-									<li class="gallery_item">
-										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="unicat/images/gallery_6_large.jpg">
-											<img src="unicat/images/gallery_6.jpg" alt="">
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div> -->
-
-						<!-- Tags -->
-						<!-- <div class="sidebar_section">
-							<div class="sidebar_section_title">Tags</div>
-							<div class="sidebar_tags">
-								<ul class="tags_list">
-									<li><a href="#">creative</a></li>
-									<li><a href="#">unique</a></li>
-									<li><a href="#">photography</a></li>
-									<li><a href="#">ideas</a></li>
-									<li><a href="#">wordpress</a></li>
-									<li><a href="#">startup</a></li>
-								</ul>
-							</div>
-						</div> -->
-
-						<!-- Banner -->
-						<!-- <div class="sidebar_section">
-							<div class="sidebar_banner d-flex flex-column align-items-center justify-content-center text-center">
-								<div class="sidebar_banner_background" style="background-image:url(unicat/images/banner_1.jpg)"></div>
-								<div class="sidebar_banner_overlay"></div>
-								<div class="sidebar_banner_content">
-									<div class="banner_title">Free Book</div>
-									<div class="banner_button"><a href="#">download now</a></div>
-								</div>
-							</div>
-						</div> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- Newsletter -->
-
-	<!-- <div class="newsletter">
-		<div class="newsletter_background parallax-window" data-parallax="scroll" data-image-src="unicat/images/newsletter.jpg" data-speed="0.8"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
-
-						Newsletter Content -->
-						<!-- <div class="newsletter_content text-lg-left text-center">
-							<div class="newsletter_title">sign up for news and offers</div>
-							<div class="newsletter_subtitle">Subcribe to lastest smartphones news & great deals we offer</div>
-						</div> -->
-
-						<!-- Newsletter Form -->
-						<!-- <div class="newsletter_form_container ml-lg-auto">
-							<form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
-								<input type="email" class="newsletter_input" placeholder="Your Email" required="required">
-								<button type="submit" class="newsletter_button">subscribe</button>
-							</form>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
 	
 </div>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+
 @include('includes/footer')
+<script>
+	
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+</script>
 
 
 <script src="unicat/js/jquery-3.2.1.min.js"></script>

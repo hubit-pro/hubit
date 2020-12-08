@@ -1,5 +1,5 @@
 
-<div class="container-fluid p-0">
+<div class="container-fluid p-0 sticky-top" style="position:sticky; ">
   <div class="top-header">
       
         
@@ -28,9 +28,8 @@
 
       
   </div> 
-</div>
 
-<nav class="navbar navbar-expand-sm  sticky-top m-0 p-2" id="head" style="position:sticky; ">
+<nav class="navbar navbar-expand-sm   m-0 p-2" id="head" >
 
 <div class="container" id="image">
 <a href="home"><img src="img/logo4.png"></a></div>
@@ -115,6 +114,8 @@
   </ul>
 </div> 
 </nav>
+</div>
+
 
 <script>
         var a = ['For Enquiry Call Us On', '9857045414'];

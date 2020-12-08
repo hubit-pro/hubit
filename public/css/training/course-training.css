@@ -64,6 +64,27 @@ ul
 	list-style: none;
 	margin-bottom: 0px;
 }
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: gray;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+	background-color: #555;
+  }
+
+
 p
 {
 	font-size: 14px;
@@ -731,7 +752,7 @@ section
 {
 	width: 161px;
 	height: 46px;
-	background: #14bdee;
+	background: #a0047d;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -744,15 +765,17 @@ section
 .courses_search{
 	width: 102px;
 	height:30px;
-	background: #14bdee;
+	background: #a0047d;
 	color: #FFFFFF;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 500;
 	text-transform: uppercase;
 	border: none;
 	outline: none;
 	border-radius: 3px;
 	cursor: pointer;
+	padding: 0px;
+	margin: 0px;
 }
 .courses_row
 {
@@ -764,19 +787,16 @@ section
 }
 .course
 {
-	width: 80%;
+	width: 100%;
 	border-radius: 6px;
 	background: #FFFFFF;
-	margin-left: 50px;
 	box-shadow: 0px 1px 10px rgba(29,34,47,0.1);
 }
 .course_col:nth-child(odd)
 {
-	padding-right: 30px;
 }
 .course_col:nth-child(even)
 {
-	padding-left: 30px;
 }
 .course_image
 {
@@ -784,6 +804,7 @@ section
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
 	overflow: hidden;
+	height: 150px;
 }
 .course_image img
 {
@@ -791,10 +812,10 @@ section
 }
 .course_body
 {
-	padding-top: 22px;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 23px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
 }
 
 .course_title a
@@ -1870,7 +1891,7 @@ section
 	
 }
 
-/************
+/***********
 13. 479px
 ************/
 
