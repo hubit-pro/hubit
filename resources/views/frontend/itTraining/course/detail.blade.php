@@ -32,8 +32,8 @@
 					<div class="col">
 						<div class="breadcrumbs">
 							<ul>
-								<li><a href="home-training">Home</a></li>
-								<li><a href="courses">Courses</a></li>
+								<li><a href="javascript:;">Home</a></li>
+								<li><a href="javascript:;">Courses</a></li>
 								<li>Course Details</li>
 							</ul>
 						</div>
@@ -93,7 +93,7 @@
 									<div class="tab_panel_title">{{$course->title}}</div>
 									<div class="tab_panel_content">
 										<div class="tab_panel_text">
-											{{$course->description}}
+											{!! $course->description !!}
 										</div>
 										{{-- <div class="tab_panel_section">
 											<div class="tab_panel_subtitle">Requirements</div>
@@ -163,41 +163,49 @@
 								<!-- Curriculum -->
 								<div class="tab_panel tab_panel_2">
 									<div class="tab_panel_content">
-										<div class="tab_panel_title">Software Training</div>
+										<div class="tab_panel_title">{{$course->title}}</div>
 										<div class="tab_panel_content">
 											<div class="tab_panel_text">
-												<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+												{!! $course->description !!}
 											</div>
 
 											<!-- Dropdowns -->
 											<ul class="dropdowns">
+												@if(isset($curriculums))
+												@foreach($curriculums as $key => $curriculum)
 												<li class="has_children">
 													<div class="dropdown_item">
-														<div class="dropdown_item_title"><span>Lecture 1:</span> Lorem Ipsn gravida nibh vel velit auctor aliquet.</div>
+														<div class="dropdown_item_title"><span>Lecture {{$key}}:</span> {{$curriculum->title}}</div>
 														<div class="dropdown_item_text">
-															<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+															{!! $curriculum->description !!}
 														</div>
 													</div>
 													<ul>
+														@foreach($curriculums1 as $index => $curriculum1)
+														@if($curriculum1->course_type == $curriculum->id)
 														<li>
 															<div class="dropdown_item">
-																<div class="dropdown_item_title"><span>Lecture 1.1:</span> Lorem Ipsn gravida nibh vel velit auctor aliquet.</div>
+																<div class="dropdown_item_title"><span>Lecture {{$key}}.{{$index}}:</span>{{$curriculum1->title}}</div>
 																<div class="dropdown_item_text">
-																	<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+																	{!! $curriculum1->description !!}
 																</div>
 															</div>
 														</li>
-														<li>
+														@endif
+														@endforeach
+														{{-- <li>
 															<div class="dropdown_item">
 																<div class="dropdown_item_title"><span>Lecture 1.2:</span> Lorem Ipsn gravida nibh vel velit auctor aliquet.</div>
 																<div class="dropdown_item_text">
 																	<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
 																</div>
 															</div>
-														</li>
+														</li> --}}
 													</ul>
 												</li>
-												<li class="has_children">
+												@endforeach
+												@endif
+												{{-- <li class="has_children">
 													<div class="dropdown_item">
 														<div class="dropdown_item_title"><span>Lecture 2:</span> Lorem Ipsn gravida nibh vel velit auctor aliquet.</div>
 														<div class="dropdown_item_text">
@@ -222,8 +230,8 @@
 															</div>
 														</li>
 													</ul>
-												</li>
-												<li>
+												</li> --}}
+												{{-- <li>
 													<div class="dropdown_item">
 														<div class="dropdown_item_title"><span>Lecture 3:</span> Lorem Ipsn gravida nibh vel velit auctor aliquet.</div>
 														<div class="dropdown_item_text">
@@ -246,7 +254,7 @@
 															<p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
 														</div>
 													</div>
-												</li>
+												</li> --}}
 											</ul>
 										</div>
 									</div>

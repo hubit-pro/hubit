@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Frontend\Course;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Course;
+use App\Models\Curriculum;
 use App\Models\CourseCategory;
 
 class CourseController extends Controller
@@ -31,7 +32,8 @@ class CourseController extends Controller
     {
     	$data['course'] = $this->course->where('slug', $slug)->first();
         $data['latestCourses'] = $this->course->where('status', true)->latest()->take(3)->get();
-        // dd($data);
+        $data['curriculums'] = Curriculum::where('course_type', null)->get();
+        $data['curriculums1'] = Curriculum::where('course_type', '!=', null)->get();
 
     	return view('frontend.itTraining.course.detail', $data);
     }

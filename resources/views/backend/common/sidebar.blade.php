@@ -63,6 +63,7 @@
                         <li>
                             <a href="{{route('admin.course.index')}}">Course</a>
                         </li>
+                        <li><a href="{{route('admin.curriculum.index')}}">Curriculum</a></li>
                     </ul>
                 </li>
                 <li>
