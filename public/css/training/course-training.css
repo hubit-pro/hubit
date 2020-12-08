@@ -44,6 +44,7 @@
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
+
 body
 {
 	font-family: 'Titillium Web', sans-serif !important;	
@@ -762,6 +763,10 @@ section
 	border-radius: 3px;
 	cursor: pointer;
 }
+.courses_search a{
+	color: white !important;
+}
+
 .courses_search{
 	width: 102px;
 	height:30px;

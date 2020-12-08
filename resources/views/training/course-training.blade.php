@@ -88,8 +88,8 @@
 											<p>Web Development Training in Butwal, Nepal</p>
 										</div>
 										<div class="row">
-										<button  href="course-details" class="courses_search mt-2 ml-4  ">View details</button>
-										<button  href="online-admission" class="courses_search mt-2 ml-4">Enroll now</button>
+										<button   class="courses_search mt-2 ml-4  "><a href="course-details">View details</a></button>
+										<button  class="courses_search mt-2 ml-4"><a  href="online-admission">Enroll now</a></button>
 
 										</div>
 									</div>
@@ -104,7 +104,7 @@
 												<span>5 Ratings</span>
 											</div>
 											<div class="course_price ml-auto">$130</div>
-										</div>
+										</div> 
 									</div> -->
 								</div>
 							</div>
