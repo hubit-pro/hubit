@@ -38,7 +38,7 @@ Route::prefix('f1')->name('frontend.')->namespace('Frontend\Service')->group(fun
 });
 //for training
 Route::name('frontend.')->namespace('Frontend\ItTraining')->group(function(){
-    Route::get('it-training','Homecontroller@index')->name('it-training');
+    Route::get('it-training','HomeController@index')->name('it-training');
 });
 // Route::get('home', function () {
 //     return view('home/home');
