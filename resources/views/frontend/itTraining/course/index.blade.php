@@ -11,19 +11,19 @@
 <link rel="stylesheet" type="text/css" href="{{asset('css/training/course-training.css')}}">
 @endpush
 @section('content')
-	<div class="super_container">
+	<div class="container-fluid">
 
-		<div class="courses">
-			<div class="container">
+		
+			<div class="container-fluid courses">
 				<div class="row">
 
 					<!-- Courses Main Content -->
-					<div class="container-fluid">
-						<div class="courses_search_container">
-							<form action="#" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
+					
+						<div class="courses_search_container col-lg-12">
+							<form action="#" id="courses_search_form" class="courses_search_form">
 								
 								
-							<select id="courses_search_select" class="courses_search_select courses_search_input" style="font-size:15px !important;">
+							<select id="courses_search_select" class="courses_search_select courses_search_input col-sm-3 m-1" style="font-size:15px !important;">
 								
 									<option value="">All Categories</option>
 									@if(isset($courseCategories))
@@ -33,7 +33,7 @@
 									@endif
 								</select>
 								
-								<input type="search" list="brow" class="courses_search_input" placeholder="Search Courses" required="required"  style="font-size:15px !important;">
+								<input type="search" list="brow" class="courses_search_input col-sm-6 m-1" placeholder="Search Courses" required="required"  style="font-size:15px !important;">
                                       <datalist id="brow">
 									@if(isset($courses))
 										@foreach($courses as $key => $course)
@@ -41,11 +41,13 @@
 										@endforeach
 									@endif
 								</datalist>
-								<button action="submit" class="courses_search_button ml-auto">search now</button>
+								<button action="submit" class="courses_search_button m-1 col-sm-3 ">search now</button>
 							</form>
 						</div>
+					</div>
+						<div class="row">
 						<div class="courses_container">
-							<div class="row courses_row">
+							<div class="courses_row">
 								
 								<!-- Course -->
 								{{-- {{dd($courses)}} --}}
@@ -85,35 +87,10 @@
 										</div>
 									@endforeach
 								@endif
-							<!-- </div>
-							<div class="col-lg-3 course_col">
-								<div class="course">
-									<div class="course_image"><img src="img/course1.jpg" alt="" class="src"></div>
-									<div class="course_body">
-										<h3 class="course_title"><a href="course-details">Web development</a></h3>
-										<div class="course_teacher">Mr. John Taylor</div>
-										<div class="course_text">
-											<p>Web Development Training in Butwal, Nepal</p>
-										</div>
-										<div class="row">
-										<button   class="courses_search mt-2 ml-4  "><a href="course-details">View details</a></button>
-										<button  class="courses_search mt-2 ml-4"><a  href="online-admission">Enroll now</a></button>
-
-										</div>
-									</div>
-									
-								</div>
 							</div>
- -->
-
-
-
-
-
-
-
-
-
+						
+						
+ 
 
 							<div class="row pagination_row">
 								<div class="col">
@@ -145,18 +122,9 @@
 
 					<!-- Courses Sidebar -->
 						
-						</div>
-					</div>
+						
 				</div>
-			</div>
-		</div>
-
-		<!-- Newsletter -->
-
-		
-		</div>
-
-		
+	
 	</div>
 
 @endsection

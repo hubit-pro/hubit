@@ -729,11 +729,7 @@ section
 {
 	outline: solid 1px #14bdee;
 }
-.courses_search_form > input
-{
-	margin-left: 130px;
-	width: 500px;
-}
+
 .courses_search_select
 {
 	position: relative;
