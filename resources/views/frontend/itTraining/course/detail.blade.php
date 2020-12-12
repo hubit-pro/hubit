@@ -364,7 +364,7 @@
 
 						<!-- Feature -->
 						<div class="sidebar_section">
-							<div class="sidebar_section_title " style="margin-top:80px;">Course Feature</div>
+							<div class="sidebar_section_title text-center ">Course Feature</div>
 							<div class="sidebar_feature">
 								<!-- <div class="course_price">@if($course->fee) ${{$course->fee}} @else Free @endif</div> -->
 
@@ -417,7 +417,7 @@
 								</ul>
 							</div>
 						</div>
-                    </div>
+                    
 					
 
 
@@ -440,6 +440,7 @@
 										@endforeach
 									@endif
 							</div>
+						</div>
 						</div>
 
 					</div>
