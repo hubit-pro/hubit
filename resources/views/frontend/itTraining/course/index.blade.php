@@ -85,65 +85,10 @@
 										</div>
 									@endforeach
 								@endif
-							<!-- </div>
-							<div class="col-lg-3 course_col">
-								<div class="course">
-									<div class="course_image"><img src="img/course1.jpg" alt="" class="src"></div>
-									<div class="course_body">
-										<h3 class="course_title"><a href="course-details">Web development</a></h3>
-										<div class="course_teacher">Mr. John Taylor</div>
-										<div class="course_text">
-											<p>Web Development Training in Butwal, Nepal</p>
-										</div>
-										<div class="row">
-										<button   class="courses_search mt-2 ml-4  "><a href="course-details">View details</a></button>
-										<button  class="courses_search mt-2 ml-4"><a  href="online-admission">Enroll now</a></button>
-
-										</div>
-									</div>
-									
-								</div>
-							</div>
- -->
+							
 
 
-
-
-
-
-
-
-
-
-							<div class="row pagination_row">
-								<div class="col">
-									<div class="pagination_container d-flex flex-row align-items-center justify-content-start">
-										{{ $courses->links() }}
-										{{-- <ul class="pagination_list">
-											<li class="active"><a href="#">1</a></li>
-											<li><a href="#">2</a></li>
-											<li><a href="#">3</a></li>
-											<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
-										</ul> --}}
-										{{-- <div class="courses_show_container ml-auto clearfix">
-											<div class="courses_show_text">Showing <span class="courses_showing">1-6</span> of <span class="courses_total">26</span> results:</div>
-											<div class="courses_show_content">
-												<span>Show: </span>
-												<select id="courses_show_select" class="courses_show_select">
-													<option>06</option>
-													<option>12</option>
-													<option>24</option>
-													<option>36</option>
-												</select>
-											</div>
-										</div> --}}
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Courses Sidebar -->
+							
 						
 						</div>
 					</div>
