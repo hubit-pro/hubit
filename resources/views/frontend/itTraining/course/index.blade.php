@@ -20,7 +20,7 @@
 					<!-- Courses Main Content -->
 					
 						<div class="courses_search_container col-lg-12">
-							<form action="#" id="courses_search_form" class="courses_search_form">
+							<form action="#" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
 								
 								
 							<select id="courses_search_select" class="courses_search_select courses_search_input col-sm-3 m-1" style="font-size:15px !important;">
@@ -47,7 +47,7 @@
 					</div>
 						<div class="row">
 						<div class="courses_container">
-							<div class="courses_row">
+							<div class="row courses_row">
 								
 								<!-- Course -->
 								{{-- {{dd($courses)}} --}}
