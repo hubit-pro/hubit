@@ -10,13 +10,7 @@
 
 <body>
 <!-----------------------NAVBAR------------------------------->
-<<<<<<< HEAD
 @include("includes/navtraining")
-=======
-{{-- @include("includes/navtraining") --}}
-@include('frontend.itTraining.common.include.nav')
-<link rel="stylesheet" type="text/css" href="css/training/library.css">
->>>>>>> 5554cf4c4c86480dddae5cee48a141c39af88d53
  
 <!-------------------------NAVBAR END--------------------------------->
 <div class="wrapper d-flex align-items-stretch">

@@ -111,18 +111,18 @@ Route::get('testimonials', function () {
 Route::get('blogs', function () {
     return view('training/blogs');
 });
-Route::get('home-training', function () {
-    return view('training/home-training');
-});
+// Route::get('home-training', function () {
+//     return view('training/home-training');
+// });
 Route::get('library', function () {
     return view('training/library');
 });
-Route::get('career-training', function () {
-    return view('training/career-training');
-});
-Route::get('courses', function () {
-    return view('training/course-training');
-});
+// Route::get('career-training', function () {
+//     return view('training/career-training');
+// });
+// Route::get('courses', function () {
+//     return view('training/course-training');
+// });
 
 Route::get('business-services', function () {
     return view('training/business-services');
@@ -157,12 +157,15 @@ Route::get('blog-single', function () {
 Route::get('categories', function () {
     return view('training/categories');
 });
-Route::get('course-details', function () {
-    return view('training/course-details');
-});
+// Route::get('course-details', function () {
+//     return view('training/course-details');
+// });
 Route::get('h1', function () {
     return view('training/librarysingle');
 });
+// Route::get('courses', function () {
+//     return view('training/course-training');
+// });
 
 
 
@@ -174,12 +177,12 @@ Route::get('contact-solutions', function () {
 Route::get('subproduct', function () {
     return view('solution/subproduct');
 });
-Route::get('home-solution', function () {
-    return view('solution/home-solution');
-});
-Route::get('products', function () {
-    return view('solution/products');
-});
+// Route::get('home-solution', function () {
+//     return view('solution/home-solution');
+// });
+// Route::get('products', function () {
+//     return view('solution/products');
+// });
 // Route::get('services', function () {
 //     return view('solution/services');
 // });

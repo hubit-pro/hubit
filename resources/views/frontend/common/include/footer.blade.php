@@ -13,38 +13,38 @@
     <h6 class="text-uppercase font-weight-bold mt-3 text-center ">Products</h6>
     <hr class="  mt-0 d-inline-block mx-auto" style="width: 100% !important;">
     <ul  style="list-style: none; font-size:12px;" id="footer-list">
-    <li><a href="products"> CCTV camera</a></li>
-    <li><a href="products"> Printers</a></li>
-    <li><a href="products"> Intercom</a></li>
-    <li><a href="products"> Desktop Computer</a></li>
-    <li><a href="products"> Laptop</a></li>
-    <li><a href="products"> Computer accessories</a></li>
-    <li><a href="products"> Scanner</a></li>
-    <li><a href="products"> Door locak</a></li>
-    <li><a href="products"> Biometric attendance</a></li>
-    <li><a href="products"> POS terminal</a></li>
-    <li><a href="products"> GPS system</a></li>
-    <li><a href="products"> Router and switch</a></li>
-    <li><a href="products"> Servers</a></li>
+    <li><a href="{{route('frontend.product')}}"> CCTV camera</a></li>
+    <li><a href="{{route('frontend.product')}}"> Printers</a></li>
+    <li><a href="{{route('frontend.product')}}"> Intercom</a></li>
+    <li><a href="{{route('frontend.product')}}"> Desktop Computer</a></li>
+    <li><a href="{{route('frontend.product')}}"> Laptop</a></li>
+    <li><a href="{{route('frontend.product')}}"> Computer accessories</a></li>
+    <li><a href="{{route('frontend.product')}}"> Scanner</a></li>
+    <li><a href="{{route('frontend.product')}}"> Door locak</a></li>
+    <li><a href="{{route('frontend.product')}}"> Biometric attendance</a></li>
+    <li><a href="{{route('frontend.product')}}"> POS terminal</a></li>
+    <li><a href="{{route('frontend.product')}}"> GPS system</a></li>
+    <li><a href="{{route('frontend.product')}}"> Router and switch</a></li>
+    <li><a href="{{route('frontend.product')}}"> Servers</a></li>
     </div>
     <div class="col-md-2 services">
     <h6 class="text-uppercase font-weight-bold mt-3 text-center  ">Services</h6>
     <hr class="  mt-0 d-inline-block mx-auto" style="width: 100% !important;">
     </ul>
     <ul style="list-style: none;  font-size:12px;" id="footer-list">
-    <li><a href="products"> Biometric software</a></li>
-    <li><a href="products"> Software</a></li>
-    <li><a href="products"> Website Development</a></li>
-    <li><a href="products"> Bulk SMS</a></li>
-    <li><a href="products"> Hotel Solution</a></li>
-    <li><a href="products"> Fire solution</a></li>
-    <li><a href="products"> Software Development</a></li>
-    <li><a href="products"> Consulting service</a></li>
-    <li><a href="products"> Mobile app Development</a></li>
-    <li><a href="products"> AMC & MMC</a></li>
-    <li><a href="products"> Digital Advertisement</a></li>
-    <li><a href="products"> Server management</a></li>
-    <li><a href="products"> Web hosting</a></li>
+    <li><a href="{{route('frontend.product')}}"> Biometric software</a></li>
+    <li><a href="{{route('frontend.product')}}"> Software</a></li>
+    <li><a href="{{route('frontend.product')}}"> Website Development</a></li>
+    <li><a href="{{route('frontend.product')}}"> Bulk SMS</a></li>
+    <li><a href="{{route('frontend.product')}}"> Hotel Solution</a></li>
+    <li><a href="{{route('frontend.product')}}"> Fire solution</a></li>
+    <li><a href="{{route('frontend.product')}}"> Software Development</a></li>
+    <li><a href="{{route('frontend.product')}}"> Consulting service</a></li>
+    <li><a href="{{route('frontend.product')}}"> Mobile app Development</a></li>
+    <li><a href="{{route('frontend.product')}}"> AMC & MMC</a></li>
+    <li><a href="{{route('frontend.product')}}"> Digital Advertisement</a></li>
+    <li><a href="{{route('frontend.product')}}"> Server management</a></li>
+    <li><a href="{{route('frontend.product')}}"> Web hosting</a></li>
     </ul>
     </div>
   <!-- Grid column -->
@@ -55,44 +55,44 @@
     <hr class="mt-0 d-inline-block mx-auto" style="width: 100% !important;">
     <div class="row">
     <ul  class="col-md-4 "style="list-style: none;  font-size:12px;" id="footer-list">
-    <li><a  href="course">Office Package</a></li>
-    <li><a href="course">Accounting Package</a></li>
-    <li><a href="course">Auditing Training</a></li>
-    <li><a href="course">Basic Hardware/ Networking</a></li>
-    <li><a href="course">CCTV Installation</a></li>
-    <li><a href="course">Printer Repairing</a></li>
-    <li><a href="course">Chip Level Repairing</a></li>
-    <li><a href="course">Hardware Expert (A+)</a></li>
-    <li><a href="course">CCNA</a></li>
-    <li><a href="course">multimedia & Anamition</a></li>
-    <li><a href="course">Video Editing</a></li>
+    <li><a  href="{{route('frontend.course')}}">Office Package</a></li>
+    <li><a href="{{route('frontend.course')}}">Accounting Package</a></li>
+    <li><a href="{{route('frontend.course')}}">Auditing Training</a></li>
+    <li><a href="{{route('frontend.course')}}">Basic Hardware/ Networking</a></li>
+    <li><a href="{{route('frontend.course')}}">CCTV Installation</a></li>
+    <li><a href="{{route('frontend.course')}}">Printer Repairing</a></li>
+    <li><a href="{{route('frontend.course')}}">Chip Level Repairing</a></li>
+    <li><a href="{{route('frontend.course')}}">Hardware Expert (A+)</a></li>
+    <li><a href="{{route('frontend.course')}}">CCNA</a></li>
+    <li><a href="{{route('frontend.course')}}">multimedia & Anamition</a></li>
+    <li><a href="{{route('frontend.course')}}">Video Editing</a></li>
       </ul>
       <ul  class="col-md-4"style="list-style: none;  font-size:12px;" id="footer-list">
-    <li><a  href="course">Basic webpage</a></li>
-    <li><a href="course">Advance Designing</a></li>
-    <li><a href="course">Laravel</a></li>
-    <li><a href="course">ASP.Net Training</a></li>
-    <li><a href="course">Django</a></li>
-    <li><a href="course">JAVA</a></li>
-    <li><a href="course">Python</a></li>
-    <li><a href="course">Perl</a></li>
-    <li><a href="course">My SQL</a></li>
-    <li><a href="course">Oracle</a></li>
-    <li><a href="course">Drupal</a></li>
-    <li><a href="course">Auto CAD 2D/3D</a></li>
-    <li><a href="course">3D Max</a></li>
+    <li><a  href="{{route('frontend.course')}}">Basic webpage</a></li>
+    <li><a href="{{route('frontend.course')}}">Advance Designing</a></li>
+    <li><a href="{{route('frontend.course')}}">Laravel</a></li>
+    <li><a href="{{route('frontend.course')}}">ASP.Net Training</a></li>
+    <li><a href="{{route('frontend.course')}}">Django</a></li>
+    <li><a href="{{route('frontend.course')}}">JAVA</a></li>
+    <li><a href="{{route('frontend.course')}}">Python</a></li>
+    <li><a href="{{route('frontend.course')}}">Perl</a></li>
+    <li><a href="{{route('frontend.course')}}">My SQL</a></li>
+    <li><a href="{{route('frontend.course')}}">Oracle</a></li>
+    <li><a href="{{route('frontend.course')}}">Drupal</a></li>
+    <li><a href="{{route('frontend.course')}}">Auto CAD 2D/3D</a></li>
+    <li><a href="{{route('frontend.course')}}">3D Max</a></li>
       </ul>
       <ul  class="col-md-4"style="list-style: none; font-size:12px;" id="footer-list">
-    <li><a  href="course">SAP 2000</a></li>
-    <li><a href="course">Arduino Training</a></li>
-    <li><a href="course">Rasberry Pie</a></li>
-    <li><a href="course">Training</a></li>
-    <li><a href="course">kitkat Traning</a></li>
-    <li><a href="course">Ethichal Hacking</a></li>
-    <li><a href="course">Unity</a></li>
-    <li><a href="course">Unreal engine</a></li>
-    <li><a href="course">Server Management</a></li>
-    <li><a href="course">Graphics Designing</a></li>
+    <li><a  href="{{route('frontend.course')}}">SAP 2000</a></li>
+    <li><a href="{{route('frontend.course')}}">Arduino Training</a></li>
+    <li><a href="{{route('frontend.course')}}">Rasberry Pie</a></li>
+    <li><a href="{{route('frontend.course')}}">Training</a></li>
+    <li><a href="{{route('frontend.course')}}">kitkat Traning</a></li>
+    <li><a href="{{route('frontend.course')}}">Ethichal Hacking</a></li>
+    <li><a href="{{route('frontend.course')}}">Unity</a></li>
+    <li><a href="{{route('frontend.course')}}">Unreal engine</a></li>
+    <li><a href="{{route('frontend.course')}}">Server Management</a></li>
+    <li><a href="{{route('frontend.course')}}">Graphics Designing</a></li>
       </ul>
       </div>
   </div>
@@ -103,14 +103,14 @@
     <h6 class="text-uppercase font-weight-bold mt-3 text-ce nter">Links</h6>
     <hr class=" mt-0 d-inline-block mx-auto" style="width: 80%;">
     <ul  class="link-footer" style="list-style: none; " id="footer-list">
-      <li><a href="home">Home Page</a></li>
-      <li><a  href="home-solution">IT Solution</a></li>
-      <li><a href="home-training">IT Training</a></li>  
-      <li><a href="home-training">Online admission</a></li>  
-      <li><a href="home-training">About us</a></li>  
-      <li><a href="home-training">Contact us</a></li>  
-      <li><a href="home-training">Services</a></li>  
-      <li><a href="home-training">Blog</a></li>  
+      <li><a href="{{route('frontend.index')}} ">Home Page</a></li>
+      <li><a  href="{{route('frontend.it-solution')}}">IT Solution</a></li>
+      <li><a href="{{route('frontend.it-training')}}">IT Training</a></li>  
+      <li><a href="{{url('online-admission')}}">Online admission</a></li>  
+      <li><a href="{{route('frontend.aboutus')}}">About us</a></li>  
+      <li><a href="{{url('contact')}}">Contact us</a></li>  
+      <li><a href="{{url('services')}}">Services</a></li>  
+      <li><a href="{{url('blogs')}}">Blog</a></li>  
       <li><a href="privacy-policy">Privacy policy</a></li>
       <li><a href="FAQ">FAQ</a></li>
       <li><a href="#">Terms & Conditions</a></li>

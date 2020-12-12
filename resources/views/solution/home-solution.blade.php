@@ -5,7 +5,6 @@
 	@include('includes/solutionhead')
 	<link rel="stylesheet" type="text/css" href="css/solution/home-solution.css">
 
-<<<<<<< HEAD
 </head>
 
 <body>
@@ -95,32 +94,6 @@
 
 							</div>
 						</div>
-=======
-  </head>
-  <body style="zoom:80%">
-<!-----------------------NAVBAR------------------------------->
-	{{-- @include("includes/navsolution") --}}
-	@include('frontend.itSolution.common.include.nav')
-<!-------------------------NAVBAR END--------------------------------->
-
-
-
-<!-----------------------------SLIDER----------------------->
-
-<section class="container-fluid main-div">
-
-  <div class="container-fluid">
-  
-  
-<div id="demo" class="carousel slide" data-ride="carousel">
-
-<!-- Indicators -->
-<ul class="carousel-indicators">
-  <li data-target="#demo" data-slide-to="0" class="active"></li>
-  <li data-target="#demo" data-slide-to="1"></li>
-  <li data-target="#demo" data-slide-to="2"></li>
-</ul>
->>>>>>> 5554cf4c4c86480dddae5cee48a141c39af88d53
 
 					</div>
 				</div>

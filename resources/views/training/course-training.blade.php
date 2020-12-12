@@ -16,14 +16,9 @@
 <link rel="stylesheet" type="text/css" href="css/training/course-training.css">
 </head>
 <body>
-<<<<<<< HEAD
 @include('includes/navtraining') 
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 
-=======
-{{-- @include('includes/navtraining')  --}}
-@include('frontend.itTraining.common.include.nav')
->>>>>>> 5554cf4c4c86480dddae5cee48a141c39af88d53
 
 <div class="super_container">
 
@@ -98,19 +93,7 @@
 
 										</div>
 									</div>
-									<!-- <div class="course_footer">
-										<div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
-											<div class="course_info">
-												<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-												<span>20 Student</span>
-											</div>
-											<div class="course_info">
-												<i class="fa fa-star" aria-hidden="true"></i>
-												<span>5 Ratings</span>
-											</div>
-											<div class="course_price ml-auto">$130</div>
-										</div> 
-									</div> -->
+									
 								</div>
 							</div>
 							<!-- Course --> 
@@ -143,7 +126,7 @@
 										</div>
 									</div> -->
 								</div>
-							</div>
+							
 							<!-- Course -->
 							<div class="col-lg-3 course_col">
 								<div class="course">

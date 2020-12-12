@@ -32,8 +32,7 @@
 					<div class="col">
 						<div class="breadcrumbs">
 							<ul>
-								<li><a href="javascript:;">Home</a></li>
-								<li><a href="javascript:;">Courses</a></li>
+								<li><a href="{{route('frontend.course')}}">Courses</a></li>
 								<li>Course Details</li>
 							</ul>
 						</div>
@@ -365,40 +364,39 @@
 
 						<!-- Feature -->
 						<div class="sidebar_section">
-							<div class="sidebar_section_title">Course Feature</div>
+							<div class="sidebar_section_title " style="margin-top:80px;">Course Feature</div>
 							<div class="sidebar_feature">
-								<div class="course_price">@if($course->fee) ${{$course->fee}} @else Free @endif</div>
+								<!-- <div class="course_price">@if($course->fee) ${{$course->fee}} @else Free @endif</div> -->
+
+								<!-- Features -->
+							
 
 								<!-- Features -->
 								<div class="feature_list">
 
 									<!-- Feature -->
 									<div class="feature d-flex flex-row align-items-center justify-content-start">
-										<div class="feature_title"><i class="fa fa-clock-o" aria-hidden="true"></i><span>Duration:</span></div>
+										<div class="feature_title"><i class="fa fa-clock-o" aria-hidden="true"></i><span>Course-Duration:</span></div>
 										<div class="feature_text ml-auto">2 weeks</div>
 									</div>
 
 									<!-- Feature -->
 									<div class="feature d-flex flex-row align-items-center justify-content-start">
-										<div class="feature_title"><i class="fa fa-file-text-o" aria-hidden="true"></i><span>Lectures:</span></div>
-										<div class="feature_text ml-auto">10</div>
+										<div class="feature_title"><i class="fa fa-file-text-o" aria-hidden="true"></i><span>Class-Duration: </span></div>
+										<div class="feature_text ml-auto">2 hours</div>
 									</div>
 
 									<!-- Feature -->
 									<div class="feature d-flex flex-row align-items-center justify-content-start">
-										<div class="feature_title"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span>Lectures:</span></div>
-										<div class="feature_text ml-auto">6</div>
+										<div class="feature_title"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span>Avaiable Time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+										<div class="feature_text ml-auto">6-8 AM , 8-10 AM , 10-12 AM , 12-2 PM , 2-4 PM , 4-6 PM , 6-8 PM </div>
 									</div>
+
+									
 
 									<!-- Feature -->
 									<div class="feature d-flex flex-row align-items-center justify-content-start">
-										<div class="feature_title"><i class="fa fa-list-alt" aria-hidden="true"></i><span>Lectures:</span></div>
-										<div class="feature_text ml-auto">Yes</div>
-									</div>
-
-									<!-- Feature -->
-									<div class="feature d-flex flex-row align-items-center justify-content-start">
-										<div class="feature_title"><i class="fa fa-users" aria-hidden="true"></i><span>Lectures:</span></div>
+										<div class="feature_title"><i class="fa fa-users" aria-hidden="true"></i><span>No.of students per Group</span></div>
 										<div class="feature_text ml-auto">35</div>
 									</div>
 
@@ -408,41 +406,25 @@
 
 						<!-- Feature -->
 						<div class="sidebar_section">
-							<div class="sidebar_section_title">Teacher</div>
-							<div class="sidebar_teacher">
-								<div class="teacher_title_container d-flex flex-row align-items-center justify-content-start">
-									<div class="teacher_image"><img src="unicat/images/teacher.jpg" alt=""></div>
-									<div class="teacher_title">
-										<div class="teacher_name"><a href="#">{{$course->lecturer}}</a></div>
-										{{-- <div class="teacher_position">Marketing & Management</div> --}}
-									</div>
-								</div>
-								<div class="teacher_meta_container">
-									<!-- Teacher Rating -->
-									<div class="teacher_meta d-flex flex-row align-items-center justify-content-start">
-										<div class="teacher_meta_title">Average Rating:</div>
-										<div class="teacher_meta_text ml-auto"><span>4.7</span><i class="fa fa-star" aria-hidden="true"></i></div>
-									</div>
-									<!-- Teacher Review -->
-									<div class="teacher_meta d-flex flex-row align-items-center justify-content-start">
-										<div class="teacher_meta_title">Review:</div>
-										<div class="teacher_meta_text ml-auto"><span>12k</span><i class="fa fa-comment" aria-hidden="true"></i></div>
-									</div>
-									<!-- Teacher Quizzes -->
-									<div class="teacher_meta d-flex flex-row align-items-center justify-content-start">
-										<div class="teacher_meta_title">Quizzes:</div>
-										<div class="teacher_meta_text ml-auto"><span>600</span><i class="fa fa-user" aria-hidden="true"></i></div>
-									</div>
-								</div>
-								<div class="teacher_info">
-									<p>Hi! I am Masion, I’m a marketing & management  eros pulvinar velit laoreet, sit amet egestas erat dignissim. Sed quis rutrum tellus, sit amet viverra felis. Cras sagittis sem sit amet urna feugiat rutrum nam nulla ipsum.</p>
-								</div>
+							<div class="sidebar_section_title text-center .bg-sucess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Send us Enquiry</div>
+							<div class="sidebar_categories">
+								<ul>
+									<li><input type="text" placeholder="Your full name" style="width: 100%; border:none;" required></li>
+									<li><input type="email" placeholder="Your email" style="width: 100%; border:none;" required></li>
+									<li><input type="tel" placeholder="Your mobile No." style="width: 100%; border:none;" required></li>
+									<li><input type="text" placeholder="Your enquiry" style="width: 100%; border:none;" required></li>
+									<li><input type="submit" value="Send" style="width: 100%; border:none;"></li>
+								</ul>
 							</div>
 						</div>
+                    </div>
+					
+
+
 
 						<!-- Latest Course -->
 						<div class="sidebar_section">
-							<div class="sidebar_section_title">Latest Courses</div>
+							<div class="sidebar_section_title text-center mt-5">Latest Courses</div>
 							<div class="sidebar_latest">
 
 								<!-- Latest Course -->
@@ -464,37 +446,11 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>          
 
-	<!-- Newsletter -->
+	
 
-	<div class="newsletter">
-		<div class="newsletter_background" style="background-image:url(unicat/images/newsletter_background.jpg)"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
-
-						<!-- Newsletter Content -->
-						<div class="newsletter_content text-lg-left text-center">
-							<div class="newsletter_title">sign up for news and offers</div>
-							<div class="newsletter_subtitle">Subcribe to lastest smartphones news & great deals we offer</div>
-						</div>
-
-						<!-- Newsletter Form -->
-						<div class="newsletter_form_container ml-lg-auto">
-							<form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
-								<input type="email" class="newsletter_input" placeholder="Your Email" required="required">
-								<button type="submit" class="newsletter_button">subscribe</button>
-							</form>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
+			
 	
 </div>
 @include('includes/footer')
