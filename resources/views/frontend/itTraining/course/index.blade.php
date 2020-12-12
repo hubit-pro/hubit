@@ -11,19 +11,19 @@
 <link rel="stylesheet" type="text/css" href="{{asset('css/training/course-training.css')}}">
 @endpush
 @section('content')
-	<div class="super_container">
+	<div class="container-fluid">
 
-		<div class="courses">
-			<div class="container">
+		
+			<div class="container-fluid courses">
 				<div class="row">
 
 					<!-- Courses Main Content -->
-					<div class="container-fluid">
-						<div class="courses_search_container">
+					
+						<div class="courses_search_container col-lg-12">
 							<form action="#" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
 								
 								
-							<select id="courses_search_select" class="courses_search_select courses_search_input" style="font-size:15px !important;">
+							<select id="courses_search_select" class="courses_search_select courses_search_input col-sm-3 m-1" style="font-size:15px !important;">
 								
 									<option value="">All Categories</option>
 									@if(isset($courseCategories))
@@ -33,7 +33,7 @@
 									@endif
 								</select>
 								
-								<input type="search" list="brow" class="courses_search_input" placeholder="Search Courses" required="required"  style="font-size:15px !important;">
+								<input type="search" list="brow" class="courses_search_input col-sm-6 m-1" placeholder="Search Courses" required="required"  style="font-size:15px !important;">
                                       <datalist id="brow">
 									@if(isset($courses))
 										@foreach($courses as $key => $course)
@@ -41,11 +41,13 @@
 										@endforeach
 									@endif
 								</datalist>
-								<button action="submit" class="courses_search_button ml-auto">search now</button>
+								<button action="submit" class="courses_search_button m-1 col-sm-3 ">search now</button>
 							</form>
 						</div>
+					</div>
+						<div class="row">
 						<div class="courses_container">
-							<div class="row courses_row">
+							<div class="courses_row">
 								
 								<!-- Course -->
 								{{-- {{dd($courses)}} --}}
@@ -85,23 +87,44 @@
 										</div>
 									@endforeach
 								@endif
-							
-
-
-							
+							</div>
 						
+						
+ 
+
+							<div class="row pagination_row">
+								<div class="col">
+									<div class="pagination_container d-flex flex-row align-items-center justify-content-start">
+										{{ $courses->links() }}
+										{{-- <ul class="pagination_list">
+											<li class="active"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+										</ul> --}}
+										{{-- <div class="courses_show_container ml-auto clearfix">
+											<div class="courses_show_text">Showing <span class="courses_showing">1-6</span> of <span class="courses_total">26</span> results:</div>
+											<div class="courses_show_content">
+												<span>Show: </span>
+												<select id="courses_show_select" class="courses_show_select">
+													<option>06</option>
+													<option>12</option>
+													<option>24</option>
+													<option>36</option>
+												</select>
+											</div>
+										</div> --}}
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
+
+					<!-- Courses Sidebar -->
+						
+						
 				</div>
-			</div>
-		</div>
-
-		<!-- Newsletter -->
-
-		
-		</div>
-
-		
+	
 	</div>
 
 @endsection

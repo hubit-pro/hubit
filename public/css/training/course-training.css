@@ -729,11 +729,7 @@ section
 {
 	outline: solid 1px #14bdee;
 }
-.courses_search_form > input
-{
-	margin-left: 130px;
-	width: 500px;
-}
+
 .courses_search_select
 {
 	position: relative;
@@ -753,7 +749,7 @@ section
 {
 	width: 161px;
 	height: 46px;
-	background: #a0047d;
+	background: #ff9800;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -770,7 +766,7 @@ section
 .courses_search{
 	width: 102px;
 	height:30px;
-	background: #a0047d;
+	background: #ff9800;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: 500;
