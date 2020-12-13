@@ -59,7 +59,6 @@ body {
   text-align: left;
   background-color: #fff; }
 
-<<<<<<< HEAD
   }
 /* library second nav ul li */
   
@@ -99,10 +98,6 @@ body {
       font-size:2.5vw;
     }
 }
-=======
-[tabindex="-1"]:focus {
-  outline: 0 !important; }
->>>>>>> 7444c27073183a5611757c75046468b22fface91
 
 hr {
   -webkit-box-sizing: content-box;
@@ -8460,3 +8455,16 @@ section{
 }
 /* login form css end */
 
+@media only screen and (max-width: 992px){
+  #sidebar {
+    margin-left: -200px;
+}
+
+}
+@media (max-width: 570px) and (min-width: 0){
+.shortcut a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+}
