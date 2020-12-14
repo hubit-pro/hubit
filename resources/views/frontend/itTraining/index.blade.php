@@ -24,8 +24,8 @@
                   <h4>Quality Learning Environment</h4>
                   <p>With 10+ professional instructors &amp; customized computer labs, we prioritise on 
                   providing students with optimized learning space.</p>      
-                  <a href="courses.html" id="banner-btn">Courses</a>
-                  <a href="#goto" id="banner-btn">Enroll Now</a>
+                  <a href="{{route('frontend.course')}}" id="banner-btn">Courses</a>
+                  <a href="{{url('online-admission')}}" id="banner-btn">Enroll Now</a>
                 </div>
               </div>
             </div>
@@ -47,8 +47,8 @@
                   <h4>Pathway for IT Professionals</h4>
                   <p>IT Seminars, Bootcamps, Internships &amp; Workplacement oppurtunities helps students
                   gaining valuable workplace experience at HUB IT.</p>
-                  <a href="courses.html" id="banner-btn">Courses</a>
-                  <a href="#goto" id="banner-btn">Enroll Now</a>
+                  <a href="{{route('frontend.course')}}" id="banner-btn">Courses</a>
+                  <a href="{{url('online-admission')}}" id="banner-btn">Enroll Now</a>
                 </div>
               </div>
             </div>
@@ -68,8 +68,8 @@
                   <h4>Best for Business Students</h4>
                   <p>Our Mgmt. curriculum enhances students' report writing &amp; presentation skills 
                   along with real world accounting/banking competency.</p>
-                  <a href="courses.html" id="banner-btn">Courses</a>
-                  <a href="#goto" id="banner-btn">Enroll Now</a>
+                  <a href="{{route('frontend.course')}}" id="banner-btn">Courses</a>
+                  <a href="{{url('online-admission')}}" id="banner-btn">Enroll Now</a>
                 </div>
               </div>
             </div>
@@ -337,12 +337,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>Enroll now</button>
+                    <button><a href="{{url('online-admission')}}">Enroll now</a></button>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <button><a href="detail">View Details</a></button>
                   </div>
                 </div>
               </div>
@@ -385,12 +385,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                   <button><a href="{{url('online-admission')}}">Enroll now</a></button>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <button><a href="detail">View Details</a></button>
                   </div>
                 </div>
               </div>
@@ -431,12 +431,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                   <button><a href="{{url('online-admission')}}">Enroll now</a></button>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <button><a href="detail">View Details</a></button>
                   </div>
                 </div>
               </div>
@@ -479,12 +479,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                   <button><a href="{{url('online-admission')}}">Enroll now</a></button>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <button><a href="detail">View Details</a></button>
                   </div>
                 </div>
               </div>
@@ -532,12 +532,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>Enroll now</button>
+                    <button><a href="{{url('online-admission')}}">Enroll now</a></button>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <button><a href="detail">View Details</a></button>
                   </div>
                 </div>
               </div>
@@ -580,12 +580,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                   <button><a href="{{url('online-admission')}}">Enroll now</a></button>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <button><a href="detail">View Details</a></button>
                   </div>
                 </div>
               </div>
@@ -628,12 +628,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                   <button><a href="{{url('online-admission')}}">Enroll now</a></button>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <button><a href="detail">View Details</a></button>
                   </div>
                 </div>
               </div>
@@ -676,12 +676,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                   <button><a href="{{url('online-admission')}}">Enroll now</a></button>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <button><a href="detail">View Details</a></button>
                   </div>
                 </div>
               </div>
@@ -730,12 +730,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>Enroll now</button>
+                    <button><a href="{{url('online-admission')}}">Enroll now</a></button>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <button><a href="detail">View Details</a></button>
                   </div>
                 </div>
               </div>
@@ -778,12 +778,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                   <button><a href="{{url('online-admission')}}">Enroll now</a></button>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <button><a href="detail">View Details</a></button>
                   </div>
                 </div>
               </div>
@@ -826,12 +826,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                   <button><a href="{{url('online-admission')}}">Enroll now</a></button>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <button><a href="detail">View Details</a></button>
                   </div>
                 </div>
               </div>
@@ -874,12 +874,12 @@
               <div class="row m-2">
                 <div class="col">
                   <div class="profile-overview p-0">
-                   <button>Enroll now</button>
+                   <button><a href="{{url('online-admission')}}">Enroll now</a></button>
                   </div>
                 </div>
                 <div class="col">
                   <div class="profile-overview p-0">
-                    <button>View Details</button>
+                    <button><a href="detail">View Details</a></button>
                   </div>
                 </div>
               </div>
@@ -904,12 +904,7 @@
 
 <section class="testimonial text-center m-5">
   <div class="container">
-    <div class="heading white-heading">
-      Testimonial
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, vel. 
-        Deserunt at cum molestiae assumenda, amet, 
-        ipsa iusto inventore porro eos quae facere cupiditate nam harum. Ratione nemo inventore nam!</span>
-    </div>
+    
     <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button
      thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="6000" data-duration="2000">             
      <div class="carousel-inner" role="listbox">

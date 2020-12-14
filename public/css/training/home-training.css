@@ -336,7 +336,7 @@ h1{
 }
 /* whole counter section */
 .counter-section {
-background: url(../../img/bg.jpg);
+background: url(../../img/l.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 position: relative;
@@ -522,6 +522,9 @@ font-weight: bold;
   background-color: #FFF;
   z-index: 0;
   transform: skewY(3deg);
+}
+.profile-overview button a{
+  color: white !important;
 }
 /* .profile-card-4 hover css */
 .profile-card-4:hover img {
