@@ -774,6 +774,9 @@ text-align: center;
 color: #ffffff;
 font-size: 22px;
 }
+.testimonial4_slide h6 {
+  color: #ffffff;
+  }
 /*  slider  */
 
 .testimonial .carousel {
