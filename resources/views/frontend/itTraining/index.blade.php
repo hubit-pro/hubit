@@ -158,9 +158,9 @@
           
       <div class="col-md-3 col-sm-6">
         <div class="currency-counter count-items">
-          <i class="fa fa-rocket"></i>
-          <span class="currency-count">1224</span>
-          <h2>Designs Completed</h2>
+        <i class="fas fa-book-open"></i>
+          <span class="currency-count">35</span>
+          <h2>COURSES</h2>
         </div>
       </div>
          
@@ -168,15 +168,15 @@
         <div class="currency-counter count-items">
           <i class="fa fa-users"></i>
           <span class="currency-count">30</span>
-          <h2>Team Member</h2>
+          <h2>TEACHER</h2>
         </div>
       </div>
            
       <div class="col-md-3 col-sm-6">
         <div class="currency-counter count-items">
-          <i class="fa fa-calendar"></i>
-          <span class="currency-count">15</span>
-          <h2>Years Experience</h2>
+        <i class="fas fa-user-graduate"></i>
+          <span class="currency-count">105</span>
+          <h2>STUDENTS</h2>
         </div>
       </div>
             
@@ -910,31 +910,32 @@
      <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <div class="testimonial4_slide">
-            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen book. </p>
-            <h4>Client 1</h4>
+            <img src="../../img/satkar.jpg" class="img-circle img-responsive" />
+            <p>Its been a wonderful journey with HUBIT. Learning Web Designing with Instructor sir was the 
+              best experience. He has an excellent problem solving technique
+               and he taught in a simple manner. His friendly behavior makes me comfortable to ask my queries.
+                 </p>
+            <h4>Satkar Lamsal</h4>
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="testimonial4_slide">
-            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+            <img src="../../img/bibek.jpg" class="img-circle img-responsive" />
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
             been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
             galley of type and scrambled it to make a type specimen book. </p>
-            <h4>Client 2</h4>
+            <h4>Bibek Thapa</h4>
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="testimonial4_slide">
-            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+            <img src="../../img/bhawana.jpg" class="img-circle img-responsive" />
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has 
             been the industry's standard dummy text ever since the 1500s,when an unknown printer took a 
             galley of type and scrambled it to make a type specimen book. </p>
-            <h4>Client 3</h4>
+            <h4>Bhawana Suryabanshi Magar</h4>
           </div>
         </div>
       </div>

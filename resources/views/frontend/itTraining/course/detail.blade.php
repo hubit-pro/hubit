@@ -407,7 +407,7 @@
 							</div>
 						</div>
 						<div class="admission_btn text-center">
-					  <button>Get Admission</button>
+					  <button><a href="{{url('online-admission')}}">Get Admission</a></button>
 					  </div>
 
 						<!-- Feature -->

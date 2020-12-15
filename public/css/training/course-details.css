@@ -873,7 +873,6 @@ section
 	width: 150px;
 	border: none;
 	background-color: #ff9800;
-	color: white;
 	font-weight: bold;
 	font-size: 15px;
 	margin-bottom: 30px;
@@ -882,7 +881,11 @@ section
 .admission_btn button:hover{
 	background-color: #ff99009a;
 }
+.admission_btn button a{
+	color: white;
 
+
+}
 .sidebar
 {
 	width: 100%;
