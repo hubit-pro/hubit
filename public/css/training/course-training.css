@@ -810,7 +810,7 @@ section
 .course_title a
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 20px;
+	font-size: 17px;
 	color: #384158;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -824,7 +824,7 @@ section
 }
 .course_teacher
 {
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 400;
 	color: #384158;
 	margin-top: 6px;

@@ -67,12 +67,14 @@
 													<div class="course_teacher">{{ $course->lecturer }}</div>
 													<div class="course_text">
 														{!! \Illuminate\Support\Str::words($course->description, 20,'....')  !!}
+												
 													</div>
+
 										           </div>
 
 													<div class="row">
 										<button   class="courses_details_button mt-2 ml-4  "><a href="{{route('frontend.course.details', $course->slug)}}">View details</a></button>
-										<button  class="courses_details_button mt-2 ml-4"><a  href="online-admission">Enroll now</a></button>
+										<button  class="courses_details_button mt-2 ml-4"><a  href="{{url('online-admission')}}">Enroll now</a></button>
 
 												</div>
 											

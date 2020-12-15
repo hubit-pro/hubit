@@ -360,8 +360,11 @@
 
 				<!-- Course Sidebar -->
 				<div class="col-lg-4">
+				
 					<div class="sidebar">
+					
 
+					  
 						<!-- Feature -->
 						<div class="sidebar_section">
 							<div class="sidebar_section_title text-center ">Course Feature</div>
@@ -403,6 +406,9 @@
 								</div>
 							</div>
 						</div>
+						<div class="admission_btn text-center">
+					  <button>Get Admission</button>
+					  </div>
 
 						<!-- Feature -->
 						<div class="sidebar_section">
