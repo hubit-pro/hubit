@@ -45,15 +45,9 @@
 							</form>
 						</div>
 					</div>
-<<<<<<< HEAD
 						<div class="row">
 						<div class="courses_container">
 							<div class="row courses_row">
-=======
-						<div class="row" >
-						<div class="courses_container ">
-							<div class="courses_row" >
->>>>>>> 50de3fd155cf33596525d75c1e2fc8c676d685ea
 								
 								<!-- Course -->
 								{{-- {{dd($courses)}} --}}
