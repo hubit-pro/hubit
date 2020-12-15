@@ -44,9 +44,9 @@
 
 	<!-- Course -->
 
-	<div class="course">
-		<div class="container">
-			<div class="row">
+	{{-- <div class="course"> --}}
+		<div class="container-fluid m-2">
+			<div class="container-fluid row">
 
 				<!-- Course -->
 				<div class="col-lg-8">
