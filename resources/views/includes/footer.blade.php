@@ -162,7 +162,7 @@
       </div>
      </div>
 <!-- Copyright -->
-<div class="footer-copyright text-center py-3"  style="background-color:#a0047d;height:60px; color:white !important;">© 2018 Copyright: <strong>HUB IT GROUP PVT LTD.</strong></div>
+<div class="footer-copyright text-center py-3"  style="background-color:#a0047d;height:60px; color:white !important; "><p style="font-size:15px !important;">© 2018 Copyright: <strong>HUB IT GROUP PVT LTD.</strong></p><br>Designed by Satkar Lamsal</div>
 <!-- Copyright -->
 </footer>
 <!-- Footer -->

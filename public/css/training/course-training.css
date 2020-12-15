@@ -97,7 +97,7 @@ ul
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
-p a
+/* p a
 {
 	display: inline;
 	position: relative;
@@ -108,7 +108,7 @@ p a
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-}
+} */
 p:last-of-type
 {
 	margin-bottom: 0;
