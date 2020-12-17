@@ -1,9 +1,9 @@
 
-<div class="container-fluid p-0 sticky-top" style="position:sticky; ">
+<div class="container-fluid p-0">
   <div class="top-header">
       
         
-          <div class="col-md-4">&nbsp;<i class="fas fa-phone">&nbsp;</i>071-549281/9857045414/9867245414</div>
+          <div class="col-md-4">&nbsp;<i class="fas fa-phone">&nbsp;</i>071-542805/9857045414/9867245414</div>
       
         <div class="col-md-2 text-center"><i class="fas fa-envelope mr-2" ></i>&nbsp;info@hubit.com.np</div>
         <div class="col-md-2 text-center " id="miss"></div>
@@ -28,18 +28,19 @@
 
       
   </div> 
+</div>
 
-<nav class="navbar navbar-expand-sm   m-0 p-2" id="head" >
+<nav class="navbar navbar-expand-sm  sticky-top m-0 p-2" id="head" style="position:sticky; ">
 
 <div class="container" id="image">
-<a href="home"><img src="img/logo4.png"></a></div>
+<a href="{{route('frontend.index')}}"><img src="{{asset('img/logo4.png')}}"></a></div>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 <i class="fas fa-bars"></i>
 </button>
-<button class="online-admission-button shortcut " type="button"  ><a href="online-admission">Online-ADM</a>
+<button class="online-admission-button shortcut " type="button"  ><a href="{{url('online-admission')}}">Online-ADM</a>
 </button>
-<button class="ticket-support-button shortcut" type="button"  > <a href="ticket-support">Ticket-support</a>
+<button class="ticket-support-button shortcut" type="button"  > <a href="{{url('ticket-support')}}">Ticket-support</a>
 </button>
 
 
@@ -47,21 +48,20 @@
   <ul class="navbar-nav">
 
       <li class="nav-item">
-        <a class="nav-link" href="home-training" id="navitems">Home</a>
+        <a class="nav-link" href="{{route('frontend.it-training')}}" id="navitems">Home</a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="courses" id="navitems">Courses</a>
-      </li>
-      
-
-      <li class="nav-item">
-        <a class="nav-link" href="aboutus" id="navitems">About us</a>
+        <a class="nav-link" href="{{route('frontend.course')}}" id="navitems">Courses</a>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link" href="{{route('frontend.aboutus')}}" id="navitems">About us</a>
+      </li>
+
       
       <li class="nav-item">
-        <a class="nav-link" href="career-training" id="navitems">career</a>
+        <a class="nav-link" href="{{url('career-training')}}" id="navitems">career</a>
       </li>
 
 
@@ -70,11 +70,11 @@
         For BUsiness
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="business-services" >Business services</a></li>
-          <li><a class="dropdown-item" href="hire-top-talent" >Hire Top Talent</a></li>
-          <li><a class="dropdown-item" href="corporate-training" >Corporate Training</a></li>
-          <li><a class="dropdown-item" href="customs-hackathons" >Customs Hackathons</a></li>
-          <li><a class="dropdown-item" href="corporate-patners" >Corporate Patners</a></li>
+          <li><a class="dropdown-item" href="{{url('business-services')}}" >Business services</a></li>
+          <li><a class="dropdown-item" href="{{url('hire-top-talent')}}" >Hire Top Talent</a></li>
+          <li><a class="dropdown-item" href="{{url('corporate-training')}}" >Corporate Training</a></li>
+          <li><a class="dropdown-item" href="{{url('customs-hackathons')}}" >Customs Hackathons</a></li>
+          <li><a class="dropdown-item" href="{{url('corporate-patners')}}" >Corporate Patners</a></li>
 
 
 
@@ -93,29 +93,23 @@
 
       
       <li class="nav-item">
-        <a class="nav-link"  href="library" id="navitems">Library</a>
+        <a class="nav-link"  href="{{url('library')}}" id="navitems">Library</a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="examination" id="navitems">Examination</a>
+        <a class="nav-link" href="{{url('examination')}}" id="navitems">Examination</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="blogs" id="navitems">Blogs</a>
+        <a class="nav-link" href="{{url('blogs')}}" id="navitems">Blogs</a>
       </li>
 
 
       <li class="nav-item">
-        <a class="nav-link" href="contactus" id="navitems">Contact Us</a>
-      </li> 
-
-   
-       
-
+        <a class="nav-link" href="{{url('contactus')}}" id="navitems">Contact Us</a>
+      </li>    
   </ul>
 </div> 
 </nav>
-</div>
-
 
 <script>
         var a = ['For Enquiry Call Us On', '9857045414'];

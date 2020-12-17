@@ -3,7 +3,7 @@
   <div class="top-header">
       
         
-          <div class="col-md-4">&nbsp;<i class="fas fa-phone">&nbsp;</i>071-549281/9857045414/9867245414</div>
+          <div class="col-md-4">&nbsp;<i class="fas fa-phone">&nbsp;</i>071-542805/9857045414/9867245414</div>
       
         <div class="col-md-2 text-center"><i class="fas fa-envelope mr-2" ></i>&nbsp;info@hubit.com.np</div>
         <div class="col-md-2 text-center " id="miss"></div>
@@ -33,7 +33,7 @@
 <nav class="navbar navbar-expand-sm  sticky-top " id="head" style="position:sticky; ">
 
 <div class="container" id="image">
-<a href="home"><img src="img/logo4.png"></a></div>
+<a href="{{route('frontend.index')}}"><img src="{{asset('img/logo4.png')}}"></a></div>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 <i class="fas fa-bars"></i>
@@ -48,55 +48,39 @@
   <ul class="navbar-nav">
 
       <li class="nav-item">
-        <a class="nav-link" href="home" id="navitems">Home</a>
+        <a class="nav-link" href="{{route('frontend.index')}}" id="navitems">Home</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="about" id="navitems">About us</a>
+        <a class="nav-link" href="{{route('frontend.aboutus')}}" id="navitems">About us</a>
       </li>
 
       
       <li class="nav-item">
-        <a class="nav-link" href="career" id="navitems">career</a>
+        <a class="nav-link" href="{{route('frontend.career')}}" id="navitems">career</a>
       </li>
-
-
-      <li class="dropdown nav-item"style="height:40px;" >
-        <a class="nav-link" id="navitems">
-        gallery
-        </a>
+      <li class="dropdown nav-item"style="height:30px;" >
+        <a class="nav-link" id="navitems">gallery</a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="ourmembers" >Our Team</a></li>
-          <li><a class="dropdown-item" href="ourworks" >Our Training Moments</a></li>
-          <li><a class="dropdown-item" href="ourpatners" >Our Patners</a></li>
-          <li><a class="dropdown-item" href="ourclients" >Our Clients</a></li>
-
-
+          @if(isset($globalGallaryCategories))
+          @foreach($globalGallaryCategories as $key => $globalGallaryCategory)
+            <li><a class="dropdown-item" href="{{route('frontend.gallary_category', $globalGallaryCategory->slug)}}" >{{ $globalGallaryCategory->title}}</a></li>
+          @endforeach
+          @endif
         </ul>
-</li>
-
-
-      
-      
-
-
-<!--       
-      <li class="nav-item">
-        <a class="nav-link"  href="gallery">gallery</a>
-      </li> -->
-
-      
-      <li class="nav-item">
-        <a class="nav-link"  href="online-admission" id="navitems">online-Admission</a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="ticket-support" id="navitems">Ticket support</a>
+        <a class="nav-link"  href="{{url('online-admission')}}" id="navitems">online-Admission</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('ticket-support')}}" id="navitems">Ticket support</a>
       </li>
 
 
       <li class="nav-item">
-        <a class="nav-link" href="contact" id="navitems">Contact Us</a>
+        <a class="nav-link" href="{{url('contact')}}" id="navitems">Contact Us</a>
       </li> 
 
    

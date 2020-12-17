@@ -130,7 +130,7 @@
       <li style="font-size:13px;">
       <i class="fa fa-envelope m-1"></i>info@hubit.com.np | hardware@hubit.com.np | margsoft@hubit.com.np | website@hubit.com.np</li>
 <li style="font-size:13px;">
-      <i class="fa fa-phone m-1"></i> office:- 071-549281</li>
+      <i class="fa fa-phone m-1"></i> office:- 071-542805</li>
 <li style="font-size:13px;">
       <i class="fa fa-phone m-1"></i> sales:- 9857045414 , 9867245414 | <i class="fa fa-whatsapp  m-1"></i><i class="fa fa-skype  m-1"></i> 9857045414</lli>
 <li style="font-size:13px;margin:5px;">
@@ -140,7 +140,7 @@
  <li style="font-size:13px;">
       <i class="fa fa-skype  m-1"></i> support hardware:- 9827494116</li>
 <li style="font-size:13px;">
-      <i class="fa fa-phone  m-1"></i> IT training:- 071-549281 , 9867245414</li>
+      <i class="fa fa-phone  m-1"></i> IT training:- 071-542805 , 9867245414</li>
 </ul>
   </div>
   </div>

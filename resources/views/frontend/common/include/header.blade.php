@@ -3,7 +3,7 @@
   <div class="top-header">
       
         
-          <div class="col-md-4">&nbsp;<i class="fas fa-phone">&nbsp;</i>071-549281/9857045414/9867245414</div>
+          <div class="col-md-4">&nbsp;<i class="fas fa-phone">&nbsp;</i>071-542805/9857045414/9867245414</div>
       
         <div class="col-md-2 text-center"><i class="fas fa-envelope mr-2" ></i>&nbsp;info@hubit.com.np</div>
         <div class="col-md-2 text-center " id="miss"></div>
@@ -59,7 +59,7 @@
       <li class="nav-item">
         <a class="nav-link" href="{{route('frontend.career')}}" id="navitems">career</a>
       </li>
-      <li class="dropdown nav-item"style="height:40px;" >
+      <li class="dropdown nav-item"style="height:30px;" >
         <a class="nav-link" id="navitems">gallery</a>
         <ul class="dropdown-menu">
           @if(isset($globalGallaryCategories))

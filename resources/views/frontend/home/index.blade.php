@@ -65,11 +65,11 @@ Full Stack Web Developement, Multimedia/Animation.</div>
           <div class="track">
             <div class="content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notice: Web Design and Developement classes will start from Thursday, 21st December. 
               All other classes will start from Sunday, 24th December. 
-              For any enquiry please call at 071-549281 or 9857245414. Have a great day ahead. Thank you.
+              For any enquiry please call at 071-542805 or 9857245414. Have a great day ahead. Thank you.
             </div>
               <div class = "content2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notice: Web Design and Developement classes will start from Thursday, 21st December. 
               All other classes will start from Sunday, 24th December. 
-              For any enquiry please call at 071-549281 or 9857245414. Have a great day ahead.
+              For any enquiry please call at 071-542805 or 9857245414. Have a great day ahead.
                Thank you.
             </div> 
           </div>

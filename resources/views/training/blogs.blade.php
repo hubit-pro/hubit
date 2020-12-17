@@ -35,8 +35,7 @@
 	<body>
 <!-----------------------NAVBAR------------------------------->
 
-	{{-- @include("includes/navtraining") --}}
-  @include('frontend.itTraining.common.include.nav')
+	@include("includes/navtraining")
   
 <!-------------------------NAVBAR END--------------------------------->
 
@@ -45,7 +44,6 @@
 <!--------------------------NON-SLIDER----------------------->
 
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
   <div class="site-wrap">
 
@@ -575,9 +573,7 @@
 
   <script src="js1/main.js"></script>
 
-</body>
 
-</html>
 <!-------------------------TEXT CONTAINER-------------------->
 
 
