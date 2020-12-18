@@ -1,18 +1,19 @@
 
 body{
-    overflow-x: hidden;
+    overflow: hidden !important;
 }
 
 
 /* Base */
 html {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
  }
 
 body {
   line-height: 1.7;
   color: gray; 
   font-weight: 300;
+  
  }
 /* 
   .top-header{
@@ -440,8 +441,7 @@ h1, h2, h3, h4, h5,
         .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo a:hover {
           text-decoration: none; }
   .site-mobile-menu .site-mobile-menu-body {
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
+    
     position: relative;
     padding: 0 20px 20px 20px;
     height: calc(100vh - 52px);

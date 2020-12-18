@@ -412,17 +412,18 @@
 
 						<!-- Feature -->
 						<div class="sidebar_section">
-							<div class="sidebar_section_title text-center .bg-sucess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Send us Enquiry</div>
-							<div class="sidebar_categories">
-								<ul>
-									<li><input type="text" placeholder="Your full name" style="width: 100%; border:none;" required></li>
-									<li><input type="email" placeholder="Your email" style="width: 100%; border:none;" required></li>
-									<li><input type="tel" placeholder="Your mobile No." style="width: 100%; border:none;" required></li>
-									<li><input type="text" placeholder="Your enquiry" style="width: 100%; border:none;" required></li>
-									<li><input type="submit" value="Send" style="width: 100%; border:none;"></li>
-								</ul>
+					<form class="form">
+                     <h3>CONTACT US</h3>
+              <p type="Name:"><input placeholder="Write your name here.."></input></p>
+               <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
+              <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
+                <button>Send Message</button>
+                  <div class="div">
+              <span class="fa fa-phone"></span>982-7494116
+                <span class="fa fa-envelope-o"></span> contact@company.com
+               </div>
+        </form>
 							</div>
-						</div>
                     
 					
 
