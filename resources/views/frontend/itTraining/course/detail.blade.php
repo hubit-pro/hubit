@@ -413,14 +413,14 @@
 						<!-- Feature -->
 						<div class="sidebar_section">
 					<form class="form">
-                     <h3>CONTACT US</h3>
+                     <h3>Send Enquiry</h3>
               <p type="Name:"><input placeholder="Write your name here.."></input></p>
-               <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
+               <p type="Phone No:"><input placeholder="Let us know how to contact.."></input></p>
               <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
-                <button>Send Message</button>
+                <button>Send Enquiry</button>
                   <div class="div">
               <span class="fa fa-phone"></span>982-7494116
-                <span class="fa fa-envelope-o"></span> contact@company.com
+                <span class="fa fa-envelope-o"></span> info@hubit.com.np
                </div>
         </form>
 							</div>
