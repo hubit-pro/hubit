@@ -125,22 +125,23 @@
 <h6 class="text-uppercase font-weight-bold mt-3 text-center">Contact</h6>
     <hr class="mt-0 d-inline-block mx-auto" style="width: 100% !important;">
 <ul  style="list-style: none;"  class="footer-contact" >
-<li style="font-size:13px;" >
-      <i class="fa fa-home m-1" ></i> Tinkune-Milanchowk , Butwal</li>
+
+<li style="font-size:13px;">
+      <i class="fa fa-phone m-1"></i> office:- 071-542805</li>
+      <li style="font-size:13px;" >
+      <i class="fa fa-home m-1" ></i>Butwal-09 , Milanchowk (Ganesh Path)</li>
       <li style="font-size:13px;">
       <i class="fa fa-envelope m-1"></i>info@hubit.com.np | hardware@hubit.com.np | margsoft@hubit.com.np | website@hubit.com.np</li>
 <li style="font-size:13px;">
-      <i class="fa fa-phone m-1"></i> office:- 071-542805</li>
-<li style="font-size:13px;">
-      <i class="fa fa-phone m-1"></i> sales:- 9857045414 , 9867245414 | <i class="fa fa-whatsapp  m-1"></i><i class="fa fa-skype  m-1"></i> 9857045414</lli>
+      <i class="fa fa-phone m-1"></i>|<i class="fa fa-whatsapp  m-1">|</i><i class="fa fa-skype  m-1"></i> sales:- 9857045414 , 9867245414</li>
 <li style="font-size:13px;margin:5px;">
   <i class="fa fa-phone mr-1"></i>|<i class="fa fa-skype  m-1"></i>support software:- 9827494118 </li>
 <li style="font-size:13px;">
-      <i class="fa fa-phone m-1"></i>support hardware:- 9827494117 , 9827467259</li>
+      <i class="fa fa-phone m-1"></i>support hardware:- 9827494117 </li>
  <li style="font-size:13px;">
-      <i class="fa fa-skype  m-1"></i> support hardware:- 9827494116</li>
+      <i class="fa fa-skype  m-1"></i> support hardware:- 9827494117</li>
 <li style="font-size:13px;">
-      <i class="fa fa-phone  m-1"></i> IT training:- 071-542805 , 9867245414</li>
+      <i class="fa fa-phone  m-1"></i> IT training:- 9827494116</li>
 </ul>
   </div>
   </div>
