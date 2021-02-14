@@ -1,0 +1,856 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@0;1&display=swap');
+body{
+  overflow-x: hidden;
+  font-family: 'Titillium Web', sans-serif !important;
+}
+/* Add styles to the form container */
+.containers {
+  top: 300px;
+  max-width:20vw;
+  padding: 16px;
+  background-color: white;
+  opacity: 0.8;
+  position: absolute;
+}
+/* h1 css */
+h1{
+  font-weight: bold !important;
+  font-size: 25px !important;
+  color: grey !important;
+  margin-top:100px !important;
+  text-transform: uppercase;
+}
+/* nav css on navetraining.css */
+/* --------------------------------slider start --------------------------------- */
+/*First CArousel Slidshow container  */
+.slideshow-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  background-color: black;
+}
+/*First CArousel Slidshow container contents */
+.contents {
+  width: 100%;
+  height: 76.1vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  background-color: rgb(209 191 34);
+}
+/* contents h2   */
+.myslides h2 {
+    font-family: orkney-med;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    line-height: 1;
+    position: absolute;
+    text-align: left;
+    top: 19%;
+    left: 28%;
+    z-index: 9;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
+}
+/* contents h2 discription  */
+.myslides h2 span {
+    font-family: orkney-reg;
+    display: block;
+    text-align: right;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-right: 20px;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
+}
+/* contents Image */
+.myslides .p_img {
+    display: block;
+    position: relative;
+    left: 5%;
+    height: 500px;
+    z-index: 15;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-name: slideInRight;
+}
+/* contents Image */
+.myslides img {
+    height: 30%;
+    z-index: 15;
+    padding-top: 5%;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-name: slideInRight;
+}
+/* contents side-details div */
+.p_detail {
+  position: absolute;
+  text-align: left;
+  width: 350px;
+  top: 20%;
+  right: 10%;
+  z-index: 30;
+  width: 25%;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
+}
+/* contents side-details Header */
+.p_detail h4 {
+  font-family: orkney-med;
+  font-size: 30px;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
+}
+/* contents side-details paragraph */
+.p_detail p {
+  font-size: 16px;
+  font-weight: lighter;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: slideInRight;
+}
+/* contents side-details  enroll and course button  */
+.p_detail #banner-btn {
+  white-space: nowrap;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: 'Georgia';
+  text-decoration: none;
+  color: #cb0fa2;
+  border: thin solid white;
+  background-color: white;
+  padding: 4px 10px 4px 10px;
+  margin-right: 5px;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+}
+/* slideshow mobile view css */
+@media (min-width:0px) and (max-width: 1140px){
+  .myslides h2 {
+      font-size: 35px;
+  }
+  }
+  
+@media (min-width:0px) and (max-width: 1140px){
+  .myslides h2 span {
+      font-size: 30px;
+  }
+  }
+@media (min-width:0px) and (max-width: 375px){
+.myslides h2 {
+    font-size: 28px;
+    left: 13%;
+    top: 67%;
+    text-align: center;
+}
+}
+@media (min-width:375px) and (max-width: 550px){
+.myslides h2 {
+    font-size: 35px;
+    left: 20%;
+    top: 67%;
+    text-align: center;
+}
+}
+@media (min-width:550px) and (max-width: 640px){
+.myslides h2 {
+    font-size: 45px;
+    left: 25%;
+    top: 67%;
+    text-align: center;
+}
+}
+@media (min-width:640px) and (max-width: 768px){
+.myslides h2 {
+    font-size: 45px;
+    left: 25%;
+    top: 67%;
+    text-align: center;
+}
+}
+@media (min-width:0px) and (max-width: 550px){
+.myslides h2 span {
+    font-size: 12px;
+}
+}
+@media (min-width:550px) and (max-width: 640px){
+.myslides h2 span {
+    font-size: 15px;
+    text-align: center;
+    }
+}
+@media (min-width:640px) and (max-width: 768px){
+.myslides h2 span {
+    font-size: 15px;
+    text-align: center;
+    }
+}
+@media (min-width:768px) and (max-width: 1140px){
+.myslides h2 span {
+    font-size: 13px;
+}
+}
+
+@media (min-width:0px) and (max-width: 1140px){
+  .myslides .p_img {
+      height: 400px;
+  }
+  }
+@media (min-width:0px) and (max-width: 375px){
+.myslides .p_img {
+    left: 15%;
+    height: 300px;
+    }
+}
+@media (min-width:375px) and (max-width: 550px){
+.myslides .p_img {
+    left: 15%;
+    height: 350px;
+    }
+}
+@media (min-width:550px) and (max-width: 640px){
+.myslides .p_img {
+    left: 25%;
+    height: 350px;
+    }
+}
+@media (min-width:640px) and (max-width: 768px){
+.myslides .p_img {
+    left: 25%;
+    height: 450px;
+    }
+}
+@media (min-width:768px) and (max-width: 900px){
+.myslides .p_img {
+    height: 350px;
+}
+}
+@media (min-width:900px) and (max-width: 1140px){
+.myslides .p_img {
+    height: 400px;
+}
+}
+@media (min-width:0px) and (max-width: 768px){
+.p_detail {
+    display: none;
+}
+}
+
+@media (min-width:0px) and (max-width: 900px){
+.p_detail h4 {
+    font-size: 28px;
+}
+}
+@media (min-width:0px) and (max-width: 900px){
+.p_detail p {
+    font-size: 15px;
+}
+}
+/* --------------------------------slider start --------------------------------- */
+
+
+/* --------------------------------OUR AMENITIES START--------------------------------- */
+
+/* heading */
+#txt-1 {
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 6vh;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* container whole div  */
+.card-container {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  
+} 
+/* single card  */
+
+.card-container .card {
+  border-radius: 10px;
+  border: .25px solid #ffff;
+  width: 270px;
+  margin: 20px;
+  padding: 20px 20px;
+  background: #fcfcfc;
+  box-shadow: 10px 10px 15px #e3e3e3, -10px -10px 15px #ffffff;
+}
+/* single card contents div */
+
+.card-container .card .content-box {
+  position: relative;
+  text-align: center;
+  margin-top: 5px;
+}
+/* single card contents div h3 */
+
+.card-container .card .content-box h3 {
+  color: #a0047d;
+  font-weight: 500;
+  font-size: 1.5em;
+  font-family: 'helvetica';
+}
+/* single card contents div hover */
+
+.card-container .card:hover {  
+  box-shadow: inset 0 0 10px #e3e3e3 ;
+  font-size:12px;
+}
+/* --------------------------------OUR AMENITIES END--------------------------------- */
+
+
+
+/* --------------------------------COUNTER START--------------------------------- */
+/* padding-bottom */
+.pb100 {
+  padding-bottom: 100px;
+}
+/* padding-top */
+
+.pt100 {
+  padding-top: 100px;
+}
+/* whole counter section */
+.counter-section {
+background: url(../../img/l.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+background-size: cover;
+margin: 20px 30px 0px 30px;
+}
+/* layer above counter section */
+
+.counter-overlay {
+position: absolute;
+width: 100%;
+height: 100%;
+background: #974930a8;
+}
+/* counter section counting items */
+
+.count-items {
+text-align: center;
+padding: 50px 20px;
+border-radius: 100%;
+font-size: 70px;
+}
+/* counter section counting items i hover */
+.count-items:hover.count-items i{
+color: #cb0fa2;
+font-size:70px;
+}
+/* counter section counting items h2 hover */
+.count-items:hover.count-items h2{
+color: #cb0fa2;
+}
+/* counter section counting items i */
+.count-items i {
+color: #f35b68;
+font-size: 36px;
+}
+/* counter section counting items span */
+.count-items span {
+color: #fff;
+font-size: 36px;
+padding: 20px 0px;
+display: inherit;
+font-weight: 700;
+}
+/* counter section counting items h2 */
+.count-items h2 {
+font-size: 16px;
+color: #ffaf53;
+font-weight: bold;
+}
+/* counter section whole div */
+.fix {
+  overflow: hidden;
+}
+
+/* --------------------------------COUNTER END--------------------------------- */
+
+
+
+/* --------------------------------OUR VALUES START--------------------------------- */
+.our-values .counter-overlay {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background: rgba(204, 28, 151, 0.438);
+  border-radius: 10px;
+  }
+ 
+  
+  .our-values .card {
+    background-color: rgba(128, 128, 128, 0);
+    border: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+  }
+  @media (min-width:0px) and (max-width:768px){
+.our-values .col-md-3{
+  margin-top: 30px;
+}
+  }
+/* our values heading */
+.our-values .row .col h1{
+  text-align: center;
+  /* margin: 100px 0px 0px 0px;  */
+  margin-top: 40px! important;
+  color: white;
+}
+/* our values content heading */
+.our-values .row .col-md-3 .content h4{
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* our values content paragraph */
+.our-values .row .col-md-3 .content p{
+  padding: 10px 20px 20px 20px;
+  color: white;
+  font-size: 15px;
+
+}
+.our-values .card {
+  padding: 10px 0px 0px 0px;
+ 
+}
+/* --------------------------------OUR VALUES END--------------------------------- */
+
+
+/* --------------------------------POPULAR COURSE START--------------------------------- */
+/* heading */
+.course h1{
+  text-align: center;
+}
+
+
+.profile-card-4 {
+  max-width: 300px;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  cursor: pointer;
+}
+/* image in the card */
+.profile-card-4 img {
+  transition: all 0.25s linear;
+  height: 200px;
+}
+/* Content  inside of the image  in the card */
+.profile-card-4 .profile-content {
+  position: relative;
+  padding: 15px;
+  background-color: #FFF;
+}
+/* name  inside of the image  in the card */
+
+.profile-card-4 .profile-name {
+  font-weight: bold;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: -70px;
+  color: #FFF;
+  font-size: 17px;
+}
+/* discription  inside of the image  in the card */
+.profile-card-4 .profile-name p {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+/*div for content below image  */
+.profile-card-4 .profile-description {
+  color: #777;
+  font-size: 15px;
+  padding: 10px;
+}
+/*no of students div  */
+.profile-card-4 .profile-overview {
+  padding: 15px 0px;
+}
+/*no of students div topic name  */
+.profile-card-4 .profile-overview p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #777;
+}
+/*no of students div numbers  */
+.profile-card-4 .profile-overview h4 {
+  color: #273751;
+  font-weight: bold;
+}
+/*.profile-content before */
+.profile-card-4 .profile-content::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  top: -10px;
+  left: 0px;
+  right: 0px;
+  background-color: #FFF;
+  z-index: 0;
+  transform: skewY(3deg);
+}
+.profile-overview button a{
+  color: white !important;
+}
+/* .profile-card-4 hover css */
+.profile-card-4:hover img {
+  transform: rotate(5deg) scale(1.1, 1.1);
+  filter: brightness(110%);
+}
+/* .profile-card-4 enroll and view details button */
+.profile-card-4 button{
+border:none;
+height: 40px;
+width: 110px;
+background-color: #ff9800;
+font-size: 15px;
+font-weight: bold;
+color:white;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+/* --------------------------------POPULAR COURSE END--------------------------------- */
+
+
+
+/* --------------------------------TESTIMONIALS START--------------------------------- */
+/* top heading */
+.heading {
+  text-align: center;
+  color: #454343;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  z-index: 999;
+}
+/* top heading color*/
+.white-heading{
+  color: #ffffff;
+}
+/* design below heading css */
+.heading:after {
+  content: ' ';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  height: 40px;
+  width: 180px;
+  border-radius: 4px;
+  transform: translateX(-50%);
+  background: url(img/heading-line.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*header after */
+.white-heading:after {
+  background: url(https://i.ibb.co/d7tSD1R/heading-line-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* discription after heading */
+.heading span {
+  font-size: 15px;
+  display: block;
+  font-weight: 500;
+}
+/* discription after heading color */
+
+.white-heading span {
+  color: #ffffff;
+}
+/*-----Testimonial-------*/
+
+.testimonial:after {
+  position: absolute;
+  top: -0 !important;
+  left: 0;
+  content: " ";
+  
+  background-size: 100% 100px;
+  width: 100%;
+  height: 100px;
+  float: left;
+  z-index: 99;
+}
+/* whole testimonial div */
+.testimonial {
+  min-height: 300px;
+  position: relative;
+  background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-position: center;
+      background-size: cover;
+}
+/*testimonials slider on hover */
+#testimonial4 .carousel-inner:hover{
+cursor: -moz-grab;
+cursor: -webkit-grab;
+}
+/*testimonials slider on active */
+
+#testimonial4 .carousel-inner:active{
+cursor: -moz-grabbing;
+cursor: -webkit-grabbing;
+}
+/*testimonials slider carousel-item */
+#testimonial4 .carousel-inner .item{
+overflow: hidden;
+}
+/*testimonials slider carousel-indicators*/
+.testimonial4_indicators .carousel-indicators{
+left: 0;
+margin: 0;
+width: 100%;
+font-size: 0;
+height: 20px;
+bottom: 15px;
+padding: 0 5px;
+cursor: e-resize;
+overflow-x: auto;
+overflow-y: hidden;
+position: absolute;
+text-align: center;
+white-space: nowrap;
+}
+/*testimonials slider carousel-indicators li*/
+.testimonial4_indicators .carousel-indicators li{
+padding: 0;
+width: 14px;
+height: 14px;
+border: none;
+text-indent: 0;
+margin: 2px 3px;
+cursor: pointer;
+display: inline-block;
+background: #ffffff;
+-webkit-border-radius: 100%;
+border-radius: 100%;
+}
+/*testimonials slider carousel-indicators active*/
+.testimonial4_indicators .carousel-indicators .active{
+padding: 0;
+width: 14px;
+height: 14px;
+border: none;
+margin: 2px 3px;
+background-color: #9dd3af;
+-webkit-border-radius: 100%;
+border-radius: 100%;
+}
+/*testimonials slider carousel-indicators on scroll*/
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar{
+height: 3px;
+}
+/*testimonials slider carousel-indicators on stationer*/
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar-thumb{
+background: #eeeeee;
+-webkit-border-radius: 0;
+border-radius: 0;
+}
+/*testimonials slider left and right contr0llers*/
+
+.testimonial4_control_button .carousel-control{
+top: 175px;
+opacity: 1;
+width: 40px;
+bottom: auto;
+height: 40px;
+font-size: 10px;
+cursor: pointer;
+font-weight: 700;
+overflow: hidden;
+line-height: 38px;
+text-shadow: none;
+text-align: center;
+position: absolute;
+background: transparent;
+border: 2px solid #ffffff;
+text-transform: uppercase;
+-webkit-border-radius: 100%;
+border-radius: 100%;
+-webkit-box-shadow: none;
+box-shadow: none;
+-webkit-transition: all 0.6s cubic-bezier(0.3,1,0,1);
+transition: all 0.6s cubic-bezier(0.3,1,0,1);
+}
+/*testimonials slider left contr0llers*/
+.testimonial4_control_button .carousel-control.left{
+left: 7%;
+top: 50%;
+right: auto;
+}
+/*testimonials slider  right contr0llers*/
+.testimonial4_control_button .carousel-control.right{
+right: 7%;
+top: 50%;
+left: auto;
+}
+/*testimonials slider left and right contr0llers hover*/
+.testimonial4_control_button .carousel-control.left:hover,
+.testimonial4_control_button .carousel-control.right:hover{
+color: #000;
+background: #fff;
+border: 2px solid #fff;
+}
+/* whole slide div */
+.testimonial4_slide{
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+width: 70%;
+margin: auto;
+padding: 20px;
+position: relative;
+text-align: center;
+}
+/*  slide div  image*/
+.testimonial4_slide img {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 136px;
+  height: 136px;
+  margin: auto;
+  display: block;
+  color: #f2f2f2;
+  font-size: 18px;
+  line-height: 46px;
+  text-align: center;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+  -o-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+}
+/*  slide div  paragraph*/
+.testimonial4_slide p {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 40px 0 20px 0;
+}
+/*  slide div  heading  */
+
+.testimonial4_slide h4 {
+color: #ffffff;
+font-size: 22px;
+}
+.testimonial4_slide h6 {
+  color: #ffffff;
+  }
+/*  slider  */
+
+.testimonial .carousel {
+padding-bottom:50px;
+}
+/*  slider  controls */
+
+.testimonial .carousel-control-next-icon, .testimonial .carousel-control-prev-icon {
+  width: 35px;
+  height: 35px;
+}
+/* ------testimonial  close-------*/
+
+
+/* --------------------------------TESTIMONIALS END--------------------------------- */
+
+/* --------------------------------OUR PATNERS START--------------------------------- */
+/* image div */
+.inner{
+	width:150px;
+	height: 150px;
+    margin: 10px;
+    display: inline-block;
+}
+/* image css */
+.inner img {
+    border-radius: 10%;
+	height: 100%;
+	width: 100%;
+}
+/* Marquee div */
+ marquee{
+    animation:awards 5sec infinite ;
+} 
+/* --------------------------------OUR PATNERS END--------------------------------- */
+
+
+
+
+/* --------------------------------READY TO GET STARTED START--------------------------------- */
+/* redy get started whole div */
+.connect{
+ 
+  width: 97%;
+  height: auto;
+  background-color: rgb(133 50 78);
+  margin-top: 50px;
+  text-align: center;
+}
+/* redy get started heading */
+
+.connect h2{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+/* redy get started paragraph */
+
+.connect p{
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+/* redy get started button */
+
+.connect button{
+  width: 200px;
+  font-size: 25px;
+  height: 60px;
+  background-color: rgba(0,128,128, 0.6);
+}
+/* connect button hover */
+.connect button:hover{
+background-color: grey;
+}
+/* --------------------------------READY TO GET STARTED END--------------------------------- */

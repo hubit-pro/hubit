@@ -1,0 +1,164 @@
+html{
+    padding: 0px 25px 25px 25px;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+body{
+  overflow-x: hidden;
+}
+  
+footer {
+    background-color: white;
+    color:black;
+  font-family: 'Titillium Web', sans-serif !important;
+
+
+}
+ footer .header{
+    text-align: center;
+}
+footer h6{
+    color: #ff9800 !important;
+    font-size: 17px !important;
+
+
+}
+footer .icon{
+    color: #ff9800 !important; 
+    }
+.icon{
+    font-size: 25px;
+    padding-left: 5px;
+}
+ footer ul li  {
+    list-style: none;
+    text-align: left;
+    font-size: 12px !important;
+
+}
+#footer-list{
+    margin:0px !important;
+    padding:0px !important;
+}
+#footer-list li a{
+    color: black;
+    text-align: center;
+    
+}
+#footer-list li a:hover{
+    color:#ff9800;
+}
+.link-footer
+{
+ font-size: 12px;
+}
+
+
+.bottom-footer li{
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 20px;
+
+
+
+}
+.bottom-footer li a{
+    color: black;
+}
+.icon .fa-instagram:hover{
+    background: linear-gradient(45deg,#F58529,#FEDA77,#DD2A7B,#8134AF,#515BD4) !important;
+
+}
+.icon .fa-youtube:hover{
+    color: red !important;
+    
+}
+.icon .fa-twitter-square:hover{
+    color: #1DA1F2;
+}
+.icon .fa-linkedin:hover{
+    color: #0e76a8;
+}
+.icon .fa-google:hover{
+    color: #f4c20d;
+}
+
+
+@media only screen and (max-width: 766px) {
+
+.col-md-2{
+    margin-right: 0px !important;
+
+
+}
+.footer-contact{
+    text-align: center;
+}
+ul li  {
+
+    text-align: center;
+
+}
+.form-group{
+    text-align: center;
+}
+
+}
+
+@media (min-width: 992px){
+.col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 22 0 0%;
+    max-width: 25%;
+}
+
+}
+@media (min-width: 0px) and (max-width: 615px) {
+    .header a{
+        text-align: center !important;
+    }
+    
+    
+}
+
+@media (min-width: 0px) and (max-width: 800px) {
+    body{
+        zoom: 90%;
+    }
+}
+
+
+    
+    @media (min-width:0px) and (max-width: 500px) {
+        .products{
+            width: 50%;
+            
+        }
+        .services{
+            width: 50%;
+        }
+        .ittraining{
+            width: 100%;
+            flex: auto;
+        }
+        .ittraining .row .col-md-4{
+            width: 33%;
+        }
+        .bottom-footer li{
+            text-align: center;
+
+
+        }
+        .header{
+            text-align: center;
+            width: 100% !important;
+        }
+    }
+    @media (max-width: 320px){
+        .ittraining .row .col-md-4{
+            width: 33%;
+        }
+
+   
+    }
+
+

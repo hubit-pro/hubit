@@ -1,1 +1,0 @@
-$(docoment).ready
